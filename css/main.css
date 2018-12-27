@@ -46,5 +46,6 @@ ul {
     list-style-type:disc
     font-size:22px;
     font-family:'Helvetica','Arial','Sans-Serif';
+    line-height:1.15
     margin-left:2.5px
 }
