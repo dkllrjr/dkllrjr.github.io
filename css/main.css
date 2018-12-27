@@ -21,23 +21,27 @@ a:hover {
     text-decoration:underline;
 }
 h1 {
+    font-size:60px;
+    font-family:'Helvetica','Arial','Sans-Serif';
+}
+h2 {
     font-size:32px;
     font-family:'Helvetica','Arial','Sans-Serif';
 }
 p {
-    font-size:12px;
+    font-size:20px;
     font-family:'Helvetica','Arial','Sans-Serif';
-    line-height:12px;
+    line-height:1.15;
     color:#333;
 }
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size:11px;
+    font-size:20px;
 }
 
 ul.posts { 
     margin:20px auto 40px; 
-    font-size:12px;
+    font-size:20px;
 }
 
 ul.posts li {
