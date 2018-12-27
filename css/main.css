@@ -49,3 +49,8 @@ ul {
     line-height:1.15
     margin-left:2.5px
 }
+li {
+    font-size:40px;
+    line-height:3
+    margin-left:10px
+}
