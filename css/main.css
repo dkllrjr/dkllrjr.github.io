@@ -48,13 +48,15 @@ footer {
     font-size:20px;
 }
 
-ul.posts { 
+<!
+ul { 
     margin:20px auto 40px; 
     font-size:20px;
     line-height:2
 }
+>
 
-ul.posts li {
+ul li {
     list-style:none;
     font-size:20px;
     font-family:'Helvetica','Arial','Sans-Serif';
