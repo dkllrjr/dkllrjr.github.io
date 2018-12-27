@@ -52,6 +52,5 @@ ul li {
     line-height:1.15;
 }
 iframe {
-    display:block;
-    text-align:center;
+    margin: 0 auto;
 }
