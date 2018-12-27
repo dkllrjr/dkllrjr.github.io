@@ -52,8 +52,11 @@ ul.posts {
     margin:20px auto 40px; 
     font-size:20px;
     font-family:'Helvetica','Arial','Sans-Serif';
+    line-height:1.15
 }
 
 ul.posts li {
-    list-style: none;
+    list-style:none;
+    font-size:20px;
+    font-family:'Helvetica','Arial','Sans-Serif';
 }
