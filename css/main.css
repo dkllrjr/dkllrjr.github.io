@@ -47,6 +47,7 @@ footer {
     font-size:20px;
 }
 ul {
+    list-style-type:disc
     font-size:20px;
     font-family:'Helvetica','Arial','Sans-Serif';
     margin-left:5px
