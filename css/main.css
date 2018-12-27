@@ -32,10 +32,7 @@ h2 {
 h3 {
     font-size:28px;
     font-family:'Helvetica','Arial','Sans-Serif';
-}
-h4 {
-    font-size:28px;
-    font-family:'Helvetica','Arial','Sans-Serif';
+    margin:0
 }
 p {
     font-size:22px;
