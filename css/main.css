@@ -16,7 +16,7 @@ nav ul li, footer ul li {
 a {
     font-size:20px;
     text-decoration:none;
-    color: #999;
+    color:lightgray;
 }
 a:hover {
     text-decoration:underline;
@@ -41,13 +41,12 @@ p {
     font-size:22px;
     font-family:'Helvetica','Arial','Sans-Serif';
     line-height:1.15;
-    color:#333;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size:20px;
 }
-ul li {
+ul {
     list-style:none;
     font-size:20px;
     font-family:'Helvetica','Arial','Sans-Serif';
