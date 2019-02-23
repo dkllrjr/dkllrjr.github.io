@@ -61,7 +61,6 @@ College of Engineering and Mines, University of Alaska, Fairbanks _Fairbanks, Al
 ## Work Experience
 
 ### NASA Mechanical Engineering Intern
-
 (funded by the Alaska Space Grant Program)  
 _Summer 2017_  
 NASA Armstrong Flight Research Center _Edwards Air Force Base, California, USA_
