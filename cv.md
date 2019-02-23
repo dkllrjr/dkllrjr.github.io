@@ -8,37 +8,38 @@ title: CV
 ## Education
 
 ### Master's of Science in Mechanical Engineering
-University of Alaska Fairbanks, _Fairbanks, Alaska, USA_
-Fall 2017 - Fall 2018
-GPA: 4.0/4.0
+University of Alaska Fairbanks, _Fairbanks, Alaska, USA_  
+Fall 2017 - Fall 2018  
+GPA: 4.0/4.0  
 
 ### Bachelor's of Science in Mechanical Engineering
-University of Alaska Fairbanks, _Fairbanks, Alaska, USA_
-Fall 2014 - Fall 2018
-GPA: 3.83/4.0
+University of Alaska Fairbanks, _Fairbanks, Alaska, USA_  
+Fall 2014 - Fall 2018  
+GPA: 3.83/4.0  
 
 ## Publications
 
 ### In Progress
 
-<u>D. Keller</u>, D. R. Eagan, G. J. Fochesatto, R. Peterson, H. M. Chan, A. R. Parker. “Advantages of Fiber Bragg Gratings for Measuring Electric Motor Loadings in Aerospace Application.”
-<u>D. Keller</u>, G. J. Fochesatto. “A New Wavelet to Determine the Planetary Boundary Layer Height from Micro Pulse Lidar Backscatter.”
+<u>D. Keller</u>, D. R. Eagan, G. J. Fochesatto, R. Peterson, H. M. Chan, A. R. Parker. “Advantages of Fiber Bragg Gratings for Measuring Electric Motor Loadings in Aerospace Application.”  
+<u>D. Keller</u>, G. J. Fochesatto. “A New Wavelet to Determine the Planetary Boundary Layer Height from Micro Pulse Lidar Backscatter.”  
 
 ### Conference Proceedings
   
-Fochesatto G. J., O. Galvez, P. Ristori, <u>D. Keller</u>, and E. L. Fochesatto. “Lidar to Determine the Fractions of Ice, Liquid and Water Vapor in Polar Tropospheric Cloud.” <i>Proceedings of the 28th International Laser Radar Conference,</i> Bucharest, Romania. 25-30 June 2017.
+Fochesatto G. J., O. Galvez, P. Ristori, <u>D. Keller</u>, and E. L. Fochesatto. “Lidar to Determine the Fractions of Ice, Liquid and Water Vapor in Polar Tropospheric Cloud.” _Proceedings of the 28th International Laser Radar Conference,_ Bucharest, Romania. 25-30 June 2017.  
 
 ### Conference Poster Presentations
 
-<u>D. Keller</u>, G. J. Fochesatto. "New Wavelet to Determine the Planetary Boundary Layer Height." _99th Annual American Meteorological Society Meeting,_ Pheonix, Arizona, USA. Jan. 6-10, 2019.
-<u>D. Keller</u>, G. J. Fochesatto. “RAOBs and Micro Pulse Lidar Determination of the Atmospheric Boundary Layer.” _Alaska Space Grant Program Annual Symposium,_ Anchorage, Alaska, USA. April 20, 2018.
-<u>D. Keller</u>, D. Eagan. “FOSS Load Cell.” _Undergraduate Research and Scholarly Activity Research Day,_ Fairbanks, Alaska, USA. April 10, 2018.
+<u>D. Keller</u>, G. J. Fochesatto. "New Wavelet to Determine the Planetary Boundary Layer Height." _99th Annual American Meteorological Society Meeting,_ Pheonix, Arizona, USA. Jan. 6-10, 2019.  
+<u>D. Keller</u>, G. J. Fochesatto. “RAOBs and Micro Pulse Lidar Determination of the Atmospheric Boundary Layer.” _Alaska Space Grant Program Annual Symposium,_ Anchorage, Alaska, USA. April 20, 2018.  
+<u>D. Keller</u>, D. Eagan. “FOSS Load Cell.” _Undergraduate Research and Scholarly Activity Research Day,_ Fairbanks, Alaska, USA. April 10, 2018.  
 
 ## Research
 
 ### Alaska Space Grant Program Undergraduate Research Fellowship
-_Fall 2017 – Fall 2018_
-Geophysical Institute, University of Alaska Fairbanks, _Fairbanks, Alaska, USA_
+
+_Fall 2017 – Fall 2018_  
+Geophysical Institute, University of Alaska Fairbanks, _Fairbanks, Alaska, USA_  
 
 - Using NASA MPLNET and Radiosonde data to determine the intraday variability of the high latitude atmospheric boundary layer
 - Developing algorithms to determine atmospheric boundary layer structural parameters from Micro Pulse Laser Radars (Lidar)
@@ -46,8 +47,9 @@ Geophysical Institute, University of Alaska Fairbanks, _Fairbanks, Alaska, USA_
 - Produce statistical estimates of ABL parameters and compute diurnal and seasonal variations 
 - Analysis of high latitude ABL with MPLNET, RAOBS, and GPSRO
  
-### Master of Science Research Thesis 
-_Fall 2017 - Fall 2018_
+### Master of Science Research Thesis
+
+_Fall 2017 - Fall 2018_  
 College of Engineering and Mines, University of Alaska, Fairbanks _Fairbanks, Alaska, USA_ and NASA Armstrong Flight Research Center, _Edwards Air Force Base, California, USA_
 
 - Using NASA Fiber Optic Sensing System (FOSS) and conventional strain gauge systems in high electromagnetic interference environments found in aviation
@@ -59,8 +61,9 @@ College of Engineering and Mines, University of Alaska, Fairbanks _Fairbanks, Al
 ## Work Experience
 
 ### NASA Mechanical Engineering Intern
-(funded by the Alaska Space Grant Program) 
-_Summer 2017_
+
+(funded by the Alaska Space Grant Program)  
+_Summer 2017_  
 NASA Armstrong Flight Research Center _Edwards Air Force Base, California, USA_
 
 - Tested thermodynamics and heat transfer of the initial Fiber Optic Sensing System (FOSS) enclosure concept for the Quiet Supersonic Technology (QueSST) X-Plane (now the X-59)
@@ -69,7 +72,8 @@ NASA Armstrong Flight Research Center _Edwards Air Force Base, California, USA_
 - Designed prototype enclosure for FOSS components, utilizing analyzed methods; features foam insulation and heat pipes for improved high temperature environment survivability
 
 ### Engineering Intern
-_Summer 2015_
+
+_Summer 2015_  
 Alaska Department of Transportation _Fairbanks, Alaska, USA_
 
 - Measured state maintained pedestrian facilities such as sidewalks and ramps
@@ -80,8 +84,9 @@ Alaska Department of Transportation _Fairbanks, Alaska, USA_
 ## Professional Projects
 
 ### Raman Spectroscopy Lidar Project
-(funded by the National Science Foundation)
-_Fall 2016_
+
+(funded by the National Science Foundation)  
+_Fall 2016_  
 Geophysical Institute, University of Alaska, Fairbanks _Fairbanks, Alaska, USA_
 
 - Gained experience in optomechanical design for Lidar development
@@ -89,15 +94,17 @@ Geophysical Institute, University of Alaska, Fairbanks _Fairbanks, Alaska, USA_
 - Implemented multichannel Lidar receiver
 
 ### Golf Swing Replicator Prototype
-_Summer 2016_
-Project Aisle _Spokane, Washington, USA_
+
+_Summer 2016_  
+Project Aisle _Spokane, Washington, USA_  
 
 - Designed the golf swing replicator prototype in SolidWorks 2014 with adjustable stand, ball holder, and swinging mechanism
 - Fabricated the golf swing replicator prototype, utilizing the mill, lathe, and MIG welder
 - Tested and analyzed golf swing replicator prototype
 
 ### Ice Arch Build
-_Fall 2014 - Spring 2015_
+
+_Fall 2014 - Spring 2015_  
 College of Engineering and Mines, University of Alaska, Fairbanks _Fairbanks, Alaska, USA_
 
 - Ice Arch construction team member
