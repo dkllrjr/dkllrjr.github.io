@@ -5,100 +5,106 @@ title: CV
 
 # Curriculum Vitae
 
-<h2>Education</h2>
+## Education
 
-<h3>Master's of Science in Mechanical Engineering</h3>
-<p>University of Alaska, Fairbanks, <i>Fairbanks, Alaska, USA</i><br /><i>Fall 2017 - Fall 2018</i><br />GPA: 4.0/4.0</p>
+### Master's of Science in Mechanical Engineering
+University of Alaska Fairbanks, _Fairbanks, Alaska, USA_
+Fall 2017 - Fall 2018
+GPA: 4.0/4.0
 
-<h3>Bachelor's of Science in Mechanical Engineering</h3>
-<p>University of Alaska, Fairbanks, <i>Fairbanks, Alaska, USA</i><br /><i>Fall 2014 - Fall 2018</i><br />GPA: 3.83/4.0</p>
+### Bachelor's of Science in Mechanical Engineering
+University of Alaska Fairbanks, _Fairbanks, Alaska, USA_
+Fall 2014 - Fall 2018
+GPA: 3.83/4.0
 
-<h2>Publications</h2>
+## Publications
 
-<h3>In Progress</h3>
+### In Progress
 
-<p><u>D. Keller</u>, D. R. Eagan, G. J. Fochesatto, R. Peterson. “Advantages of Fiber Bragg Gratings over Resistance-Based Strain Gauges in the Presence of Electromagnetic Interference Emitted from an Electric Motor for Aerospace Application.”</p>
-<p><u>D. Keller</u>, G. J. Fochesatto. “A New Wavelet to Determine the Planetary Boundary Layer Height from Micro Pulse Lidar Backscatter.”</p>
+<u>D. Keller</u>, D. R. Eagan, G. J. Fochesatto, R. Peterson, H. M. Chan, A. R. Parker. “Advantages of Fiber Bragg Gratings for Measuring Electric Motor Loadings in Aerospace Application.”
+<u>D. Keller</u>, G. J. Fochesatto. “A New Wavelet to Determine the Planetary Boundary Layer Height from Micro Pulse Lidar Backscatter.”
 
-<h3>Conference Proceedings</h3>
+### Conference Proceedings
   
-<p>Fochesatto G. J., O. Galvez, P. Ristori, <u>D. Keller</u>, and E. L. Fochesatto. “Lidar to Determine the Fractions of Ice, Liquid and Water Vapor in Polar Tropospheric Cloud.” <i>Proceedings of the 28th International Laser Radar Conference,</i> Bucharest, Romania. 25-30 June 2017.</p>
+Fochesatto G. J., O. Galvez, P. Ristori, <u>D. Keller</u>, and E. L. Fochesatto. “Lidar to Determine the Fractions of Ice, Liquid and Water Vapor in Polar Tropospheric Cloud.” <i>Proceedings of the 28th International Laser Radar Conference,</i> Bucharest, Romania. 25-30 June 2017.
 
-<h3>Conference Poster Presentations</h3>
+### Conference Poster Presentations
 
-<p><u>D. Keller</u>, G. J. Fochesatto. “RAOBs and Micro Pulse Lidar Determination of the Atmospheric Boundary Layer.” <i>Alaska Space Grant Program Annual Symposium,</i> Anchorage, Alaska, USA. April 20, 2018.</p>
-<p><u>D. Keller</u>, D. Eagan. “FOSS Load Cell.” <i>Undergraduate Research and Scholarly Activity Research Day,</i> Fairbanks, Alaska, USA. April 10, 2018.</p>
-<p><u>D. Keller</u>, G. J. Fochesatto. "New Wavelet to Determine the Planetary Boundary Layer Height." <i>99th Annual American Meteorological Society Meeting,</i> Pheonix, Arizona, USA. Jan. 6-10, 2019.</p>
+<u>D. Keller</u>, G. J. Fochesatto. "New Wavelet to Determine the Planetary Boundary Layer Height." _99th Annual American Meteorological Society Meeting,_ Pheonix, Arizona, USA. Jan. 6-10, 2019.
+<u>D. Keller</u>, G. J. Fochesatto. “RAOBs and Micro Pulse Lidar Determination of the Atmospheric Boundary Layer.” _Alaska Space Grant Program Annual Symposium,_ Anchorage, Alaska, USA. April 20, 2018.
+<u>D. Keller</u>, D. Eagan. “FOSS Load Cell.” _Undergraduate Research and Scholarly Activity Research Day,_ Fairbanks, Alaska, USA. April 10, 2018.
 
-<h2>Research</h2>
+## Research
 
-<h3>Alaska Space Grant Program Undergraduate Research Fellowship<br /><i>Fall 2017 – Fall 2018</i></h3>
-<p>Geophysical Institute, University of Alaska, Fairbanks, <i>Fairbanks, Alaska, USA</i></p>
-<ul>
-  <li>Using NASA MPLNET and Radiosonde data to determine the intraday variability of the high latitude atmospheric boundary layer</li>
-  <li>Developing algorithms to determine atmospheric boundary layer structural parameters from Micro Pulse Laser Radars (Lidar)</li>
-  <li>Compare and contrast collocated Lidar and Radiosonde retrievals of ABL parameters</li>
-  <li>Produce statistical estimates of ABL parameters and compute diurnal and seasonal variations</li>
-  <li>Analysis of high latitude ABL with MPLNET, RAOBS, and GPSRO</li>
-</ul>
+### Alaska Space Grant Program Undergraduate Research Fellowship
+_Fall 2017 – Fall 2018_
+Geophysical Institute, University of Alaska Fairbanks, _Fairbanks, Alaska, USA_
+
+- Using NASA MPLNET and Radiosonde data to determine the intraday variability of the high latitude atmospheric boundary layer
+- Developing algorithms to determine atmospheric boundary layer structural parameters from Micro Pulse Laser Radars (Lidar)
+- Compare and contrast collocated Lidar and Radiosonde retrievals of ABL parameters
+- Produce statistical estimates of ABL parameters and compute diurnal and seasonal variations 
+- Analysis of high latitude ABL with MPLNET, RAOBS, and GPSRO
  
-<h3>Master of Science Research Thesis<br /><i>Fall 2017 - Fall 2018</i></h3>
-<p>College of Engineering and Mines, University of Alaska, Fairbanks<br /><i>Fairbanks, Alaska, USA</i> and<br />NASA Armstrong Flight Research Center<br /><i>Edwards Air Force Base, California, USA</i></p>
-<ul>
-  <li>Using NASA Fiber Optic Sensing System (FOSS) and conventional strain gauge systems in high electromagnetic interference environments found in aviation</li>
-  <li>Developed a load cell designed around the FOSS to measure thrust from an electric motor coupled with a 3-blade propeller to develop future electric propulsion systems</li>
-  <li>Analyze and compare data retrieved using FOSS and conventional strain gauges</li>
-  <li>Determined the effect of electromagnetic interference on the thrust loading measurements</li>
-  <li>Determined the effect of mechanical interference/vibration with both systems in same application</li>
-</ul>
+### Master of Science Research Thesis 
+_Fall 2017 - Fall 2018_
+College of Engineering and Mines, University of Alaska, Fairbanks _Fairbanks, Alaska, USA_ and NASA Armstrong Flight Research Center, _Edwards Air Force Base, California, USA_
 
-<h2>Work Experience</h2>
+- Using NASA Fiber Optic Sensing System (FOSS) and conventional strain gauge systems in high electromagnetic interference environments found in aviation
+- Developed a load cell designed around the FOSS to measure thrust from an electric motor coupled with a 3-blade propeller to develop future electric propulsion systems
+- Analyze and compare data retrieved using FOSS and conventional strain gauges
+- Determined the effect of electromagnetic interference on the thrust loading measurements
+- Determined the effect of mechanical interference/vibration with both systems in same application
 
-<h3>NASA Mechanical Engineering Intern<br />(funded by the Alaska Space Grant Program)<br /><i>Summer 2017</i></h3>
-<p>NASA Armstrong Flight Research Center<br /><i>Edwards Air Force Base, California, USA</i></p> 
-<ul>
-  <li>Tested thermodynamics and heat transfer of the initial Fiber Optic Sensing System (FOSS) enclosure concept for the Quiet Supersonic Technology (QueSST) X-Plane (now the X-59)</li>
-  <li>Researched heat transfer technologies for FOSS enclosure flight testing application such as heat pipes and thermoelectric coolers</li>
-  <li>Analyzed heat transfer methods for FOSS enclosure application including foam insulation</li>
-  <li>Designed prototype enclosure for FOSS components, utilizing analyzed methods; features foam insulation and heat pipes for improved high temperature environment survivability</li>
-</ul>
+## Work Experience
 
-<h3>Engineering Intern<br /><i>Summer 2015</i></h3>
-<p>Alaska Department of Transportation<br /><i>Fairbanks, Alaska, USA</i></p>
-<ul>
-  <li>Measured state maintained pedestrian facilities such as sidewalks and ramps</li>
-  <li>Determined pedestrian facility requirements for American Disability Act compliance</li>
-  <li>including required slope accommodation for disabled pedestrians</li>
-  <li>Compiled measurement data from multiple interns for coordinator review</li>
-</ul>
+### NASA Mechanical Engineering Intern
+(funded by the Alaska Space Grant Program) 
+_Summer 2017_
+NASA Armstrong Flight Research Center _Edwards Air Force Base, California, USA_
 
-<h2>Professional Projects</h2>
+- Tested thermodynamics and heat transfer of the initial Fiber Optic Sensing System (FOSS) enclosure concept for the Quiet Supersonic Technology (QueSST) X-Plane (now the X-59)
+- Researched heat transfer technologies for FOSS enclosure flight testing application such as heat pipes and thermoelectric coolers
+- Analyzed heat transfer methods for FOSS enclosure application including foam insulation
+- Designed prototype enclosure for FOSS components, utilizing analyzed methods; features foam insulation and heat pipes for improved high temperature environment survivability
 
-<h3>Raman Spectroscopy Lidar Project<br />(funded by the National Science Foundation)<br /><i>Fall 2016</i></h3>
-<p>Geophysical Institute, University of Alaska, Fairbanks<br /><i>Fairbanks, Alaska, USA</i></p>
-<ul>
-  <li>Gained experience in optomechanical design for Lidar development</li>
-  <li>Developed simulation of Lidar signals to condition instrument design for 532 nm, N2, and H2O Raman vibrational bands</li>
-  <li>Implemented multichannel Lidar receiver</li>
-</ul>
+### Engineering Intern
+_Summer 2015_
+Alaska Department of Transportation _Fairbanks, Alaska, USA_
 
-<h3>Golf Swing Replicator Prototype<br /><i>Summer 2016</i></h3>
-<p>Project Aisle<br /><i>Spokane, Washington, USA</i></p>
-<ul>
-  <li>Designed the golf swing replicator prototype in SolidWorks 2014 with adjustable stand, ball holder, and swinging mechanism</li>
-  <li>Fabricated the golf swing replicator prototype, utilizing the mill, lathe, and MIG welder</li>
-  <li>Tested and analyzed golf swing replicator prototype</li>
-</ul>
+- Measured state maintained pedestrian facilities such as sidewalks and ramps
+- Determined pedestrian facility requirements for American Disability Act compliance
+- Including required slope accommodation for disabled pedestrians
+- Compiled measurement data from multiple interns for coordinator review
 
-<h3>Ice Arch Build<br /><i>Fall 2014 - Spring 2015</i></h3>
-<p>College of Engineering and Mines, University of Alaska, Fairbanks<br /><i>Fairbanks, Alaska, USA</i><p>
-<ul>
-  <li>Ice Arch construction team member</li>
-  <li>Assisted with the construction and setup of the wooden ice molds</li>
-  <li>Assisted with the transportation of water to form the arch</li>
-  <li>Assisted with the erection of the dual ice arch design</li>
-</ul>
+## Professional Projects
 
-<h2>Programming Languages</h2>
+### Raman Spectroscopy Lidar Project
+(funded by the National Science Foundation)
+_Fall 2016_
+Geophysical Institute, University of Alaska, Fairbanks _Fairbanks, Alaska, USA_
 
-<p>Python, MATLAB, Julia, Fortran, C</p>
+- Gained experience in optomechanical design for Lidar development
+- Developed simulation of Lidar signals to condition instrument design for 532 nm, N2, and H2O Raman vibrational bands
+- Implemented multichannel Lidar receiver
+
+### Golf Swing Replicator Prototype
+_Summer 2016_
+Project Aisle _Spokane, Washington, USA_
+
+- Designed the golf swing replicator prototype in SolidWorks 2014 with adjustable stand, ball holder, and swinging mechanism
+- Fabricated the golf swing replicator prototype, utilizing the mill, lathe, and MIG welder
+- Tested and analyzed golf swing replicator prototype
+
+### Ice Arch Build
+_Fall 2014 - Spring 2015_
+College of Engineering and Mines, University of Alaska, Fairbanks _Fairbanks, Alaska, USA_
+
+- Ice Arch construction team member
+- Assisted with the construction and setup of the wooden ice molds
+- Assisted with the transportation of water to form the arch
+- Assisted with the erection of the dual ice arch design
+
+## Programming Languages
+
+Python, MATLAB, Julia, Fortran, C/C++
