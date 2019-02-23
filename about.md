@@ -7,7 +7,7 @@ title: About
 
 ## Contact Information
 
-Email: dg.kllr.jr@gmail.com
+Email: <dg.kllr.jr@gmail.com>
 
 ## About Me
 
