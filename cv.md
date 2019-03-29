@@ -19,12 +19,6 @@ GPA: 3.83/4.0
 
 ## Publications
 
-### In Progress
-
-<u>D. Keller</u>, D. R. Eagan, G. J. Fochesatto, R. Peterson, H. M. Chan, A. R. Parker. “Advantages of Fiber Bragg Gratings for Measuring Electric Motor Loadings in Aerospace Application.”
-
-<u>D. Keller</u>, G. J. Fochesatto. “A New Wavelet to Determine the Planetary Boundary Layer Height from Micro Pulse Lidar Backscatter.”
-
 ### Conference Proceedings
   
 Fochesatto G. J., O. Galvez, P. Ristori, <u>D. Keller</u>, and E. L. Fochesatto. “Lidar to Determine the Fractions of Ice, Liquid and Water Vapor in Polar Tropospheric Cloud.” _Proceedings of the 28th International Laser Radar Conference,_ Bucharest, Romania. 25-30 June 2017.
@@ -74,7 +68,7 @@ Summer 2017
 - Analyzed heat transfer methods for FOSS enclosure application including foam insulation
 - Designed prototype enclosure for FOSS components, utilizing analyzed methods; features foam insulation and heat pipes for improved high temperature environment survivability
 
-### Engineering Intern
+### DOT Engineering Intern
 
 Alaska Department of Transportation _Fairbanks, Alaska, USA_  
 Summer 2015  
@@ -115,6 +109,8 @@ Fall 2014 - Spring 2015
 - Assisted with the transportation of water to form the arch
 - Assisted with the erection of the dual ice arch design
 
-## Programming Languages
+## Programming Skills
+
+### Languages
 
 Python, MATLAB, Julia, Fortran, C/C++
