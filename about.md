@@ -21,4 +21,4 @@ Beyond hockey, I've trained in and taught Krav Maga, a self defense system desig
 
 I really have quite a few interests, I've done research on the atmospheric boundary layer but I'm also interested in computation (particularly in quantum computing and other forms of computing), mathematics, and light and optics.
 
-If you want to know more, or are interested in getting in touch, go ahead and send an email. I'll replay as soon as I can.
+If you want to know more, or are interested in getting in touch, go ahead and send an email. I'll reply as soon as I can.
