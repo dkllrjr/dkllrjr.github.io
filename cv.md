@@ -31,7 +31,7 @@ Fochesatto G. J., O. Galvez, P. Ristori, <u>D. Keller</u>, and E. L. Fochesatto.
 
 <u>D. Keller</u>, D. Eagan. “FOSS Load Cell.” _Undergraduate Research and Scholarly Activity Research Day,_ Fairbanks, Alaska, USA. April 10, 2018.  
 
-## Research
+## Research Experience
 
 ### Alaska Space Grant Program Undergraduate Research Fellowship
 
