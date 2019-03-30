@@ -1,7 +1,10 @@
 body {
     margin:60px auto;
     width:80%;
+    background-image: url("fairbanks_background.JPG");
+    /*
     background-color:GhostWhite
+    /*
 }
 nav ul, footer ul {
     font-family:'Helvetica','Arial','Sans-Serif';
