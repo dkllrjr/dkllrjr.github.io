@@ -8,11 +8,13 @@ title: CV
 ## Education
 
 ### Master's of Science in Mechanical Engineering
+
 University of Alaska Fairbanks, _Fairbanks, Alaska, USA_  
 Fall 2017 - Fall 2018  
 GPA: 4.0/4.0  
 
 ### Bachelor's of Science in Mechanical Engineering
+
 University of Alaska Fairbanks, _Fairbanks, Alaska, USA_  
 Fall 2014 - Fall 2018  
 GPA: 3.83/4.0  
@@ -113,4 +115,12 @@ Fall 2014 - Spring 2015
 
 ### Languages
 
-Python, MATLAB, Julia, Fortran, C/C++
+Python, C/C++, MATLAB, Julia, Fortran
+
+### Platforms and APIs
+
+Cuda, Arduino, Raspberry Pi
+
+### Operating Systems
+
+Linux (Arch), Windows
