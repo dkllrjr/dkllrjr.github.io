@@ -7,15 +7,15 @@ body { /* sets the background settings for the webpage and also the body width f
     background-size: 100%;
     background-attachment: fixed;
 }
-/*
+
 iframe {
     display: block;
-    width: 560px;
-    height: 315px;
+    width: 784px;  /*112*/
+    height: 441px; /*63*/
     border: 22px;
     margin: 0 auto;
 }
-*/
+
 /********/
 /**** Body Font ****/
 
@@ -76,10 +76,9 @@ a:hover { /* sets the header/footer font to show an underline when the cursor is
     text-decoration:underline;
 }
 
-/*
-footer { /* footer horizontal bar *//*
-    border-top: 1px solid #d5d5d5;
+footer { /* footer horizontal bar */
+    border-top: 1px solid #000;
     font-size:20px;
 }
-*/
+
 /********/
