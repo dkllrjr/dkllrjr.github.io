@@ -1,7 +1,7 @@
 /**** Body Formatting ****/
 
 body { /* sets the background settings for the webpage and also the body width for the content to use */
-    margin:60px auto;
+    margin:0 auto;
     width:80%;
     background-image: url("glacier.JPG");
     background-size: 100%;
