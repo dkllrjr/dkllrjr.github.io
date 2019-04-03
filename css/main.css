@@ -10,10 +10,10 @@ body { /* sets the background settings for the webpage and also the body width f
 
 iframe { /* shapes the size of the embedded youtube videos, etc. */
     display: block;
-    width: 784px;  /*112*/
-    height: 441px; /*63*/
+    width: 672px;  /*112*/
+    height: 378px; /*63*/
     border: 22px;
-    margin: 0 auto;
+    margin: auto auto;
 }
 
 /********/
@@ -54,7 +54,7 @@ ul li {
 /********/
 /**** Header and Footer ****/
 
-nav ul, footer ul { /* sets the header and footer font, size, and listing-style */
+nav ul, footer ul { /* sets the header (nav) and footer font, size, and listing-style */
     font-family:'Helvetica','Arial','Sans-Serif';
     padding:0px;
     list-style:none;
