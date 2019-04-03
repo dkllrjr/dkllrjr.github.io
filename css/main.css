@@ -1,3 +1,5 @@
+/**** Body Formatting ****/
+
 body { /* sets the background settings for the webpage and also the body width for the content to use */
     margin:60px auto;
     width:80%;
@@ -5,6 +7,52 @@ body { /* sets the background settings for the webpage and also the body width f
     background-size: 100%;
     background-attachment: fixed;
 }
+/*
+iframe {
+    display: block;
+    width: 560px;
+    height: 315px;
+    border: 22px;
+    margin: 0 auto;
+}
+*/
+/********/
+/**** Body Font ****/
+
+h1 {
+    font-size:60px;
+    font-family:'Helvetica','Arial','Sans-Serif';
+}
+
+h2 {
+    font-size:40px;
+    font-family:'Helvetica','Arial','Sans-Serif';
+}
+
+h3 {
+    font-size:28px;
+    font-family:'Helvetica','Arial','Sans-Serif';
+}
+
+p {
+    font-size:22px;
+    font-family:'Helvetica','Arial','Sans-Serif';
+    line-height:1.15;
+}
+
+ul {
+    list-style-type:circle;
+    margin-left:2.5px;
+}
+
+ul li {
+    font-size:20px;
+    font-family:'Helvetica','Arial','Sans-Serif';
+    line-height:1.15;
+}
+
+/********/
+/**** Header and Footer ****/
 
 nav ul, footer ul { /* sets the header and footer font, size, and listing-style */
     font-family:'Helvetica','Arial','Sans-Serif';
@@ -18,53 +66,20 @@ nav ul li, footer ul li { /* sets the listing arrangement of the header and foot
     margin-right:20px;
 }
 
-a {
+a { /* sets the header/footer font size and the font to standard font without any emphasis (a because a is the link) */
     font-size:20px;
     text-decoration:none;
     color:black;
 }
 
-/*
-a:hover {
+a:hover { /* sets the header/footer font to show an underline when the cursor is hovering over it */ 
     text-decoration:underline;
 }
-*/
+
 /*
-h1 {
-    font-size:60px;
-    font-family:'Helvetica','Arial','Sans-Serif';
-}
-h2 {
-    font-size:40px;
-    font-family:'Helvetica','Arial','Sans-Serif';
-}
-h3 {
-    font-size:28px;
-    font-family:'Helvetica','Arial','Sans-Serif';
-}
-p {
-    font-size:22px;
-    font-family:'Helvetica','Arial','Sans-Serif';
-    line-height:1.15;
-}
-footer {
+footer { /* footer horizontal bar */
     border-top: 1px solid #d5d5d5;
     font-size:20px;
 }
-ul {
-    list-style-type:circle;
-    margin-left:2.5px;
-}
-ul li {
-    font-size:20px;
-    font-family:'Helvetica','Arial','Sans-Serif';
-    line-height:1.15;
-}
-iframe {
-    display: block;
-    width: 560px;
-    height: 315px;
-    border: 22px;
-    margin: 0 auto;
-}
 */
+/********/
