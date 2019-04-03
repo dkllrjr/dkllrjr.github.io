@@ -13,19 +13,23 @@ nav ul, footer ul { /* sets the header and footer font, size, and listing-style 
     font-weight:bold;
 }
 
-nav ul li, footer ul li {
+nav ul li, footer ul li { /* sets the listing arrangement of the header and footer */
     display:inline;
     margin-right:20px;
 }
-/*
+
 a {
     font-size:20px;
     text-decoration:none;
-    color:gray;
+    color:black;
 }
+
+/*
 a:hover {
     text-decoration:underline;
 }
+*/
+/*
 h1 {
     font-size:60px;
     font-family:'Helvetica','Arial','Sans-Serif';
