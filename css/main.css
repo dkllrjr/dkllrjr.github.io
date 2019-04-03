@@ -8,6 +8,14 @@ body { /* sets the background settings for the webpage and also the body width f
     background-attachment: fixed;
 }
 
+div.container {
+    box-sizing: border-box;
+    width: 80%;
+    padding: 10px;
+    border: 0;
+    float: left;
+}
+
 iframe { /* shapes the size of the embedded youtube videos, etc. */
     display: block;
     width: 672px;  /*112*/
