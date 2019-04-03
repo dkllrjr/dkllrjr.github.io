@@ -2,10 +2,8 @@ body {
     margin:60px auto;
     width:80%;
     background-image: url("glacier.JPG");
-    /*
     background-size: 100%;
     background-attachment: fixed;
-    */
 }
 nav ul, footer ul {
     font-family:'Helvetica','Arial','Sans-Serif';
