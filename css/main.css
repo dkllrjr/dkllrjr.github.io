@@ -10,7 +10,8 @@ body { /* sets the background settings for the webpage and also the body width f
 iframe { /* shapes the size of the embedded youtube videos, etc. */
     display: block;
     width: 56%;  /*112*/
-    padding-top: 31.5%; /*63*/
+    padding-top: 15.75%; /*63*/
+    padding-bottom: 15.75%;
     border-width: medium;
     margin: auto auto;
 }
