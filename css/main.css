@@ -59,6 +59,7 @@ nav ul, footer ul { /* sets the header (nav) and footer font, size, and listing-
     padding:0px;
     list-style:none;
     font-weight:bold;
+    background-color: #fff
 }
 
 nav ul li, footer ul li { /* sets the listing arrangement of the header and footer */
