@@ -17,7 +17,7 @@ iframe { /* shapes the size of the embedded youtube videos, etc. */
 
 .box{
     display: block;
-    width: 70%;
+    width: 100%;
 }
 
 /********/
