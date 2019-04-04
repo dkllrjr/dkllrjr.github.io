@@ -8,15 +8,6 @@ body { /* sets the background settings for the webpage and also the body width f
     background-attachment: fixed;
 }
 
-div.container {
-    display: inline;
-    box-sizing: border-box;
-    width: 80%;
-    padding: 10px;
-    border: 10px;
-    float: left;
-}
-
 iframe { /* shapes the size of the embedded youtube videos, etc. */
     display: block;
     width: 672px;  /*112*/
@@ -64,7 +55,6 @@ ul li {
 /**** Header and Footer ****/
 
 nav ul, footer ul { /* sets the header (nav) and footer font, size, and listing-style */
-    display: inline;
     font-family:'Helvetica','Arial','Sans-Serif';
     padding:0px;
     list-style:none;
