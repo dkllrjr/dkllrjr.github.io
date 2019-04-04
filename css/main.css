@@ -52,7 +52,7 @@ p {
 
 ul {
     list-style-type:disc;
-    margin-left: 2.5%;
+    margin-left: 1%;
     color: white;
 }
 
@@ -111,9 +111,9 @@ img {vertical-align: middle;}
 
 /* The dots/bullets/indicators */
 .dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
+    height: 2%;
+    width: 1%;
+    margin: auto 1%;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
