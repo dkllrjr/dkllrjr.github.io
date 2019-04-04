@@ -26,28 +26,33 @@ h1 {
 h2 {
     font-size:40px;
     font-family:'Helvetica','Arial','Sans-Serif';
+    color: white;
 }
 
 h3 {
     font-size:28px;
     font-family:'Helvetica','Arial','Sans-Serif';
+    color: white;
 }
 
 p {
     font-size:22px;
     font-family:'Helvetica','Arial','Sans-Serif';
     line-height:1.15;
+    color: white;
 }
 
 ul {
     list-style-type:circle;
     margin-left:2.5px;
+    color: white;
 }
 
 ul li {
     font-size:20px;
     font-family:'Helvetica','Arial','Sans-Serif';
     line-height:1.15;
+    color: white;
 }
 
 /********/
@@ -58,7 +63,6 @@ nav ul, footer ul { /* sets the header (nav) and footer font, size, and listing-
     padding:0px;
     list-style:none;
     font-weight:bold;
-    background-color: #fff
 }
 
 nav ul li, footer ul li { /* sets the listing arrangement of the header and footer */
