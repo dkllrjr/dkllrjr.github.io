@@ -3,9 +3,7 @@
 body { /* sets the background settings for the webpage and also the body width for the content to use */
     margin:0 auto;
     width:80%;
-    background-image: url("glacier.JPG");
-    background-size: 100%;
-    background-attachment: fixed;
+    background-color: #fff;
 }
 
 iframe { /* shapes the size of the embedded youtube videos, etc. */
@@ -22,6 +20,7 @@ iframe { /* shapes the size of the embedded youtube videos, etc. */
 h1 {
     font-size:60px;
     font-family:'Helvetica','Arial','Sans-Serif';
+    color: white;
 }
 
 h2 {
