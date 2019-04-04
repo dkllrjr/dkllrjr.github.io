@@ -2,8 +2,8 @@
 
 body { /* sets the background settings for the webpage and also the body width for the content to use */
     margin:auto auto;
-    width:80%;
-    height:90%;
+    width:100%;
+    height:100%;
     background-color: #000;
 }
 
@@ -13,6 +13,11 @@ iframe { /* shapes the size of the embedded youtube videos, etc. */
     height: 378px; /*63*/
     border: 22px;
     margin: auto auto;
+}
+
+.box{
+    display: block;
+    width: 70%;
 }
 
 /********/
