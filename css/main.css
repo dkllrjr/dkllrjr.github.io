@@ -9,6 +9,7 @@ body { /* sets the background settings for the webpage and also the body width f
 }
 
 div.container {
+    display: inline;
     box-sizing: border-box;
     width: 80%;
     padding: 10px;
@@ -85,6 +86,7 @@ a:hover { /* sets the header/footer font to show an underline when the cursor is
 }
 
 footer { /* footer horizontal bar */
+    display: inline;
     border-top: 1px solid #000;
     font-size:20px;
 }
