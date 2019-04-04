@@ -3,7 +3,7 @@
 body { /* sets the background settings for the webpage and also the body width for the content to use */
     margin:0 auto;
     width:80%;
-    background-color: #fff;
+    background-color: #000;
 }
 
 iframe { /* shapes the size of the embedded youtube videos, etc. */
