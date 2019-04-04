@@ -9,9 +9,9 @@ body { /* sets the background settings for the webpage and also the body width f
 
 iframe { /* shapes the size of the embedded youtube videos, etc. */
     display: block;
-    width: 672px;  /*112*/
-    height: 378px; /*63*/
-    border: 22px;
+    width: 56%;  /*112*/
+    height: 31.5%; /*63*/
+    border-width: medium;
     margin: auto auto;
 }
 
@@ -19,6 +19,7 @@ iframe { /* shapes the size of the embedded youtube videos, etc. */
     display: block;
     width: 70%;
     background-color: #000;
+    margin: auto;
 }
 
 /********/
@@ -51,7 +52,7 @@ p {
 
 ul {
     list-style-type:disc;
-    margin-left:2.5px;
+    margin-left: 2.5%;
     color: white;
 }
 
@@ -75,7 +76,8 @@ nav ul, footer ul { /* sets the header (nav) and footer font, size, and listing-
 
 nav ul li, footer ul li { /* sets the listing arrangement of the header and footer */
     display:inline;
-    margin-right: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 a { /* sets the header/footer font size and the font to standard font without any emphasis (a because a is the link) */
