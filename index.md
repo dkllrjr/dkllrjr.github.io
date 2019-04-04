@@ -11,4 +11,4 @@ I'm a recent graduate with a Master's of Science in Mechanical Engineering at UA
 
 This is the video for the Fiber Optic Sensing System (FOSS) load cell Danny Eagan and I developed for my Master's research project (and also our Senior Project design for our Bachelor's).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b4n2EtccQrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/b4n2EtccQrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
