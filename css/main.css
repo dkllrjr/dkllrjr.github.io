@@ -1,8 +1,9 @@
 /**** Body Formatting ****/
 
 body { /* sets the background settings for the webpage and also the body width for the content to use */
-    margin:0 auto;
+    margin:auto auto;
     width:80%;
+    height:90%;
     background-color: #000;
 }
 
