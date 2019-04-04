@@ -9,7 +9,11 @@ Here lies my old research. Enjoy! (These can be potentially resurrected, given p
 
 ## FOSS Load Cell
 
-video
+<iframe src="https://www.youtube.com/embed/IN2OMU7ZHjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+This is the video for the Fiber Optic Sensing System (FOSS) load cell Danny Eagan and I developed for my Master's research project (and also our Senior Project design for our Bachelor's).
+
+add link to paper? add pics of emi?
 
 ## Raman Spectrum Lidar
 
