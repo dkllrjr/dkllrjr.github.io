@@ -9,7 +9,8 @@ body { /* sets the background settings for the webpage and also the body width f
 
 iframe { /* shapes the size of the embedded youtube videos, etc. */
     display: block;
-    width: 56%;  /*112*/ /*63*/
+    width: 784;  /*112*/ /*63*/
+    height: 441;
     border-width: medium;
     margin: auto auto;
 }
@@ -110,9 +111,9 @@ img {vertical-align: middle;}
 
 /* The dots/bullets/indicators */
 .dot {
-    height: 20px;
-    width: 15px;
-    margin: 2px 4px;
+    height: 10px;
+    width: 10px;
+    margin: 2px 8px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
