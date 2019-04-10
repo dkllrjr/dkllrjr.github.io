@@ -26,20 +26,20 @@ GPA: 3.83/4.0
 Geophysical Institute, University of Alaska Fairbanks, _Fairbanks, Alaska, USA_  
 Fall 2017 – Fall 2018  
 
-- Using NASA MPLNET and Radiosonde data to determine the intraday variability of the high latitude atmospheric boundary layer
-- Developing algorithms to determine atmospheric boundary layer structural parameters from Micro Pulse Laser Radars (Lidar)
-- Compare and contrast collocated Lidar and Radiosonde retrievals of ABL parameters
-- Produce statistical estimates of ABL parameters and compute diurnal and seasonal variations 
-- Analysis of high latitude ABL with MPLNET, RAOBS, and GPSRO
+- Used NASA MPLNET and radiosonde data to determine the intraday variability of the high latitude atmospheric boundary layer
+- Developed algorithms to determine atmospheric boundary layer structural parameters from micro pulse lidars
+- Compared and contrasted collocated lidar and Radiosonde retrievals of ABL parameters
+- Produced statistical estimates of ABL parameters and computed diurnal and seasonal variations 
+- Analyzed of high latitude ABL with MPLNET, radiosondes, and GPS radio occultations
  
 ### Master of Science Research Thesis
 
 College of Engineering and Mines, University of Alaska, Fairbanks _Fairbanks, Alaska, USA_ and NASA Armstrong Flight Research Center, _Edwards Air Force Base, California, USA_  
 Fall 2017 - Fall 2018  
 
-- Using NASA Fiber Optic Sensing System (FOSS) and conventional strain gauge systems in high electromagnetic interference environments found in aviation
+- Used NASA Fiber Optic Sensing System (FOSS) and conventional strain gauge systems in high electromagnetic interference environments found in aviation
 - Developed a load cell designed around the FOSS to measure thrust from an electric motor coupled with a 3-blade propeller to develop future electric propulsion systems
-- Analyze and compare data retrieved using FOSS and conventional strain gauges
+- Analyzed and compared data retrieved using FOSS and conventional strain gauges
 - Determined the effect of electromagnetic interference on the thrust loading measurements
 - Determined the effect of mechanical interference/vibration with both systems in same application
 
