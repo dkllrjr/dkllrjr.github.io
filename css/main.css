@@ -13,6 +13,8 @@ iframe { /* shapes the size of the embedded youtube videos, etc. */
     height: 441px;
     border-width: 0;
     margin: auto auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .box{
