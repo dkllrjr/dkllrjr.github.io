@@ -8,7 +8,7 @@ body { /* sets the background settings for the webpage and also the body width f
 }
 
 iframe { /* shapes the size of the embedded youtube videos, etc. */
-    --wid: 1500px;
+    --wid: 800px;
     display: block;
     width: var(--wid);  /*112*/ /*63*/
     height: calc(var(--wid)*63/112);
