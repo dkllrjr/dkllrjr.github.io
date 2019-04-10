@@ -9,7 +9,7 @@ Here lies my old research. Enjoy! (These can be potentially resurrected, given p
 
 ## FOSS Load Cell
 
-<img src="/pictures/load cell final.png" alt="Foss Load Cell" style="width: 50%; height: auto; margin: auto;">
+<img src="/pictures/load cell final.png" alt="Foss Load Cell" style="width: 50%; height: auto; margin: auto auto;">
 
 <iframe src="https://www.youtube.com/embed/IN2OMU7ZHjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -29,4 +29,4 @@ Project descriptionA Raman backscattering based lidar that retrieve the differen
 
 Gained experience in optomechanical design for Lidar development. Developed simulation of Lidar signals to condition instrument design for 532 nm, N2, and H2O Raman vibrational bands. Implemented multichannel Lidar receiver
 
-<img src="/pictures/bs_holder.png" alt="Beam Splitter Block" style="width: 50%; height: auto; margin: auto;">
+<img src="/pictures/bs_holder.png" alt="Beam Splitter Block" style="width: 50%; height: auto; margin: auto auto;">
