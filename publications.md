@@ -1,16 +1,24 @@
-## Publications
+﻿## Publications
 
 ### In Progress
 
-<u>D. Keller</u>, D. R. Eagan, G. J. Fochesatto, R. Peterson, H. M. Chan, A. R. Parker. “Advantages of Fiber Bragg Gratings for Measuring Electric Motor Loadings in Aerospace Application.”
-
 <u>D. Keller</u>, G. J. Fochesatto. “A New Wavelet to Determine the Planetary Boundary Layer Height from Micro Pulse Lidar Backscatter.”
 
-### Conference Proceedings
+### Accepted
+
+<u>D. Keller</u>, D. R. Eagan, G. J. Fochesatto, R. Peterson, H. M. Chan, A. R. Parker. “Advantages of Fiber Bragg Gratings for Measuring Electric Motor Loadings in Aerospace Application.” _Review of Scientific Instruments_
+
+## Conference Experience
+
+### Talks
+
+<u>D. Keller</u>, G. J. Fochesatto. "Identifying the Conditions for the Occurrence of High Latitude Superior Mirages." _Light and Color in Nature,_ Bar Harbor, Maine, USA. July 15, 2019.
+
+### Proceedings
   
 Fochesatto G. J., O. Galvez, P. Ristori, <u>D. Keller</u>, and E. L. Fochesatto. “Lidar to Determine the Fractions of Ice, Liquid and Water Vapor in Polar Tropospheric Cloud.” _Proceedings of the 28th International Laser Radar Conference,_ Bucharest, Romania. 25-30 June 2017.
 
-### Conference Poster Presentations
+### Poster Presentations
 
 <u>D. Keller</u>, G. J. Fochesatto. "New Wavelet to Determine the Planetary Boundary Layer Height." _99th Annual American Meteorological Society Meeting,_ Pheonix, Arizona, USA. Jan. 6-10, 2019.
 
