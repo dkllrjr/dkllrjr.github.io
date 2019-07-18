@@ -21,11 +21,11 @@ This is the video for the Fiber Optic Sensing System (FOSS) load cell Danny Eaga
 
 This videos shows a little demo of the FOSS picking up the increased weight:
 
-<iframe src="https://www.youtube.com/embed/8XkJwjkDrAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/8XkJwjkDrAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 Here are a few runs during testing. Some with the flywheel and some with the prop.
 
-<iframe src="https://www.youtube.com/embed/b2b-zLfIH_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/b2b-zLfIH_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ## Raman Spectrum Lidar
 
