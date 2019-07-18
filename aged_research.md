@@ -17,7 +17,7 @@ Here's a picture of the machined thin-wall cylinder:
 
 This is the video for the Fiber Optic Sensing System (FOSS) load cell Danny Eagan and I developed for my Master's research project (and also our Senior Project design for our Bachelor's):
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/IN2OMU7ZHjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container"><iframe width="853" height="480" src="https://www.youtube.com/embed/IN2OMU7ZHjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 This videos shows a little demo of the FOSS picking up the increased weight:
 
