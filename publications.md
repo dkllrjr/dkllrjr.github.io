@@ -8,7 +8,7 @@
 
 <u>D. Keller</u>, D. R. Eagan, G. J. Fochesatto, R. Peterson, H. M. Chan, A. R. Parker. “Advantages of Fiber Bragg Gratings for Measuring Electric Motor Loadings in Aerospace Application.” _Review of Scientific Instruments_
 
-## Conference Experience
+## Conferences
 
 ### Talks
 
