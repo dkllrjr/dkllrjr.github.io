@@ -9,4 +9,4 @@ I'm a recent graduate with a Master's of Science in Mechanical Engineering at UA
 
 Here's a cool video showing some atmospheric lensing in Alaska:
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/b4n2EtccQrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video-container"><iframe width="853" height="480" src="https://www.youtube.com/embed/b4n2EtccQrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

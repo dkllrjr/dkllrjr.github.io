@@ -7,7 +7,7 @@ body { /* sets the background settings for the webpage and also the body width f
     background-color: #000;
 }
 
-iframe { /* shapes the size of the embedded youtube videos, etc. */
+/* iframe { /* shapes the size of the embedded youtube videos, etc. */
     --wid: 800px;
     display: block;
     width: var(--wid);  /*112*/ /*63*/
@@ -16,7 +16,7 @@ iframe { /* shapes the size of the embedded youtube videos, etc. */
     margin: auto auto;
     margin-top: 20px;
     margin-bottom: 20px;
-}
+} */
 
 .video-container {
     position: relative;
