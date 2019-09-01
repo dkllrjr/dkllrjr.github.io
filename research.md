@@ -13,16 +13,11 @@ So when you have an atmosphere that has a warm air layer atop a cold air layer, 
 
 Here's a cool video showing some miraging in the Alaska winter:
 
-<div class="video-container"><iframe width="853" height="480" src="https://www.youtube.com/embed/ZBC8VFCMfic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
----
-layout: default
-title: Aged Research
----
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZBC8VFCMfic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 # Aged Research and Projects
 
-Here lies my old research/projects. Enjoy! (These can be potentially resurrected, given proper resuscitation; email me: <dg.kllr.jr@gmail.com>)
+Here lies my old research/projects. Enjoy!
 
 ## FOSS Load Cell
 
@@ -34,15 +29,15 @@ Here's a picture of the machined thin-wall cylinder:
 
 This is the video for the Fiber Optic Sensing System (FOSS) load cell Danny Eagan and I developed for my Master's research project (and also our Senior Project design for our Bachelor's):
 
-<div class="video-container"><iframe width="853" height="480" src="https://www.youtube.com/embed/IN2OMU7ZHjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/IN2OMU7ZHjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 This videos shows a little demo of the FOSS picking up the increased weight:
 
-<div class="video-container"><iframe width="853" height="480" src="https://www.youtube.com/embed/8XkJwjkDrAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/8XkJwjkDrAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 Here are a few runs during testing. Some with the flywheel and some with the prop.
 
-<div class="video-container"><iframe width="853" height="480" src="https://www.youtube.com/embed/b2b-zLfIH_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/b2b-zLfIH_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ## Raman Spectrum Lidar
 
