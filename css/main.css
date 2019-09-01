@@ -23,10 +23,6 @@ body { /* sets the background settings for the webpage and also the body width f
     height: 100%;
 }
 
-research-box {
-    width: 100%;
-}
-
 .box{
     display: block;
     width: 75%;
