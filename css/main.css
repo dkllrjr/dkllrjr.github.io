@@ -86,7 +86,7 @@ nav ul li, footer ul li { /* sets the listing arrangement of the header and foot
 }
 
 a { /* sets the header/footer font size and the font to standard font without any emphasis (a because a is the link) */
-    font-size:20px;
+    font-size:22px;
     text-decoration:none;
     color:white;
 }
