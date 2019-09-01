@@ -16,7 +16,7 @@
 
 ### Proceedings
   
-Fochesatto G. J., O. Galvez, P. Ristori, <u>D. Keller</u>, and E. L. Fochesatto. “Lidar to Determine the Fractions of Ice, Liquid and Water Vapor in Polar Tropospheric Cloud.” _Proceedings of the 28th International Laser Radar Conference,_ Bucharest, Romania. 25-30 June 2017.
+Fochesatto G. J., O. Galvez, P. Ristori, <u>D. Keller</u>, and E. L. Fochesatto. “Lidar to Determine the Fractions of Ice, Liquid and Water Vapor in Polar Tropospheric Cloud.” _Proceedings of the 28th International Laser Radar Conference,_ Bucharest, Romania. 25-30 June 2017. https://doi.org/10.1051/epjconf/201817601033
 
 ### Poster Presentations
 
