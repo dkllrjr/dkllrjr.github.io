@@ -1,9 +1,9 @@
 /**** Body Formatting ****/
 
 body { /* sets the background settings for the webpage and also the body width for the content to use */
-    margin:auto auto;
-    width:100%;
-    height:100%;
+    margin: auto auto;
+    width: 100%;
+    height: 100%;
     background-color: #000;
 }
 
@@ -21,6 +21,10 @@ body { /* sets the background settings for the webpage and also the body width f
     padding-top: 56.25%;
     height: auto;
     margin: auto;
+}
+
+research-box {
+    width: 100%;
 }
 
 .box{
