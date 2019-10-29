@@ -15,34 +15,41 @@ This is what I will be primarily focusing on for the next 3 years at École Poly
 
 ## Superior Mirages
 
-So when you have an atmosphere that has a warm air layer atop a cold air layer, you create a stable condition with the denser air rests below the less dense air. The denser air has a larger refractive index, so light bends toward it when travelling through. This can cause in extreme conditions, superior mirages, where light rays travelling to the observer (you or I) overlap each other. When they overlap, the original image of what you would see normally, is distorted, creating a mirage. It can result in some really interesting images. Here's a video that shows such a mirage.
+So when you have an atmosphere that has a warm air layer atop a cold air layer, you create a stable condition with the denser air resting below the less dense air. The denser air has a larger refractive index, so light bends toward it when travelling through. This can cause, in extreme conditions, superior mirages, where light rays travelling to the observer (such as you or I) overlap each other. When they overlap, the original image of what you would see normally, is distorted, creating a mirage. It can result in some really interesting images. Here's a video that shows such a mirage in the Alaska winter:
 
-Here's a cool video showing some miraging in the Alaska winter:
+<div class="video-container-box"><div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZBC8VFCMfic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
 
-<div class="video-container-box><div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZBC8VFCMfic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+## FOSS Load Cell (My Undergrad Project and Master Thesis)
 
-## FOSS Load Cell
+I made a load cell for my undergraduate degree project and my Master's research. Essentially, a load cell is a device that measures a force applied to it. The way they do this varies from device to device but for the most part, they work by acting as springs with you measuring how much they are compressed or stretched. You measure this compression or stretching, known as deformation in engineer speak, with things called strain gauges. Strain gauges themselves are a deep topic, but the most common one in use is the electrical resistance based strain gauge. Basically, this gauge measures deformation by measuring its change in resistance. Now, to get the force applied to the load cell from all this, you use Hooke's Law. Hooke's law relates the deformation proportionally to the amount of force is applied, and is dependent on the material you use for the load cell. And that's basically how load cells work.
 
-This project was performed for my Master's research. Electric motors are starting to find their way into aviation and NASA has been playing with them to determine their ability. The problem was when they were trying find out the thrust loads an electric motor can produce (with a prop), the load cells used were affected by the electromagnetic interference (EMI) thrown off by the motor. This resulted in NASA's testing not being able to produce the thrust data. This happened because the load cells on the market use resistance based strain gauges (the traditional type of strain gauge found in most strain sensing applications) and the signal in the strain gauges was muddied up by the EMI, or so the theory goes. Danny Eagan and I designed and built a load cell that features both fiber Bragg gratings (optical strain gauges) and resistance based strain gauges. The load cell was to be used for sensing thrust loadings off an electric motor with a flywheel or prop attached. The fiber Bragg gratings aren't affected by the EMI, so by having both sensors on the same device the effect of EMI can be determined.
+The load cell my project partner Daniel Eagan and I made works in the same manner, apart from one major difference. Instead of using a strain gauge based on the change of electrical resistance to measure the deformation, we use a fiber optic sensor called a fiber Bragg grating. Wait, what? Yep, now we're in optics. A fiber Bragg grating, or FBG for short, is a series of burn marks in a fiber optic cable that reflect a particular wavelength of light when shined upon with a white light (as in the white light is shined down the cable, not at it from the outside!). This reflected wavelength changes proportionally to the amount of deformation the FBG feels. So again, we measure the deformation and use Hooke's law to get the force but now we're just using a different way to measure the deformation. This is what we did for our undergraduate project in mechanical engineering.
 
-Here's a picture of the machined thin-wall cylinder:
+Here's what it looked like:
 
 <div style="text-align: center;"><img src="/pictures/load cell final.png" alt="Foss Load Cell" style="width: 50%; height: auto;"></div>
 
-This is the video for the Fiber Optic Sensing System (FOSS) load cell Danny Eagan and I developed for my Master's research project (and also our Senior Project design for our Bachelor's):
+and here's a video:
 
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/IN2OMU7ZHjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-This videos shows a little demo of the FOSS picking up the increased weight:
+and a demo:
 
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/8XkJwjkDrAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-Here are a few runs during testing. Some with the flywheel and some with the prop.
+Why did we do this? We did this because electric motors are starting to find their way into aviation and NASA has been playing with them to determine their capabilities for flight. When you are just starting to investigate propulsion devices for flight, you do a lot of ground testing. And one thing in this ground testing is determining how much thrust, which is a force, is produced by the propulsion device. So they use load cells to measure the thrust. Now, a problem arises with electrical motors when you do this. They produce a lot of electromagnetic interference, or EMI, because... magic. Think of antennas, they intentionally radiate and receive electromagnetic waves, such as radio waves. When these waves are unwanted, it's called EMI. Guess what, EVERY electrical circuit acts like an antenna. Part of the FCC's job in the USA is make sure electrical products properly mitigate this so that everything plays nice with each other in the electronics world. It's kind of an issue. So when you take the electrical motor's EMI into account and realize those electrical resistance based strain gauges are fundamentally used in an electrical circuit to work... well they just can't avoid the EMI. The result is the force data you get when doing ground testing, using load cells based on this tech, is trash. FBG's don't have this problem; they don't use an electrical circuit to work. Hence, you get clean data.
+
+My Master's research was to prove experimentally this is true. The videos below show some of the tests I ran:
 
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/b2b-zLfIH_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
+Spoiler: the experiments backed up the reasoning. Here's my publication on it:
+
+(link to publication)
+
 ## Raman Spectrum Lidar
 
+This was the first research project I had a hand in. 
 A Raman backscattering based lidar that retrieve the different amounts of the different phases of water in the polar atmosphere.
 
 <div style="text-align: center;"><img src="/pictures/bs_holder.png" alt="Beam Splitter Block" style="width: 40%; height: auto;"></div>
