@@ -5,7 +5,7 @@ title: Research
 
 # Research
 
-Here is the research I'm currently working on or have dabbled into.
+Here is the research I've worked on or am currently working on.
 
 ## Mistral Wind and its Interaction with the Mediterranean Sea (My PhD Thesis)
 
@@ -31,17 +31,17 @@ Here's what it looked like:
 
 and here's a video:
 
-<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/IN2OMU7ZHjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video-container-box"><div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/IN2OMU7ZHjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
 
 and a demo:
 
-<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/8XkJwjkDrAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video-container-box"><div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/8XkJwjkDrAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
 
 Why did we do this? We did this because electric motors are starting to find their way into aviation and NASA has been playing with them to determine their capabilities for flight. When you are just starting to investigate propulsion devices for flight, you do a lot of ground testing. And one thing in this ground testing is determining how much thrust, which is a force, is produced by the propulsion device. So they use load cells to measure the thrust. Now, a problem arises with electrical motors when you do this. They produce a lot of electromagnetic interference, or EMI, because... magic. Think of antennas, they intentionally radiate and receive electromagnetic waves, such as radio waves. When these waves are unwanted, it's called EMI. Guess what, EVERY electrical circuit acts like an antenna. Part of the FCC's job in the USA is make sure electrical products properly mitigate this so that everything plays nice with each other in the electronics world. It's kind of an issue. So when you take the electrical motor's EMI into account and realize those electrical resistance based strain gauges are fundamentally used in an electrical circuit to work... well they just can't avoid the EMI. The result is the force data you get when doing ground testing, using load cells based on this tech, is trash. FBG's don't have this problem; they don't use an electrical circuit to work. Hence, you get clean data.
 
 My Master's research was to prove experimentally this is true. The videos below show some of the tests I ran:
 
-<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/b2b-zLfIH_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video-container-box"><div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/b2b-zLfIH_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
 
 Spoiler: the experiments backed up the reasoning. Here's my publication on it:
 
