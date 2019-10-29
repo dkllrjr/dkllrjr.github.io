@@ -99,7 +99,7 @@ a { /* sets the header/footer font size and the font to standard font without an
     font-size:22px;
     text-decoration:none;
     color:white;
-    line-height: 1.15;
+    line-height: 1;
 }
 
 a:hover { /* sets the header/footer font to show an underline when the cursor is hovering over it */ 
