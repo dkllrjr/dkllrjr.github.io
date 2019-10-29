@@ -49,6 +49,7 @@ h2 {
     font-size:40px;
     font-family:'Helvetica','Arial','Sans-Serif';
     color: white;
+    line-height: 1;
 }
 
 h3 {
@@ -99,7 +100,6 @@ a { /* sets the header/footer font size and the font to standard font without an
     font-size: 22px;
     text-decoration: none;
     color: white;
-    padding: 0px;
 }
 
 a:hover { /* sets the header/footer font to show an underline when the cursor is hovering over it */ 
