@@ -29,7 +29,7 @@ body { /* sets the background settings for the webpage and also the body width f
     margin: 0 auto;
 }
 
-.box{
+.box {
     display: block;
     width: 75%;
     background-color: #000;
@@ -49,6 +49,7 @@ h2 {
     font-size:40px;
     font-family:'Helvetica','Arial','Sans-Serif';
     color: white;
+    line-height:1.5;
 }
 
 h3 {
