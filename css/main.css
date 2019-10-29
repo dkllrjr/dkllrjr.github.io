@@ -96,10 +96,10 @@ nav ul li, footer ul li { /* sets the listing arrangement of the header and foot
 }
 
 a { /* sets the header/footer font size and the font to standard font without any emphasis (a because a is the link) */
-    font-size:22px;
-    text-decoration:none;
-    color:white;
-    line-height: .5;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    padding: 0px;
 }
 
 a:hover { /* sets the header/footer font to show an underline when the cursor is hovering over it */ 
