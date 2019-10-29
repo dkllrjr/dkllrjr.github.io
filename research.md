@@ -16,3 +16,15 @@ Here is the research I've worked on or am currently working on. Just click on th
 ## [FOSS Load Cell (My Undergrad Project and Master Thesis)](/research/foss_lc.html)
 
 ## [Raman Spectrum Lidar](/research/raman_lidar.html)
+
+
+
+## <a style="font-size:60px" href="/research/mistral.html">Mistral Wind and its Interaction with the Mediterranean Sea (My PhD Thesis)</a>
+
+## [Turbulent Fluxes, Planetary Boundary Layers, and Lidars](/research/turb_lidars.html)
+
+## [Superior Mirages](/research/sup_mir.html)
+
+## [FOSS Load Cell (My Undergrad Project and Master Thesis)](/research/foss_lc.html)
+
+## [Raman Spectrum Lidar](/research/raman_lidar.html)
