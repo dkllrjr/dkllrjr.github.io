@@ -15,4 +15,4 @@ Here is the research I've worked on or am currently working on. Just click on th
 
 ## [FOSS Load Cell (My Undergrad Project and Master Thesis)](/research/foss_lc.html)
 
-<div style="font-size: 100px;">[Raman Spectrum Lidar](/research/raman_lidar.html)</div>
+## [Raman Spectrum Lidar](/research/raman_lidar.html)
