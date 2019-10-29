@@ -21,7 +21,7 @@ body { /* sets the background settings for the webpage and also the body width f
     left: 0;
     width: 75%;
     height: 75%;
-    margin: auto;
+    text-align: center;
 }
 
 .box{
