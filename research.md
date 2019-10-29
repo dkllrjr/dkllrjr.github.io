@@ -7,24 +7,12 @@ title: Research
 
 Here is the research I've worked on or am currently working on. Just click on the titles for more.
 
-## [Mistral Wind and its Interaction with the Mediterranean Sea (My PhD Thesis)](/research/mistral.html)
+<a style="font-size: 40px" href="/research/mistral.html">Mistral Wind and its Interaction with the Mediterranean Sea (My PhD Thesis)</a>
 
-## [Turbulent Fluxes, Planetary Boundary Layers, and Lidars](/research/turb_lidars.html)
+<a style="font-size: 40px" href="/research/turb_lidars.html">Turbulent Fluxes, Planetary Boundary Layers, and Lidars</a>
 
-## [Superior Mirages](/research/sup_mir.html)
+<a style="font-size: 40px" href="/research/sup_mir.html>Superior Mirages</a>
 
-## [FOSS Load Cell (My Undergrad Project and Master Thesis)](/research/foss_lc.html)
+<a style="font-size: 40px" href="/research/foss_lc.html">FOSS Load Cell (My Undergrad Project and Master Thesis)</a>
 
-## [Raman Spectrum Lidar](/research/raman_lidar.html)
-
-
-
-## <a style="font-size:60px" href="/research/mistral.html">Mistral Wind and its Interaction with the Mediterranean Sea (My PhD Thesis)</a>
-
-## [Turbulent Fluxes, Planetary Boundary Layers, and Lidars](/research/turb_lidars.html)
-
-## [Superior Mirages](/research/sup_mir.html)
-
-## [FOSS Load Cell (My Undergrad Project and Master Thesis)](/research/foss_lc.html)
-
-## [Raman Spectrum Lidar](/research/raman_lidar.html)
+<a style="font-size: 40px" href="/research/raman_lidar.html">Raman Spectrum Lidar</a>
