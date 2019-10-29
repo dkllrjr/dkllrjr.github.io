@@ -107,7 +107,8 @@ a:hover { /* sets the header/footer font to show an underline when the cursor is
 }
 
 footer { /* footer font settings */
-    font-size:20px;
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 /********/
