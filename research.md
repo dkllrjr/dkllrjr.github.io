@@ -13,6 +13,8 @@ The Mistral wind is a cool, dry, strong wind that flows out through the Rhône V
 
 This is what I will be primarily focusing on for the next 3 years at École Polytechnique and LMD. My job is to model the Mistral's interaction with the Mediterranean and the resulting convective cycling.
 
+## Turbulent Fluxes and Lidars
+
 ## Superior Mirages
 
 So when you have an atmosphere that has a warm air layer atop a cold air layer, you create a stable condition with the denser air resting below the less dense air. The denser air has a larger refractive index, so light bends toward it when travelling through. This can cause, in extreme conditions, superior mirages, where light rays travelling to the observer (such as you or I) overlap each other. When they overlap, the original image of what you would see normally, is distorted, creating a mirage. It can result in some really interesting images. Here's a video that shows such a mirage in the Alaska winter:
@@ -45,7 +47,7 @@ My Master's research was to prove experimentally this is true. The videos below 
 
 Spoiler: the experiments backed up the reasoning. Here's my publication on it:
 
-(link to publication)
+[<u>D. Keller</u>, D. R. Eagan, G. J. Fochesatto, R. Peterson, H. M. Chan, A. R. Parker. “Advantages of Fiber Bragg Gratings for Measuring Electric Motor Loadings in Aerospace Application.” _Review of Scientific Instruments_](https://doi.org/10.1063/1.5093556)
 
 ## Raman Spectrum Lidar
 
