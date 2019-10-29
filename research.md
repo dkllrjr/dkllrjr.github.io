@@ -19,7 +19,7 @@ So when you have an atmosphere that has a warm air layer atop a cold air layer, 
 
 Here's a cool video showing some miraging in the Alaska winter:
 
-<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZBC8VFCMfic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video-container-box><div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZBC8VFCMfic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
 
 ## FOSS Load Cell
 
