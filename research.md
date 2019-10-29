@@ -7,6 +7,12 @@ title: Research
 
 Here is the research I'm currently working on or have dabbled into.
 
+## Mistral Wind and its Interaction with the Mediterranean Sea (My PhD Thesis)
+
+The Mistral wind is a cool, dry, strong wind that flows out through the Rhône Valley in the southern part of France into the Gulf of Lion. When it flows over the Mediterranean, it cools and evaporates the water near the surface. This does two things: it cools off the water, making it denser, and it converts more liquid water into gaseous water, leaving behind the salt, which again makes the surface water more dense. Now the surface water is denser than the water underneath and it drops, creating a convection cycle. Due to how the Mediterranean circulates, this convective cycling can aid the circulation and mix around the nutrients in the column of water with ecological consequences.
+
+This is what I will be primarily focusing on for the next 3 years at École Polytechnique and LMD. My job is to model the Mistral's interaction with the Mediterranean and the resulting convective cycling.
+
 ## Superior Mirages
 
 So when you have an atmosphere that has a warm air layer atop a cold air layer, you create a stable condition with the denser air rests below the less dense air. The denser air has a larger refractive index, so light bends toward it when travelling through. This can cause in extreme conditions, superior mirages, where light rays travelling to the observer (you or I) overlap each other. When they overlap, the original image of what you would see normally, is distorted, creating a mirage. It can result in some really interesting images. Here's a video that shows such a mirage.
@@ -14,10 +20,6 @@ So when you have an atmosphere that has a warm air layer atop a cold air layer, 
 Here's a cool video showing some miraging in the Alaska winter:
 
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZBC8VFCMfic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
-# Aged Research and Projects
-
-Here lies my old research/projects. Enjoy!
 
 ## FOSS Load Cell
 
