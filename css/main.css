@@ -82,7 +82,7 @@ ul li {
 
 nav ul, footer ul { /* sets the header (nav) and footer font, size, and listing-style */
     font-family:'Helvetica','Arial','Sans-Serif';
-    padding:0px;
+    padding:6px;
     list-style:none;
     font-weight:bold;
     text-align: center;
