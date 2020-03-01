@@ -11,7 +11,7 @@ I really have quite a few interests, I've done research on the atmosphere as cov
 
 If you want to know more, or are interested in getting in touch, go ahead and send an email (email emblem at the bottom of the page, or twitter, but I don't check that as often; weird I know). I'll reply as soon as I can. I'm always interested in different and new opportunities.
 
-<div class="box">
+<div class="gen">
     Test input here too
 </div>
 
