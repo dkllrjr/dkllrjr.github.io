@@ -1,5 +1,3 @@
-layout: default
-
 {% capture section1 %}
 Test section 1
 {% endcapture %}
@@ -9,3 +7,5 @@ Test section 2
 {% endcapture %}
 
 {% include test_include.html %}
+
+more here for testing
