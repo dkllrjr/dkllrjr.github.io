@@ -8,4 +8,4 @@ Test section 1
 Test section 2
 {% endcapture %}
 
-{% include template.html %}
+{% include test_include.html %}
