@@ -38,8 +38,6 @@ body { /* sets the background settings for the webpage and also the body width f
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 20px;
-    border: 3px solid #878788;
-    border-radius: 15px;
 }
 
 .gen {
@@ -120,8 +118,6 @@ nav { /* header settings */
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-top: 3px solid #878788;
-    border-bottom: 3px solid #878788;
     margin-bottom: 40px;
 }
 
@@ -132,7 +128,6 @@ footer { /* footer settings */
     font-size: 20px;
     background-color: #020202;
     width: 100%;
-    border-top: 3px solid #878788;
 }
 
 /********/
@@ -154,7 +149,6 @@ img {vertical-align: middle;}
     width: 100%;
     position: relative;
     margin: auto;
-    border-bottom: 3px solid #878788;
 }
 
 /* The dots/bullets/indicators */
