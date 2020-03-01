@@ -42,7 +42,7 @@ body { /* sets the background settings for the webpage and also the body width f
     border-radius: 15px;
 }
 
-gen {
+.gen {
 }
 
 /********/
@@ -141,7 +141,7 @@ footer { /* footer settings */
 .dotbox {
     text-align:center;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 * {box-sizing: border-box;}
