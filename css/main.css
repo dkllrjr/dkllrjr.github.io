@@ -141,7 +141,7 @@ footer { /* footer settings */
 .dotbox {
     text-align:center;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 * {box-sizing: border-box;}
@@ -178,7 +178,7 @@ img {vertical-align: middle;}
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
