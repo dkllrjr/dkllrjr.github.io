@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Doug Keller
+title: A Little About Myself
 
 ---
 

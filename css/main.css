@@ -35,6 +35,8 @@ body { /* sets the background settings for the webpage and also the body width f
     background-color: #000;
     margin: auto;
     padding: 40px;
+    border: 10px #878788;
+    border-radius: 15px;
 }
 
 /********/
@@ -113,7 +115,9 @@ nav { /* header settings */
 }
 
 footer { /* footer settings */
-    padding-top: 18px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 20px;
     background-color: #020202;
     width: 100%;
@@ -121,6 +125,10 @@ footer { /* footer settings */
 
 /********/
 /**** Slide Show ****/
+
+.dotbox {
+    text-align:center
+}
 
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
