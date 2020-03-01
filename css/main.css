@@ -38,7 +38,7 @@ body { /* sets the background settings for the webpage and also the body width f
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 20px;
-    border: 2px solid #878788;
+    border: 3px solid #878788;
     border-radius: 15px;
 }
 
@@ -120,8 +120,9 @@ nav { /* header settings */
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-top: 5px solid #878788;
-    border-bottom: 5px solid #878788;
+    border-top: 3px solid #878788;
+    border-bottom: 3px solid #878788;
+    margin-bottom: 20px;
 }
 
 footer { /* footer settings */
@@ -131,14 +132,14 @@ footer { /* footer settings */
     font-size: 20px;
     background-color: #020202;
     width: 100%;
-    border-top: 5px solid #878788;
+    border-top: 3px solid #878788;
 }
 
 /********/
 /**** Slide Show ****/
 
 .dotbox {
-    text-align:center
+    text-align:center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
