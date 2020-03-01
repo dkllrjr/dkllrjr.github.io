@@ -34,11 +34,11 @@ body { /* sets the background settings for the webpage and also the body width f
     width: 80%;
     background-color: #000;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 40px;
-    border: 10px solid #878788;
+    padding-bottom: 20px;
+    border: 2px solid #878788;
     border-radius: 15px;
 }
 
@@ -117,6 +117,8 @@ nav { /* header settings */
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
+    border: 2px solid #878788;
+    border-radius: 15px;
 }
 
 footer { /* footer settings */
@@ -133,6 +135,8 @@ footer { /* footer settings */
 
 .dotbox {
     text-align:center
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 * {box-sizing: border-box;}
