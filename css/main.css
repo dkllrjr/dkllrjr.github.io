@@ -34,8 +34,11 @@ body { /* sets the background settings for the webpage and also the body width f
     width: 80%;
     background-color: #000;
     margin: auto;
-    padding: 40px;
-    border: 10px #878788;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    border: 10px solid #878788;
     border-radius: 15px;
 }
 
@@ -112,10 +115,12 @@ a:hover { /* sets the header/footer font to show an underline when the cursor is
 nav { /* header settings */
     background-color: #020202;
     width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 footer { /* footer settings */
-    margin-top: 10px;
+    margin-top: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
