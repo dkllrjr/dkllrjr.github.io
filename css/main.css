@@ -154,13 +154,15 @@ img {vertical-align: middle;}
     width: 100%;
     position: relative;
     margin: auto;
+    border-bottom: 3px solid #878788;
 }
 
 /* The dots/bullets/indicators */
 .dot {
     height: 10px;
     width: 10px;
-    margin: 2px 8px;
+    margin-left: 4px;
+    margin-right: 4px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -176,7 +178,7 @@ img {vertical-align: middle;}
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
 }
 
 @-webkit-keyframes fade {
