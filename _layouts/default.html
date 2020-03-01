@@ -27,13 +27,6 @@
 			</div>
 			<br>
 
-			<div class="dotbox">
-				<span class="dot"></span> 
-				<span class="dot"></span> 
-				<span class="dot"></span> 
-				<span class="dot"></span>
-			</div>
-
 			<script>
 			var slideIndex = 0;
 			showSlides();
@@ -41,17 +34,12 @@
 			function showSlides() {
 				var i;
 				var slides = document.getElementsByClassName("mySlides");
-				var dots = document.getElementsByClassName("dot");
 				for (i = 0; i < slides.length; i++) {
 				slides[i].style.display = "none";  
 				}
 				slideIndex++;
 				if (slideIndex > slides.length) {slideIndex = 1}    
-				for (i = 0; i < dots.length; i++) {
-				dots[i].className = dots[i].className.replace(" active", "");
-				}
 				slides[slideIndex-1].style.display = "block";  
-				dots[slideIndex-1].className += " active";
 				setTimeout(showSlides, 5000); // Change image every 2 seconds
 			}
 			</script>
@@ -64,6 +52,7 @@
 					<li><a href="/curriculum_vitae/curriculum_vitae/resume_keller.pdf">CV</a></li>
 					<li><a href="/publications.html">Publications</a></li>
 					<li><a href="/research.html">Research</a></li>
+					<li><a href="/test.html">Test</a></li>
                     <!--<li><a href="/streaming.html">Streaming</a></li>-->
 				</ul>
 			</nav>
