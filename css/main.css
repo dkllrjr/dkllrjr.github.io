@@ -31,9 +31,10 @@ body { /* sets the background settings for the webpage and also the body width f
 
 .box {
     display: block;
-    width: 75%;
+    width: 80%;
     background-color: #000;
     margin: auto;
+    padding: 40px;
 }
 
 /********/
@@ -106,7 +107,7 @@ a:hover { /* sets the header/footer font to show an underline when the cursor is
     text-decoration:underline;
 }
 
-header { /* header settings */
+nav { /* header settings */
     background-color: #020202;
     width: 100%;
 }
