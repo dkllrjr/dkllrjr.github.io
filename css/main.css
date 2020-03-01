@@ -127,8 +127,8 @@ nav { /* header settings */
 
 footer { /* footer settings */
     margin-top: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
     font-size: 20px;
     background-color: #020202;
     width: 100%;
@@ -140,8 +140,8 @@ footer { /* footer settings */
 
 .dotbox {
     text-align:center;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding-top: 0px;
+    padding-bottom: 20px;
 }
 
 * {box-sizing: border-box;}
