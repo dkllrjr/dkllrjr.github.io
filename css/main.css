@@ -145,7 +145,7 @@ img {vertical-align: middle;}
 .slideshow-container {
     width: 100%;
     position: relative;
-    margin: 0;
+    margin-bottom: 0px;
 }
 
 /* The dots/bullets/indicators */
