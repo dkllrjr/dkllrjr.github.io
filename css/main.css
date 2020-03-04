@@ -38,8 +38,8 @@ body { /* sets the background settings for the webpage and also the body width f
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-	border: 5px solid grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 2px;
 }
 
 .gen {
