@@ -32,7 +32,7 @@ body { /* sets the background settings for the webpage and also the body width f
 .box {
     display: block;
     width: 80%;
-    background-color: #000;
+    background-color: #020202;
     margin: auto;
     padding-top: 20px;
     padding-left: 40px;
@@ -145,7 +145,7 @@ img {vertical-align: middle;}
 .slideshow-container {
     width: 100%;
     position: relative;
-    margin: auto;
+    margin: 0;
 }
 
 /* The dots/bullets/indicators */
