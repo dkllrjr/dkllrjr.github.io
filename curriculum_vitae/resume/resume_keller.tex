@@ -1,210 +1,166 @@
-%Curriculum Vitae of Doug Keller
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[11pt,a4paper,sans]{moderncv}
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
 
-\usepackage{hanging}
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
 
-% moderncv themes
-\moderncvstyle{banking}
-\moderncvcolor{black}
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
 
-% adjust the page margins
-\usepackage[a4paper, top = .3in, bottom = .25in, left = .5in, right = .5in]{geometry}
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
 
-% personal data
-\name{Douglas}{Keller Jr.}
-%\address{2752 Midway Placer Rd. \# 10}{Fairbanks, AK, 99709, USA}
-\phone[mobile]{+1~(907)~342~2070}
-\email{dg.kllr.jr@gmail.com; dkeller12@alaska.edu}  
-%\homepage{www.alaskanresearcher.org}
-%\social[linkedin]{dg-kllr-jr}  
-%\social[github]{dkllrjr}                            
+\profilepic{../../pictures/AK_Researcher_logo/AK_Researcher_logo_resume.png} % Profile picture
 
-%----------------------------------------------------------------------------------
-%            content
-%----------------------------------------------------------------------------------
+\cvname{Doug Keller} % Your name
+\cvjobtitle{PhD Student} % Job title/career
+
+\cvdate{December 1994} % Date of birth
+\cvaddress{Gif-sur-Yvette, France} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+33 06 41 04 75 18} % Phone number
+\cvsite{www.alaskanresearcher.org} % Personal website
+\cvmail{dg.kllr.jr@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
 
 \begin{document}
-%-----       resume       ---------------------------------------------------------
-\makecvtitle
 
-\vspace{-1.25cm}
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{I'm a PhD student at the Laboratoire de Météorologie Dynamique in Palaiseau, France. I'm originally from Alaska and was raised in the small town of Chugiak. Growing up I played hockey competitively, peaking at the Junior A Tier III level in the American West Hockey League just before university. More recently, I've trained in Brazilian Jiu Jitsu, Krav Maga, and Muay Thai, and also taught the latter two. I tend to stay active, but I'm not afraid to relax and play a few video games either or even a game of chess. I'm a pretty open book, don't hesitate to send me an email asking for more information.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{Signal Processing/5},{Heat Transfer/5},{Fluid Mechanics/5.5},{Atmospheric Sciences/4.5},{Oceanography/4},{Python, C, CUDA, MATLAB, Fortran/4.5},{Optics/3}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+%\skillstext{{lovely/4},{narcissistic/3}}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+Any and everything relating to the atmosphere and ocean, including numerical weather forecasting, optical phenomena, air-sea interaction, remote sensing, and more. I have experience in multiple areas of engineering and science. Parallel processing and GPU computation are also areas of interest.
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
 
 \section{Education}
-\cventry{Fall 2017 -- Fall 2018}{Master of Science: Mechanical Engineering}{University of Alaska Fairbanks}{Fairbanks, Alaska, USA}{}{}%{GPA: 4.0/4.0}
-\cventry{Fall 2014 -- Fall 2018}{Bachelor of Science: Mechanical Engineering}{University of Alaska Fairbanks}{Fairbanks, Alaska, USA}{}{}%{GPA: 3.8/4.0}
 
-\vspace{-.2cm}
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{since 2019}{Ph.D. Ingénierie, Mécanique et Énergétique}{École Polytechnique, IP Paris}{\emph{Impact of the spatial and temporal variability time of the Mistral on dense water formation in the Mediterranean Sea}}
+	\twentyitem{2017-2018}{M.Sc. Mechanical Engineering}{University of Alaska Fairbanks}{\emph{Comparison Of Resistance-Based Strain Gauges And Fiber Bragg Gratings In The Presence Of Electromagnetic Interference Emitted From An Electric Motor}}
+	\twentyitem{2014-2018}{B.Sc. Mechanical Engineering}{University of Alaska Fairbanks}{\emph{Magna Cum Laude w/ Aerospace Concentration}}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
 
-\section{Research Experience}
-
-\cventry{Fall 2017 -- Fall 2018}{Master of Science Thesis}{University of Alaska Fairbanks}{Fairbanks, Alaska, USA}{}{
-\textit{(In collaboration with and funded by NASA's Armstrong Fight Research Center)}\\
-Determined the effect of electromagnetic interference from electric motors on load sensing strain gauges.\\
-%\textit{Highlighted achievements:}
-%\begin{itemize}
-%\item Placed NASA's Fiber Optic Sensing System (FOSS) and conventional strain gauge systems in high electromagnetic interference environments found in aviation
-%\item Developed a load cell designed around the FOSS to measure thrust from an electric motor coupled with a 3-blade propeller to develop future electric propulsion systems
-%\item Analyzed and compared data retrieved using the FOSS and conventional strain gauges
-%\item Determined the effect of electromagnetic interference on the thrust loading measurements
-%\item Determined the effect of mechanical interference/vibration with both systems in the same test application
-%\end{itemize}}
-}
-
-\cventry{Fall 2017 -- Summer 2018}{Alaska Space Grant Undergraduate Research Fellowship}{Geophysical Institute, University of Alaska Fairbanks}{Fairbanks, Alaska, USA}{}{
-Studied the atmospheric boundary layer (ABL) with NASA's network of micro-pulse lidars (MPLNET).\\
-%\textit{Highlighted achievements:}
-%\begin{itemize}
-%\item Used the MPLNET and radiosonde data to determine the intraday variability of the high latitude atmospheric boundary layer
-%\item Developed algorithms to determine atmospheric boundary layer structural parameters from the MPLNET profiles
-%\item Compared and contrasted collocated lidar and radiosonde retrievals of ABL parameters
-%\item Produced statistical estimates of ABL parameters and computed diurnal and seasonal variations
-%\item Analyzed the high latitude ABL with the MPLNET, radiosonde data, and global positioning system radio occultation (GPSRO)
-%\end{itemize}}
-}
-
-\cventry{Fall 2016}{Raman Spectroscopy Lidar}{Geophysical Institute, University of Alaska Fairbanks}{Fairbanks, Alaska, USA}{}{
-\textit{(Funded by the National Science Foundation)}\\
-Assisted with the setup of a Raman spectroscopy lidar and developed mechanical fixtures for application.\\
-%\textit{Highlighted achievements:}
-%\begin{itemize}
-%\item Gained experience in optomechanical design for Lidar development
-%\item Developed simulation of Lidar signals to condition instrument design for 532 nm, N2, and H2O Raman vibrational bands
-%\item Implemented multichannel Lidar receiver
-%\end{itemize}}
-}
-
-\vspace{-.5cm}
-
-\section{Vocational Experience}
-
-\cventry{Spring 2019 -- Present}{Temporary Research Technician}{Alaska Center for Energy and Power, University of Alaska Fairbanks}{Fairbanks, Alaska, USA}{}{
-Rewriting the Alaska Center for Energy and Power's (ACEP) Energy Technology Facility's (ETF) safety manual.\\
-%\textit{Highlighted achievements:}
-%\begin{itemize}
-%\item Determining the job hazards and required training to safely perform experiments in the ETF
-%\item Adjusting the emergency action plan of ETF to more effectively transfer ETF's emergency systems
-%\end{itemize}}
-}
-
-\cventry{Spring 2017 -- Fall 2018}{Teaching Assistant}{College of Engineering and Mines, University of Alaska Fairbanks}{Fairbanks, Alaska, USA}{}{
-Graded homework and exams, and assisted students with studies in engineering.\\
-%\textit{Highlighted achievements:}
-%\begin{itemize}
-%\item Graded homework and exams for the courses on Mechanics of Materials, Instrumentation and Measurement, and Heat Transfer
-%\item Recorded lectures for Astrodynamics and Mechanical Vibration
-%\end{itemize}}
-}
-
-\cventry{Summer 2017}{Mechanical Engineering Intern}{NASA Armstrong Flight Research Center}{Edwards, California, USA}{}{
-Tested thermodynamics and heat transfer of the initial Fiber Optic Sensing System (FOSS) enclosure concept for the Quiet Supersonic Technology (QueSST) X-Plane (now the X-59).\\
-%\textit{Highlighted achievements:}
-%\begin{itemize}
-%\item Researched heat transfer technologies for FOSS enclosure flight testing application such as heat pipes and thermoelectric coolers
-%\item Analyzed heat transfer methods for FOSS enclosure application including foam insulation
-%\item Designed prototype enclosure for FOSS components, utilizing analyzed methods features foam insulation and heat pipes for improved high temperature environment survivability
-%\end{itemize}}
-}
-
-%\cventry{Summer 2015}{Engineering Intern}{Alaska Department of Transportation}{Fairbanks, Alaska, USA}{}{
-%Determined the compliance of pedestrian facilities in the Fairbanks Borough with the American Disability Act (ADA).\\
-%\textit{Highlighted achievements:}
-%\begin{itemize}
-%\item Measured state maintained pedestrian facilities such as sidewalks and ramps
-%\item Determined pedestrian facility requirements for ADA compliance including required slope accommodation for disabled pedestrians
-%\item Compiled measurement data from multiple interns for coordinator review
-%\end{itemize}}
-%}
-
-%\section{Project Experience}
-
-%\cventry{Summer 2016}{Golf Swing Replicator Prototype}{Project Aisle}{Spokane, Washington, USA}{}{
-%Designed and built a golf swing replicating rig.\\
-%\textit{Highlighted achievements:}
-%\begin{itemize}
-%\item Designed the golf swing replicator prototype in SolidWorks 2014 with adjustable stand, ball holder, and swinging mechanism
-%\item Fabricated the golf swing replicator prototype, utilizing the mill, lathe, and MIG welder
-%\item Tested and analyzed golf swing replicator prototype
-%\end{itemize}}
-%}
-
-%\cventry{Fall 2014 -- Spring 2015}{Ice Arch Build}{University of Alaska Fairbanks}{Fairbanks, Alaska, USA}{}{
-%Part of the construction team that built the winning design for UAF's 2014 Ice Arch competition.\\
-%\textit{Highlighted achievements:}
-%\begin{itemize}
-%\item Assisted with the construction and setup of the wooden ice molds
-%\item Assisted with the transportation of water to form the arch
-%\item Assisted with the erection of the dual ice arch design
-%\end{itemize}}
-%}
-
-\vspace{-.5cm}
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
 
 \section{Publications}
 
-\subsection{Accepted w/ Minor Revisions}
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{2019}{D. Keller, D. R. Eagan, G. J. Fochesatto, R. Peterson, \emph{Advantages of Fiber Bragg Gratings for Measuring Electric Motor Loadings in Aerospace Application} Review of Scientific Instruments}
+	
+\subsection{\underline{Submitted}}
+\newline \\
 
-\cvitem{}{\small\underline{D. Keller}, D. R. Eagan, G. J. Fochesatto, R. Peterson. “Advantages of Fiber Bragg Gratings over Resistance-Based Strain Gauges in the Presence of Electromagnetic Interference Emitted from an Electric Motor for Aerospace Application.”}
+	\twentyitemshort{2020}{D. Keller, G. J. Fochesatto \emph{Seasonal Variation of Subarctic and Arctic Superior Mirages with GPSRO} Applied Optics}
+\end{twentyshort}
 
-\subsection{In Progress}
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
 
-\cvitem{}{\small\underline{D. Keller}, G. J. Fochesatto. “A New Wavelet to Determine the Planetary Boundary Layer Height from MPLNET Lidar Backscatter.”}
-
-\subsection{Conference Proceedings}
-
-\cvitem{}{\small G. J. Fochesatto, O. Galvez, P. Ristori, \underline{D. Keller}, and E. L. Fochesatto. “Lidar to Determine the Fractions of Ice, Liquid and Water Vapor in Polar Tropospheric Cloud.” \textit{Proceedings of the 28th International Laser Radar Conference}, Bucharest, Romania. 25-30 June 2017.}
-
-%\subsection{Conference Poster Presentations}
+%\section{Awards}
 %
-%\cvitem{}{\small\underline{D. Keller}, G. J. Fochesatto. “RAOBs and Micro Pulse Lidar Determination of the Atmospheric Boundary Layer.” \textit{Alaska Space Grant Program Annual Symposium}, Anchorage, Alaska, USA. April 20, 2018.}
-%
-%\cvitem{}{\small\underline{D. Keller}, D. Eagan. “FOSS Load Cell.” \textit{Undergraduate Research and Scholarly Activity Research Day}, Fairbanks, Alaska, USA. April 10, 2018.}
-%
-%\cvitem{}{\small\underline{D. Keller}, G. J. Fochesatto, Ellsworth Welton, Jasper Lewis, James Campbell, and Sebastian Stewart. "Methodology for PBL Retrieval Based on NASA MPLNET Datasets." \textit{99th Annual American Meteorological Society Meeting}, Phoenix, Arizona, USA, Jan. 6-10, 2019.}
+%\begin{twentyshort} % Environment for a short list with no descriptions
+%	\twentyitemshort{1987}{All-Time Best Fantasy Novel.}
+%	\twentyitemshort{1998}{All-Time Best Fantasy Novel before 1990.}
+%	%\twentyitemshort{<dates>}{<title/description>}
+%\end{twentyshort}
 
-%\section{Programming}
-%
-%\cvdoubleitem{Languages}{Python, C/C++, MATLAB, Julia, Fortran}{Operating Systems}{Linux, Windows}
-%\cvdoubleitem{Platforms and APIs}{CUDA, Arduino, Raspberry Pi}{}{}
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
 
-%\section{Honors and Awards}
-%
-%\cvitem{Spring 2018}{Undergraduate Research and Scholarly Activity Award}
-%\cvitem{Fall 2014 – Spring 2018}{University of Alaska Scholars Award}
-%\cvitem{Fall 2014 – Spring 2018}{Alaska Performance Scholarship}
-%\cvitem{Fall 2016 – Spring 2017}{NACE International Alaska Section / BP Scholarship}
-%\cvitem{Spring 2017, Fall 2016, Spring 2016}{Chancellor’s List}
-%\cvitem{Fall 2015, Spring 2015}{Dean’s List}
+\section{Experience}
 
-\vspace{-.3cm}
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{since 2019}{Ph.D. Thesis}{Laboratoire de Météorologie Dynamique}{Determining the spatial and temporal effects of the Mistral and Tramontane winds on the Northwestern Mediterranean Sea}
+	\twentyitem{2019}{Arctic and Subarctic Superior Mirages}{Geophysical Institute}{Determined the occurrence and variability superior mirages in the arctic and subarctic regions with GPS radio occultation.}
+	\twentyitem{2019}{Research Technician}{Alaska Centery for Energy and Power}{Wrote the safety manual for the Energy Technology Facility and performed data analysis and organization for the Alaska Fuel Use Study.}
+	\twentyitem{2017-2018}{M.Sc. Thesis}{College of Engineering and Mines}{Determined the effect of electromagnetic interference from electric motors on load sensing strain gauges utilizing fiber Bragg gratings.}
+	\twentyitem{2017-2018}{Alaska Space Grant Fellowship}{Geophysical Institute}{Studied the atmospheric boundary layer with the use of NASA's MPLNET and developed a new wavelet.}
+	\twentyitem{2017}{Mechanical Engineering Intern}{NASA Armstrong}{Tested the heat transfer capability of the Fiber Optic Sensing System housing for use on the X-59 X-plane}
+	\twentyitem{2016}{Raman Spectroscopy Lidar}{Geophysical Institute}{Designed a beam splitter cube fixture for the optical layout of a H$_2$0 three phase detecting lidar.}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
 
-\section{Sports}
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
 
-\cventry{Winter 2017 -- Winter 2018}{Krav Maga Instructor}{Alaska Krav Maga \& Fitness}{Fairbanks, Alaska, USA}{}{
-Taught Krav Maga, Muay Thai, and fitness classes to students at varying levels of skill. Also trained in Brazilian Jiu Jitsu.}
+\section{References}
 
-\cvitem{Hockey}{
-Played hockey competitively until 2014, peaking at the Junior A Tier III level in the AWHL (now part of the NA3HL). Played intramurals and beer league from then on.}
+\begin{twenty}
+	\twentyitem{Director}{Philippe Drobinski, Ph.D.}{Laboratoire de Météorologie Dynamique}{+33 01 69 33 51 42 \hspace{5pt} philippe.drobinski@lmd.polytechnique.fr}
+	\twentyitem{Researcher}{Romain Pennel, Ph.D.}{Laboratoire de Météorologie Dynamique}{+33 01 69 33 52 33 \hspace{5pt} romain.pennel@lmd.polytechnique.fr}
+	\twentyitem{Dept. Chair}{Javier Fochesatto, Ph.D.}{Atmospheric Sciences, Geophysical Institute}{+1 907 474 7265 \hspace{5pt} gjfochesatto@alaska.edu}
+\end{twenty}
 
-%\cvitem{Skiing}{
-%Skiing downhill and backcountry (with skins and the whole setup for charging steeper lines).}
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
 
-%\section{Hobbies}
-%
-%\cvitem{Other Interests}{Aerospace and aviation, game development, optics and physics, artificial intelligence, quantum communication, music, language learning.}
+%\newpage % Start a new page
 
-%\section{References}
-%
-%\cvitem{}{\textbf{Javier Fochesatto PhD, Associate Professor of Atmospheric Sciences} \newline
-%317 Akasofu Building, 930 Koyukuk Dr., University of Alaska, Fairbanks, Fairbanks, AK 99775 \newline 
-%907-474-7602 $|$ gjfochesatto@alaska.edu}
-%
-%\cvitem{}{\textbf{Paul Bean, Aerospace Technology Engineer} \newline
-%FOSS Lab, NASA Armstrong Flight Research Center, Edwards Air Force Base, CA 93523 \newline
-%661-276-2451 $|$ paul.bean@nasa.gov}
-%
-%\cvitem{}{\textbf{Cheng-fu Chen PhD, Professor of Mechanical Engineering} \newline
-%Duckering 349D, 1760 Tanana Lp., University of Alaska, Fairbanks, Fairbanks, AK 99775 \newline
-%907-474-7265 $|$ cf.chen@alaska.edu}
+%\makeprofile % Print the sidebar
 
-\end{document}
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
