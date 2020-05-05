@@ -1,11 +1,90 @@
 ---
-layout: default
+layout: home
+header:
+  title: Douglas Keller,<br>Alaskan Researcher
+  text:	A PhD student in France studying the ocean and atmosphere.    
+  action: # action button is optional
+    label: More About Me
+    url: '#about'
+
+
+sections:
+
+  - type: portfolio.html
+    # this section has always ID 'portfolio'
+    #section_id: portfolio
+    #background_style: bg-dark
+    projects:
+      - title: Project 1
+        text: This is a very short project description.
+        # the images are located in:
+        # img/portfolio/fullsize
+        # img/portfolio/thumbnails
+        icon: 1.jpg
+        url: '#'
+      - title: Project 2
+        text: This is a very short project description.
+        icon: 2.jpg
+        url: '#'
+      - title: Project 3
+        text: This is a very short project description.
+        icon: 3.jpg
+        url: '#'
+      - title: Project 4
+        text: This is a very short project description.
+        icon: 4.jpg
+        url: '#'
+      - title: Project 5
+        text: This is a very short project description.
+        icon: 5.jpg
+        url: '#'
+
+  - type: aside.html
+    section_id: aside
+    title: Free Download at Start Bootstrap!
+    actions:
+      - title: Download Now!
+        url: https://startbootstrap.com/themes/creative/
+        class: btn-light
+
+  - type: timeline.html
+    section_id: timeline
+    title: Major Achievements!
+    background_style: bg-dark text-primary
+    last_image: assets/img/timeline-end.png
+    actions:
+      - image: assets/img/portfolio/thumbnails/1.jpg
+        title: >+
+          2017-2018
+          **Humble Beginnings**
+        text: >-
+          We begun with small group of people willing to work hard and make our
+          teaching skills worth , in front of all others!
+      - image: assets/img/portfolio/thumbnails/2.jpg
+        title: >+
+          November 2019
+          An Coaching started
+        text: >-
+          We started to gather like minded people and started our stategies
+          and future plans to them. As a result , interested people joined us!
+
+  - type: about-me.html
+    section_id: about
+    background_style: bg-dark
+    title: The cold builds character...
+    text: >-
+      And there was a lot of it in Alaska! While I'm not there much anymore, it's still the place I call home. I was raised there.<br><br> 
+      Test
+
+  - type: contact.html
+    section_id: contacts
+    title: Contact Me!
+    text: Want to talk about potential collaborations or research? Send me an email or message and I will get back to you as soon as possible!
+    actions:
+    - icon: fa-envelope
+      url: mailto:dg.kllr.jr@gmail.com
+    - icon: fa-twitter
+      icon_type: fab
+      url: https://twitter.com/AK_Researcher
+      
 ---
-
-# Doug Keller
-
-I'm a frost-bitten Alaskan that focuses on research. I recently graduated from the University of Alaska Fairbanks with my Bachelors and Masters in Mechanical Engineering and now I'm on my way to École Polytechnique in France to do my PhD.
-
-I really have quite a few interests, I've done research on the atmosphere as covered a little above (check out my [current research](research.html), and [my past stuff](aged_research.html)), but I'm also interested in electronics, computation (particularly in quantum computing and other forms of computing), mathematics, and optics (check out my [projects](projects.html) for my personal projects).
-
-If you want to know more, or are interested in getting in touch, go ahead and send an email (email emblem at the bottom of the page, or twitter, but I don't check that as often; weird I know). I'll reply as soon as I can. I'm always interested in different and new opportunities.
