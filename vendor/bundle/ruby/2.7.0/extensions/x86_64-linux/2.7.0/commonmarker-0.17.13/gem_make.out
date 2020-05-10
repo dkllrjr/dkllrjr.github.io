@@ -1,5 +1,5 @@
 current directory: /home/laplace/dkllrjr.github.io/vendor/bundle/ruby/2.7.0/gems/commonmarker-0.17.13/ext/commonmarker
-/usr/bin/ruby -I /usr/lib/ruby/2.7.0 -r ./siteconf20200502-71766-gtfqlz.rb extconf.rb
+/usr/bin/ruby -I /usr/lib/ruby/2.7.0 -r ./siteconf20200506-64239-1h3sg15.rb extconf.rb
 creating Makefile
 
 current directory: /home/laplace/dkllrjr.github.io/vendor/bundle/ruby/2.7.0/gems/commonmarker-0.17.13/ext/commonmarker
@@ -57,4 +57,4 @@ linking shared-object commonmarker/commonmarker.so
 
 current directory: /home/laplace/dkllrjr.github.io/vendor/bundle/ruby/2.7.0/gems/commonmarker-0.17.13/ext/commonmarker
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20200502-71766-do5c69/commonmarker
+/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20200506-64239-1bx4hp9/commonmarker

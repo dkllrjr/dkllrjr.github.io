@@ -1,0 +1,13 @@
+<nav id="sticky-nav">
+	<div class="nav-bar">
+		<ul>
+			{% for item in site.data.navigation %}
+				<li>
+					<a href="{{ item.link }}" {% if page.url == item.link %}style="opacity: .5;"{% endif %}>
+						{{ item.name }}
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</nav>

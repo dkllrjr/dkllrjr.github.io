@@ -1,5 +1,5 @@
 current directory: /home/laplace/dkllrjr.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
-/usr/bin/ruby -I /usr/lib/ruby/2.7.0 -r ./siteconf20200502-71766-uka4oc.rb extconf.rb
+/usr/bin/ruby -I /usr/lib/ruby/2.7.0 -r ./siteconf20200506-64239-7uxo8v.rb extconf.rb
 creating Makefile
 
 current directory: /home/laplace/dkllrjr.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
@@ -13,4 +13,4 @@ linking shared-object ruby_http_parser.so
 
 current directory: /home/laplace/dkllrjr.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20200502-71766-1shnd60
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20200506-64239-ewuy1u

@@ -31,8 +31,8 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(rubylibprefix)/vendor_ruby
-sitearchdir = $(DESTDIR)./.gem.20200502-71766-v73wyv
-sitelibdir = $(DESTDIR)./.gem.20200502-71766-v73wyv
+sitearchdir = $(DESTDIR)./.gem.20200506-64239-42e354
+sitelibdir = $(DESTDIR)./.gem.20200506-64239-42e354
 sitedir = $(rubylibprefix)/site_ruby
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
@@ -85,7 +85,7 @@ warnflags =
 cppflags = 
 CCDLFLAGS = -fPIC
 CFLAGS   = $(CCDLFLAGS) -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fPIC  $(ARCH_FLAG)
-INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir) -I/usr/lib/libffi-3.2.1/include
+INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)/ruby/backward -I$(hdrdir) -I$(srcdir) 
 DEFS     = 
 CPPFLAGS = -DRUBY_EXTCONF_H=\"$(RUBY_EXTCONF_H)\" -D_FORTIFY_SOURCE=2 $(DEFS) $(cppflags)
 CXXFLAGS = $(CCDLFLAGS) -march=x86-64 -mtune=generic -O2 -pipe -fno-plt  $(ARCH_FLAG)

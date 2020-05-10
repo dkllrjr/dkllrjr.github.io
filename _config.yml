@@ -1,9 +1,6 @@
 # Site settings
-title: Your Title Here
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "/creative-theme-jekyll-new/" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
-author: Copyright &copy; 2019 - Start Bootstrap
+title: Alaskan Researcher
+author: Doug Keller
 lang: en_US
 
 # Build settings
@@ -19,5 +16,37 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - build-in-docker.sh
-  - README.md
+  - vendor/**
+
+collections:
+  research:
+    output: true
+  projects:
+    output: true
+  publications:
+
+defaults:
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: "research"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "projects"
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: "publications"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

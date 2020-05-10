@@ -1,0 +1,26 @@
+{% assign portfolio = site.research | where: "show","true" %}
+{% assign projects = site.projects | where: "show","true" %}
+
+{% assign portfolio = portfolio | concat: projects }
+
+{% assign portfolio = portfolio | sort: 'showcase' %}
+
+<div class="showcase-preamble">
+	<h1 class="showcase-header">My Portfolio</h1>
+	<div class="bar"></div>
+	<p class="showcase-paragraph">Here's some of my work!</p>
+</div>
+
+<div class="portfolio-container">
+	{% for show in portfolio %}
+		<a href="{{ show.url }}">
+			<div {% cycle 'class="show-left"','class="show-right"' %}>
+				<img alt="showcase picture" src="{{ show.image }}">
+				<div class="text">
+					<h3>{{ show.title }}</h3>
+					{{ show.excerpt }}
+				</div>
+			</div>
+		</a>
+	{% endfor %}
+</div>

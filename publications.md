@@ -1,32 +1,82 @@
 ---
 layout: default
+title: Virtual Trees Covered in Ink
 ---
-# Publications
 
-[<u>D. Keller</u>, D. R. Eagan, G. J. Fochesatto, R. Peterson, H. M. Chan, A. R. Parker (2019) “Advantages of Fiber Bragg Gratings for Measuring Electric Motor Loadings in Aerospace Application.” _Review of Scientific Instruments_](https://doi.org/10.1063/1.5093556)
+and other things that used to be in print.
 
-## In Progress
+{% assign pubs = site.publications | sort: 'year' | reverse %}
 
-<u>D. Keller</u>, G. J. Fochesatto. “A New Wavelet to Determine the Planetary Boundary Layer Height from Micro Pulse Lidar Backscatter.”
+<h2>Journal Articles</h2>
 
-<u>D. Keller</u>, G. J. Fochesatto. "Identifying the Seasonal Conditions for the Occurrence of High Latitude Superior Mirages."
+<div class="pub-container">
+	<ul>
+		{% for publication in pubs %}
+			{% if publication.type == 'journal' %}
+				<li>     				
+					<a href="{{ publication.doi }}">
+					{{ publication.authors }} ({{ publication.year }}) "{{ publication.title }}" <i>{{ publication.journal }}</i>
+					</a>
+				</li> 
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>
 
-# Conferences
+<h2>In Progress</h2>
 
-## Talks
+<div class="pub-container">
+	<ul>
+		{% for publication in pubs %}
+			{% if publication.type == 'in progress' %}
+      				<li>
+					{{ publication.authors }} "{{ publication.title }}"
+				</li> 
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>
 
-<u>D. Keller</u>, G. J. Fochesatto. "Identifying the Conditions for the Occurrence of High Latitude Superior Mirages." _Light and Color in Nature,_ Bar Harbor, Maine, USA. July 15, 2019
+<h2>Talks</h2>
 
-## Poster Presentations
+<div class="pub-container">
+	<ul>
+		{% for publication in pubs %}
+			{% if publication.type == 'talk' %}
+      				<li>
+					{{ publication.authors }} "{{ publication.title }}" <i>{{ publication.conference }}</i> {{ publication.location }}. {{ publication.date_time }}
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>
 
-<u>D. Keller</u>, G. J. Fochesatto. "Representation of Microscale Surface Turbulent Fluxes in the Planetary Boundary Layer: The Case of the Complex Heterogeneous Terrain of the Arctic Tundra." _100th Annual American Meteorological Society Meeting,_ Boston, Massachusetts, USA. Jan. 12-16, 2020 
+<h2>Posters</h2>
 
-<u>D. Keller</u>, G. J. Fochesatto. "New Wavelet to Determine the Planetary Boundary Layer Height." _99th Annual American Meteorological Society Meeting,_ Pheonix, Arizona, USA. Jan. 6-10, 2019
+<div class="pub-container">
+	<ul>
+		{% for publication in pubs %}
+			{% if publication.type == 'poster' %}
+      				<li>
+					{{ publication.authors }} "{{ publication.title }}" <i>{{ publication.conference }}</i> {{ publication.location }}. {{ publication.date_time }}
+				</li> 
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>
 
-<u>D. Keller</u>, G. J. Fochesatto. “RAOBs and Micro Pulse Lidar Determination of the Atmospheric Boundary Layer.” _Alaska Space Grant Program Annual Symposium,_ Anchorage, Alaska, USA. April 20, 2018
+<h2>Conference Proceedings</h2>
 
-<u>D. Keller</u>, D. Eagan. “FOSS Load Cell.” _Undergraduate Research and Scholarly Activity Research Day,_ Fairbanks, Alaska, USA. April 10, 2018
-
-## Proceedings
-
-[Fochesatto G. J., O. Galvez, P. Ristori, <u>D. Keller</u>, and E. L. Fochesatto. “Lidar to Determine the Fractions of Ice, Liquid and Water Vapor in Polar Tropospheric Cloud.” _Proceedings of the 28th International Laser Radar Conference,_ Bucharest, Romania. 25-30 June 2017](https://doi.org/10.1051/epjconf/201817601033)
+<div class="pub-container">
+	<ul>
+		{% for publication in pubs %}
+			{% if publication.type == 'proceedings' %}
+				<li>      			
+					<a href="{{ publication.doi }}">
+						{{ publication.authors }} "{{ publication.title }}" <i>{{ publication.conference }}</i> {{ publication.location }}. {{ publication.date_time }}
+					</a>
+				</li> 
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>

@@ -1,0 +1,16 @@
+- name: Home
+  link: /
+- name: About Me
+  link: /about.html
+- name: Research
+  link: /research.html
+- name: Projects
+  link: /projects.html
+- name: Blog
+  link: /blog.html
+- name: Publications
+  link: /publications.html
+- name: Resumé
+  link: /curriculum_vitae/resume/resume_keller.pdf
+- name: CV
+  link: /curriculum_vitae/curriculum_vitae/cv_keller.pdf

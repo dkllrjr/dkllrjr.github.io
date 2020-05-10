@@ -1,77 +1,21 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-            <link rel="icon" type="image/png" href="pictures/AK_Researcher_logo/AK_Researcher_logo_favicon.png">
-		</head>
-		<body>
-			<div class="slideshow-container">
-				<div class="mySlides fade">
-					<img src="/pictures/foss_load_cell_wire.png" style="width:100%; height: auto;">
-				</div>
-
-				<div class="mySlides fade">
-					<img src="/pictures/mplnet_demo.png" style="width:100%; height: auto;">
-				</div>
-				
-				<div class="mySlides fade">
-					<img src="/pictures/graph_demo.png" style="width:100%; height: auto;">
-				</div>
-				
-				<div class="mySlides fade">
-					<img src="/pictures/foss_lc.png" style="width:100%; height: auto;">
-				</div>
-			</div>
-			<br>
-
-			<script>
-			var slideIndex = 0;
-			showSlides();
-
-			function showSlides() {
-				var i;
-				var slides = document.getElementsByClassName("mySlides");
-				for (i = 0; i < slides.length; i++) {
-				slides[i].style.display = "none";  
-				}
-				slideIndex++;
-				if (slideIndex > slides.length) {slideIndex = 1}    
-				slides[slideIndex-1].style.display = "block";  
-				setTimeout(showSlides, 5000); // Change image every 2 seconds
-			}
-			</script>
-			
-			<nav>
-				<ul>
-					<li><a href="/">Doug Keller</a></li>
-                    <li><a href="/about_me.html">About Me</a></li>
-                    <li><a href="/curriculum_vitae/resume/resume_keller.pdf">Resumé</a></li>
-					<li><a href="/curriculum_vitae/curriculum_vitae/cv_keller.pdf">CV</a></li>
-					<li><a href="/publications.html">Publications</a></li>
-					<li><a href="/research.html">Research</a></li>
-                    <!--<li><a href="/streaming.html">Streaming</a></li>-->
-				</ul>
-			</nav>
-			
-			<div class="box">
-				{{ content }}
-			</div>
-
-			<footer>
-				<ul>
-					<li><a href="mailto:dg.kllr.jr@gmail.com"><img src='../social_media_icons/email.png' width="25" /></a></li>
-					<li><a href="https://github.com/dkllrjr"><img src='../social_media_icons/github.png' width="25" /></a></li>
-                    			<li><a href="https://twitter.com/AK_Researcher"><img src='../social_media_icons/twitter.png' width="25" /></a></li>
-                    			<li><a href="https://www.linkedin.com/in/dg-kllr-jr/"><img src='../social_media_icons/linkedin.png' width="25" /></a></li>
-                    			<li><a href="https://www.youtube.com/channel/UCWux0xszsp373cTWb-yBJwA"><img src='../social_media_icons/youtube.png' width="25" /></a></li>
-                    			<li><a href="https://alaskan-gamer.itch.io"><img src='../social_media_icons/itchio.png' width="25" /></a></li>
-                    			<li><a href="https://www.twitch.tv/alaskanresearcher"><img src='../social_media_icons/twitch.png' width="25" /></a></li>
-					<li><a href="https://mixer.com/AlaskanResearcher"><img src='../social_media_icons/mixer.png' width="25" /></a></li>
-				</ul>
-			</footer>
-		</body>
-
-	</html>
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" href="/assets/css/styles.css">
+		<link rel="shortcut icon" href="/assets/img/logo/AK_Researcher_logo_favicon.png">
+		{% seo %}
+	</head>
+	<body>
+		{% include header.html %}
+		{% include navigation.html %}
+		<div class="content">
+			<div class="page-title">{{ page.title }}</div>
+			{{ content }}
+		</div>
+		{% include contact.html %}
+		{% include footer.html %}
+	</body>
+	<script src="/assets/js/sticky_nav.js"></script>
+</html>

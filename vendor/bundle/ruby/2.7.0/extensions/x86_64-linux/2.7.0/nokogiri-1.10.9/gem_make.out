@@ -1,5 +1,5 @@
 current directory: /home/laplace/dkllrjr.github.io/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.9/ext/nokogiri
-/usr/bin/ruby -I /usr/lib/ruby/2.7.0 -r ./siteconf20200502-71766-1ved12c.rb extconf.rb
+/usr/bin/ruby -I /usr/lib/ruby/2.7.0 -r ./siteconf20200506-64239-1rliohu.rb extconf.rb
 checking if the C compiler accepts ... yes
 Building nokogiri using packaged libraries.
 Using mini_portile version 2.4.0
@@ -476,4 +476,4 @@ rm -rf /home/laplace/dkllrjr.github.io/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.
 
 current directory: /home/laplace/dkllrjr.github.io/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.10.9/ext/nokogiri
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 nokogiri.so ./.gem.20200502-71766-muqjf2/nokogiri
+/usr/bin/install -c -m 0755 nokogiri.so ./.gem.20200506-64239-33h38m/nokogiri
