@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: research
 title: FOSS Load Cell (My Undergrad Project and Master Thesis)
 year: 2018
 ---
@@ -10,7 +10,7 @@ The load cell my project partner Daniel Eagan and I made works in the same manne
 
 Here's what it looked like:
 
-<div style="text-align: center;"><img src="/assets/img/portfolio/load_cell_final.png" alt="Foss Load Cell" style="width: 60%; height: auto;"></div>
+<div style="text-align: center; padding: 30px;"><img src="/assets/img/portfolio/load_cell_final.png" alt="Foss Load Cell" style="width: 60%; height: auto;"></div>
 
 and here's a video:
 

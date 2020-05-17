@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: It Starts Here
 date: 2020-05-10 00:19
 categories: beginning

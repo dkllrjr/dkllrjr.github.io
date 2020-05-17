@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: research
 title: Superior Mirages
 year: 2020
 show: true

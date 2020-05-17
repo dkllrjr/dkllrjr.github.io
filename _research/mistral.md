@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: research
 title: Mistral Wind and its Interaction with the Mediterranean Sea (My PhD Thesis)
 year: 2020
 show: true
