@@ -13,9 +13,9 @@
 - name: youtube
   website: https://www.youtube.com/channel/UCWux0xszsp373cTWb-yBJwA?view_as=subscriber
   icon: /assets/img/icons/youtube.png
-- name: mixer
-  website: https://mixer.com/AlaskanResearcher
-  icon: /assets/img/icons/mixer.png
+- name: twitch
+  website: https://www.twitch.tv/alaskanresearcher
+  icon: /assets/img/icons/twitch.png
 - name: itchio
   website: https://socratic-salmon-games.itch.io
   icon: /assets/img/icons/itchio.png
