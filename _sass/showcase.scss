@@ -8,6 +8,7 @@
 
 .portfolio-container img {
 	width: 35%;
+    min-width: 200px;
 	margin: 100px 0;
 }
 
@@ -15,6 +16,7 @@
 	width: 50%;
 	margin: 30px 5%;
 	text-align: justify;
+    overflow: hidden;
 }
 
 .show-left, .show-right {

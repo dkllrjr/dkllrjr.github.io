@@ -1,20 +1,29 @@
 .contact-container {
 	background-color: rgba(5,22,34,1);
+    padding: 0;
+    margin: auto;
+    width: 90%;
+    text-align: center;
 }
 
 .social-media-container {
+    display: inline-block;
 	text-align: center;
 	background-color: none;
 	padding: 40px;
 }
 
 #social-media-icons ul {
+    display: inline-block;
+    padding: 0;
+    text-align: center;
 	list-style: none;
 }
 
 #social-media-icons ul li {
 	display: inline-block;
-	margin: 0 3.25%;
+	padding: 5px 30px;
+    margin: auto;
 }
 
 #social-media-icons ul li img {
