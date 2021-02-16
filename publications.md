@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Virtual Trees Covered in Ink
+title: My Publications
 ---
 
-and other things that used to be in print.
+Virtual trees covered in ink and other things that used to be in print.
 
 {% assign pubs = site.publications | sort: 'year' | reverse %}
 
