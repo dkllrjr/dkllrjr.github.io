@@ -4,7 +4,7 @@ title: FOSS Load Cell (My Undergrad Project and Master Thesis)
 show: true
 showcase: 3
 year: 2018
-image: assets/img/portfolio/foss_lc.png
+image: assets/img/portfolio/foss_load_cell_wire.png
 ---
 
 I made a load cell for my undergraduate degree project and my Master's research. Essentially, a load cell is a device that measures a force applied to it. The way they do this varies from device to device but for the most part, they work by acting as springs with you measuring how much they are compressed or stretched. You measure this compression or stretching, known as deformation in engineer speak, with things called strain gauges. Strain gauges themselves are a deep topic, but the most common one in use is the electrical resistance based strain gauge. Basically, this gauge measures deformation by measuring its change in resistance. Now, to get the force applied to the load cell from all this, you use Hooke's Law. Hooke's law relates the deformation proportionally to the amount of force is applied, and is dependent on the material you use for the load cell. And that's basically how load cells work.
