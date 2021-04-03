@@ -4,7 +4,7 @@ title: Superior Mirages
 year: 2020
 show: true
 image: /assets/img/portfolio/mirage_bef_aft.png
-showcase: 3
+showcase: 2
 ---
 
 So when you have an atmosphere that has a warm air layer atop a cold air layer, you create a stable condition with the denser air resting below the less dense air. The denser air has a larger refractive index, so light bends toward it when travelling through. This can cause, in extreme conditions, superior mirages, where light rays travelling to the observer (such as you or I) overlap each other. When they overlap, the original image of what you would see normally, is distorted, creating a mirage. It can result in some really interesting images. Here's a video that shows such a mirage in the Alaska winter:

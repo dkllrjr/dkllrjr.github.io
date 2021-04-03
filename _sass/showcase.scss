@@ -1,59 +1,9 @@
-.portfolio-container {
-	width: 90%;
-	margin: 0 auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-}
-
-.portfolio-container img {
-	width: 35%;
-    min-width: 200px;
-	margin: 100px 0;
-}
-
-.text {
-	width: 50%;
-	margin: 30px 5%;
-	text-align: justify;
-    overflow: hidden;
-}
-
-.show-left, .show-right {
-	overflow: auto;
-	border: solid;
-	margin: 50px 0;
-}
-
-.show-left:hover, .show-right:hover {
-	opacity: .5;
-	transition: .5s;
-}
-
-.show-left img {
-	float: left;
-	margin-left: 5%;
-}
-
-.show-left .text {
-	float: right;
-}
-
-.show-right img {
-	float: right;
-	margin-right: 5%;
-}
-
-.show-right .text {
-	float: left;
-}
-
 .showcase-header {
 	font-size: 50px;
 }
 
 .showcase-preamble {
-	margin-top: 50px;
+	margin-top: 70px;
 	color: rgba(27,160,152,1);
 	text-align: center;
 }
@@ -63,8 +13,50 @@
 	margin-bottom: 10px;
 }
 
+.portfolio-container {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.portfolio-container img {
+    width: 45%;
+    margin: auto;
+    min-width: 250px;
+}
+
+.portfolio-container .text {
+    width: 45%;
+    margin: auto;
+	text-align: justify;
+    overflow: hidden;
+}
+
 .portfolio-container a {
 	color: rgba(222,185,146,1);
 	text-decoration: none;
 	border: none;
+}
+
+.show-left, .show-right {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid;
+    margin: 25px;
+}
+
+.show-left:hover, .show-right:hover {
+	opacity: .5;
+	transition: .5s;
+}
+
+.show-left img {
+    order: -1;
+}
+
+.show-right img {
+    order: 1;
 }

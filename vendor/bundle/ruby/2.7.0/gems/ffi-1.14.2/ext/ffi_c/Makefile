@@ -31,8 +31,13 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(rubylibprefix)/vendor_ruby
+<<<<<<< HEAD
 sitearchdir = $(DESTDIR)./.gem.20210204-595888-1ssnhy9
 sitelibdir = $(DESTDIR)./.gem.20210204-595888-1ssnhy9
+=======
+sitearchdir = $(DESTDIR)./.gem.20210207-71872-ab51pb
+sitelibdir = $(DESTDIR)./.gem.20210207-71872-ab51pb
+>>>>>>> 4ae71794ebe4b4b0ee852e803fb646e2729b4f0c
 sitedir = $(rubylibprefix)/site_ruby
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)
@@ -141,7 +146,11 @@ LIBS = $(LIBRUBYARG_SHARED) -lffi  -lffi -lm   -lc
 ORIG_SRCS = AbstractMemory.c ArrayType.c Buffer.c Call.c ClosurePool.c DynamicLibrary.c Function.c FunctionInfo.c LastError.c LongDouble.c MappedType.c MemoryPointer.c MethodHandle.c Platform.c Pointer.c Struct.c StructByValue.c StructLayout.c Thread.c Type.c Types.c Variadic.c ffi.c
 SRCS = $(ORIG_SRCS) 
 OBJS = AbstractMemory.o ArrayType.o Buffer.o Call.o ClosurePool.o DynamicLibrary.o Function.o FunctionInfo.o LastError.o LongDouble.o MappedType.o MemoryPointer.o MethodHandle.o Platform.o Pointer.o Struct.o StructByValue.o StructLayout.o Thread.o Type.o Types.o Variadic.o ffi.o
+<<<<<<< HEAD
 HDRS = $(srcdir)/StructByValue.h $(srcdir)/MappedType.h $(srcdir)/rbffi.h $(srcdir)/AbstractMemory.h $(srcdir)/Type.h $(srcdir)/LongDouble.h $(srcdir)/rbffi_endian.h $(srcdir)/Types.h $(srcdir)/extconf.h $(srcdir)/DynamicLibrary.h $(srcdir)/LastError.h $(srcdir)/Function.h $(srcdir)/MethodHandle.h $(srcdir)/Call.h $(srcdir)/MemoryPointer.h $(srcdir)/Platform.h $(srcdir)/Struct.h $(srcdir)/ArrayType.h $(srcdir)/ClosurePool.h $(srcdir)/Thread.h $(srcdir)/compat.h $(srcdir)/Pointer.h
+=======
+HDRS = $(srcdir)/Call.h $(srcdir)/LastError.h $(srcdir)/Struct.h $(srcdir)/Thread.h $(srcdir)/StructByValue.h $(srcdir)/LongDouble.h $(srcdir)/rbffi_endian.h $(srcdir)/Platform.h $(srcdir)/AbstractMemory.h $(srcdir)/Type.h $(srcdir)/ArrayType.h $(srcdir)/MemoryPointer.h $(srcdir)/Function.h $(srcdir)/Types.h $(srcdir)/Pointer.h $(srcdir)/DynamicLibrary.h $(srcdir)/rbffi.h $(srcdir)/compat.h $(srcdir)/ClosurePool.h $(srcdir)/extconf.h $(srcdir)/MethodHandle.h $(srcdir)/MappedType.h
+>>>>>>> 4ae71794ebe4b4b0ee852e803fb646e2729b4f0c
 LOCAL_HDRS = 
 TARGET = ffi_c
 TARGET_NAME = ffi_c
