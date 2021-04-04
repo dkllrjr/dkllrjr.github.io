@@ -113,7 +113,7 @@ Senior Project - FOSS Load Cell<br>
 *(Fall 2020 - Present)*
 
 *Highlighted achievements:*
-- Taught petit class for Master students in MEC559, Introduction to Wind Energy. Topics included:
+- Taught petite class for Master students in MEC559, Introduction to Wind Energy. Topics included:
     - Wind turbine design
     - Airfoils
     - Atmospheric dynamics and resources
