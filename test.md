@@ -3,4 +3,4 @@
 
 {% include publications.html %}
 
-{% assign res = site.data.
+{% assign res = site.data %}
