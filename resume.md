@@ -1,17 +1,13 @@
 ---
-margin: .5in
-mainfont: sans serif
+geometry: margin=1.5cm
+fontfamily: dejavu
 ---
 
 # Douglas Keller Jr.
 
-PhD Student
+<!--[alaskanresearcher.org](https://www.alaskanresearcher.org)-->
 
-[alaskanresearcher.org](https://www.alaskanresearcher.org)
-
-[LinkedIn](https://www.linkedin.com/in/dg-kllr-jr/)
-
-## Interests
+<!--[LinkedIn](https://www.linkedin.com/in/dg-kllr-jr/)-->
 
 ## Education
 
@@ -57,15 +53,15 @@ Tested the heat transfer capabilities of the Fiber Optic Sensing System housing 
 
 ### Philippe Drobinski PhD
 
-*Director of Laboratoire de Météorologie Dynamique*, École Polytechnique, Palaiseau, FR 91120<br>
+*Director of Laboratoire de Météorologie Dynamique*, Laboratoire de Météorologie Dynamique, IPSL, École Polytechnique, Palaiseau, FR 91120<br>
 +33 01 69 33 51 42 | philippe.drobinski@lmd.ipsl.fr
 
 ### Romain Pennel PhD
 
-*Director of Laboratoire de Météorologie Dynamique*, École Polytechnique, Palaiseau, FR 91120<br>
+*Researcher/Engineer*, Laboratoire de Météorologie Dynamique, IPSL, École Polytechnique, Palaiseau, FR 91120<br>
 +33 01 69 33 52 33 | romain.pennel@lmd.ipsl.fr
 
-### Gilberto "Javier" Fochesatto PhD
+<!--### Gilberto "Javier" Fochesatto PhD-->
 
-*Professor of Atmospheric Sciences*, University of Alaska Fairbanks, Fairbanks, AK, USA 99775<br>
-+1 907-474-7602 | gjfochesatto@alaska.edu
+<!--*Professor of Atmospheric Sciences*, University of Alaska Fairbanks, Fairbanks, AK, USA 99775<br>-->
+<!--+1 907-474-7602 | gjfochesatto@alaska.edu-->
