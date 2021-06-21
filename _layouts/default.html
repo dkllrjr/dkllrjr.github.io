@@ -5,18 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" href="/assets/css/styles.css">
-		<link rel="shortcut icon" href="/assets/img/logo/AK_Researcher_logo_favicon.png">
+
 		{% seo %}
 	</head>
 	<body>
-		{% include header.html %}
-		{% include navigation.html %}
 		<div class="content">
 			<div class="page-title">{{ page.title }}</div>
 			{{ content }}
 		</div>
-		{% include contact.html %}
-		{% include footer.html %}
 	</body>
-	<script src="/assets/js/sticky_nav.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </html>

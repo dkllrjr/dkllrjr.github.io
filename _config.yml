@@ -5,47 +5,21 @@ lang: en_US
 
 # Build settings
 safe: true # always trues on github-pages, disables _plugins/
-markdown: kramdown
+markdown: redcarpet
 sass:
-  indentWidth: 4
-  style: compact
-  precision: 10
+    indentWidth: 4
+    style: compact
+    precision: 10
 plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+    - jekyll-sitemap
+    - jekyll-seo-tag
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor/**
-
-collections:
-  research:
-    output: true
-  projects:
-    output: true
-  publications:
+    - Gemfile
+    - Gemfile.lock
+    - vendor/**
+    - archive/**
 
 defaults:
-  - scope:
-      path: ""
-      type: "research"
-    values:
-      layout: "research"
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "projects"
-  - scope:
-      path: ""
-      type: "publications"
-    values:
-      layout: "publications"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
   - scope:
       path: ""
     values:
