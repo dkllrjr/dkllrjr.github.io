@@ -1,0 +1,127 @@
+#resume-body {
+    font-family: "UbuntuMono", UbuntuMono, sans-serif;
+    width: 21cm;
+    height: 29.7cm;
+    border: 1px solid black;
+}
+
+.resume {
+    margin: 1cm;
+}
+
+.resume .flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.resume .left-flex-container {
+    flex: 30%;
+}
+
+.resume .right-flex-container {
+    flex: 70%;
+}
+
+.resume .inside-left-flex-container {
+    margin: auto;
+    padding: 20px;
+}
+
+.resume .inside-right-flex-container {
+    margin: auto;
+    padding: 20px;
+}
+
+.resume .vspan-flex {
+    //flex: 2%;
+    text-align: center;
+}
+
+.resume .vspan {
+    height: 500px;
+    padding: 1px;
+    background-color: black;
+    margin: auto;
+}
+
+.resume .name {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.resume .name-title {
+    flex: 80%;
+}
+
+.resume img {
+    height: 90px;
+}
+
+.resume .img-flex {
+    flex: 20%;
+    margin: auto;
+}
+
+.resume h1 {
+    font-size: 26pt;
+    text-decoration: bold;
+    margin: 10px;
+}
+
+.resume .hspan-big {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 1);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.resume .hspan {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 1);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.resume .left-hspan {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 1);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.resume .right-hspan {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 1);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.resume .contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.resume .contact-item {
+    flex: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.resume .contact-icon {
+    flex: 15%;
+}
+
+.resume .contact-icon-img {
+    height: 20px;
+}
+
+.resume .contact-name {
+    flex: 85%;
+}
