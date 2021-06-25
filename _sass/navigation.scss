@@ -1,0 +1,59 @@
+nav {
+    flex: 70%;
+    text-align: right;
+    margin: auto;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+    margin: auto;
+    padding-right: 40px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 2px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 255);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    opacity: .5;
+    transition: .5s;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.brand {
+    display: flex;
+    text-align: left;
+    flex: 30%;
+}
+
+.brand img {
+    height: 50px;
+    padding: 10px 20px;
+    margin: auto;
+}
+
+.name {
+    color: rgba(0, 0, 0, 255);
+    font-size: 32px;
+    font-weight: bold;
+    margin: auto;
+    flex: 50%;
+    text-align: center;
+}
+
+

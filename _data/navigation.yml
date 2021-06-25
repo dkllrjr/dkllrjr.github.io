@@ -1,0 +1,10 @@
+- name: WELCOME
+  link: /
+- name: RESEARCH
+  link: /research.html
+- name: PROJECTS
+  link: /projects.html
+- name: EXPERIENCE
+  link: /experience.html
+- name: PUBLICATIONS
+  link: /publications.html
