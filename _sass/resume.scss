@@ -1,12 +1,19 @@
 #resume-body {
     font-family: "UbuntuMono", UbuntuMono, sans-serif;
+    font-size: 12pt;
     width: 21cm;
     height: 29.7cm;
+    margin: 0;
+    padding: 0;
     border: 1px solid black;
 }
 
 .resume {
-    margin: 1cm;
+    margin: 8px 10px;
+    height: 97.5%;
+    //border: 5px solid black;
+    border-bottom: 6px solid black;
+    border-top: 6px solid black;
 }
 
 .resume .flex-container {
@@ -24,12 +31,14 @@
 
 .resume .inside-left-flex-container {
     margin: auto;
-    padding: 20px;
+    padding: 0;
+    padding-right: 10px;
 }
 
 .resume .inside-right-flex-container {
     margin: auto;
-    padding: 20px;
+    padding: 0;
+    padding-left: 10px;
 }
 
 .resume .vspan-flex {
@@ -38,7 +47,7 @@
 }
 
 .resume .vspan {
-    height: 500px;
+    height: 900px;
     padding: 1px;
     background-color: black;
     margin: auto;
@@ -69,6 +78,21 @@
     font-size: 26pt;
     text-decoration: bold;
     margin: 10px;
+}
+
+.resume h2 {
+    font-size: 20pt;
+    text-decoration: bold;
+    margin: 10px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.resume h3 {
+    font-size: 14pt;
+    text-decoration: bold;
+    margin: 4px;
+    padding: 0;
 }
 
 .resume .hspan-big {
@@ -103,6 +127,11 @@
     padding-bottom: 1px;
 }
 
+//.resume #top-column {
+    //margin-top: 0;
+//}
+
+
 .resume .contact {
     display: flex;
     flex-direction: column;
@@ -124,4 +153,8 @@
 
 .resume .contact-name {
     flex: 85%;
+}
+
+.resume .education-item {
+    margin: 6px 0;
 }

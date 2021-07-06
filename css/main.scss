@@ -34,12 +34,16 @@
 // }
 
 // variables.less
-$theme-primary: #F05F40;
-$theme-dark: #222;
+//$theme-primary: #F05F40;
+//$theme-dark: #222;
+//$theme-primary: #2CB3FC;
+$theme-primary: #0396E5;
+$theme-dark: #737373;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "mixins",
         "base",
-        "resume"
+        "resume",
+        "portfolio"
 ;

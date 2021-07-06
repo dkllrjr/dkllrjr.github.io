@@ -52,7 +52,14 @@ p {
 }
 
 .text-faded {
-    color: rgba(white, .7);
+    color: rgba(white, 0.8);
+    font-weight: bold;
+}
+
+.text-faded a {
+    &:hover {
+        color: $theme-dark;
+    }
 }
 
 section {
@@ -155,7 +162,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/splash/great_wave_black_blurred.png');
     text-align: center;
     color: white;
     .header-content {
@@ -174,8 +181,8 @@ header {
                 margin: 30px auto;
             }
             p {
-                font-weight: 300;
-                color: rgba(white, .7);
+                font-weight: bold;
+                color: rgba(white, .8);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
@@ -278,8 +285,8 @@ header {
     }
 }
 
-.call-to-action {
-    h2 {
+.call-to-action-publications {
+    h1 {
         margin: 0 auto 20px;
     }
 }

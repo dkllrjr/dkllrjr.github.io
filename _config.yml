@@ -4,8 +4,13 @@ author: Doug Keller
 lang: en_US
 
 email: dg.kllr.jr@gmail.com
-twitter_username: ak_researcher
-github_username: dkllrjr
+twitter: ak_researcher
+github: dkllrjr
+gitlab: dkllrjr
+itchio: socratic-salmon-games
+twitch: alaskanresearcher
+youtube: "UCWux0xszsp373cTWb-yBJwA"
+linkedin: "dg-kllr-jr"
 
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
