@@ -1,0 +1,95 @@
+articles:
+
+  - article:
+    type: journal
+    authors: <u>D. Keller</u>, D. R. Eagan, G. J. Fochesatto, R. Peterson, H. M. Chan, A. R. Parker
+    year: 2019
+    title: Advantages of Fiber Bragg Gratings for Measuring Electric Motor Loadings in Aerospace Application
+    journal: Review of Scientific Instruments
+    doi: https://doi.org/10.1063/1.5093556
+
+proceedings:
+
+  - proceeding:
+    type: proceedings
+    authors: G. J. Fochesatto, O. Galvz, P. Ristori, D. Keller, and E. L. Fochesatto
+    title: Lidar to Determine the Fraction of Ice, Liquid, and Water Vapor in Polar Tropospheric Clouds
+    conference: Proceedings of the 28th International Laser Radar Conference
+    location: Bucharest, Romania
+    date_time: June 25-30, 2017
+    year: 2017
+    doi: https://doi.org/10.1051/epjconf/201817601033
+
+posters:
+
+  - poster:
+    authors: D. Keller, D. Eagan
+    title: FOSS Load Cell
+    conference: Undergraduate Research and Scholarly Activity Research Day
+    location: Fairbanks, Alaska, USA
+    date_time: April 10, 2018
+    year: 2018
+
+  - poster:
+    type: poster
+    authors: D. Keller, Romain Pennel, Yonatan Givon, Shirah Raveh-Rubin, and Philippe Drobinski
+    title: 'Untangling the Mistral and Seasonal Effects of Atmospheric Forcing on Deep Convection in the Gulf of Lion'
+    conference: "Med2020 - Méditerranée : L'Expertise Scientifique pour les Décideurs"
+    location: Virtual, France
+    date_time: Nov. 16-18, 2020
+    year: 2021
+
+  - poster:
+    type: poster
+    authors: D. Keller, Romain Pennel, Yonatan Givon, Shirah Raveh-Rubin, and Philippe Drobinski
+    title: 'Untangling the Mistral and Seasonal Effects of Atmospheric Forcing on Deep Convection in the Gulf of Lion'
+    conference: 101th Annual American Meteorological Society Meeting
+    location: Virtual, USA
+    date_time: Jan. 9-16, 2021
+    year: 2021
+
+  - poster:
+    type: poster
+    authors: D. Keller, G. J. Fochesatto
+    title: RAOBs and Micro Pulse Lidar Determination of the Atmospheric Boundary Layer
+    conference: Alaska Space Grant Program Annual Symposium
+    location: Anchorage, Alaska, USA
+    date_time: April 20, 2018
+    year: 2018
+
+  - poster:
+    type: poster
+    authors: D. Keller, G. J. Fochesatto
+    title: New Wavelet to Determine the Planetary Boundary Layer Height
+    conference: 99th Annual American Meteorological Society Meeting
+    location: Pheonix, Arizona, USA
+    date_time: Jan. 6-10, 2019
+    year: 2019
+
+  - poster:
+    type: poster
+    authors: D. Keller, G. J. Fochesatto
+    title: 'Representation of Microscale Surface Turbulent Fluxes in the Planetary Boundary Layer: The Case of the Complex Heterogeneous Terrain of the Arctic Tundra'
+    conference: 100th Annual American Meteorological Society Meeting
+    location: Boston, Massachusetts, USA
+    date_time: Jan. 12-16, 2020
+    year: 2019
+
+talks:
+
+  - talk:
+    authors: D. Keller, G. J. Fochesatto
+    title: Identifying the Conditions for the Occurrence of High Latitude Superior Mirages
+    conference: Light and Color in Nature
+    location: Bar Harbor, Maine, USA
+    date_time: July 15, 2019
+    year: 2019
+
+progress:
+
+  - work:
+    type: in progress
+    authors: D. Keller. G. J. Fochesatto
+    title: Seasonal Variation of Superior Mirages at Arctic and Subarctic Latitudes
+    journal: Applied Optics
+    year: 2021

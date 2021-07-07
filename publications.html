@@ -1,0 +1,21 @@
+---
+layout: pubs
+---
+
+<div class="publications">
+
+{% assign pubs = site.data.publications %}
+
+{% for article in pubs.articles %}
+
+    <div class="article">
+
+        {{ article.authors }}
+
+
+    </div>
+
+{% endfor %}
+
+
+</div>
