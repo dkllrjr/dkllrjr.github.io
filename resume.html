@@ -130,6 +130,25 @@ layout: resume
                     {{ item.institute }}
 
                 {% endfor %}
+            
+            </div>
+
+<!--Publications-->
+            
+            <div class="inside-right-flex-container">
+
+                <h2>Publications</h2>
+
+                {% for item in site.data.publications.articles %}
+                    
+                    {% if item.resume %}
+
+                        <h3>{{ item.title }}</h3>
+                        {{ item.authors }}, ({{ item.year }})
+
+                    {% endif %}
+
+                {% endfor %}
 
             </div>
         

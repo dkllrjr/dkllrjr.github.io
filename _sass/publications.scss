@@ -1,3 +1,18 @@
-.article {
-    margin: 0;
+.container-publications a {
+    text-align: justify;
+}
+
+.container-publications li {
+    padding: 15px 0;
+}
+
+.container-publications .text-faded {
+    color: rgba(white, 0.99);
+    font-weight: normal;
+}
+
+.container-publications .text-faded a {
+    &:hover {
+        color: rgba(white, 0.5);
+    }
 }

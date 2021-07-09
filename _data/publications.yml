@@ -1,6 +1,7 @@
 articles:
 
   - article:
+    resume: true
     type: journal
     authors: <u>D. Keller</u>, D. R. Eagan, G. J. Fochesatto, R. Peterson, H. M. Chan, A. R. Parker
     year: 2019
@@ -37,7 +38,7 @@ posters:
     conference: "Med2020 - Méditerranée : L'Expertise Scientifique pour les Décideurs"
     location: Virtual, France
     date_time: Nov. 16-18, 2020
-    year: 2021
+    year: 2020
 
   - poster:
     type: poster

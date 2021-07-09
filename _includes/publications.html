@@ -1,0 +1,84 @@
+<aside class="bg-dark" id="publications">
+    <!--<div class="container text-center">-->
+    <div class="container">
+        <div class="container-publications">
+            <div class="text-center">
+                <h1>PUBLICATIONS</h1>
+
+                <!--Articles-->
+
+                <h2>Peer Reviewed / Évalués par les Pairs</h2>
+            </div>
+
+            <ul>
+
+                {% assign articles = site.data.publications.articles | sort: 'year' | reverse %}
+
+                {% for article in articles %}
+
+                    <li><a class="text-faded" href="{{ article.doi }}">{{ article.authors }} ({{ article.year }}) "{{ article.title }}," <b>{{ article.journal }}</b></a></li>
+
+                {% endfor %}
+
+            </ul>
+
+            <div class="text-center">
+
+                <!--Proceedings-->
+
+                <h2>Conference Proceedings / Actes de la Conférence</h2>
+            </div>
+                
+            <ul>
+                
+                {% assign proceedings = site.data.publications.proceedings | sort: 'year' | reverse %}
+
+                {% for proceeding in proceedings %}
+
+                <li><a class="text-faded" href="{{ proceeding.doi }}">{{ proceeding.authors }} ({{ proceeding.year }}) "{{ proceeding.title }}," <b>{{ proceeding.conference }}</b>, <i>{{ proceeding.location }}</i>, {{ proceeding.date_time }}</a></li>
+
+                {% endfor %}
+
+            </ul>
+
+            <div class="text-center">
+
+                <!--Talks-->
+
+                <h2>Presentations / Présentations</h2>
+            </div>
+                
+            <ul>
+
+                {% assign talks = site.data.publications.talks | sort: 'year' | reverse %}
+
+                {% for talk in talks %}
+
+                <li><a class="text-faded">{{ talk.authors }} ({{ talk.year }}) "{{ talk.title }}," <b>{{ talk.conference }}</b>, <i>{{ talk.location }}</i>, {{ talk.date_time }}</a></li>
+
+                {% endfor %}
+
+            </ul>
+
+            <div class="text-center">
+
+                <!--Talks-->
+
+                <h2>Posters / Affiches</h2>
+            </div>
+                
+            <ul>
+                
+                {% assign posters = site.data.publications.posters | sort: 'year' | reverse %}
+
+                {% for poster in posters %}
+
+                <li><a class="text-faded">{{ poster.authors }} ({{ poster.year }}) "{{ poster.title }}," <b>{{ poster.conference }}</b>, <i>{{ poster.location }}</i>, {{ poster.date_time }}</a></li>
+
+                {% endfor %}
+
+            </ul>
+
+        </div>
+    </div>
+</aside>
