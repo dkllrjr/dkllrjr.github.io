@@ -1,5 +1,5 @@
 ---
-layout: research
+layout: alt
 title: Raman Spectrum Lidar
 year: 2017
 ---

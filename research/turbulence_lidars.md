@@ -1,7 +1,6 @@
 ---
-layout: research
+layout: alt
 title: Turbulent Fluxes, Planetary Boundary Layers, and Lidars
-year: 2020
 ---
 
 When you have a sunny, hot day without wind, you may see some gliders/sail planes out and about catching the thermals. In the atmospheric science world, these thermals produce what is known as an unstable planetary boundary layer. The solar radiation is heating up the ground, which heats the air right above it. This air is now warmer and less dense than the air above it and rises. We call it unstable, because less dense air is below more dense air, which nature doesn't jive with. As the newly heated air rises through the denser air, cooler air replaces resulting in a bunch of turbulent mixing. Imagine a pot of boiling water; the bubbles rising are like the thermals in the atmosphere, and the motion of the water is very turbulent.

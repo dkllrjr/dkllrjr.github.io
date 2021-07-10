@@ -156,13 +156,13 @@ aside {
 
 // Homepage Header
 
-header {
+#head {
     position: relative;
     width: 100%;
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/splash/great_wave_black_blurred.png');
+    background-image: url('/img/splash/great_wave_black_blurred.png');
     text-align: center;
     color: white;
     .header-content {
@@ -184,7 +184,7 @@ header {
                 font-weight: bold;
                 color: rgba(white, .8);
                 font-size: 16px;
-                margin-bottom: 50px;
+                margin-bottom: 20px;
             }
         }
     }

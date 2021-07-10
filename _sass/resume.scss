@@ -1,3 +1,5 @@
+//Resume
+
 #resume-body {
     font-family: "UbuntuMono", UbuntuMono, sans-serif;
     font-size: 12pt;
@@ -157,4 +159,30 @@
 
 .resume .education-item {
     margin: 6px 0;
+}
+
+//CV
+
+.cv {
+    text-align: justify;
+}
+
+.cv h1, h2 {
+    text-align: center;
+}
+
+.cv a {
+    color: rgba(black, 1);
+    font-weight: normal;
+    &:hover {
+        color: rgba(black, 0.5);
+    }
+}
+
+.cv li {
+    padding: 15px 0;
+}
+
+.cv .skills li {
+    padding: 5px 0;
 }

@@ -1,0 +1,189 @@
+---
+layout: alt
+title: Curriculum Vitae
+---
+
+{% assign exp = site.data.experience %}
+
+<div class="cv">
+
+    <h1>{{ exp.name }}</h1>
+
+    <h2>{{ exp.title }}</h2>
+
+    <hr>
+
+    <!--Education-->
+
+    <h2>Education</h2>
+
+    {% for item in exp.education %}
+
+        <h3>{{ item.type }}</h3>
+
+        {{ item.date }}
+
+        <br>       
+        
+        <b>{{ item.name }}</b></br>
+
+    {% endfor %}
+
+    <hr>
+
+    <!--Experience-->
+
+    <h2>Research Experience</h2>
+
+    <!--Research-->
+
+    {% for item in exp.research %}
+        
+
+        <h3>{{ item.title }}</h3>
+
+        <b>{{ item.institute }}</b>
+
+        <br>       
+        
+        {{ item.location }}
+
+        <br>       
+
+        {{ item.date }}
+
+        <br>       
+
+        {{ item.description }}
+
+        {% for highlight in item.highlights %}
+
+            <ul>
+                <li>{{ highlight.item }}</li>
+            </ul>
+
+        {% endfor %}
+
+    {% endfor %}
+    
+    <hr>
+
+    <!--Work-->
+
+    <h2>Vocational Experience</h2>
+
+    {% for item in exp.vocation %}
+        
+        <h3>{{ item.title }}</h3>
+
+        <br>       
+
+        {{ item.institute }}
+
+        <br>       
+
+        {% for task in item.tasks %}
+
+            {{ task.description }}
+
+            <br>
+
+            {{ task.date }}
+
+            <br>
+
+        {% endfor %}
+
+    {% endfor %}
+
+    <hr>
+
+    <!--Skills-->
+
+    <h2>Skills</h2>
+
+    {% for skill in exp.skills %}
+
+        <h3>{{ skill.name }}</h3>
+
+        <div class="skills">
+
+            <ul>
+            {% for item in skill.list %}
+                <li>{{ item.item }}</li>
+            {% endfor %}
+            </ul>
+
+        </div>
+
+    {% endfor %}
+                
+    <hr>
+
+    <!--Publications-->
+                
+    <h2>Publications</h2>
+    
+    <h3>Peer Reviewed</h3>
+
+    <ul>
+
+        {% assign articles = site.data.publications.articles | sort: 'year' | reverse %}
+
+        {% for article in articles %}
+
+            <li><a href="{{ article.doi }}">{{ article.authors }} ({{ article.year }}) "{{ article.title }}," <b>{{ article.journal }}</b></a></li>
+
+        {% endfor %}
+
+    </ul>
+
+    <!--Proceedings-->
+
+    <h3>Conference Proceedings</h3>
+        
+    <ul>
+        
+        {% assign proceedings = site.data.publications.proceedings | sort: 'year' | reverse %}
+
+        {% for proceeding in proceedings %}
+
+        <li><a href="{{ proceeding.doi }}">{{ proceeding.authors }} ({{ proceeding.year }}) "{{ proceeding.title }}," <b>{{ proceeding.conference }}</b>, <i>{{ proceeding.location }}</i>, {{ proceeding.date_time }}</a></li>
+
+        {% endfor %}
+
+    </ul>
+
+    <!--Talks-->
+
+    <h3>Presentations</h3>
+        
+    <ul>
+
+        {% assign talks = site.data.publications.talks | sort: 'year' | reverse %}
+
+        {% for talk in talks %}
+
+        <li><a>{{ talk.authors }} ({{ talk.year }}) "{{ talk.title }}," <b>{{ talk.conference }}</b>, <i>{{ talk.location }}</i>, {{ talk.date_time }}</a></li>
+
+        {% endfor %}
+
+    </ul>
+
+    <!--Talks-->
+
+    <h3>Posters</h3>
+        
+    <ul>
+        
+        {% assign posters = site.data.publications.posters | sort: 'year' | reverse %}
+
+        {% for poster in posters %}
+
+        <li><a>{{ poster.authors }} ({{ poster.year }}) "{{ poster.title }}," <b>{{ poster.conference }}</b>, <i>{{ poster.location }}</i>, {{ poster.date_time }}</a></li>
+
+        {% endfor %}
+
+    </ul>
+
+</div>

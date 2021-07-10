@@ -47,7 +47,7 @@ research:
 
     - study:
       title: Doctorate of Philosophy Thesis
-      institute: Institut Polytechnique de Paris, École Polytechnique, Laboratoire de Météorologie Dynamique, Centre National de la Recherche Scientifique
+      institute: Institut Polytechnique de Paris, École Polytechnique, Laboratoire de Météorologie Dynamique, Institut Pierre-Simon Laplace, Centre National de la Recherche Scientifique
       location: Palaiseau, Île-de-France, FR
       date: Fall 2019 - Present
       description: Determining the spatial and temporal effects of the Mistral on the Dense Water Formation in the Gulf of Lion (Western Mediterranean Sea)
@@ -212,6 +212,13 @@ miscellaneous:
       description: Reviewed students' reports and participated as a judge for the state competition. Guided students in their project work.
 
 skills:
+
+    - skill:
+      name: Languages
+      list:
+        - item: English (Native)
+        - item: French (A2)
+        - item: German (A2)
 
     - skill:
       name: Programming Languages
