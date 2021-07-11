@@ -8,4 +8,4 @@ This was the first research project I had a hand in. The project was Prof. G. J.
 
 Backing up a minute, a lidar is just like a radar but uses a laser instead of radio waves. So with that in mind, a laser is shot out into the sky, impacts the different particles in the air, such as water, and is reflected back to its source. The reflections are called backscatter. With Raman scattering, the backscattering can also come back in different polarization states. You can split the returning scattering with a cube beam splitter, and just look at one polarization or the other. What I did with this project in particular, was to make a holder for the cube beam splitter in the lidar design. Below is a picture:
 
-<div style="text-align: center;"><img src="../assets/img/portfolio/bs_holder.png" alt="Beam Splitter Block" style="width: 40%; height: auto;"></div>
+<div style="text-align: center;"><img src="/img/images/bs_holder.png" alt="Beam Splitter Block" style="width: 40%; height: auto;"></div>
