@@ -1,5 +1,5 @@
-current directory: /home/mach/dkllrjr.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.3/ext/ffi_c
-/home/mach/.rbenv/versions/2.7.3/bin/ruby -I /home/mach/.rbenv/versions/2.7.3/lib/ruby/2.7.0 -r ./siteconf20210623-55262-1swzfwx.rb extconf.rb
+current directory: /home/laplace/dkllrjr.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.3/ext/ffi_c
+/home/laplace/.rbenv/versions/2.7.3/bin/ruby -I /home/laplace/.rbenv/versions/2.7.3/lib/ruby/2.7.0 -r ./siteconf20210621-225997-y5p16y.rb extconf.rb
 checking for ffi_prep_closure_loc() in -lffi... yes
 checking for ffi_prep_cif_var()... yes
 checking for ffi_raw_call()... yes
@@ -8,10 +8,10 @@ checking for whether -pthread is accepted as LDFLAGS... yes
 creating extconf.h
 creating Makefile
 
-current directory: /home/mach/dkllrjr.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.3/ext/ffi_c
+current directory: /home/laplace/dkllrjr.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.3/ext/ffi_c
 make "DESTDIR=" clean
 
-current directory: /home/mach/dkllrjr.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.3/ext/ffi_c
+current directory: /home/laplace/dkllrjr.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.3/ext/ffi_c
 make "DESTDIR="
 compiling AbstractMemory.c
 compiling ArrayType.c
@@ -38,6 +38,6 @@ compiling Variadic.c
 compiling ffi.c
 linking shared-object ffi_c.so
 
-current directory: /home/mach/dkllrjr.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.3/ext/ffi_c
+current directory: /home/laplace/dkllrjr.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.3/ext/ffi_c
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20210623-55262-11rn9iq
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20210621-225997-17wdycq

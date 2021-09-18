@@ -3,50 +3,31 @@ title: Alaskan Researcher
 author: Doug Keller
 lang: en_US
 
+email: dg.kllr.jr@gmail.com
+twitter: ak_researcher
+github: dkllrjr
+gitlab: dkllrjr
+itchio: socratic-salmon-games
+twitch: alaskanresearcher
+youtube: "UCWux0xszsp373cTWb-yBJwA"
+linkedin: "dg-kllr-jr"
+
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
 # Build settings
 safe: true # always trues on github-pages, disables _plugins/
-markdown: kramdown
-sass:
-  indentWidth: 4
-  style: compact
-  precision: 10
+markdown: redcarpet
+#sass:
+    #indentWidth: 4
+    #style: compact
+    #precision: 10
 plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+    - jekyll-sitemap
+    - jekyll-seo-tag
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor/**
-
-collections:
-  research:
-    output: true
-  projects:
-    output: true
-  publications:
-
-defaults:
-  - scope:
-      path: ""
-      type: "research"
-    values:
-      layout: "research"
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "projects"
-  - scope:
-      path: ""
-      type: "publications"
-    values:
-      layout: "publications"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+    - Gemfile
+    - Gemfile.lock
+    - vendor/**
+    - archive/**

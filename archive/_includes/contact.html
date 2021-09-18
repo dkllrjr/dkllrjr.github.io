@@ -1,0 +1,19 @@
+<div class="contact-container">
+	<div class="contact-me">
+		<h1>Contact Me!</h1>
+		<div class="bar"></div>
+		<p>Below are different ways to contact me or see other things I've done!</p>
+	</div>
+
+	<div class="social-media-container" id="social-media-icons">
+		<ul>
+			{% for icon in site.data.contact %}
+				<li>
+					<a href="{{ icon.website }}">
+                        <img alt="{{ icon.name }}" src="{{ icon.icon }}">
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>

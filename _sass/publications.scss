@@ -1,7 +1,18 @@
-.pub-container ul {
-	list-style: disc;
+.container-publications a {
+    text-align: justify;
 }
 
-.pub-container ul li {
-	padding: 15px 0;
+.container-publications li {
+    padding: 15px 0;
+}
+
+.container-publications .text-faded {
+    color: rgba(white, 0.99);
+    font-weight: normal;
+}
+
+.container-publications .text-faded a {
+    &:hover {
+        color: rgba(white, 0.5);
+    }
 }

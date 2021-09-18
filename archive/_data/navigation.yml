@@ -1,0 +1,14 @@
+- name: Home
+  link: /
+- name: About Me
+  link: /about.html
+- name: Research
+  link: /research.html
+- name: Projects
+  link: /projects.html
+- name: Publications
+  link: /publications.html
+- name: Résumé
+  link: /resume.html
+- name: CV
+  link: /cv.html
