@@ -35,7 +35,7 @@
 
                 {% for proceeding in proceedings %}
 
-                <li><a class="text-faded" href="{{ proceeding.doi }}">{{ proceeding.authors }} ({{ proceeding.year }}) "{{ proceeding.title }}," <b>{{ proceeding.conference }}</b>, <i>{{ proceeding.location }}</i>, {{ proceeding.date_time }}</a></li>
+                <li>{{ proceeding.authors }} ({{ proceeding.year }}) "{{ proceeding.title }}," <b>{{ proceeding.conference }}</b>, <i>{{ proceeding.location }}</i>, {{ proceeding.date_time }}</li>
 
                 {% endfor %}
 
@@ -46,6 +46,7 @@
                 <!--Talks-->
 
                 <h2>Presentations / Présentations</h2>
+
             </div>
                 
             <ul>
@@ -54,7 +55,7 @@
 
                 {% for talk in talks %}
 
-                <li><a class="text-faded">{{ talk.authors }} ({{ talk.year }}) "{{ talk.title }}," <b>{{ talk.conference }}</b>, <i>{{ talk.location }}</i>, {{ talk.date_time }}</a></li>
+                    <li class="text-faded">{{ talk.authors }} ({{ talk.year }}) "{{ talk.title }}," <b>{{ talk.conference }}</b>, <i>{{ talk.location }}</i>, {{ talk.date_time }}</li>
 
                 {% endfor %}
 
@@ -65,6 +66,7 @@
                 <!--Talks-->
 
                 <h2>Posters / Affiches</h2>
+
             </div>
                 
             <ul>
@@ -73,7 +75,35 @@
 
                 {% for poster in posters %}
 
-                <li><a class="text-faded">{{ poster.authors }} ({{ poster.year }}) "{{ poster.title }}," <b>{{ poster.conference }}</b>, <i>{{ poster.location }}</i>, {{ poster.date_time }}</a></li>
+                    <li class="text-faded">{{ poster.authors }} ({{ poster.year }}) "{{ poster.title }}," <b>{{ poster.conference }}</b>, <i>{{ poster.location }}</i>, {{ poster.date_time }}</li>
+
+                {% endfor %}
+
+            </ul>
+
+            <div class="text-center">
+
+                <!--Talks-->
+
+                <h2>In Progress / En Cours</h2>
+
+            </div>
+                
+            <ul>
+                
+                {% assign works = site.data.publications.progress | sort: 'year' | reverse %}
+
+                {% for work in works %}
+
+                    {% if work.doi %}
+
+                        <li><a class="text-faded" href="{{ work.doi }}">{{ work.authors }} ({{ work.year }}) "{{ work.title }}," <b>{{ work.journal }}</b></a></li>
+
+                    {% else %}
+
+                        <li class="text-faded">{{ work.authors }} ({{ work.year }}) "{{ work.title }}," <b>{{ work.journal }}</b></li>
+
+                    {% endif %}
 
                 {% endfor %}
 

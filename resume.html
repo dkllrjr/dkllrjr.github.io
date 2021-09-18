@@ -9,11 +9,6 @@ layout: resume
 
     <div class="name">
 
-        <div class="img-flex">
-            <img src="/img/logo/AK_Researcher_zoomed_logo.png">
-            </img>
-        </div>
-
         <div class="name-title">
             <h1>{{ exp.name }}</h1>
             {{ exp.title }}
@@ -21,7 +16,7 @@ layout: resume
 
     </div>
 
-    <div class="hspan"></div>
+    <!--<div class="hspan"></div>-->
 
     <div class="flex-container">
 
@@ -33,23 +28,20 @@ layout: resume
 
 <!--Contact-->
 
-                <h2 id="top-column">Contact</h2>
+                <h2>Contact</h2>
 
                 <div class="contact">
                     {% for item in exp.contact %}
                         <div class="contact-item">
-                            <div class="contact-icon">
-                                <img class="contact-icon-img" src="{{ item.icon }}">
-                                </img>
-                            </div>
+                            <div class="{{ item.icon }}" id="contact-icon"></div>
                             <div class="contact-name">
                                 {{ item.name }}
                             </div>
                         </div>
                     {% endfor %}
                 </div>
-                
-                <div class="left-hspan"></div>
+
+                <!--<div class="left-hspan"></div>-->
 
 <!--Education-->
 
@@ -60,12 +52,12 @@ layout: resume
                     <div class="education-item">
                         <h3>{{ item.shorthand }}</h3>
                         <b>{{ item.name }}</b></br>
-                        {{ item.date}}
+                        <div class="education-date">{{ item.date}}</div>
                     </div>
 
                 {% endfor %}
 
-                <div class="left-hspan"></div>
+                <!--<div class="left-hspan"></div>-->
 
 <!--Skills-->
 
@@ -86,23 +78,15 @@ layout: resume
 
         </div>
 
-        <div class="vspan-flex">
-            <div class="vspan"></div>
-        </div>
+        <!--<div class="vspan-flex">-->
+            <!--<div class="vspan"></div>-->
+        <!--</div>-->
 
 <!--Right column-->
 
         <div class="right-flex-container">
 
             <div class="inside-right-flex-container">
-
-<!--Motivation-->
-
-                <h2 id="top-column">Motivation</h2>
-                
-                {{ exp.motivation }}
-
-                <div class="right-hspan"></div>
 
 <!--Experience-->
 
@@ -112,12 +96,17 @@ layout: resume
 
                 {% for item in exp.research %}
                     
-                    <div class="education-item">
-                        <h3>{{ item.title }}</h3>
-                        {{ item.institute }}
-                        {{ item.location }}
-                        {{ item.date }}
-                        {{ item.description }}
+                    <div class="experience-item">
+
+                        <div class="experience-head">
+                            <div class="experience-title">{{ item.title }}</div>
+                            <div class="experience-date">{{ item.date }}</div>
+                        </div>
+
+                        <div class="experience-institute"><i>{{ item.institute }},</i> {{ item.location }}</div>
+                        <ul>
+                            <li>{{ item.description }}</li>
+                        </ul>
                     </div>
 
                 {% endfor %}
@@ -126,8 +115,26 @@ layout: resume
 
                 {% for item in exp.vocation %}
                     
-                    <h3>{{ item.title }}</h3>
-                    {{ item.institute }}
+                    {% if item.resume %}
+
+                        <div class="experience-item">
+
+                            <div class="experience-head">
+                                <div class="experience-title">{{ item.title }}</div>
+                                <div class="experience-date">{{ item.date }}</div>
+                            </div>
+
+                            <div class="experience-institute"><i>{{ item.institute }},</i> {{ item.location }}</div>
+
+                            <ul>
+                            {% for task in item.tasks %}
+                                <li>{{ task.description }}</li>
+                            {% endfor %}
+                            </ul>
+
+                        </div>
+
+                    {% endif %}
 
                 {% endfor %}
             
@@ -143,12 +150,21 @@ layout: resume
                     
                     {% if item.resume %}
 
-                        <h3>{{ item.title }}</h3>
-                        {{ item.authors }}, ({{ item.year }})
+                        <div class="publications-title">{{ item.title }}</div> {{ item.year }}<br>
+                        <div class="publications-author">{{ item.authors }}</div>
 
                     {% endif %}
 
                 {% endfor %}
+
+            </div>
+
+<!--Interests-->
+
+            <div class="inside-right-flex-container">
+
+                <h2>Interests</h2>
+                {{ exp.interests }}
 
             </div>
         
