@@ -9,6 +9,7 @@ gem 'github-pages', group: :jekll_plugins
 gem 'kramdown', '>= 2.3.1'
 gem 'redcarpet'
 gem 'jekyll-theme-hydejack'
+gem 'addressable', '>= 2.8.0'
 
 group :jekyll_plugins do
     gem 'jekyll-sitemap'
