@@ -4,13 +4,15 @@ title: Doctoral Candidate
 
 contact: 
     - name: dg.kllr.jr@gmail.com
-      icon: /img/icons/email.png
+      icon: fas fa-envelope
     - name: alaskanresearcher.dev
-      icon: /img/icons/twitter.png
-    - name: France
-      icon: /img/icons/email.png
+      icon: fas fa-sitemap
+    - name: Palaiseau, France
+      icon: fas fa-flag
 
 motivation: I like tinkering, learning, and enjoying life.
+
+interests: "I enjoy many different things: science, engineering, programming, martial arts, hockey, skiing, and the outdoors, to list a few. I'm from Alaska; that may explain some of my interests." 
 
 education:
 
@@ -108,12 +110,15 @@ research:
 vocation:
 
     - job:
-      title: Monitorat (Teaching Assistant)
+      title: Moniteur (Teaching Assistant)
       institute: Département de Mécanique, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      date: Fall 2020 - Present
+      resume: true
       tasks:
       - task:
         location: Palaiseau, Île-de-France, FR
-        description: Teaching and leading students through exercises.
+        description: Teaching and leading students through master and bachelor level coursework.
         date: Fall 2020 - Present
         highlights:
             - item: "Taught petite class for Master students in MEC559, Introduction to Wind Energy. Topics included: Wind turbine design, Airfoils, Atmospheric dynamics and resources, Bending beam vibrations"
@@ -122,6 +127,9 @@ vocation:
     - job:
       title: Research Technician
       institute: Alaska Center for Energy and Power, University of Alaska Fairbanks
+      location: Fairbanks, Alaska, USA
+      date: Spring 2019 - Fall 2019
+      resume: true
       tasks:
       - task:
         location: Fairbanks, Alaska, USA
@@ -142,6 +150,9 @@ vocation:
     - job:
       title: Teaching Assistant
       institute: College of Engineering and Mines, University of Alaska Fairbanks
+      location: Fairbanks, Alaska, USA
+      date: Spring 2017 - Fall 2018
+      resume: true
       tasks:
       - task:
         location: Fairbanks, Alaska, USA
@@ -154,6 +165,9 @@ vocation:
     - job:
       title: Mechanical Engineering Intern
       institute: NASA Armstrong Flight Research Center
+      location: Edwards, California, USA
+      date: Summer 2017
+      resume: true
       tasks:
       - task:
         location: Edwards, California, USA
@@ -167,6 +181,9 @@ vocation:
     - job:
       title: Engineering Intern
       institute: Alaska Department of Transportation
+      location: Fairbanks, Alaska, USA
+      date: Summer 2015
+      resume: false
       tasks:
       - task:
         location: Fairbanks, Alaska, USA
@@ -180,6 +197,9 @@ vocation:
     - job:
       title: Engineering Intern
       institute: Project Aisle
+      location: Spokane, Washington, USA
+      date: Summer 2016
+      resume: false
       tasks:
       - task:
         location: Spokane, Washington, USA
@@ -282,7 +302,7 @@ sports:
     - sport:
       title: Krav Maga Instructor
       institute: Alaska Krav Maga & Fitness
-      locations: Fairbanks, Alaska, USA
+      location: Fairbanks, Alaska, USA
       description: Taught Krav Maga, Muay Thai, and fitness classes to students at varying skill levels. Also trained in Brazilian Jiu Jitsu.
       date: Winter 2017 -- Winter 2018
 
@@ -290,12 +310,14 @@ sports:
       title: Junior A Tier III Hockey Player
       institute: Great Falls Americans
       location: Great Falls, Montana, USA
+      description: Played junior hockey in the American Western Hockey League; played as winger and typically killed penalties.
       date: Fall 2012 - Winter 2013
     
     - sport:
       title: Junior A Tier III Hockey
       institute: Yellowstone Quake
       location: Cody, Wyoming, USA
+      description: Played junior hockey in the American Western Hockey League; played as winger and typically killed penalties.
       date: Winter 2013 - Spring 2014
 
 hobbies:
