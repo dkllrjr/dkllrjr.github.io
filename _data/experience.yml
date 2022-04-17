@@ -12,7 +12,9 @@ contact:
 
 motivation: I like tinkering, learning, and enjoying life.
 
-interests: "I enjoy many different things: science, engineering, programming, martial arts, hockey, skiing, and the outdoors, to list a few. I'm from Alaska; that may explain some of my interests." 
+interests:
+    description: "I enjoy many different things: science, engineering, programming, martial arts, hockey, skiing, and the outdoors, to list a few. I'm from Alaska; that may explain some of my interests."
+    resume: false
 
 education:
 
@@ -113,7 +115,7 @@ vocation:
       title: Moniteur (Teaching Assistant)
       institute: Département de Mécanique, École Polytechnique
       location: Palaiseau, Île-de-France, FR
-      date: Fall 2020 - Present
+      date: Fall 2020 - Spring 2022
       resume: true
       tasks:
       - task:
@@ -152,7 +154,7 @@ vocation:
       institute: College of Engineering and Mines, University of Alaska Fairbanks
       location: Fairbanks, Alaska, USA
       date: Spring 2017 - Fall 2018
-      resume: true
+      resume: false
       tasks:
       - task:
         location: Fairbanks, Alaska, USA

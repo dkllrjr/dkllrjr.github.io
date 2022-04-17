@@ -150,8 +150,11 @@ layout: resume
                     
                     {% if item.resume %}
 
-                        <div class="publications-title">{{ item.title }}</div> {{ item.year }}<br>
-                        <div class="publications-author">{{ item.authors }}</div>
+                        <div class="publications-item">
+
+                            <div class="publications-title">{{ item.title }}</div> {{ item.year }}<br>
+                            <div class="publications-author">{{ item.authors }}</div>
+                        </div>
 
                     {% endif %}
 
@@ -163,8 +166,12 @@ layout: resume
 
             <div class="inside-right-flex-container">
 
-                <h2>Interests</h2>
-                {{ exp.interests }}
+                {% if exp.interests.resume %}
+
+                    <h2>Interests</h2>
+                    {{ exp.interests.description }}
+
+                {% endif %}
 
             </div>
         

@@ -8,6 +8,14 @@ articles:
     journal: Review of Scientific Instruments
     doi: https://doi.org/10.1063/1.5093556
 
+  - article:
+    resume: true
+    authors: <u>D. Keller</u>, Y. Givon, R. Pennel, S. Raveh-Rubin, P. Drobinski
+    year: 2022
+    title: "Untangling the mistral and seasonal atmospheric forcing driving deep convection in the Gulf of Lion: 2012-2013"
+    journal: Ocean Science
+    doi: https://doi.org/10.5194/os-18-483-2022
+
 proceedings:
 
   - proceeding:
