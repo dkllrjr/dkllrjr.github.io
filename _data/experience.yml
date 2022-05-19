@@ -3,6 +3,7 @@ name: Douglas Keller Jr.
 title: Doctoral Candidate
 
 contact: 
+
     - name: dg.kllr.jr@gmail.com
       icon: fas fa-envelope
     - name: alaskanresearcher.dev
@@ -13,6 +14,7 @@ contact:
 motivation: I like tinkering, learning, and enjoying life.
 
 interests:
+
     description: "I enjoy many different things: science, engineering, programming, martial arts, hockey, skiing, and the outdoors, to list a few. I'm from Alaska; that may explain some of my interests."
     resume: false
 
@@ -50,6 +52,7 @@ education:
 research:
 
     - study:
+      resume: true
       title: Doctorate of Philosophy Thesis
       institute: Institut Polytechnique de Paris, École Polytechnique, Laboratoire de Météorologie Dynamique, Institut Pierre-Simon Laplace, Centre National de la Recherche Scientifique
       location: Palaiseau, Île-de-France, FR
@@ -60,17 +63,77 @@ research:
           - item: Ran multiple ocean simulations (NEMO) with different wind forcings to determine the ocean sensitivity to wind forcing.
 
     - study:
+      resume: true
+      title: Seafuel
+      institute: Energy4Climate
+      location: Palaiseau, Île-de-France, FR
+      date: Summer 2021 - Present
+      description: Researching and engineering CO<sub>2</sub> extraction from the ocean to produce carbon based fuel.
+      highlights:
+        - item: Supervised a Master's intern to determine the most optimal places for the Seafuel device in the Mediterranean Sea.
+        - item: Developed a simple model to simulate the Seafuel and the oceanic carbon system.
+        - item: Presented work at the Ocean Science Meeting 2022.
+
+    - study:
+      resume: true
+      title: General Fluid Planetary Modelling
+      institute: Laboratoire de Météorologie Dynamique
+      location: Palaiseau, Île-de-France, FR
+      date: Summer 2021 - Present
+      description: Injecting fluid agnostic capability into DYNAMICO, the atmospheric dynamics model at LMD.
+      highlights:
+        - item: Supervising a Master's intern to develop a Julia model capable of running thermodynamically agnostic dynamics for fluids.
+
+    - study:
+      resume: true
+      title: Red Sea Preconditioning
+      institute: Laboratoire de Météorologie Dynamique and Weizmann Institute of Science
+      location: Palaiseau, Île-de-France, FR and Rehovot, IL
+      date: Spring 2022 - Present
+      description: Investigating the deep convection behavior in the northern part of the Red Sea.
+      highlights:
+
+    - study:
+      resume: true
+      title: Oceanic Response to Medicane Forcing
+      institute: Laboratoire de Météorologie Dynamique and Hellenic Centre for Marine Research
+      location: Palaiseau, Île-de-France, FR and Athens, GR
+      date: Fall 2021 - Present
+      description: Studying the effects of Medicane tracks on the Mediterranean Sea vertical stability.
+      highlights:
+
+    - study:
+      resume: true
+      title: New Wavelet Detection of Multilayering in the High Latitude Atmospheric Boundary Layer
+      institute: University of Alaska, Fairbanks
+      location: Fairbanks, Alaska, USA
+      date: Fall 2017 - Present
+      description: Observing the multilayered aspect of the high latitude atmospheric boundary layer in Fairbanks, Alaska with lidar backscattering profiles and wavelet transforms.
+      highlights:
+
+    - study:
+      resume: true
+      title: Shift in Spectral Content of the Turbulent Kinetic Energy of the Surface Layer in Fairbanks, Alaska with Northward Traveling Cyclonic Conditions
+      institute: University of Alaska, Fairbanks
+      location: Fairbanks, Alaska, USA
+      date: Fall 2017 - Present
+      description: Determining the shift in spectral content of the atmospheric surface layer in Fairbanks, Alaska during a transitioning synoptic condition, with northward advection of moisture.
+      highlights:
+
+    - study:
+      resume: true
       title: Seasonal Variability of Superior Mirages
       institute: University of Alaska Fairbanks
       location: Fairbanks, Alaska, USA
-      date: Summer 2019 - Spring 2020
+      date: Summer 2019 - Present
       description: Determined the seasonal variability of superior mirages in the subarctic and arctic latitudes with GPS radio occultation (GPSRO)
       highlights:
-          - item: Developed an algorithm to detect the presence of a potential mirage in GPSRO refractivity profiles
-          - item: Spatially and temporally determined the variability of potential mirage events in the high latitudes
-          - item: Presented work at the Light and Color in Nature conference in Maine, USA
+        - item: Developed an algorithm to detect the presence of a potential mirage in GPSRO refractivity profiles
+        - item: Spatially and temporally determined the variability of potential mirage events in the high latitudes
+        - item: Presented work at the Light and Color in Nature conference in Maine, USA
 
     - study:
+      resume: false
       title: Master of Science Thesis
       institute: College of Engineering and Mines, University of Alaska Fairbanks
       location: Fairbanks, Alaska, USA
@@ -78,26 +141,28 @@ research:
       funding: In collaboration with and funded by NASA's Armstrong Fight Research Center
       description: Determined the effect of electromagnetic interference from electric motors on load sensing strain gauges.
       highlights:
-          - item: Placed NASA's Fiber Optic Sensing System (FOSS) and conventional strain gauge systems in high electromagnetic interference environments found in aviation
-          - item: Developed a load cell designed around the FOSS to measure thrust from an electric motor coupled with a 3-blade propeller to develop future electric propulsion systems
-          - item: Analyzed and compared data retrieved using the FOSS and conventional strain gauges
-          - item: Determined the effect of electromagnetic interference on the thrust loading measurements
-          - item: Determined the effect of mechanical interference/vibration with both systems in the same test application
+        - item: Placed NASA's Fiber Optic Sensing System (FOSS) and conventional strain gauge systems in high electromagnetic interference environments found in aviation
+        - item: Developed a load cell designed around the FOSS to measure thrust from an electric motor coupled with a 3-blade propeller to develop future electric propulsion systems
+        - item: Analyzed and compared data retrieved using the FOSS and conventional strain gauges
+        - item: Determined the effect of electromagnetic interference on the thrust loading measurements
+        - item: Determined the effect of mechanical interference/vibration with both systems in the same test application
 
     - study:
+      resume: false
       title: Alaska Space Grant Undergraduate Research Fellowship
       institute: Geophysical Institute, University of Alaska Fairbanks
       location: Fairbanks, Alaska, USA
       date: Fall 2017 - Summer 2018
       description: Studied the atmospheric boundary layer (ABL) with NASA's network of micro-pulse lidars (MPLNET)
       highlights:
-          - item: Used the MPLNET and radiosonde data to determine the intraday variability of the high latitude atmospheric boundary layer
-          - item: Developed algorithms to determine atmospheric boundary layer structural parameters from the MPLNET profiles
-          - item: Compared and contrasted collocated lidar and radiosonde retrievals of ABL parameters
-          - item: Produced statistical estimates of ABL parameters and computed diurnal and seasonal variations
-          - item: Analyzed the high latitude ABL with the MPLNET, radiosonde data, and global positioning system radio occultation (GPSRO)
+        - item: Used the MPLNET and radiosonde data to determine the intraday variability of the high latitude atmospheric boundary layer
+        - item: Developed algorithms to determine atmospheric boundary layer structural parameters from the MPLNET profiles
+        - item: Compared and contrasted collocated lidar and radiosonde retrievals of ABL parameters
+        - item: Produced statistical estimates of ABL parameters and computed diurnal and seasonal variations
+        - item: Analyzed the high latitude ABL with the MPLNET, radiosonde data, and global positioning system radio occultation (GPSRO)
 
     - study:
+      resume: false
       title: Raman Spectroscopy Lidar
       institute: Geophysical Institute, University of Alaska Fairbanks
       location: Fairbanks, Alaska, USA
@@ -105,9 +170,9 @@ research:
       funding: Funded by the National Science Foundation
       description: Assisted with the setup of a Raman spectroscopy lidar and developed mechanical fixtures for application.
       highlights:
-          - item: Gained experience in optomechanical design for Lidar development
-          - item: Developed simulation of Lidar signals to condition instrument design for 532 nm, N2, and H2O Raman vibrational bands
-          - item: Implemented multichannel Lidar receiver
+        - item: Gained experience in optomechanical design for Lidar development
+        - item: Developed simulation of Lidar signals to condition instrument design for 532 nm, N2, and H2O Raman vibrational bands
+        - item: Implemented multichannel Lidar receiver
 
 vocation:
 
@@ -116,38 +181,38 @@ vocation:
       institute: Département de Mécanique, École Polytechnique
       location: Palaiseau, Île-de-France, FR
       date: Fall 2020 - Spring 2022
-      resume: true
+      resume: false
       tasks:
       - task:
         location: Palaiseau, Île-de-France, FR
         description: Teaching and leading students through master and bachelor level coursework.
         date: Fall 2020 - Present
         highlights:
-            - item: "Taught petite class for Master students in MEC559, Introduction to Wind Energy. Topics included: Wind turbine design, Airfoils, Atmospheric dynamics and resources, Bending beam vibrations"
-            - item: Monitored Bachelor students enrolled in the Phys103, Physics Lab.
+          - item: "Taught petite class for Master students in MEC559, Introduction to Wind Energy. Topics included: Wind turbine design, Airfoils, Atmospheric dynamics and resources, Bending beam vibrations"
+          - item: Monitored Bachelor students enrolled in the Phys103, Physics Lab.
 
     - job:
       title: Research Technician
       institute: Alaska Center for Energy and Power, University of Alaska Fairbanks
       location: Fairbanks, Alaska, USA
       date: Spring 2019 - Fall 2019
-      resume: true
+      resume: false
       tasks:
       - task:
         location: Fairbanks, Alaska, USA
         description: Performing data analytics and large data organization for Alaska Center for Energy and Power's (ACEP) fuel meter project.
         date: Summer 2019 - Fall 2019
         highlights:
-            - item: Developed large data analysis methods for the ACEP fuel meter project
-            - item: Created data visualization methods for different temporal representations
+          - item: Developed large data analysis methods for the ACEP fuel meter project
+          - item: Created data visualization methods for different temporal representations
 
       - task:
         location: Fairbanks, Alaska, USA
         description: Rewriting the Alaska Center for Energy and Power's (ACEP) Energy Technology Facility's (ETF) safety manual.
         date: Spring 2019 - Summer 2019
         highlights:
-            - item: Determining the job hazards and required training to safely perform experiments in the ETF
-            - item: Adjusting the emergency action plan of ETF to more effectively transfer ETF's emergency systems
+          - item: Determining the job hazards and required training to safely perform experiments in the ETF
+          - item: Adjusting the emergency action plan of ETF to more effectively transfer ETF's emergency systems
 
     - job:
       title: Teaching Assistant
@@ -161,24 +226,24 @@ vocation:
         description: Graded homework and exams, and assisted students with studies in engineering.
         date: Spring 2017 - Fall 2018
         highlights:
-            - item: Graded homework and exams for the courses on Mechanics of Materials, Instrumentation and Measurement, and Heat Transfer
-            - item: Recorded lectures for Astrodynamics and Mechanical Vibration
+          - item: Graded homework and exams for the courses on Mechanics of Materials, Instrumentation and Measurement, and Heat Transfer
+          - item: Recorded lectures for Astrodynamics and Mechanical Vibration
     
     - job:
       title: Mechanical Engineering Intern
       institute: NASA Armstrong Flight Research Center
       location: Edwards, California, USA
       date: Summer 2017
-      resume: true
+      resume: false
       tasks:
       - task:
         location: Edwards, California, USA
         description: Tested thermodynamics and heat transfer of the initial Fiber Optic Sensing System (FOSS) enclosure concept for the Quiet Supersonic Technology (QueSST) X-Plane (now the X-59).
         date: Summer 2017
         highlights:
-            - item: Researched heat transfer technologies for FOSS enclosure flight testing application such as heat pipes and thermoelectric coolers
-            - item: Analyzed heat transfer methods for FOSS enclosure application including foam insulation
-            - item: Designed prototype enclosure for FOSS components, utilizing analyzed methods features foam insulation and heat pipes for improved high temperature environment survivability
+          - item: Researched heat transfer technologies for FOSS enclosure flight testing application such as heat pipes and thermoelectric coolers
+          - item: Analyzed heat transfer methods for FOSS enclosure application including foam insulation
+          - item: Designed prototype enclosure for FOSS components, utilizing analyzed methods features foam insulation and heat pipes for improved high temperature environment survivability
 
     - job:
       title: Engineering Intern
@@ -192,9 +257,9 @@ vocation:
         description: Determined the compliance of pedestrian facilities in the Fairbanks Borough with the American Disability Act (ADA).
         date: Summer 2015
         highlights:
-            - item: Measured state maintained pedestrian facilities such as sidewalks and ramps
-            - item: Determined pedestrian facility requirements for ADA compliance including required slope accommodation for disabled pedestrians
-            - item: Compiled measurement data from multiple interns for coordinator review
+          - item: Measured state maintained pedestrian facilities such as sidewalks and ramps
+          - item: Determined pedestrian facility requirements for ADA compliance including required slope accommodation for disabled pedestrians
+          - item: Compiled measurement data from multiple interns for coordinator review
 
     - job:
       title: Engineering Intern
@@ -208,9 +273,9 @@ vocation:
         description: "Golf Swing Replicator Prototype: designed and built a golf swing replicating rig."
         date: Summer 2016
         highlights:
-            - item: Designed the golf swing replicator prototype in SolidWorks 2014 with adjustable stand, ball holder, and swinging mechanism
-            - item: Fabricated the golf swing replicator prototype, utilizing the mill, lathe, and MIG welder
-            - item: Tested and analyzed golf swing replicator prototype
+          - item: Designed the golf swing replicator prototype in SolidWorks 2014 with adjustable stand, ball holder, and swinging mechanism
+          - item: Fabricated the golf swing replicator prototype, utilizing the mill, lathe, and MIG welder
+          - item: Tested and analyzed golf swing replicator prototype
 
 projects:
 
@@ -221,8 +286,8 @@ projects:
       date: Fall 2014 - Spring 2015
       description: Part of the construction team that built the winning design for UAF's 2014 Ice Arch competition.
       highlights:
-          - item: Constructed and setup the wooden ice molds
-          - item: Erected the dual ice arch design
+        - item: Constructed and setup the wooden ice molds
+        - item: Erected the dual ice arch design
 
 miscellaneous:
 

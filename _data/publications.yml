@@ -77,7 +77,23 @@ posters:
     date_time: Jan. 9-16, 2021
     year: 2021
 
+  - poster:
+    authors: <u>D. Keller</u>, V. Somanna, C. Tard, and P. Drobinski
+    title: 'METMED: Mapping Potential Methanol Production through Carbon Dioxide Removal in the Mediterranean Sea'
+    conference: 'Ocean Science Meeting 2022'
+    location: Virtual, USA
+    date_time: Feb. 24 - Mar. 4, 2022
+    year: 2022
+
 talks:
+
+  - talk:
+    authors: <u>D. Keller</u>, G. J. Fochesatto
+    title: Identifying the Conditions for the Occurrence of High Latitude Superior Mirages
+    conference: Light and Color in Nature
+    location: Bar Harbor, Maine, USA
+    date_time: July 15, 2019
+    year: 2019
 
   - talk:
     authors: <u>D. Keller</u>, G. J. Fochesatto 
@@ -88,25 +104,47 @@ talks:
     year: 2021
 
   - talk:
-    authors: <u>D. Keller</u>, G. J. Fochesatto
-    title: Identifying the Conditions for the Occurrence of High Latitude Superior Mirages
-    conference: Light and Color in Nature
-    location: Bar Harbor, Maine, USA
-    date_time: July 15, 2019
-    year: 2019
+    authors: <u>D. Keller</u>
+    title: 'Effects of the Mistral on deep convection in the Gulf of Lion'
+    conference: SiMed 2021
+    location: Toulouse, France
+    date_time: Nov. 29-30, 2021
+    year: 2021
+
+  - talk:
+    authors: <u>D. Keller</u>, Y. Givon, R. Pennel, P. Drobinski, and S. Raveh-Rubin
+    title: 'Mistral Dynamics and Impact on the Gulf of Lion Deep Convection'
+    conference: CNRS/WIS Workshop
+    location: Virtual, Israel
+    date_time: Apr. 13, 2022
+    year: 2022
 
 progress:
 
   - work:
+    authors: <u>D. Keller</u>, V. Somanna, P. Drobinski, and C. Tard
+    title: 'pyseafuel: A Python package to simulate methanol production from seawater'
+    journal: JOSS
+    year: 2022
+    doi: false
+
+  - work:
+    authors: <u>D. Keller</u>, V. Somanna, P. Drobinski, and C. Tard
+    title: 'Offshore CO<sub>2</sub> capture and utilization using floating wind/PV systems: site assessment and efficiency analysis in the Mediterranean'
+    journal: energies
+    year: 2022
+    doi: 2022
+
+  - work:
     authors: <u>D. Keller</u>, G. J. Fochesatto
-    title: Seasonal Variation of Superior Mirages at Arctic and Subarctic Latitudes
-    journal: Applied Optics
-    year: 2021
+    title: Seasonal Variation of Superior Mirages
+    journal:
+    year: 2022
     doi: false
 
   - work:
     authors: <u>D. Keller</u>, Y. Givon, R. Pennel, S. Raveh-Rubin, and P. Drobinski
-    title: 'Untangling the Mistral and seasonal atmospheric forcing driving deep convection in the Gulf of Lion: 2012–2013'
-    journal: Ocean Science
-    year: 2021
-    doi: https://doi.org/10.5194/os-2021-72
+    title: 'Untangling the Mistral and Seasonal Atmospheric Forcing Driving Deep Convection in the Gulf of Lion: Seasonal Variability'
+    journal: "JGR Oceans"
+    year: 2022
+    doi: false
