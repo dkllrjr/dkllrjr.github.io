@@ -90,32 +90,9 @@ layout: resume
 
 <!--Experience-->
 
-                <h2>Experience</h2>
-
-    <!--Research-->
-
-                {% for item in exp.research %}
-                    
-                    {% if item.resume %}
-
-                        <div class="experience-item">
-
-                            <div class="experience-head">
-                                <div class="experience-title">{{ item.title }}</div>
-                                <div class="experience-date">{{ item.date }}</div>
-                            </div>
-
-                            <div class="experience-institute"><i>{{ item.institute }},</i> {{ item.location }}</div>
-                            <ul>
-                                <li>{{ item.description }}</li>
-                            </ul>
-                        </div>
-
-                    {% endif %}
-
-                {% endfor %}
-
     <!--Work-->
+
+                <h2>Vocation</h2>
 
                 {% for item in exp.vocation %}
                     
@@ -136,6 +113,31 @@ layout: resume
                             {% endfor %}
                             </ul>
 
+                        </div>
+
+                    {% endif %}
+
+                {% endfor %}
+
+    <!--Research-->
+
+                <h2>Research</h2>
+
+                {% for item in exp.research %}
+                    
+                    {% if item.resume %}
+
+                        <div class="experience-item">
+
+                            <div class="experience-head">
+                                <div class="experience-title">{{ item.title }}</div>
+                                <div class="experience-date">{{ item.date }}</div>
+                            </div>
+
+                            <div class="experience-institute"><i>{{ item.institute }},</i> {{ item.location }}</div>
+                            <ul>
+                                <li>{{ item.description }}</li>
+                            </ul>
                         </div>
 
                     {% endif %}
@@ -168,16 +170,16 @@ layout: resume
 
 <!--Interests-->
 
-            <div class="inside-right-flex-container">
+            {% if exp.interests.resume %}
 
-                {% if exp.interests.resume %}
+                <div class="inside-right-flex-container">
 
                     <h2>Interests</h2>
                     {{ exp.interests.description }}
 
-                {% endif %}
+                </div>
 
-            </div>
+            {% endif %}
         
         </div>
 

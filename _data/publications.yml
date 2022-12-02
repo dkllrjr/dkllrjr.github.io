@@ -1,7 +1,7 @@
 articles:
 
   - article:
-    resume: true
+    resume: false
     authors: <u>D. Keller</u>, D. R. Eagan, G. J. Fochesatto, R. Peterson, H. M. Chan, A. R. Parker
     year: 2019
     title: Advantages of Fiber Bragg Gratings for Measuring Electric Motor Loadings in Aerospace Application
@@ -16,6 +16,16 @@ articles:
     journal: Ocean Science
     doi: https://doi.org/10.5194/os-18-483-2022
 
+  - article:
+    resume: true
+    authors: <u>D. Keller</u>, V. Somanna, P. Drobinski, C. Tard
+    year: 2022
+    title: "Offshore CO<sub>2</sub> Capture and Utilization Using Floating Wind/PV Systems: Site Assessment and Efficiency Analysis in the Mediterranean"
+    journal: Energies
+    doi: https://doi.org/10.3390/en15238873
+
+# ──────────────────────────────────────────────────────────────────────────
+
 proceedings:
 
   - proceeding:
@@ -26,6 +36,8 @@ proceedings:
     date_time: June 25-30, 2017
     year: 2017
     doi: https://doi.org/10.1051/epjconf/201817601033
+
+# ──────────────────────────────────────────────────────────────────────────
 
 posters:
 
@@ -72,7 +84,7 @@ posters:
   - poster:
     authors: <u>D. Keller</u>, R. Pennel, Y. Givon, S. Raveh-Rubin, and P. Drobinski
     title: 'Untangling the Mistral and Seasonal Effects of Atmospheric Forcing on Deep Convection in the Gulf of Lion'
-    conference: 101th Annual American Meteorological Society Meeting
+    conference: 101st Annual American Meteorological Society Meeting
     location: Virtual, USA
     date_time: Jan. 9-16, 2021
     year: 2021
@@ -85,6 +97,48 @@ posters:
     date_time: Feb. 24 - Mar. 4, 2022
     year: 2022
 
+  - poster:
+    authors: G. J. Fochesatto, N. Brett, K. Law, R. Pohorsky, A. Baccarini, B. Barret, G. Pappaccogli, F. Scoto, M. Busetto, E. Dieudonné, S. Albertin, S. Bekki, J. Maillard, M. C. Maloney, J.-C. Raut, F. Ravetta, D. E. Atkinson, <u>D. Keller</u>, T. Roberts, J. Schmale, S. Decesari, A. Donateo, K. Doulgeris, D. Brus, S. Arnold, J. Mao, and W. Simpson
+    title: 'Overview of the ALPACA-PBL Winter Field Experiment'
+    conference: 103rd Annual American Meteorological Society Meeting
+    location: Denver, Colorado, USA
+    date_time: Jan. 8-12, 2023
+    year: 2023
+
+  - poster:
+    authors: G. J. Fochesatto, E. Dieudonné, J. Maillard, N. Brett, G. Pappaccogli, K. Law, <u>D. Keller</u>, F. Ravetta, J.-C. Raut, E. Peterson, A. Donateo, and S. Decesari
+    title: 'The Effects of Shallow Cold Flows in the PBL State. Analysis of Experimental Datasets during Alpaca-PBL Winter Field Experiment'
+    conference: 103rd Annual American Meteorological Society Meeting
+    location: Denver, Colorado, USA
+    date_time: Jan. 8-12, 2023
+    year: 2023
+
+  - poster:
+    authors: D. E. Atkinson, G. J. Fochesatto, N. Brett, R. Pohorsky, A. Baccarini, <u>D. Keller</u>, S. Bekki, E. Peterson, J. Maillard, K. Law, F. Ravetta, J.-C. Raut, J. Schmale, and Y. Harazono
+    title: 'Energy Balance Evolution and Forcing across the ALPACA-PBL domain'
+    conference: 103rd Annual American Meteorological Society Meeting
+    location: Denver, Colorado, USA
+    date_time: Jan. 8-12, 2023
+    year: 2023
+
+  - poster:
+    authors: <u>D. Keller</u>, G. J. Fochesatto, E. Dieudonné, N. Brett, K. Law, S. Bekki, D. E. Atkinson, and E. Peterson
+    title: 'Buildup of the Surface Based Temperature Inversions during ALPACA-PBL'
+    conference: 103rd Annual American Meteorological Society Meeting
+    location: Denver, Colorado, USA
+    date_time: Jan. 8-12, 2023
+    year: 2023
+
+  - poster:
+    authors: <u>D. Keller</u>, G. J. Fochesatto, E. Dieudonné, N. Brett, K. Law, S. Bekki, D. E. Atkinson, E. J. Welton, and E. Peterson
+    title: 'Breakup of Surface Based Temperature Inversion Layers by Direct Radiative Forcing: Study Cases during ALPACA-PBL'
+    conference: 103rd Annual American Meteorological Society Meeting
+    location: Denver, Colorado, USA
+    date_time: Jan. 8-12, 2023
+    year: 2023
+
+# ──────────────────────────────────────────────────────────────────────────
+
 talks:
 
   - talk:
@@ -96,9 +150,17 @@ talks:
     year: 2019
 
   - talk:
-    authors: <u>D. Keller</u>, G. J. Fochesatto 
+    authors: <u>D. Keller</u>, G. J. Fochesatto, E. J. Welton, and J. R. Campbell
+    title: 'The Spectral Signature of Surface Turbulent Fluxes during Arctic Warmings: Combining MPLNET Lidar and Surface Turbulence Observations'
+    conference: 100th Annual American Meteorological Society Meeting
+    location: Boston, USA
+    date_time: Jan. 12-16, 2020
+    year: 2020
+
+  - talk:
+    authors: <u>D. Keller</u>, G. J. Fochesatto, E. J. Welton, and J. Campbell 
     title: 'Spectral Changes in the Surface Turbulent Fluxes during Arctic Warmings: Combining MPLNET Lidar and Surface Turbulence Observations'
-    conference: 101th Annual American Meteorological Society Meeting
+    conference: 101st Annual American Meteorological Society Meeting
     location: Virtual, USA
     date_time: Jan. 9-16, 2021
     year: 2021
@@ -119,6 +181,40 @@ talks:
     date_time: Apr. 13, 2022
     year: 2022
 
+  - talk:
+    authors: <u>D. Keller</u>, Y. Givon, R. Pennel, S. Raveh-Rubin, and P. Drobinski, 
+    title: 'Variability of the Mistral and Seasonal Atmospheric Forcing on Deep Convection in the Gulf of Lion'
+    conference: EGU General Assembly 2022
+    location: Vienna, Austria
+    date_time: May 23-27, 2022
+    year: 2022
+
+  - talk:
+    authors: Y. Givon, <u>D. Keller</u>, V. Silverman, R. Pennel, P. Drobinski, and S. Raveh-Rubin
+    title: 'The mistral wind from a Rossby-wave perspective: a climatological classification of RWB'
+    conference: EGU General Assembly 2022
+    location: Vienna, Austria
+    date_time: May 23-27, 2022
+    year: 2022
+
+  - talk:
+    authors: <u>D. Keller</u>, Y. Givon, R. Pennel, P. Drobinski, and S. Raveh-Rubin
+    title: 'Untangling the Mistral and Seasonal Effects of Atmospheric Forcing on Deep Convection in the Gulf of Lion'
+    conference: 1st MedCyclones Workshop and Training School
+    location: Athens, Greece
+    date_time: June 27 - July 2, 2022
+    year: 2022
+
+  - talk:
+    authors: <u>D. Keller</u>, Y. Givon, R. Pennel, P. Drobinski, and S. Raveh-Rubin
+    title: 'Impact and Variability of the Mistral and Atmospheric Forcing on Deep Convection in the Gulf of Lion'
+    conference: MedCLIVAR 2022 Conference
+    location: Marrakesh, Morocco
+    date_time: Oct. 4-8, 2022
+    year: 2022
+
+# ──────────────────────────────────────────────────────────────────────────
+
 progress:
 
   - work:
@@ -127,13 +223,6 @@ progress:
     journal: JOSS
     year: 2022
     doi: false
-
-  - work:
-    authors: <u>D. Keller</u>, V. Somanna, P. Drobinski, and C. Tard
-    title: 'Offshore CO<sub>2</sub> capture and utilization using floating wind/PV systems: site assessment and efficiency analysis in the Mediterranean'
-    journal: energies
-    year: 2022
-    doi: 2022
 
   - work:
     authors: <u>D. Keller</u>, G. J. Fochesatto

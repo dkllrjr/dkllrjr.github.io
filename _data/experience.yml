@@ -1,6 +1,10 @@
 name: Douglas Keller Jr.
 
-title: Doctoral Candidate
+# ══════════════════════════════════════════════════════════════════════════
+
+title: Postdoctorate Researcher
+
+# ══════════════════════════════════════════════════════════════════════════
 
 contact: 
 
@@ -11,12 +15,18 @@ contact:
     - name: Palaiseau, France
       icon: fas fa-flag
 
+# ══════════════════════════════════════════════════════════════════════════
+
 motivation: I like tinkering, learning, and enjoying life.
+
+# ══════════════════════════════════════════════════════════════════════════
 
 interests:
 
     description: "I enjoy many different things: science, engineering, programming, martial arts, hockey, skiing, and the outdoors, to list a few. I'm from Alaska; that may explain some of my interests."
     resume: false
+
+# ══════════════════════════════════════════════════════════════════════════
 
 education:
 
@@ -27,7 +37,9 @@ education:
       institute: Institut Polytechnique de Paris, École Polytechnique
       location: Palaiseau, Île-de-France, FR
       thesis: Impact de la variabilité spatio-temporelle du Mistral sur la formation d'eaux denses en Méditerranée
-      date: Fall 2019 - Expected Fall 2022
+      date: Fall 2019 - Fall 2022
+
+# ──────────────────────────────────────────────────────────────────────────
 
     - degree:
       type: Master of Science
@@ -39,6 +51,8 @@ education:
       date: Fall 2017 - Fall 2018
       gpa: 4.0/4.0
 
+# ──────────────────────────────────────────────────────────────────────────
+
     - degree:
       type: Bachelor of Science
       shorthand: BS
@@ -49,22 +63,13 @@ education:
       date: Fall 2014 - Fall 2018
       gpa: 3.8/4.0
 
+# ══════════════════════════════════════════════════════════════════════════
+
 research:
 
     - study:
       resume: true
-      title: Doctorate of Philosophy Thesis
-      institute: Institut Polytechnique de Paris, École Polytechnique, Laboratoire de Météorologie Dynamique, Institut Pierre-Simon Laplace, Centre National de la Recherche Scientifique
-      location: Palaiseau, Île-de-France, FR
-      date: Fall 2019 - Present
-      description: Determining the spatial and temporal effects of the Mistral on the Dense Water Formation in the Gulf of Lion (Western Mediterranean Sea)
-      highlights:
-          - item: Created a database of Mistral events with duration and intensity from atmospheric regional models driven by global weather reanalysis.
-          - item: Ran multiple ocean simulations (NEMO) with different wind forcings to determine the ocean sensitivity to wind forcing.
-
-    - study:
-      resume: true
-      title: Seafuel
+      title: XSeaO<sub>2</sub>
       institute: Energy4Climate
       location: Palaiseau, Île-de-France, FR
       date: Summer 2021 - Present
@@ -74,8 +79,23 @@ research:
         - item: Developed a simple model to simulate the Seafuel and the oceanic carbon system.
         - item: Presented work at the Ocean Science Meeting 2022.
 
+# ──────────────────────────────────────────────────────────────────────────
+
     - study:
       resume: true
+      title: Impact of the Mistral on Dense Water Formation (Doctorate of Philosophy Thesis)
+      institute: Institut Polytechnique de Paris, École Polytechnique, Laboratoire de Météorologie Dynamique, Institut Pierre-Simon Laplace, Centre National de la Recherche Scientifique
+      location: Palaiseau, Île-de-France, FR
+      date: Fall 2019 - Fall 2022
+      description: Determining the spatial and temporal effects of the Mistral on the Dense Water Formation in the Gulf of Lion (Northwestern Mediterranean Sea)
+      highlights:
+          - item: Created a database of Mistral events with duration and intensity from atmospheric regional models driven by global weather reanalysis.
+          - item: Ran multiple ocean simulations (NEMO) with different wind forcings to determine the ocean sensitivity to wind forcing.
+
+# ──────────────────────────────────────────────────────────────────────────
+
+    - study:
+      resume: false
       title: General Fluid Planetary Modelling
       institute: Laboratoire de Météorologie Dynamique
       location: Palaiseau, Île-de-France, FR
@@ -83,6 +103,8 @@ research:
       description: Injecting fluid agnostic capability into DYNAMICO, the atmospheric dynamics model at LMD.
       highlights:
         - item: Supervising a Master's intern to develop a Julia model capable of running thermodynamically agnostic dynamics for fluids.
+
+# ──────────────────────────────────────────────────────────────────────────
 
     - study:
       resume: true
@@ -93,8 +115,21 @@ research:
       description: Investigating the deep convection behavior in the northern part of the Red Sea.
       highlights:
 
+# ──────────────────────────────────────────────────────────────────────────
+
     - study:
       resume: true
+      title: ALPACA-PBL
+      institute: University of Alaska Fairbanks
+      location: Fairbanks, Alaska, USA
+      date: Summer 2022 - Present
+      description: Investigating the build up and break up of radiatively forced boundary layers in the subarctic.
+      highlights:
+
+# ──────────────────────────────────────────────────────────────────────────
+
+    - study:
+      resume: false
       title: Oceanic Response to Medicane Forcing
       institute: Laboratoire de Météorologie Dynamique and Hellenic Centre for Marine Research
       location: Palaiseau, Île-de-France, FR and Athens, GR
@@ -102,8 +137,10 @@ research:
       description: Studying the effects of Medicane tracks on the Mediterranean Sea vertical stability.
       highlights:
 
+# ──────────────────────────────────────────────────────────────────────────
+
     - study:
-      resume: true
+      resume: false
       title: New Wavelet Detection of Multilayering in the High Latitude Atmospheric Boundary Layer
       institute: University of Alaska, Fairbanks
       location: Fairbanks, Alaska, USA
@@ -111,14 +148,18 @@ research:
       description: Observing the multilayered aspect of the high latitude atmospheric boundary layer in Fairbanks, Alaska with lidar backscattering profiles and wavelet transforms.
       highlights:
 
+# ──────────────────────────────────────────────────────────────────────────
+
     - study:
-      resume: true
+      resume: false
       title: Shift in Spectral Content of the Turbulent Kinetic Energy of the Surface Layer in Fairbanks, Alaska with Northward Traveling Cyclonic Conditions
       institute: University of Alaska, Fairbanks
       location: Fairbanks, Alaska, USA
       date: Fall 2017 - Present
       description: Determining the shift in spectral content of the atmospheric surface layer in Fairbanks, Alaska during a transitioning synoptic condition, with northward advection of moisture.
       highlights:
+
+# ──────────────────────────────────────────────────────────────────────────
 
     - study:
       resume: true
@@ -132,9 +173,11 @@ research:
         - item: Spatially and temporally determined the variability of potential mirage events in the high latitudes
         - item: Presented work at the Light and Color in Nature conference in Maine, USA
 
+# ──────────────────────────────────────────────────────────────────────────
+
     - study:
       resume: false
-      title: Master of Science Thesis
+      title: Fiber Optic Strain Sensing for Electric Motors (Master of Science Thesis)
       institute: College of Engineering and Mines, University of Alaska Fairbanks
       location: Fairbanks, Alaska, USA
       date: Fall 2017 - Fall 2018
@@ -146,6 +189,8 @@ research:
         - item: Analyzed and compared data retrieved using the FOSS and conventional strain gauges
         - item: Determined the effect of electromagnetic interference on the thrust loading measurements
         - item: Determined the effect of mechanical interference/vibration with both systems in the same test application
+
+# ──────────────────────────────────────────────────────────────────────────
 
     - study:
       resume: false
@@ -161,6 +206,8 @@ research:
         - item: Produced statistical estimates of ABL parameters and computed diurnal and seasonal variations
         - item: Analyzed the high latitude ABL with the MPLNET, radiosonde data, and global positioning system radio occultation (GPSRO)
 
+# ──────────────────────────────────────────────────────────────────────────
+
     - study:
       resume: false
       title: Raman Spectroscopy Lidar
@@ -174,14 +221,29 @@ research:
         - item: Developed simulation of Lidar signals to condition instrument design for 532 nm, N2, and H2O Raman vibrational bands
         - item: Implemented multichannel Lidar receiver
 
+# ══════════════════════════════════════════════════════════════════════════
+
 vocation:
+
+    - job:
+      title: Postdoctorate Researcher
+      institute: Energy4Climate, Laboratoire de Chimie Moléculaire, Laboratoire de Météorologie Dynamique, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      date: Fall 2022
+      resume: true
+      tasks:
+        - task:
+          location: Palaiseau, Île-de-France, FR
+          description: Developing and manufacturing a prototype demonstrator that extracts CO<sub>2</sub> from the ocean and produces synthetic fuel with it.
+
+# ──────────────────────────────────────────────────────────────────────────
 
     - job:
       title: Moniteur (Teaching Assistant)
       institute: Département de Mécanique, École Polytechnique
       location: Palaiseau, Île-de-France, FR
       date: Fall 2020 - Spring 2022
-      resume: false
+      resume: true
       tasks:
       - task:
         location: Palaiseau, Île-de-France, FR
@@ -190,6 +252,21 @@ vocation:
         highlights:
           - item: "Taught petite class for Master students in MEC559, Introduction to Wind Energy. Topics included: Wind turbine design, Airfoils, Atmospheric dynamics and resources, Bending beam vibrations"
           - item: Monitored Bachelor students enrolled in the Phys103, Physics Lab.
+
+# ──────────────────────────────────────────────────────────────────────────
+
+    - job:
+      title: Doctorate Researcher
+      institute: Laboratoire de Météorologie Dynamique, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      date: Fall 2019 - Fall 2022
+      resume: true
+      tasks:
+        - task:
+          location: Palaiseau, Île-de-France, FR
+          description: Determining the spatial and temporal effects of the Mistral on the Dense Water Formation in the Gulf of Lion (Northwestern Mediterranean Sea)
+
+# ──────────────────────────────────────────────────────────────────────────
 
     - job:
       title: Research Technician
@@ -214,6 +291,8 @@ vocation:
           - item: Determining the job hazards and required training to safely perform experiments in the ETF
           - item: Adjusting the emergency action plan of ETF to more effectively transfer ETF's emergency systems
 
+# ──────────────────────────────────────────────────────────────────────────
+
     - job:
       title: Teaching Assistant
       institute: College of Engineering and Mines, University of Alaska Fairbanks
@@ -229,6 +308,8 @@ vocation:
           - item: Graded homework and exams for the courses on Mechanics of Materials, Instrumentation and Measurement, and Heat Transfer
           - item: Recorded lectures for Astrodynamics and Mechanical Vibration
     
+# ──────────────────────────────────────────────────────────────────────────
+
     - job:
       title: Mechanical Engineering Intern
       institute: NASA Armstrong Flight Research Center
@@ -244,6 +325,8 @@ vocation:
           - item: Researched heat transfer technologies for FOSS enclosure flight testing application such as heat pipes and thermoelectric coolers
           - item: Analyzed heat transfer methods for FOSS enclosure application including foam insulation
           - item: Designed prototype enclosure for FOSS components, utilizing analyzed methods features foam insulation and heat pipes for improved high temperature environment survivability
+
+# ──────────────────────────────────────────────────────────────────────────
 
     - job:
       title: Engineering Intern
@@ -261,6 +344,8 @@ vocation:
           - item: Determined pedestrian facility requirements for ADA compliance including required slope accommodation for disabled pedestrians
           - item: Compiled measurement data from multiple interns for coordinator review
 
+# ──────────────────────────────────────────────────────────────────────────
+
     - job:
       title: Engineering Intern
       institute: Project Aisle
@@ -277,6 +362,8 @@ vocation:
           - item: Fabricated the golf swing replicator prototype, utilizing the mill, lathe, and MIG welder
           - item: Tested and analyzed golf swing replicator prototype
 
+# ══════════════════════════════════════════════════════════════════════════
+
 projects:
 
     - project:
@@ -289,6 +376,8 @@ projects:
         - item: Constructed and setup the wooden ice molds
         - item: Erected the dual ice arch design
 
+# ══════════════════════════════════════════════════════════════════════════
+
 miscellaneous:
 
     - item:
@@ -298,6 +387,8 @@ miscellaneous:
       date: Spring 2021
       description: Reviewed students' reports and participated as a judge for the state competition. Guided students in their project work.
 
+# ══════════════════════════════════════════════════════════════════════════
+
 skills:
 
     - skill:
@@ -306,6 +397,8 @@ skills:
         - item: English (Native)
         - item: French (A2)
         - item: German (A2)
+
+# ──────────────────────────────────────────────────────────────────────────
 
     - skill:
       name: Programming Languages
@@ -318,6 +411,8 @@ skills:
         - item: CUDA
         - item: OpenCL
 
+# ──────────────────────────────────────────────────────────────────────────
+
     - skill:
       name: Platforms
       list:
@@ -326,11 +421,15 @@ skills:
         - item: Arduino
         - item: Raspberry Pi
 
+# ──────────────────────────────────────────────────────────────────────────
+
     - skill:
       name: Software
       list:
         - item: Git
         - item: SolidWorks
+
+# ══════════════════════════════════════════════════════════════════════════
 
 awards:
     
@@ -339,30 +438,42 @@ awards:
       description: Awarded to fund scholarly research during undergraduate studies at the University of Alaska Fairbanks.
       date: Spring 2018
 
+# ──────────────────────────────────────────────────────────────────────────
+
     - award:
       title: University of Alaska Scholars Award
       description: Scholarship awarded to Alaskan high school students graduating in the top 10% of the graduating class.
       date: Fall 2014 - Spring 2018
+
+# ──────────────────────────────────────────────────────────────────────────
 
     - award:
       title: Alaska Performance Scholarship
       description: Scholarship awarded to Alaskan high school students based on graduating GPA.
       date: Fall 2014 - Spring 2018
 
+# ──────────────────────────────────────────────────────────────────────────
+
     - award:
       title: NACE International Alaska Section / BP Scholarship
       description: Awarded to engineering students interested in Alaskan engineering challenges.<br>
       date: Fall 2016 - Spring 2017
+
+# ──────────────────────────────────────────────────────────────────────────
 
     - award:
       title: Chancellor’s List
       description: Awarded to undergraduate students with a semester GPA equal to or greater than 3.9/4.0.
       date: Spring 2017, Fall 2016, Spring 2016
 
+# ──────────────────────────────────────────────────────────────────────────
+
     - award:
       title: Dean’s List
       description: Awarded to undergraduate students with a semester GPA between 3.5/4.0 and 3.89/4.0.<br>
       date: Fall 2015, Spring 2015
+
+# ══════════════════════════════════════════════════════════════════════════
 
 sports:
 
@@ -373,13 +484,17 @@ sports:
       description: Taught Krav Maga, Muay Thai, and fitness classes to students at varying skill levels. Also trained in Brazilian Jiu Jitsu.
       date: Winter 2017 -- Winter 2018
 
+# ──────────────────────────────────────────────────────────────────────────
+
     - sport:
       title: Junior A Tier III Hockey Player
       institute: Great Falls Americans
       location: Great Falls, Montana, USA
       description: Played junior hockey in the American Western Hockey League; played as winger and typically killed penalties.
       date: Fall 2012 - Winter 2013
-    
+
+# ──────────────────────────────────────────────────────────────────────────
+
     - sport:
       title: Junior A Tier III Hockey
       institute: Yellowstone Quake
@@ -387,19 +502,27 @@ sports:
       description: Played junior hockey in the American Western Hockey League; played as winger and typically killed penalties.
       date: Winter 2013 - Spring 2014
 
+# ══════════════════════════════════════════════════════════════════════════
+
 hobbies:
     
     - hobby:
       title: Skiing
       description: Skiing downhill and backcountry (with skins and the whole setup for charging steeper lines).
     
+# ──────────────────────────────────────────────────────────────────────────
+
     - hobby:
       title: Networking and Server Management
       description: In addition to a Minecraft server I run from scratch, I also manage/play with a virtual server and a Raspberry Pi server that I own and use for data storage, git repository hosting, and website hosting.
 
+# ──────────────────────────────────────────────────────────────────────────
+
     - hobby:
       title: Other Interests
       description: Aerospace and aviation, game development, optics and physics, artificial intelligence, quantum communication, music, language learning.
+
+# ══════════════════════════════════════════════════════════════════════════
 
 references:
     
@@ -410,6 +533,8 @@ references:
       location: Palaiseau, Île-de-France, FR
       phone: +33 01 69 33 51 42
       email: philippe.drobinski@lmd.ipsl.fr
+
+# ──────────────────────────────────────────────────────────────────────────
     
     - reference:
       name: Romain Pennel, PhD
@@ -419,6 +544,8 @@ references:
       phone: +33 01 69 33 52 33
       email: romain.pennel@lmd.ipsl.fr
 
+# ──────────────────────────────────────────────────────────────────────────
+
     - reference:
       name: Gilberto "Javier" Fochesatto, PhD
       title: Professor of Atmospheric Sciences
@@ -427,12 +554,16 @@ references:
       phone: +1 907-474-7602
       email: gjfochesatto@alaska.edu
 
+# ──────────────────────────────────────────────────────────────────────────
+
     - reference:
       name: Dayne Broderson
       title: Computer and Information Research Scientist
       institute: University of Alaska Fairbanks
       location: Fairbanks, AK, USA
       email: broderson@gmail.com
+
+# ──────────────────────────────────────────────────────────────────────────
 
     - reference:
       name: Paul Bean
@@ -441,6 +572,8 @@ references:
       location: Edwards Air Force Base, CA, USA
       phone: +1 661-276-2451
       email: paul.bean@nasa.gov
+
+# ──────────────────────────────────────────────────────────────────────────
 
     - reference:
       name: Cheng-fu Chen, PhD
