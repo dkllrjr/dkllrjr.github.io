@@ -1,0 +1,16 @@
+current directory: /home/doug/dkllrjr.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
+creating Makefile
+
+current directory: /home/doug/dkllrjr.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20231210-333121-22fghg sitelibdir\=./.gem.20231210-333121-22fghg clean
+
+current directory: /home/doug/dkllrjr.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20231210-333121-22fghg sitelibdir\=./.gem.20231210-333121-22fghg
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/doug/dkllrjr.github.io/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20231210-333121-22fghg sitelibdir\=./.gem.20231210-333121-22fghg install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20231210-333121-22fghg

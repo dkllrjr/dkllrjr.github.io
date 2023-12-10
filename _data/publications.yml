@@ -137,6 +137,30 @@ posters:
     date_time: Jan. 8-12, 2023
     year: 2023
 
+  - poster:
+    authors: <u>D. Keller</u>, P. Drobinski, C. Tard
+    title: 'Offshore CO<sub>2</sub> capture and utilization using floating wind/PV systems: Site assessment and efficiency analysis in the Mediterranean'
+    conference: 9th International Conference on Meteorology and Climatology of the Mediterranean
+    location: Genoa, Italy
+    date_time: May 22-24, 2023
+    year: 2023
+
+  - poster:
+    authors: <u>D. Keller</u>, Y. Givon, R. Pennel, S. Raveh-Rubin, P. Drobinski
+    title: 'Effects of the Mistral on the Overturning Circulation of the Northwestern Mediterranean Sea'
+    conference: 2nd MedCyclones and 9th European Storm Workshop
+    location: Toulouse, France
+    date_time: June 28-30, 2023
+    year: 2023
+
+  - poster:
+    authors: Y. Givon, <u>D. Keller</u>, R. Pennel, P. Drobinski, S. Raveh-Rubin
+    title: 'Decomposing the role of dry intrusions for evaporation in the Gulf of Lion during Mistral'
+    conference: 2nd MedCyclones and 9th European Storm Workshop
+    location: Toulouse, France
+    date_time: June 28-30, 2023
+    year: 2023
+
 # ──────────────────────────────────────────────────────────────────────────
 
 talks:
@@ -212,6 +236,30 @@ talks:
     location: Marrakesh, Morocco
     date_time: Oct. 4-8, 2022
     year: 2022
+
+  - talk:
+    authors: <u>D. Keller</u>, Y. Givon, F. Sevault, S. Somot, R. Pennel, S. Raveh-Rubin, P. Drobinski
+    title: 'Evolution of the Drivers of Stratification of the Gulf of Lion in a Changing Climate'
+    conference: SiMed 2023
+    location: Toulouse, France
+    date_time: March 21-22, 2023
+    year: 2023
+
+  - talk:
+    authors: <u>D. Keller</u>, Y. Givon, F. Sevault, S. Somot, R. Pennel, S. Raveh-Rubin, P. Drobinski
+    title: 'Evolution of the Drivers of Stratification of the Gulf of Lion in a Changing Climate'
+    conference: EGU General Assembly 2023
+    location: Vienna, Austria
+    date_time: April 23-28, 2023
+    year: 2023
+
+  - talk:
+    authors: G. J. Fochesatto, <u>D. Keller</u>, E. Dieudonné, N. Brett, K. Law, S. Bekki, D. Atkinson, E. Wellton, E. Peterson
+    title: 'The Effects of the Large Scale Synoptic fields in the High Latitude PBL states'
+    conference: EGU General Assembly 2023
+    location: Vienna, Austria
+    date_time: April 23-28, 2023
+    year: 2023
 
 # ──────────────────────────────────────────────────────────────────────────
 
