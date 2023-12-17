@@ -33,7 +33,7 @@ education:
     - degree:
       type: Doctorate of Philosophy
       shorthand: PhD
-      name: Ingéniere, Mécanique et Énergétique
+      name: Mécanique des fluides et des solides, acoustique
       institute: Institut Polytechnique de Paris, École Polytechnique
       location: Palaiseau, Île-de-France, FR
       thesis: Impact de la variabilité spatio-temporelle du Mistral sur la formation d'eaux denses en Méditerranée
@@ -59,7 +59,7 @@ education:
       name: Mechanical Engineering
       institute: College of Engineering and Mines, University of Alaska Fairbanks
       location: Fairbanks, Alaska, USA
-      thesis: FOSS Load Cell
+      thesis: Fiber Optic Sensing System Load Cell
       date: Fall 2014 - Fall 2018
       gpa: 3.8/4.0
 
@@ -239,6 +239,100 @@ vocation:
 # ──────────────────────────────────────────────────────────────────────────
 
     - job:
+      title: Research Advisor
+      institute: Energy4Climate, Laboratoire de Météorologie Dynamique, Laboratoire de Chimie Moléculaire, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      date: Spring 2021 - Present
+      resume: true
+      tasks:
+
+      - task:
+        location: Palaiseau, Île-de-France, FR / Fairbanks, Alaska, USA
+        description: Co-advising doctoral student (from the University of Alaska Fairbanks) on the Arctic atmospheric boundary layer.
+        date: Fall 2023 - Present
+        highlights:
+          - item: Advising the student on formulating research questions relating to arctic atmospheric boundary layer turbulence.
+
+      - task:
+        location: Palaiseau, Île-de-France, FR / Fairbanks, Alaska, USA
+        description: Co-advising doctoral student (from the University of Alaska Fairbanks) on the Arctic atmospheric boundary layer.
+        date: Fall 2023 - Present
+        highlights:
+          - item: Advised the student on formulating research questions relating to arctic atmospheric boundary layer thermodynamics.
+          - item: Helped build the student's strength in python and analysis of climate datasets.
+
+      - task:
+        location: Palaiseau, Île-de-France, FR
+        description: Main advisor for master student thesis (Engineering Master student of Politecnico di Torino) on the production of synthetic fuel utilizing wind power in the Sardinian region for the XSeaO<sub>2</sub> project.
+        date: Spring 2023 - Fall 2023
+        highlights:
+          - item: Advised the student on formulating research questions and building engineering problem solving.
+          - item: Helped build the student's strength in python and analysis of climate datasets.
+          - item: Worked with student to effectively communicate their results.
+
+      - task:
+        location: Palaiseau, Île-de-France, FR
+        description: Main advisor for master student intern (Master M1 from ENSTA) on CAD and CFD modelling of the carbon dioxide extractor from the XSeaO<sub>2</sub> project.
+        date: Spring 2023 - Fall 2023
+        highlights:
+          - item: Advised the student on formulating research and engineering questions
+          - item: Helped build the student's strength in python, linux, and CAD and CFD modelling.
+          - item: Worked with student to effectively communicate their results and challenges in compuation.
+
+      - task:
+        location: Palaiseau, Île-de-France, FR
+        description: Co-advisor for master student thesis (Master Sciences de la mer from OSU Institut PYTHEAS, Aix-Marseille Université) on the changes of SST in the Mediterranean Sea with satellite data and investigating marine heat waves in the Gulf of Lion.
+        date: Spring 2023 - Fall 2023
+        highlights:
+          - item: Advised the student on formulating research questions in the field of oceanography.
+          - item: Advised student on the analysis of oceanic datasets.
+          - item: Encouraged student to present their results at the "Atelier scientifique INTEGRATION Impacts des vagues de chaleur marine 2022".
+
+      - task:
+        location: Palaiseau, Île-de-France, FR
+        description: Main advisor for master student intern (International Master of École Polytechnique and KTH) on the production of synthetic fuel at sea.
+        date: Spring 2021 - Fall 2021
+        highlights:
+          - item: Advised the student on formulating research questions.
+          - item: Helped build the student's strength in python and analysis of climate datasets.
+
+# ──────────────────────────────────────────────────────────────────────────
+
+    - job:
+      title: Enseignant vacataire (Temporary Teacher)
+      institute: Département de Mécanique, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      date: Fall 2023 - Present
+      resume: true
+      tasks:
+      - task:
+        location: Palaiseau, Île-de-France, FR
+        description: Teaching and leading students through master level coursework.
+        date: Fall 2023 - Present
+        highlights:
+          - item: "Prepared coursework in wave energy for MEC573."
+          - item: "Guided students through renewable energy projects in MEC573."
+          - item: "Prepared data and coursework for the Energy4Climate Interdisplinary Institute E4C Challenge."
+
+#  ──────────────────────────────────────────────────────────────────────────
+
+    - job:
+      title: Tutor
+      institute: Département de Mécanique, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      date: Fall 2023 - Fall 2023
+      resume: true
+      tasks:
+      - task:
+        location: Palaiseau, Île-de-France, FR
+        description: Tutoring students through master level coursework.
+        date: Fall 2023 - Fall 2023
+        highlights:
+          - item: "Tutored students for the MEC559 course on wind energy."
+
+# ──────────────────────────────────────────────────────────────────────────
+
+    - job:
       title: Moniteur (Teaching Assistant)
       institute: Département de Mécanique, École Polytechnique
       location: Palaiseau, Île-de-France, FR
@@ -248,7 +342,7 @@ vocation:
       - task:
         location: Palaiseau, Île-de-France, FR
         description: Teaching and leading students through master and bachelor level coursework.
-        date: Fall 2020 - Present
+        date: Fall 2020 - Spring 2022
         highlights:
           - item: "Taught petite class for Master students in MEC559, Introduction to Wind Energy. Topics included: Wind turbine design, Airfoils, Atmospheric dynamics and resources, Bending beam vibrations"
           - item: Monitored Bachelor students enrolled in the Phys103, Physics Lab.
@@ -496,7 +590,7 @@ sports:
 # ──────────────────────────────────────────────────────────────────────────
 
     - sport:
-      title: Junior A Tier III Hockey
+      title: Junior A Tier III Hockey Player
       institute: Yellowstone Quake
       location: Cody, Wyoming, USA
       description: Played junior hockey in the American Western Hockey League; played as winger and typically killed penalties.

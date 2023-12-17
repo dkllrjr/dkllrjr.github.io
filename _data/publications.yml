@@ -9,6 +9,14 @@ articles:
     doi: https://doi.org/10.1063/1.5093556
 
   - article:
+    resume: false
+    authors: Y. Givon, <u>D. Keller</u>, V. Silverman, R. Pennel, P. Drobinski, S. Raveh-Rubin
+    year: 2021
+    title: "Large-scale drivers of the mistral wind: link to Rossby wave life cycles and seasonal variability"
+    journal: Weather and Climate Dynamics
+    doi: https://doi.org/10.5194/wcd-2-609-2021
+
+  - article:
     resume: true
     authors: <u>D. Keller</u>, Y. Givon, R. Pennel, S. Raveh-Rubin, P. Drobinski
     year: 2022
@@ -177,7 +185,7 @@ talks:
     authors: <u>D. Keller</u>, G. J. Fochesatto, E. J. Welton, and J. R. Campbell
     title: 'The Spectral Signature of Surface Turbulent Fluxes during Arctic Warmings: Combining MPLNET Lidar and Surface Turbulence Observations'
     conference: 100th Annual American Meteorological Society Meeting
-    location: Boston, USA
+    location: Boston, Massachusetts, USA
     date_time: Jan. 12-16, 2020
     year: 2020
 
@@ -246,6 +254,14 @@ talks:
     year: 2023
 
   - talk:
+    authors: D. Siriez, <u>D. Keller</u>, V. Capelle, J.M. Hartmann
+    title: 'Impact des vagues de chaleurs sur la stratification en Méditerranée en 2022'
+    conference: Atelier scientifique INTEGRATION Impacts des vagues de chaleur marine 2022
+    location: Toulouse, France
+    date_time: June 26-28, 2023
+    year: 2023
+
+  - talk:
     authors: <u>D. Keller</u>, Y. Givon, F. Sevault, S. Somot, R. Pennel, S. Raveh-Rubin, P. Drobinski
     title: 'Evolution of the Drivers of Stratification of the Gulf of Lion in a Changing Climate'
     conference: EGU General Assembly 2023
@@ -259,6 +275,14 @@ talks:
     conference: EGU General Assembly 2023
     location: Vienna, Austria
     date_time: April 23-28, 2023
+    year: 2023
+
+  - talk:
+    authors: G. J. Fochesatto, G. Sjöblom, D. Thomas, N. Brett, <u>D. Keller</u>, K. Law, S. Bekki
+    title: 'Assessing PBL Time and Spatial Variability in Polar Regions: Challenges for a Space Mission.'
+    conference: AGU Fall Meeting
+    location: San Francisco, California, USA
+    date_time: December 11-15, 2023
     year: 2023
 
 # ──────────────────────────────────────────────────────────────────────────

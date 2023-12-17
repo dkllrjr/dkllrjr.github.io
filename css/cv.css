@@ -1,0 +1,46 @@
+@font-face {
+    font-family: notosans;
+    src: url(/assets/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf);
+}
+
+body {
+    font-family: notosans;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 30pt;
+}
+
+h2 {
+    font-size: 24pt;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+b {
+    font-weight: 600;
+}
+
+a {
+    color: #6924db;
+    text-decoration: none;
+}
+
+.spacer {
+    padding: 1px;
+    margin: 6px 0;
+}
+
+.publications li {
+    padding: 6pt;
+}
