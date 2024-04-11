@@ -7,6 +7,9 @@ articles:
     title: Advantages of Fiber Bragg Gratings for Measuring Electric Motor Loadings in Aerospace Application
     journal: Review of Scientific Instruments
     doi: https://doi.org/10.1063/1.5093556
+    volume: 90
+    issue: 7
+    pages: "075005"
 
   - article:
     resume: false
@@ -15,6 +18,9 @@ articles:
     title: "Large-scale drivers of the mistral wind: link to Rossby wave life cycles and seasonal variability"
     journal: Weather and Climate Dynamics
     doi: https://doi.org/10.5194/wcd-2-609-2021
+    volume: 2
+    issue: 3
+    pages: "609-630"
 
   - article:
     resume: true
@@ -23,6 +29,9 @@ articles:
     title: "Untangling the mistral and seasonal atmospheric forcing driving deep convection in the Gulf of Lion: 2012-2013"
     journal: Ocean Science
     doi: https://doi.org/10.5194/os-18-483-2022
+    volume: 18
+    issue: 2
+    pages: "483-510"
 
   - article:
     resume: true
@@ -31,6 +40,9 @@ articles:
     title: "Offshore CO<sub>2</sub> Capture and Utilization Using Floating Wind/PV Systems: Site Assessment and Efficiency Analysis in the Mediterranean"
     journal: Energies
     doi: https://doi.org/10.3390/en15238873
+    volume: 15
+    issue: 23
+    pages: "8873"
 
 # ──────────────────────────────────────────────────────────────────────────
 
@@ -42,8 +54,11 @@ proceedings:
     conference: Proceedings of the 28th International Laser Radar Conference
     location: Bucharest, Romania
     date_time: June 25-30, 2017
-    year: 2017
+    year: 2018
     doi: https://doi.org/10.1051/epjconf/201817601033
+    volume: 176
+    issue: 2018
+    pages: "01033"
 
 # ──────────────────────────────────────────────────────────────────────────
 

@@ -5,30 +5,35 @@
 
 body {
     font-family: notosans;
+    font-size: 12pt;
 }
 
 h1, h2, h3, h4, h5 {
-    font-weight: 600;
+    font-weight: 550;
 }
 
 h1 {
-    font-size: 30pt;
-}
-
-h2 {
     font-size: 24pt;
 }
 
+h2 {
+    font-size: 20pt;
+}
+
 h3 {
+    font-size: 16pt;
     text-decoration: underline;
 }
 
 hr {
     margin: 20px 0;
+    border: 2px solid black;
+    border-radius: 2px;
+    opacity: 1;
 }
 
 b {
-    font-weight: 600;
+    font-weight: 550;
 }
 
 a {
@@ -36,11 +41,28 @@ a {
     text-decoration: none;
 }
 
+img {
+    height: 180px;
+}
+
 .spacer {
     padding: 1px;
     margin: 6px 0;
 }
 
+.big-spacer {
+    padding: 20px;
+    margin: 6px 0;
+}
+
 .publications li {
     padding: 6pt;
+}
+
+.fancy-bar {
+    border: 1pt solid #044476;
+    border-radius: 3pt;
+    background-color: #044476;
+    padding: 6pt;
+    color: white;
 }

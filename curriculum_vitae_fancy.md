@@ -1,15 +1,43 @@
 ---
 layout: cv
-title: Curriculum Vitae
+title: cv_dkeller
 show:
   in_progress: false
 ---
 
 {% assign exp = site.data.experience %}
+{% assign contact = site.data.contact %}
 
+<div class="container">
 <div class="cv">
-    <h1>{{ exp.name }}</h1>
-    <h2>{{ exp.title }}</h2>
+    <div class="fancy-bar">
+        <div class="row">
+            <div class="col">
+                Curriculum Vitae
+            </div>
+            <div class="col" style="text-align: right;">
+                Douglas KELLER JR, PhD
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8">
+            <div class="spacer"></div>
+            <h1>{{ exp.name }}</h1>
+            <h2>{{ exp.title }}</h2>
+            <b>{{ contact.institute }}</b>
+            </br>
+            <i>{{ contact.location }}</i>
+            </br>
+            {{ contact.email }}
+            </br>
+            <a href="{{ contact.website }}">{{ contact.website }}</a>
+        </div>
+        <div class="col" style="text-align: center;">
+            <div class="big-spacer"></div>
+            <img src="img/images/me_round.png">
+        </div>
+    </div>
     <hr>
 
     <!--Education-->
@@ -22,8 +50,8 @@ show:
         <i>{{ item.date }}</i>
         </br>
         {{ item.thesis }}
+        <div class="spacer"></div>
     {% endfor %}
-    <div class="spacer"></div>
     <hr>
 
     <!--Experience-->
@@ -46,7 +74,6 @@ show:
         </ul>
         <div class="spacer"></div>
     {% endfor %}
-    <div class="spacer"></div>
     <hr>
 
     <h2>Advising Experience</h2>
@@ -67,7 +94,6 @@ show:
         </ul>
         <div class="spacer"></div>
     {% endfor %}
-    <div class="spacer"></div>
     <hr>
 
     <!--Work-->
@@ -90,7 +116,68 @@ show:
         {% endfor %}
         <div class="spacer"></div>
     {% endfor %}
-    <div class="spacer"></div>
+    <hr>
+
+    <!--Publications-->
+
+    <div class="publications">
+        <h2>Publications</h2>
+        <h3>Published</h3>
+        <ol>
+            {% assign articles = site.data.publications.articles | sort: 'year' | reverse %}
+            {% for article in articles %}
+                <li><a href="{{ article.doi }}">{{ article.authors }} ({{ article.year }}) "{{ article.title }}," <b>{{ article.journal }}</b>, {{ article.volume }}({{ article.issue }}), {{ article.pages }}, {{ article.doi }}</a></li>
+            {% endfor %}
+        </ol>
+
+        <!--Proceedings-->
+
+        <h3>Conference Proceedings</h3>
+        <ol>
+            {% assign proceedings = site.data.publications.proceedings | sort: 'year' | reverse %}
+            {% for proceeding in proceedings %}
+            <li><a href="{{ proceeding.doi }}">{{ proceeding.authors }} ({{ proceeding.year }}) "{{ proceeding.title }}," <b>{{ proceeding.conference }}</b>, {{ proceeding.volume }}({{ proceeding.issue }}), {{ proceeding.pages }}, <i>{{ proceeding.location }}</i>, {{ proceeding.date_time }}, {{ proceeding.doi }}</a></li>
+            {% endfor %}
+        </ol>
+
+        <!--Talks-->
+
+        <h3>Presentations</h3>
+        <ol>
+            {% assign talks = site.data.publications.talks | sort: 'year' | reverse %}
+            {% for talk in talks %}
+                <li>{{ talk.authors }} ({{ talk.year }}) "{{ talk.title }}," <b>{{ talk.conference }}</b>, <i>{{ talk.location }}</i>, {{ talk.date_time }}</li>
+
+            {% endfor %}
+        </ol>
+
+        <!--Posters-->
+
+        <h3>Posters</h3>
+        <ol>
+            {% assign posters = site.data.publications.posters | sort: 'year' | reverse %}
+            {% for poster in posters %}
+                <li>{{ poster.authors }} ({{ poster.year }}) "{{ poster.title }}," <b>{{ poster.conference }}</b>, <i>{{ poster.location }}</i>, {{ poster.date_time }}</li>
+            {% endfor %}
+        </ol>
+
+        <!--In Progress-->
+
+        {% if page.show.in_progress %}
+            <h3>In Progress</h3>
+            <ul>
+                {% assign works = site.data.publications.progress | sort: 'year' | reverse %}
+                {% for work in works %}
+                    {% if work.doi %}
+                        <li><a href="{{ work.doi }}">{{ work.authors }} ({{ work.year }}) "{{ work.title }}," <b>{{ work.journal }}</b></a></li>
+                    {% else %}
+                        <li>{{ work.authors }} ({{ work.year }}) "{{ work.title }}," <b>{{ work.journal }}</b></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+    </div>
     <hr>
 
     <!--Sports-->
@@ -122,65 +209,7 @@ show:
         </div>
     {% endfor %}
     <div class="spacer"></div>
-    <hr>
 
-    <!--Publications-->
+</div>
 
-    <div class="publications">
-        <h2>Publications</h2>
-        <h3>Peer Reviewed</h3>
-        <ul>
-            {% assign articles = site.data.publications.articles | sort: 'year' | reverse %}
-            {% for article in articles %}
-                <li><a href="{{ article.doi }}">{{ article.authors }} ({{ article.year }}) "{{ article.title }}," <b>{{ article.journal }}</b></a></li>
-            {% endfor %}
-        </ul>
-
-        <!--Proceedings-->
-
-        <h3>Conference Proceedings</h3>
-        <ul>
-            {% assign proceedings = site.data.publications.proceedings | sort: 'year' | reverse %}
-            {% for proceeding in proceedings %}
-            <li><a href="{{ proceeding.doi }}">{{ proceeding.authors }} ({{ proceeding.year }}) "{{ proceeding.title }}," <b>{{ proceeding.conference }}</b>, <i>{{ proceeding.location }}</i>, {{ proceeding.date_time }}</a></li>
-            {% endfor %}
-        </ul>
-
-        <!--Talks-->
-
-        <h3>Presentations</h3>
-        <ul>
-            {% assign talks = site.data.publications.talks | sort: 'year' | reverse %}
-            {% for talk in talks %}
-                <li>{{ talk.authors }} ({{ talk.year }}) "{{ talk.title }}," <b>{{ talk.conference }}</b>, <i>{{ talk.location }}</i>, {{ talk.date_time }}</li>
-
-            {% endfor %}
-        </ul>
-
-        <!--Posters-->
-
-        <h3>Posters</h3>
-        <ul>
-            {% assign posters = site.data.publications.posters | sort: 'year' | reverse %}
-            {% for poster in posters %}
-                <li>{{ poster.authors }} ({{ poster.year }}) "{{ poster.title }}," <b>{{ poster.conference }}</b>, <i>{{ poster.location }}</i>, {{ poster.date_time }}</li>
-            {% endfor %}
-        </ul>
-
-        <!--In Progress-->
-
-        {% if page.show.in_progress %}
-            <h3>In Progress</h3>
-            <ul>
-                {% assign works = site.data.publications.progress | sort: 'year' | reverse %}
-                {% for work in works %}
-                    {% if work.doi %}
-                        <li><a href="{{ work.doi }}">{{ work.authors }} ({{ work.year }}) "{{ work.title }}," <b>{{ work.journal }}</b></a></li>
-                    {% else %}
-                        <li>{{ work.authors }} ({{ work.year }}) "{{ work.title }}," <b>{{ work.journal }}</b></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        {% endif %}
-    </div>
 </div>

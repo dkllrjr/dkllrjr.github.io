@@ -2,7 +2,8 @@ name: Douglas Keller Jr.
 
 # ══════════════════════════════════════════════════════════════════════════
 
-title: Postdoctorate Researcher
+#title: Postdoctoral Researcher
+title: Research Engineer
 
 # ══════════════════════════════════════════════════════════════════════════
 
@@ -33,10 +34,10 @@ education:
     - degree:
       type: Doctorate of Philosophy
       shorthand: PhD
-      name: Mécanique des fluides et des solides, acoustique
+      name: Mécanique des fluides et des solides, acoustique (Fluid and solid mechanics, acoustics)
       institute: Institut Polytechnique de Paris, École Polytechnique
       location: Palaiseau, Île-de-France, FR
-      thesis: Impact de la variabilité spatio-temporelle du Mistral sur la formation d'eaux denses en Méditerranée
+      thesis: Impact of the spatial and temporal variability of the Mistral on dense water formation in the Mediterranean Sea
       date: Fall 2019 - Fall 2022
 
 # ──────────────────────────────────────────────────────────────────────────
@@ -70,50 +71,14 @@ research:
     - study:
       resume: true
       title: XSeaO<sub>2</sub>
-      institute: Energy4Climate
+      institute: Energy4Climate Interdisplinary Center
       location: Palaiseau, Île-de-France, FR
       date: Summer 2021 - Present
-      description: Researching and engineering CO<sub>2</sub> extraction from the ocean to produce carbon based fuel.
+      description: Researching and engineering CO<sub>2</sub> extraction from the ocean to produce synthetic fuel.
       highlights:
         - item: Supervised a Master's intern to determine the most optimal places for the Seafuel device in the Mediterranean Sea.
         - item: Developed a simple model to simulate the Seafuel and the oceanic carbon system.
         - item: Presented work at the Ocean Science Meeting 2022.
-
-# ──────────────────────────────────────────────────────────────────────────
-
-    - study:
-      resume: true
-      title: Impact of the Mistral on Dense Water Formation (Doctorate of Philosophy Thesis)
-      institute: Institut Polytechnique de Paris, École Polytechnique, Laboratoire de Météorologie Dynamique, Institut Pierre-Simon Laplace, Centre National de la Recherche Scientifique
-      location: Palaiseau, Île-de-France, FR
-      date: Fall 2019 - Fall 2022
-      description: Determining the spatial and temporal effects of the Mistral on the Dense Water Formation in the Gulf of Lion (Northwestern Mediterranean Sea)
-      highlights:
-          - item: Created a database of Mistral events with duration and intensity from atmospheric regional models driven by global weather reanalysis.
-          - item: Ran multiple ocean simulations (NEMO) with different wind forcings to determine the ocean sensitivity to wind forcing.
-
-# ──────────────────────────────────────────────────────────────────────────
-
-    - study:
-      resume: false
-      title: General Fluid Planetary Modelling
-      institute: Laboratoire de Météorologie Dynamique
-      location: Palaiseau, Île-de-France, FR
-      date: Summer 2021 - Present
-      description: Injecting fluid agnostic capability into DYNAMICO, the atmospheric dynamics model at LMD.
-      highlights:
-        - item: Supervising a Master's intern to develop a Julia model capable of running thermodynamically agnostic dynamics for fluids.
-
-# ──────────────────────────────────────────────────────────────────────────
-
-    - study:
-      resume: true
-      title: Red Sea Preconditioning
-      institute: Laboratoire de Météorologie Dynamique and Weizmann Institute of Science
-      location: Palaiseau, Île-de-France, FR and Rehovot, IL
-      date: Spring 2022 - Present
-      description: Investigating the deep convection behavior in the northern part of the Red Sea.
-      highlights:
 
 # ──────────────────────────────────────────────────────────────────────────
 
@@ -125,67 +90,99 @@ research:
       date: Summer 2022 - Present
       description: Investigating the build up and break up of radiatively forced boundary layers in the subarctic.
       highlights:
+        - item: Analyzed multiple instrument data, such as from a microwave radiometer, 3D sonic anemometer, Doppler wind lidar, and balloon soundings
 
 # ──────────────────────────────────────────────────────────────────────────
 
     - study:
       resume: false
-      title: Oceanic Response to Medicane Forcing
-      institute: Laboratoire de Météorologie Dynamique and Hellenic Centre for Marine Research
-      location: Palaiseau, Île-de-France, FR and Athens, GR
+      title: Oceanic Response to Mediterranean Cyclone Forcing
+      institute: Laboratoire de Météorologie Dynamique, École Polytechnique and Weizmann Institute of Science
+      location: Palaiseau, Île-de-France, FR and Rehovot, IL
       date: Fall 2021 - Present
-      description: Studying the effects of Medicane tracks on the Mediterranean Sea vertical stability.
+      description: Studying the effects of Mediterranean cyclones on the Mediterranean Sea vertical stability and surface fluxes.
       highlights:
+        - item: Analyzed 2D sea surface flux data from an italian run model (C-GLORS; NEMO)
+        - item: Determined accumulated effect of cyclones on the Mediterranean Sea
 
 # ──────────────────────────────────────────────────────────────────────────
 
     - study:
-      resume: false
-      title: New Wavelet Detection of Multilayering in the High Latitude Atmospheric Boundary Layer
-      institute: University of Alaska, Fairbanks
-      location: Fairbanks, Alaska, USA
-      date: Fall 2017 - Present
-      description: Observing the multilayered aspect of the high latitude atmospheric boundary layer in Fairbanks, Alaska with lidar backscattering profiles and wavelet transforms.
+      resume: true
+      title: Red Sea Preconditioning
+      institute: Laboratoire de Météorologie Dynamique and Weizmann Institute of Science
+      location: Palaiseau, Île-de-France, FR and Rehovot, IL
+      date: Spring 2022 - Present
+      description: Investigating the deep convection behavior in the northern part of the Red Sea.
       highlights:
+        - item: Analyzed vertical profiles of Argo floats in the northern part of the Red Sea
+        - item: Organized observations from Isreali meteorological office to look at the vertical structure of the water in the Gulf of Aqaba
 
 # ──────────────────────────────────────────────────────────────────────────
 
     - study:
-      resume: false
-      title: Shift in Spectral Content of the Turbulent Kinetic Energy of the Surface Layer in Fairbanks, Alaska with Northward Traveling Cyclonic Conditions
-      institute: University of Alaska, Fairbanks
-      location: Fairbanks, Alaska, USA
-      date: Fall 2017 - Present
-      description: Determining the shift in spectral content of the atmospheric surface layer in Fairbanks, Alaska during a transitioning synoptic condition, with northward advection of moisture.
+      resume: true
+      title: Impact of the Mistral on Dense Water Formation (Doctorate Thesis)
+      institute: Institut Polytechnique de Paris, École Polytechnique, Laboratoire de Météorologie Dynamique, Institut Pierre-Simon Laplace, Centre National de la Recherche Scientifique
+      location: Palaiseau, Île-de-France, FR
+      date: Fall 2019 - Fall 2022
+      description: Determined the spatial and temporal effects of the Mistral on the Dense Water Formation in the Gulf of Lion (Northwestern Mediterranean Sea)
       highlights:
+          - item: Created a database of Mistral events with duration and intensity from atmospheric regional models driven by global weather reanalysis.
+          - item: Ran multiple ocean simulations (NEMO) with different wind forcings to determine the ocean sensitivity to wind forcing.
 
 # ──────────────────────────────────────────────────────────────────────────
 
     - study:
       resume: true
       title: Seasonal Variability of Superior Mirages
-      institute: University of Alaska Fairbanks
+      institute: Geophysical Institute, University of Alaska Fairbanks
       location: Fairbanks, Alaska, USA
       date: Summer 2019 - Present
-      description: Determined the seasonal variability of superior mirages in the subarctic and arctic latitudes with GPS radio occultation (GPSRO)
+      description: Determined the seasonal variability of superior mirages in the subarctic and arctic latitudes with global positioning system  radio occultation (GPSRO)
       highlights:
         - item: Developed an algorithm to detect the presence of a potential mirage in GPSRO refractivity profiles
         - item: Spatially and temporally determined the variability of potential mirage events in the high latitudes
-        - item: Presented work at the Light and Color in Nature conference in Maine, USA
+
+# ──────────────────────────────────────────────────────────────────────────
+#
+    - study:
+      resume: false
+      title: General Fluid Planetary Modelling
+      institute: Laboratoire de Météorologie Dynamique
+      location: Palaiseau, Île-de-France, FR
+      date: Summer 2021
+      description: Injected fluid agnostic capability into DYNAMICO (hydrostatic atmospheric model), the atmospheric dynamics model at LMD.
+      highlights:
+        - item: Prepared Julia code for a baroclinic instability test case
+        - item: Supervised a master student intern to develop a Julia model capable of running thermodynamically agnostic dynamics for fluids
+
+#  ──────────────────────────────────────────────────────────────────────────
+
+    - study:
+      resume: false
+      title: Shifts in Spectral Content of the Turbulent Kinetic Energy of the Surface Layer in Fairbanks, Alaska due to Changing Cyclone Paths
+      institute: University of Alaska, Fairbanks
+      location: Fairbanks, Alaska, USA
+      date: Fall 2017 - Spring 2020
+      description: Determining the shift in spectral content of the atmospheric surface layer in Fairbanks, Alaska during a transitioning synoptic condition, with northward advection of moisture.
+      highlights:
+        - item: Analyzed 3D sonic anemometer data from the experimental farm on the University of Alaska Fairbanks
+        - item: Determined the shift in the eddy sizes during the a changing synoptic regime in the subarctic latitudes
 
 # ──────────────────────────────────────────────────────────────────────────
 
     - study:
       resume: false
       title: Fiber Optic Strain Sensing for Electric Motors (Master of Science Thesis)
-      institute: College of Engineering and Mines, University of Alaska Fairbanks
+      institute: College of Engineering and Mines, University of Alaska Fairbanks, NASA Armstrong Flight Research Center
       location: Fairbanks, Alaska, USA
       date: Fall 2017 - Fall 2018
-      funding: In collaboration with and funded by NASA's Armstrong Fight Research Center
+      funding: NASA Armstrong Flight Research Center
       description: Determined the effect of electromagnetic interference from electric motors on load sensing strain gauges.
       highlights:
-        - item: Placed NASA's Fiber Optic Sensing System (FOSS) and conventional strain gauge systems in high electromagnetic interference environments found in aviation
-        - item: Developed a load cell designed around the FOSS to measure thrust from an electric motor coupled with a 3-blade propeller to develop future electric propulsion systems
+        - item: Subjected NASA's Fiber Optic Sensing System (FOSS) and conventional strain gauge systems to a high electromagnetic interference environments found in aviation
+        - item: Developed a load cell designed around the FOSS to measure thrust from an electric motor coupled with a 3-blade propeller
         - item: Analyzed and compared data retrieved using the FOSS and conventional strain gauges
         - item: Determined the effect of electromagnetic interference on the thrust loading measurements
         - item: Determined the effect of mechanical interference/vibration with both systems in the same test application
@@ -198,13 +195,16 @@ research:
       institute: Geophysical Institute, University of Alaska Fairbanks
       location: Fairbanks, Alaska, USA
       date: Fall 2017 - Summer 2018
+      funding: Alaska Space Grant
       description: Studied the atmospheric boundary layer (ABL) with NASA's network of micro-pulse lidars (MPLNET)
       highlights:
         - item: Used the MPLNET and radiosonde data to determine the intraday variability of the high latitude atmospheric boundary layer
         - item: Developed algorithms to determine atmospheric boundary layer structural parameters from the MPLNET profiles
-        - item: Compared and contrasted collocated lidar and radiosonde retrievals of ABL parameters
+        - item: Compared and contrasted collocated lidar and radiosonde retrievals of ABL
         - item: Produced statistical estimates of ABL parameters and computed diurnal and seasonal variations
         - item: Analyzed the high latitude ABL with the MPLNET, radiosonde data, and global positioning system radio occultation (GPSRO)
+        - item: Developed a new wavelet to better elucidate the ABL vertical structure
+        - item: Observed the multilayered aspect of the high latitude ABL with wavelet transforms
 
 # ──────────────────────────────────────────────────────────────────────────
 
@@ -214,92 +214,40 @@ research:
       institute: Geophysical Institute, University of Alaska Fairbanks
       location: Fairbanks, Alaska, USA
       date: Fall 2016
-      funding: Funded by the National Science Foundation
-      description: Assisted with the setup of a Raman spectroscopy lidar and developed mechanical fixtures for application.
+      funding: National Science Foundation
+      description: Assisted with the setup of a Raman spectroscopy lidar and developed mechanical fixtures for the application.
       highlights:
-        - item: Gained experience in optomechanical design for Lidar development
-        - item: Developed simulation of Lidar signals to condition instrument design for 532 nm, N2, and H2O Raman vibrational bands
-        - item: Implemented multichannel Lidar receiver
+        - item: Gained experience in optomechanical design for lidar development
+        - item: Worked with simulations of lidar signals to condition the instrument design for 532 nm, N2, and H2O Raman vibrational bands
+        - item: Implemented multichannel lidar receiver
 
 # ══════════════════════════════════════════════════════════════════════════
 
 vocation:
 
     - job:
-      title: Postdoctorate Researcher
-      institute: Energy4Climate, Laboratoire de Chimie Moléculaire, Laboratoire de Météorologie Dynamique, École Polytechnique
+      #title: Postdoctoral Researcher
+      title: Research Engineer
+      institute: Energy4Climate Interdisplinary Center, Laboratoire de Chimie Moléculaire, Laboratoire de Météorologie Dynamique, École Polytechnique
       location: Palaiseau, Île-de-France, FR
-      date: Fall 2022
+      date: Fall 2022 - Present
       resume: true
       tasks:
+
         - task:
           location: Palaiseau, Île-de-France, FR
           description: Developing and manufacturing a prototype demonstrator that extracts CO<sub>2</sub> from the ocean and produces synthetic fuel with it.
+          date: Fall 2022 - Present
+          highlights:
+            - item: Managing the project and the different technical facets of the extraction and fuel production plant
+            - item: Engineering the CO<sub>2</sub> extraction module with a bipolar membrane
+            - item: Studying the physical and biological effects of artifical carbon removal from the ocean
+            - item: Installing meteorological instruments on the lake of École Polytechnique to measure the carbon system in the water and atmospehre
 
 # ──────────────────────────────────────────────────────────────────────────
 
     - job:
-      title: Research Advisor
-      institute: Energy4Climate, Laboratoire de Météorologie Dynamique, Laboratoire de Chimie Moléculaire, École Polytechnique
-      location: Palaiseau, Île-de-France, FR
-      date: Spring 2021 - Present
-      resume: true
-      tasks:
-
-      - task:
-        location: Palaiseau, Île-de-France, FR / Fairbanks, Alaska, USA
-        description: Co-advising doctoral student (from the University of Alaska Fairbanks) on the Arctic atmospheric boundary layer.
-        date: Fall 2023 - Present
-        highlights:
-          - item: Advising the student on formulating research questions relating to arctic atmospheric boundary layer turbulence.
-
-      - task:
-        location: Palaiseau, Île-de-France, FR / Fairbanks, Alaska, USA
-        description: Co-advising doctoral student (from the University of Alaska Fairbanks) on the Arctic atmospheric boundary layer.
-        date: Fall 2023 - Present
-        highlights:
-          - item: Advised the student on formulating research questions relating to arctic atmospheric boundary layer thermodynamics.
-          - item: Helped build the student's strength in python and analysis of climate datasets.
-
-      - task:
-        location: Palaiseau, Île-de-France, FR
-        description: Main advisor for master student thesis (Engineering Master student of Politecnico di Torino) on the production of synthetic fuel utilizing wind power in the Sardinian region for the XSeaO<sub>2</sub> project.
-        date: Spring 2023 - Fall 2023
-        highlights:
-          - item: Advised the student on formulating research questions and building engineering problem solving.
-          - item: Helped build the student's strength in python and analysis of climate datasets.
-          - item: Worked with student to effectively communicate their results.
-
-      - task:
-        location: Palaiseau, Île-de-France, FR
-        description: Main advisor for master student intern (Master M1 from ENSTA) on CAD and CFD modelling of the carbon dioxide extractor from the XSeaO<sub>2</sub> project.
-        date: Spring 2023 - Fall 2023
-        highlights:
-          - item: Advised the student on formulating research and engineering questions
-          - item: Helped build the student's strength in python, linux, and CAD and CFD modelling.
-          - item: Worked with student to effectively communicate their results and challenges in compuation.
-
-      - task:
-        location: Palaiseau, Île-de-France, FR
-        description: Co-advisor for master student thesis (Master Sciences de la mer from OSU Institut PYTHEAS, Aix-Marseille Université) on the changes of SST in the Mediterranean Sea with satellite data and investigating marine heat waves in the Gulf of Lion.
-        date: Spring 2023 - Fall 2023
-        highlights:
-          - item: Advised the student on formulating research questions in the field of oceanography.
-          - item: Advised student on the analysis of oceanic datasets.
-          - item: Encouraged student to present their results at the "Atelier scientifique INTEGRATION Impacts des vagues de chaleur marine 2022".
-
-      - task:
-        location: Palaiseau, Île-de-France, FR
-        description: Main advisor for master student intern (International Master of École Polytechnique and KTH) on the production of synthetic fuel at sea.
-        date: Spring 2021 - Fall 2021
-        highlights:
-          - item: Advised the student on formulating research questions.
-          - item: Helped build the student's strength in python and analysis of climate datasets.
-
-# ──────────────────────────────────────────────────────────────────────────
-
-    - job:
-      title: Enseignant vacataire (Temporary Teacher)
+      title: Enseignant Vacataire (Adjunct Professor)
       institute: Département de Mécanique, École Polytechnique
       location: Palaiseau, Île-de-France, FR
       date: Fall 2023 - Present
@@ -307,12 +255,19 @@ vocation:
       tasks:
       - task:
         location: Palaiseau, Île-de-France, FR
-        description: Teaching and leading students through master level coursework.
+        description: Taught and led students through master level coursework.
+        date: Fall 2023
+        highlights:
+          - item: "Prepared coursework in wave energy for MEC573: Potentiel éolien, solaire, hydraulique : analyse et projets (wind, solar, and hydraulic potential: analysis and projects)."
+          - item: "Guided students through renewable energy projects on wind energy forecasting and wave energy availablility in France in MEC573."
+
+      - task:
+        location: Palaiseau, Île-de-France, FR
+        description: "Organized and executed the E4C 2024 Student Challenge: Greener Building: The CO2 Footprint Reduction Challenge."
         date: Fall 2023 - Present
         highlights:
-          - item: "Prepared coursework in wave energy for MEC573."
-          - item: "Guided students through renewable energy projects in MEC573."
-          - item: "Prepared data and coursework for the Energy4Climate Interdisplinary Institute E4C Challenge."
+          - item: "Organized and communicated with the pedagogical team to determine the scope of the challenge."
+          - item: "Prepared energy consumption, production, and meteorological data, coursework, and example programs for the challenge, such as a simple machine learning model trained on the data for student edification."
 
 #  ──────────────────────────────────────────────────────────────────────────
 
@@ -320,20 +275,20 @@ vocation:
       title: Tutor
       institute: Département de Mécanique, École Polytechnique
       location: Palaiseau, Île-de-France, FR
-      date: Fall 2023 - Fall 2023
+      date: Fall 2023
       resume: true
       tasks:
       - task:
         location: Palaiseau, Île-de-France, FR
-        description: Tutoring students through master level coursework.
+        description: Tutored students through master level coursework.
         date: Fall 2023 - Fall 2023
         highlights:
-          - item: "Tutored students for the MEC559 course on wind energy."
+          - item: "Tutored students for the MEC559: Mechanics for Wind Energy, an introduction."
 
 # ──────────────────────────────────────────────────────────────────────────
 
     - job:
-      title: Moniteur (Teaching Assistant)
+      title: Monitorat (Teaching Assistant)
       institute: Département de Mécanique, École Polytechnique
       location: Palaiseau, Île-de-France, FR
       date: Fall 2020 - Spring 2022
@@ -344,13 +299,13 @@ vocation:
         description: Teaching and leading students through master and bachelor level coursework.
         date: Fall 2020 - Spring 2022
         highlights:
-          - item: "Taught petite class for Master students in MEC559, Introduction to Wind Energy. Topics included: Wind turbine design, Airfoils, Atmospheric dynamics and resources, Bending beam vibrations"
-          - item: Monitored Bachelor students enrolled in the Phys103, Physics Lab.
+          - item: "Taught the petite classes (recitation classes) for Master students in MEC559: Mechanics for Wind Energy, an introduction. Topics included: wind turbine design, airfoils, atmospheric dynamics and resources, and bending beam vibrations"
+          - item: "Led Bachelor students through the Phys103: Physics Lab, including general kinematic experiments."
 
 # ──────────────────────────────────────────────────────────────────────────
 
     - job:
-      title: Doctorate Researcher
+      title: Doctoral Researcher
       institute: Laboratoire de Météorologie Dynamique, École Polytechnique
       location: Palaiseau, Île-de-France, FR
       date: Fall 2019 - Fall 2022
@@ -358,7 +313,8 @@ vocation:
       tasks:
         - task:
           location: Palaiseau, Île-de-France, FR
-          description: Determining the spatial and temporal effects of the Mistral on the Dense Water Formation in the Gulf of Lion (Northwestern Mediterranean Sea)
+          description: Determed the spatial and temporal effects of the Mistral on dense water formation in the Gulf of Lion (northwestern Mediterranean Sea)
+          date: Fall 2019 - Fall 2022
 
 # ──────────────────────────────────────────────────────────────────────────
 
@@ -371,19 +327,19 @@ vocation:
       tasks:
       - task:
         location: Fairbanks, Alaska, USA
-        description: Performing data analytics and large data organization for Alaska Center for Energy and Power's (ACEP) fuel meter project.
+        description: Performed data analytics and large data organization for Alaska Center for Energy and Power's (ACEP) fuel meter project.
         date: Summer 2019 - Fall 2019
         highlights:
           - item: Developed large data analysis methods for the ACEP fuel meter project
-          - item: Created data visualization methods for different temporal representations
+          - item: Created data visualization methods for the fuel meter observations
 
       - task:
         location: Fairbanks, Alaska, USA
-        description: Rewriting the Alaska Center for Energy and Power's (ACEP) Energy Technology Facility's (ETF) safety manual.
+        description: Rewrote the Alaska Center for Energy and Power's (ACEP) Energy Technology Facility's (ETF) safety manual.
         date: Spring 2019 - Summer 2019
         highlights:
-          - item: Determining the job hazards and required training to safely perform experiments in the ETF
-          - item: Adjusting the emergency action plan of ETF to more effectively transfer ETF's emergency systems
+          - item: Determined the job hazards and the required training to safely perform experiments in the ETF
+          - item: Adjusted the emergency action plan of the ETF to more effectively utilize the ETF's emergency systems
 
 # ──────────────────────────────────────────────────────────────────────────
 
@@ -396,11 +352,11 @@ vocation:
       tasks:
       - task:
         location: Fairbanks, Alaska, USA
-        description: Graded homework and exams, and assisted students with studies in engineering.
+        description: Graded homework and exams and assisted students with their engineering studies.
         date: Spring 2017 - Fall 2018
         highlights:
-          - item: Graded homework and exams for the courses on Mechanics of Materials, Instrumentation and Measurement, and Heat Transfer
-          - item: Recorded lectures for Astrodynamics and Mechanical Vibration
+          - item: Graded homework and exams for the courses of Mechanics of Materials, Instrumentation and Measurement, and Heat Transfer
+          - item: Recorded lectures for the courses of Astrodynamics and Mechanical Vibration
     
 # ──────────────────────────────────────────────────────────────────────────
 
@@ -416,27 +372,9 @@ vocation:
         description: Tested thermodynamics and heat transfer of the initial Fiber Optic Sensing System (FOSS) enclosure concept for the Quiet Supersonic Technology (QueSST) X-Plane (now the X-59).
         date: Summer 2017
         highlights:
-          - item: Researched heat transfer technologies for FOSS enclosure flight testing application such as heat pipes and thermoelectric coolers
-          - item: Analyzed heat transfer methods for FOSS enclosure application including foam insulation
-          - item: Designed prototype enclosure for FOSS components, utilizing analyzed methods features foam insulation and heat pipes for improved high temperature environment survivability
-
-# ──────────────────────────────────────────────────────────────────────────
-
-    - job:
-      title: Engineering Intern
-      institute: Alaska Department of Transportation
-      location: Fairbanks, Alaska, USA
-      date: Summer 2015
-      resume: false
-      tasks:
-      - task:
-        location: Fairbanks, Alaska, USA
-        description: Determined the compliance of pedestrian facilities in the Fairbanks Borough with the American Disability Act (ADA).
-        date: Summer 2015
-        highlights:
-          - item: Measured state maintained pedestrian facilities such as sidewalks and ramps
-          - item: Determined pedestrian facility requirements for ADA compliance including required slope accommodation for disabled pedestrians
-          - item: Compiled measurement data from multiple interns for coordinator review
+          - item: Researched different technologies for effective heat transfer, such as heat pipes and thermoelectric coolers, for the FOSS enclosure, particularly with flight testing in mind
+          - item: Analyzed heat transfer methods for the FOSS enclosure application including foam insulation
+          - item: Designed a prototype enclosure for the different FOSS components, utilizing foam insulation and heat pipes for improved variable temperature environment survivability
 
 # ──────────────────────────────────────────────────────────────────────────
 
@@ -452,9 +390,27 @@ vocation:
         description: "Golf Swing Replicator Prototype: designed and built a golf swing replicating rig."
         date: Summer 2016
         highlights:
-          - item: Designed the golf swing replicator prototype in SolidWorks 2014 with adjustable stand, ball holder, and swinging mechanism
+          - item: Designed a golf swing replicator prototype in SolidWorks with an adjustable stand, ball holder, and swinging mechanism
           - item: Fabricated the golf swing replicator prototype, utilizing the mill, lathe, and MIG welder
-          - item: Tested and analyzed golf swing replicator prototype
+          - item: Tested and analyzed the golf swing replicator prototype
+
+# ──────────────────────────────────────────────────────────────────────────
+
+    - job:
+      title: Engineering Intern
+      institute: Alaska Department of Transportation
+      location: Fairbanks, Alaska, USA
+      date: Summer 2015
+      resume: false
+      tasks:
+      - task:
+        location: Fairbanks, Alaska, USA
+        description: Determined the compliance of pedestrian facilities in the Fairbanks Borough with the American Disability Act (ADA).
+        date: Summer 2015
+        highlights:
+          - item: Measured state maintained pedestrian facilities, such as sidewalks and ramps
+          - item: Determined pedestrian facility requirements for ADA compliance, including the required slope accommodation for disabled pedestrians
+          - item: Compiled measurement data from multiple interns for coordinator review
 
 # ══════════════════════════════════════════════════════════════════════════
 
@@ -469,6 +425,91 @@ projects:
       highlights:
         - item: Constructed and setup the wooden ice molds
         - item: Erected the dual ice arch design
+
+#  ══════════════════════════════════════════════════════════════════════════
+
+advising:
+
+    - student:
+      title: Doctoral Student
+      institute: Laboratoire de Météorologie Dynamique, École Polytechnique and College of Natural Sciences and University of Alaska Fairbanks
+      location: Palaiseau, Île-de-France, FR and Fairbanks, Alaska, USA
+      description: Co-advising doctoral student (from the University of Alaska Fairbanks) on the Arctic atmospheric boundary layer.
+      date: Fall 2023 - Present
+      highlights:
+        - item: Advising the student on formulating research questions relating to arctic atmospheric boundary layer turbulence.
+
+    - student:
+      title: Doctoral Student
+      institute: Laboratoire de Météorologie Dynamique, École Polytechnique and College of Natural Sciences and University of Alaska Fairbanks
+      location: Palaiseau, Île-de-France, FR and Fairbanks, Alaska, USA
+      description: Co-advising doctoral student (from the University of Alaska Fairbanks) on the Arctic atmospheric boundary layer.
+      date: Fall 2023 - Present
+      highlights:
+        - item: Advised the student on formulating research questions relating to arctic atmospheric boundary layer thermodynamics.
+        - item: Helped build the student's strength in python and analysis of climate datasets.
+
+    - student:
+      title: Doctoral Student
+      institute: Energy4Climate Interdisplinary Center, Laboratoire de Chimie Moléculaire, École Polytechnique and ENSTA
+      location: Palaiseau, Île-de-France, FR
+      description: Co-advising doctoral student (from ENSTA) on synthetic fuel production for the XSeaO<sub>2</sub> project.
+      date: Spring 2023 - Present
+      highlights:
+        - item: Advising the student on formulating research questions relating to catalysts for synthetic fuel production
+        - item: Organizing experimental setup for testing different methanol production rates at different pressures, temperatures, and reactant ratios
+
+    - student:
+      title: Master Student
+      institute: Energy4Climate Interdisplinary Center, Laboratoire de Météorologie Dynamique, Laboratoire de Chimie Moléculaire, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      description: Main advisor for master student thesis (Engineering Master student of Politecnico di Torino) on the production of synthetic fuel utilizing wind power in the Sardinian region for the XSeaO<sub>2</sub> project.
+      date: Spring 2023 - Fall 2023
+      highlights:
+        - item: Advised the student on formulating research questions and building engineering problem solving.
+        - item: Helped build the student's strength in python and analysis of climate datasets.
+        - item: Worked with student to effectively communicate their results.
+
+    - student:
+      title: Master Student
+      institute: Energy4Climate Interdisplinary Center, Laboratoire de Chimie Moléculaire, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      description: Main advisor for master student intern (Master M1 from ENSTA) on CAD and CFD modelling of the carbon dioxide extractor from the XSeaO<sub>2</sub> project.
+      date: Spring 2023 - Fall 2023
+      highlights:
+        - item: Advised the student on formulating research and engineering questions
+        - item: Helped build the student's strength in python, linux, and CAD and CFD modelling.
+        - item: Worked with student to effectively communicate their results and challenges in compuation.
+
+    - student:
+      title: Master Student
+      institute: Laboratoire de Météorologie Dynamique, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      description: Co-advisor for master student thesis (Master Sciences de la mer from OSU Institut PYTHEAS, Aix-Marseille Université) on the changes of SST in the Mediterranean Sea with satellite data and investigating marine heat waves in the Gulf of Lion.
+      date: Spring 2023 - Fall 2023
+      highlights:
+        - item: Advised the student on formulating research questions in the field of oceanography.
+        - item: Advised student on the analysis of oceanic datasets.
+        - item: Encouraged student to present their results at the "Atelier scientifique INTEGRATION Impacts des vagues de chaleur marine 2022".
+
+    - student:
+      title: Master Student
+      institute: Laboratoire de Météorologie Dynamique, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      description: Main advisor for master student intern (International Master of École Polytechnique and KTH) on the production of synthetic fuel at sea.
+      date: Spring 2021 - Fall 2021
+      highlights:
+        - item: Advised the student on formulating research questions.
+        - item: Helped build the student's strength in python and analysis of climate datasets.
+
+    - student:
+      title: Master Student
+      institute: Laboratoire de Météorologie Dynamique, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      description: Injected fluid agnostic capability into DYNAMICO (hydrostatic atmospheric model), the atmospheric dynamics model at LMD.
+      date: Summer 2021
+      highlights:
+        - item: Supervised a master student intern to develop a Julia model capable of running thermodynamically agnostic dynamics for fluids
 
 # ══════════════════════════════════════════════════════════════════════════
 
@@ -490,7 +531,15 @@ skills:
       list:
         - item: English (Native)
         - item: French (A2)
-        - item: German (A2)
+        - item: German (A1)
+
+# ──────────────────────────────────────────────────────────────────────────
+
+    - skill:
+      name: Earth System Modelling
+      list:
+        - item: Weather Research and Forecasting (WRF) Model
+        - item: Nucleus for European Modelling of the Ocean (NEMO)
 
 # ──────────────────────────────────────────────────────────────────────────
 
@@ -504,16 +553,17 @@ skills:
         - item: MATLAB
         - item: CUDA
         - item: OpenCL
+        - item: Golang
 
-# ──────────────────────────────────────────────────────────────────────────
-
+#  ──────────────────────────────────────────────────────────────────────────
+#
     - skill:
       name: Platforms
       list:
         - item: Linux
         - item: Windows
+        - item: MacOS
         - item: Arduino
-        - item: Raspberry Pi
 
 # ──────────────────────────────────────────────────────────────────────────
 
@@ -522,6 +572,7 @@ skills:
       list:
         - item: Git
         - item: SolidWorks
+        - item: AutoCAD
 
 # ══════════════════════════════════════════════════════════════════════════
 
