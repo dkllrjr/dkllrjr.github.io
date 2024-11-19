@@ -44,6 +44,39 @@ articles:
     issue: 23
     pages: "8873"
 
+  - article:
+    resume: true
+    authors: Y. Givon, <u>D. Keller</u>, R. Pennel, P. Drobinski, S. Raveh-Rubin
+    year: 2024
+    title: "Decomposing the role of dry intrusions for ocean evaporation during mistral"
+    journal: Quarterly Journal of the Royal Meteorological Society
+    doi: https://doi.org/10.1002/qj.4670
+    volume: 150
+    issue: 760
+    pages: "1791-1808"
+
+  - article:
+    resume: true
+    authors: <u>D. Keller</u>, Y. Givon, R. Pennel, S. Raveh-Rubin, P. Drobinski
+    year: 2024
+    title: "Untangling the mistral and seasonal atmospheric forcing driving deep convection in the Gulf of Lion: 1993-2013"
+    journal: JGR Oceans
+    doi: https://doi.org/10.1029/2022JC019245
+    volume: 129
+    issue: 7
+    pages: "1-25"
+
+#  ──────────────────────────────────────────────────────────────────────────
+
+submitted:
+
+  - article:
+    resume: true
+    authors: G.J. Fochesatto, K.S. Law, J. Schmale, S. Decesari, W. R. Simpson, R. Pohorsky, B. Barret, A. Baccarini, E. Dieudonné, N. Brett, R. Gilliam, <u>D. Keller</u>, A. Donateo, G. Pappaccogli, F. Scoto, M. Busetto, S. Albertin, S. Bekki, F. Ravetta, J.-C. Raut, C. Cailteau-Fischbach, M. Cesler-Maloney, J. Mao, S. Arnold, B. Temime-Roussel, B. D'Anna, J. Savarino, J. Maillard, E. Ioannidis, K. Dougleris, D. Brus, D. Atkinson, E. Petersen, H. Iwata, M. Ueyama, Y. Harazono
+    year: 2024
+    title: "Composition and Dynamics of the Planetary Boundary Layer in Cold and Dark Atmospheres: Meteorological Overview from the ALPACA-2022 Field Experiment"
+    journal: BAMS
+
 # ──────────────────────────────────────────────────────────────────────────
 
 proceedings:
@@ -184,6 +217,22 @@ posters:
     date_time: June 28-30, 2023
     year: 2023
 
+  - poster:
+    authors: Y. Givon, <u>D. Keller</u>, R. Pennel, P. Drobinski, S. Raveh-Rubin
+    title: 'Evaporative features of differently-driven Mediterranean cyclones'
+    conference: 3rd MedCyclones Workshop 2024
+    location: Frascati, Rome, Italy
+    date_time: July 15-19, 2024
+    year: 2024
+
+  - poster:
+    authors: <u>D. Keller</u>, Y. Givon, R. Pennel, S. Raveh-Rubin, P. Drobinski
+    title: 'Spectral Decomposition of the Mistral Wind'
+    conference: 3rd MedCyclones Workshop 2024
+    location: Frascati, Rome, Italy
+    date_time: July 15-19, 2024
+    year: 2024
+
 # ──────────────────────────────────────────────────────────────────────────
 
 talks:
@@ -195,6 +244,7 @@ talks:
     location: Bar Harbor, Maine, USA
     date_time: July 15, 2019
     year: 2019
+    present: true
 
   - talk:
     authors: <u>D. Keller</u>, G. J. Fochesatto, E. J. Welton, and J. R. Campbell
@@ -203,6 +253,7 @@ talks:
     location: Boston, Massachusetts, USA
     date_time: Jan. 12-16, 2020
     year: 2020
+    present: true
 
   - talk:
     authors: <u>D. Keller</u>, G. J. Fochesatto, E. J. Welton, and J. Campbell 
@@ -211,6 +262,7 @@ talks:
     location: Virtual, USA
     date_time: Jan. 9-16, 2021
     year: 2021
+    present: true
 
   - talk:
     authors: <u>D. Keller</u>
@@ -219,6 +271,7 @@ talks:
     location: Toulouse, France
     date_time: Nov. 29-30, 2021
     year: 2021
+    present: true
 
   - talk:
     authors: <u>D. Keller</u>, Y. Givon, R. Pennel, P. Drobinski, and S. Raveh-Rubin
@@ -227,6 +280,7 @@ talks:
     location: Virtual, Israel
     date_time: Apr. 13, 2022
     year: 2022
+    present: true
 
   - talk:
     authors: <u>D. Keller</u>, Y. Givon, R. Pennel, S. Raveh-Rubin, and P. Drobinski, 
@@ -235,6 +289,7 @@ talks:
     location: Vienna, Austria
     date_time: May 23-27, 2022
     year: 2022
+    present: true
 
   - talk:
     authors: Y. Givon, <u>D. Keller</u>, V. Silverman, R. Pennel, P. Drobinski, and S. Raveh-Rubin
@@ -243,6 +298,7 @@ talks:
     location: Vienna, Austria
     date_time: May 23-27, 2022
     year: 2022
+    present: true
 
   - talk:
     authors: <u>D. Keller</u>, Y. Givon, R. Pennel, P. Drobinski, and S. Raveh-Rubin
@@ -251,6 +307,7 @@ talks:
     location: Athens, Greece
     date_time: June 27 - July 2, 2022
     year: 2022
+    present: true
 
   - talk:
     authors: <u>D. Keller</u>, Y. Givon, R. Pennel, P. Drobinski, and S. Raveh-Rubin
@@ -259,6 +316,7 @@ talks:
     location: Marrakesh, Morocco
     date_time: Oct. 4-8, 2022
     year: 2022
+    present: true
 
   - talk:
     authors: <u>D. Keller</u>, Y. Givon, F. Sevault, S. Somot, R. Pennel, S. Raveh-Rubin, P. Drobinski
@@ -267,6 +325,7 @@ talks:
     location: Toulouse, France
     date_time: March 21-22, 2023
     year: 2023
+    present: true
 
   - talk:
     authors: D. Siriez, <u>D. Keller</u>, V. Capelle, J.M. Hartmann
@@ -275,6 +334,7 @@ talks:
     location: Toulouse, France
     date_time: June 26-28, 2023
     year: 2023
+    present: false
 
   - talk:
     authors: <u>D. Keller</u>, Y. Givon, F. Sevault, S. Somot, R. Pennel, S. Raveh-Rubin, P. Drobinski
@@ -283,6 +343,7 @@ talks:
     location: Vienna, Austria
     date_time: April 23-28, 2023
     year: 2023
+    present: true
 
   - talk:
     authors: G. J. Fochesatto, <u>D. Keller</u>, E. Dieudonné, N. Brett, K. Law, S. Bekki, D. Atkinson, E. Wellton, E. Peterson
@@ -291,6 +352,7 @@ talks:
     location: Vienna, Austria
     date_time: April 23-28, 2023
     year: 2023
+    present: true
 
   - talk:
     authors: G. J. Fochesatto, G. Sjöblom, D. Thomas, N. Brett, <u>D. Keller</u>, K. Law, S. Bekki
@@ -299,6 +361,16 @@ talks:
     location: San Francisco, California, USA
     date_time: December 11-15, 2023
     year: 2023
+    present: false
+
+  - talk:
+    authors: Y. Givon, <u>D. Keller</u>, R. Pennel, P. Drobinski, S. Raveh-Rubin
+    title: 'Decomposing the role of dry intrusions for evaporation during Mistral'
+    conference: 3rd MedCyclones Workshop 2024
+    location: Frascati, Rome, Italy
+    date_time: July 15-19, 2024
+    year: 2024
+    present: false
 
 # ──────────────────────────────────────────────────────────────────────────
 

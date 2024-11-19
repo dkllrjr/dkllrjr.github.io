@@ -1,0 +1,100 @@
+doctoral:
+
+    - student:
+      name: S. Ramakrishnan
+      institute: College of Natural Sciences and Mathematics, University of Alaska Fairbanks
+      location: Fairbanks, Alaska, USA
+      description: Co-advising doctoral student (w/ Prof. Javier Fochesatto from the University of Alaska Fairbanks) on the Arctic atmospheric boundary layer.
+      date: Fall 2023 - Present
+      highlights:
+        - item: Advising the student on formulating research questions relating to arctic atmospheric boundary layer turbulence.
+
+    - student:
+      name: D. Thomas
+      institute: College of Natural Sciences and Mathematics, University of Alaska Fairbanks
+      location: Fairbanks, Alaska, USA
+      description: Co-advising doctoral student (w/ Prof. Javier Fochesatto from the University of Alaska Fairbanks) on the Arctic atmospheric boundary layer.
+      date: Fall 2023 - Present
+      highlights:
+        - item: Advised the student on formulating research questions relating to arctic atmospheric boundary layer thermodynamics.
+        - item: Helped build the student's strength in python and analysis of climate datasets.
+
+    - student:
+      name: S. Vallejo Jimenez
+      institute: Energy4Climate Interdisplinary Center, Laboratoire de Chimie Moléculaire, École Polytechnique and ENSTA
+      location: Palaiseau, Île-de-France, FR
+      description: Co-advising doctoral student (w/ Prof. Didier Dalmazonne from ENSTA) on synthetic fuel production for the XSeaO<sub>2</sub> project.
+      date: Spring 2023 - Present
+      highlights:
+        - item: Advising the student on formulating research questions relating to catalysts for synthetic fuel production
+        - item: Organizing experimental setup for testing different methanol production rates at different pressures, temperatures, and reactant ratios
+
+#  ──────────────────────────────────────────────────────────────────────────
+
+master:
+
+    - student:
+      name: G. Cellai
+      institute: Energy4Climate Interdisplinary Center, Laboratoire de Météorologie Dynamique, Laboratoire de Chimie Moléculaire, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      description: Main advisor for master student thesis (Engineering Master student of Politecnico di Torino) on the production of synthetic fuel utilizing wind power in the Sardinian region for the XSeaO<sub>2</sub> project.
+      date: Spring 2023 - Fall 2023
+      highlights:
+        - item: Advised the student on formulating research questions and building engineering problem solving.
+        - item: Helped build the student's strength in python and analysis of climate datasets.
+        - item: Worked with student to effectively communicate their results.
+
+    - student:
+      name: B. Akpan
+      institute: Energy4Climate Interdisplinary Center, Laboratoire de Chimie Moléculaire, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      description: Main advisor for master student intern (Master M1 from ENSTA) on CAD and CFD modelling of the carbon dioxide extractor from the XSeaO<sub>2</sub> project.
+      date: Spring 2023 - Fall 2023
+      highlights:
+        - item: Advised the student on formulating research and engineering questions
+        - item: Helped build the student's strength in python, linux, and CAD and CFD modelling.
+        - item: Worked with student to effectively communicate their results and challenges in compuation.
+
+    - student:
+      name: D. Siriez
+      institute: Laboratoire de Météorologie Dynamique, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      description: Co-advisor for master student thesis (Master Sciences de la mer from OSU Institut PYTHEAS, Aix-Marseille Université) on the changes of SST in the Mediterranean Sea with satellite data and investigating marine heat waves in the Gulf of Lion.
+      date: Spring 2023 - Fall 2023
+      highlights:
+        - item: Advised the student on formulating research questions in the field of oceanography.
+        - item: Advised student on the analysis of oceanic datasets.
+        - item: Encouraged student to present their results at the "Atelier scientifique INTEGRATION Impacts des vagues de chaleur marine 2022".
+
+    - student:
+      name: V. Somanna
+      institute: Laboratoire de Météorologie Dynamique, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      description: Main advisor for master student intern (International Master of École Polytechnique and KTH) on the production of synthetic fuel at sea.
+      date: Spring 2021 - Fall 2021
+      highlights:
+        - item: Advised the student on formulating research questions.
+        - item: Helped build the student's strength in python and analysis of climate datasets.
+
+    - student:
+      name: L. Demaine
+      institute: Laboratoire de Météorologie Dynamique, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      description: Injected fluid agnostic capability into DYNAMICO (hydrostatic atmospheric model), the atmospheric dynamics model at LMD.
+      date: Summer 2021
+      highlights:
+        - item: Supervised a master student intern to develop a Julia model capable of running thermodynamically agnostic dynamics for fluids
+
+#  ──────────────────────────────────────────────────────────────────────────
+
+bachelor:
+
+    - student:
+      name: K. Duarte Colardelle
+      institute: Energy4Climate Interdisplinary Center, Laboratoire de Chimie Moléculaire, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      description: Advisor for bachelor student intern on the optimizing hydrogen gas production and utilization in the XSeaO<sub>2</sub> project demonstrator.
+      date: Summer 2024
+      highlights:
+        - item: Advised the student on formulating engineering questions and methodology.
+        - item: Helped build the student's strength in python, electrochemistry, and methanol production.

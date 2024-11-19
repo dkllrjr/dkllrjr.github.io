@@ -6,6 +6,8 @@ show:
 ---
 
 {% assign exp = site.data.experience %}
+{% assign mentor = site.data.mentorship %}
+{% assign pub = site.data.publications %}
 {% assign contact = site.data.contact %}
 
 <div class="container">
@@ -35,9 +37,17 @@ show:
         </div>
         <div class="col" style="text-align: center;">
             <div class="big-spacer"></div>
-            <img src="img/images/me_round.png">
+            <img src="img/images/me_postdoc_round.png">
         </div>
     </div>
+    </br>
+
+    <!--Areas of Expertise-->
+
+    <p><b>Active fields of research:</b>
+    </br>
+    {{ exp.fields }}</p>
+
     <hr>
 
     <!--Education-->
@@ -76,26 +86,6 @@ show:
     {% endfor %}
     <hr>
 
-    <h2>Advising Experience</h2>
-
-    <!--Advising-->
-
-    {% for student in exp.advising %}
-        <h3>{{ student.title }}</h3>
-        <b>{{ student.institute }}</b>, {{ student.location }}
-        </br>       
-        <i>{{ student.date }}</i>
-        </br>       
-        {{ student.description }}
-        <ul>
-            {% for highlight in student.highlights %}
-                <li>{{ highlight.item }}</li>
-            {% endfor %}
-        </ul>
-        <div class="spacer"></div>
-    {% endfor %}
-    <hr>
-
     <!--Work-->
 
     <h2>Vocational Experience</h2>
@@ -118,15 +108,95 @@ show:
     {% endfor %}
     <hr>
 
+    <!--Mentorship-->
+
+    <h2>Mentorship Experience</h2>
+
+    <h3>Doctoral Students</h3>
+
+    {% for student in mentor.doctoral %}
+        <h4>{{ student.name }}</h4>
+        <b>{{ student.institute }}</b>, {{ student.location }}
+        </br>       
+        <i>{{ student.date }}</i>
+        </br>       
+        {{ student.description }}
+        <ul>
+            {% for highlight in student.highlights %}
+                <li>{{ highlight.item }}</li>
+            {% endfor %}
+        </ul>
+        <div class="spacer"></div>
+    {% endfor %}
+
+    <h3>Master Students</h3>
+
+    {% for student in mentor.master %}
+        <h4>{{ student.name }}</h4>
+        <b>{{ student.institute }}</b>, {{ student.location }}
+        </br>       
+        <i>{{ student.date }}</i>
+        </br>       
+        {{ student.description }}
+        <ul>
+            {% for highlight in student.highlights %}
+                <li>{{ highlight.item }}</li>
+            {% endfor %}
+        </ul>
+        <div class="spacer"></div>
+    {% endfor %}
+
+    <h3>Bachelor Students</h3>
+
+    {% for student in mentor.bachelor %}
+        <h4>{{ student.name }}</h4>
+        <b>{{ student.institute }}</b>, {{ student.location }}
+        </br>       
+        <i>{{ student.date }}</i>
+        </br>       
+        {{ student.description }}
+        <ul>
+            {% for highlight in student.highlights %}
+                <li>{{ highlight.item }}</li>
+            {% endfor %}
+        </ul>
+        <div class="spacer"></div>
+    {% endfor %}
+    <hr>
+
+    <!--Service-->
+
+    <h2>Service</h2>
+    {% for item in exp.service %}
+        <h3>{{ item.title }}</h3>
+        <b>{{ item.institute }}</b>, {{ item.location }}
+        </br>       
+        <i>{{ item.date }}</i>
+        </br>
+        {{ item.description }}
+        </br>
+        <div class="spacer"></div>
+    {% endfor %}
+    <hr>
+
     <!--Publications-->
 
     <div class="publications">
         <h2>Publications</h2>
+
         <h3>Published</h3>
         <ol>
-            {% assign articles = site.data.publications.articles | sort: 'year' | reverse %}
+            {% assign articles = pub.articles | sort: 'year' | reverse %}
             {% for article in articles %}
                 <li><a href="{{ article.doi }}">{{ article.authors }} ({{ article.year }}) "{{ article.title }}," <b>{{ article.journal }}</b>, {{ article.volume }}({{ article.issue }}), {{ article.pages }}, {{ article.doi }}</a></li>
+            {% endfor %}
+        </ol>
+
+        <h3>Submitted</h3>
+        <ol>
+            {% assign articles = pub.submitted | sort: 'year' | reverse %}
+            {% for article in articles %}
+                <li>{{ article.authors }} ({{ article.year }}) "{{ article.title }}," <b>{{ article.journal }}</li>
             {% endfor %}
         </ol>
 
@@ -134,7 +204,7 @@ show:
 
         <h3>Conference Proceedings</h3>
         <ol>
-            {% assign proceedings = site.data.publications.proceedings | sort: 'year' | reverse %}
+            {% assign proceedings = pub.proceedings | sort: 'year' | reverse %}
             {% for proceeding in proceedings %}
             <li><a href="{{ proceeding.doi }}">{{ proceeding.authors }} ({{ proceeding.year }}) "{{ proceeding.title }}," <b>{{ proceeding.conference }}</b>, {{ proceeding.volume }}({{ proceeding.issue }}), {{ proceeding.pages }}, <i>{{ proceeding.location }}</i>, {{ proceeding.date_time }}, {{ proceeding.doi }}</a></li>
             {% endfor %}
@@ -144,10 +214,11 @@ show:
 
         <h3>Presentations</h3>
         <ol>
-            {% assign talks = site.data.publications.talks | sort: 'year' | reverse %}
+            {% assign talks = pub.talks | sort: 'year' | reverse %}
             {% for talk in talks %}
-                <li>{{ talk.authors }} ({{ talk.year }}) "{{ talk.title }}," <b>{{ talk.conference }}</b>, <i>{{ talk.location }}</i>, {{ talk.date_time }}</li>
-
+                {% if talk.present %}
+                    <li>{{ talk.authors }} ({{ talk.year }}) "{{ talk.title }}," <b>{{ talk.conference }}</b>, <i>{{ talk.location }}</i>, {{ talk.date_time }}</li>
+                {% endif %}
             {% endfor %}
         </ol>
 
@@ -155,7 +226,7 @@ show:
 
         <h3>Posters</h3>
         <ol>
-            {% assign posters = site.data.publications.posters | sort: 'year' | reverse %}
+            {% assign posters = pub.posters | sort: 'year' | reverse %}
             {% for poster in posters %}
                 <li>{{ poster.authors }} ({{ poster.year }}) "{{ poster.title }}," <b>{{ poster.conference }}</b>, <i>{{ poster.location }}</i>, {{ poster.date_time }}</li>
             {% endfor %}
@@ -166,7 +237,7 @@ show:
         {% if page.show.in_progress %}
             <h3>In Progress</h3>
             <ul>
-                {% assign works = site.data.publications.progress | sort: 'year' | reverse %}
+                {% assign works = pub.progress | sort: 'year' | reverse %}
                 {% for work in works %}
                     {% if work.doi %}
                         <li><a href="{{ work.doi }}">{{ work.authors }} ({{ work.year }}) "{{ work.title }}," <b>{{ work.journal }}</b></a></li>

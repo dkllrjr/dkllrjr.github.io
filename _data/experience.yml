@@ -2,8 +2,7 @@ name: Douglas Keller Jr.
 
 # ══════════════════════════════════════════════════════════════════════════
 
-#title: Postdoctoral Researcher
-title: Research Engineer
+title: Postdoctoral Researcher / Research Engineer
 
 # ══════════════════════════════════════════════════════════════════════════
 
@@ -26,6 +25,10 @@ interests:
 
     description: "I enjoy many different things: science, engineering, programming, martial arts, hockey, skiing, and the outdoors, to list a few. I'm from Alaska; that may explain some of my interests."
     resume: false
+
+#  ══════════════════════════════════════════════════════════════════════════
+
+fields: "Ocean carbon system, marine heat waves, direct ocean carbon capture (DOC), carbon dioxide catalysis, air-sea interactions, physical oceanography, arctic atmospheres (boundary layer and synoptic scale)"
 
 # ══════════════════════════════════════════════════════════════════════════
 
@@ -71,33 +74,48 @@ research:
     - study:
       resume: true
       title: XSeaO<sub>2</sub>
-      institute: Energy4Climate Interdisplinary Center
+      institute: Energy4Climate Interdisplinary Center, Laboratoire de Chimie Moléculaire, Laboratoire de Météorologie Dynamique, École Polytechnique
       location: Palaiseau, Île-de-France, FR
       date: Summer 2021 - Present
       description: Researching and engineering CO<sub>2</sub> extraction from the ocean to produce synthetic fuel.
       highlights:
-        - item: Supervised a Master's intern to determine the most optimal places for the Seafuel device in the Mediterranean Sea.
-        - item: Developed a simple model to simulate the Seafuel and the oceanic carbon system.
-        - item: Presented work at the Ocean Science Meeting 2022.
+        - item: Designing a processing plant that ingests water and produces methanol
+        - item: Developed a simple model to simulate the processing plant and the oceanic carbon system
+        - item: Studying the physical and biological effects of artifical carbon removal from the ocean
+        - item: Supervising multiple students (doctoral, master, and bachelor) working on the project
+
+#  ──────────────────────────────────────────────────────────────────────────
+#
+    - study:
+      resume: false
+      title: Oceanic Response to Marine Heat Waves
+      institute: Laboratoire de Météorologie Dynamique
+      location: Palaiseau, Île-de-France, FR
+      date: Spring 2023 - Present
+      description: Studying the effects of Mediterranean cyclones on the Mediterranean Sea vertical stability and surface fluxes.
+      highlights:
+        - item: Supervized master student on studying the impact of the 2022 summer marine heat waves in the Gulf of Lion on stratification
+        - item: Studying the impact of marine heat waves on the global ocean for the year 2023 w/ emphasis on the ocean carbon system
 
 # ──────────────────────────────────────────────────────────────────────────
 
     - study:
       resume: true
       title: ALPACA-PBL
-      institute: University of Alaska Fairbanks
-      location: Fairbanks, Alaska, USA
+      institute: Laboratoire de Météorologie Dynamique and University of Alaska Fairbanks
+      location: Palaiseau, Île-de-France, FR and Fairbanks, Alaska, USA
       date: Summer 2022 - Present
       description: Investigating the build up and break up of radiatively forced boundary layers in the subarctic.
       highlights:
-        - item: Analyzed multiple instrument data, such as from a microwave radiometer, 3D sonic anemometer, Doppler wind lidar, and balloon soundings
+        - item: Analyzing multiple instrument data, such as from a microwave radiometer, 3D sonic anemometer, Doppler wind lidar, and balloon soundings
+        - item: "Co-advising two doctoral students w/ Prof. Javier Fochesatto"
 
 # ──────────────────────────────────────────────────────────────────────────
 
     - study:
       resume: false
       title: Oceanic Response to Mediterranean Cyclone Forcing
-      institute: Laboratoire de Météorologie Dynamique, École Polytechnique and Weizmann Institute of Science
+      institute: Laboratoire de Météorologie Dynamique and Weizmann Institute of Science
       location: Palaiseau, Île-de-France, FR and Rehovot, IL
       date: Fall 2021 - Present
       description: Studying the effects of Mediterranean cyclones on the Mediterranean Sea vertical stability and surface fluxes.
@@ -115,8 +133,8 @@ research:
       date: Spring 2022 - Present
       description: Investigating the deep convection behavior in the northern part of the Red Sea.
       highlights:
+        - item: Organizing observations from Isreali meteorological office to look at the vertical structure of the water in the Gulf of Aqaba
         - item: Analyzed vertical profiles of Argo floats in the northern part of the Red Sea
-        - item: Organized observations from Isreali meteorological office to look at the vertical structure of the water in the Gulf of Aqaba
 
 # ──────────────────────────────────────────────────────────────────────────
 
@@ -226,8 +244,7 @@ research:
 vocation:
 
     - job:
-      #title: Postdoctoral Researcher
-      title: Research Engineer
+      title: Postdoctoral Researcher / Research Engineer
       institute: Energy4Climate Interdisplinary Center, Laboratoire de Chimie Moléculaire, Laboratoire de Météorologie Dynamique, École Polytechnique
       location: Palaiseau, Île-de-France, FR
       date: Fall 2022 - Present
@@ -241,8 +258,8 @@ vocation:
           highlights:
             - item: Managing the project and the different technical facets of the extraction and fuel production plant
             - item: Engineering the CO<sub>2</sub> extraction module with a bipolar membrane
-            - item: Studying the physical and biological effects of artifical carbon removal from the ocean
-            - item: Installing meteorological instruments on the lake of École Polytechnique to measure the carbon system in the water and atmospehre
+            - item: Engineering the reactor, utilizing different catalysts for different synthetic fuels
+            - item: Installed meteorological instruments on and in the lake of École Polytechnique to measure the carbon system in the water and atmospehre
 
 # ──────────────────────────────────────────────────────────────────────────
 
@@ -256,15 +273,14 @@ vocation:
       - task:
         location: Palaiseau, Île-de-France, FR
         description: Taught and led students through master level coursework.
-        date: Fall 2023
+        date: Fall 2023, Fall 2024
         highlights:
-          - item: "Prepared coursework in wave energy for MEC573: Potentiel éolien, solaire, hydraulique : analyse et projets (wind, solar, and hydraulic potential: analysis and projects)."
-          - item: "Guided students through renewable energy projects on wind energy forecasting and wave energy availablility in France in MEC573."
+          - item: "Prepared coursework in wave energy and guided students through renewable energy projects for the course MEC573: Potentiel éolien, solaire, hydraulique : analyse et projets (wind, solar, and hydraulic potential: analysis and projects)."
 
       - task:
         location: Palaiseau, Île-de-France, FR
         description: "Organized and executed the E4C 2024 Student Challenge: Greener Building: The CO2 Footprint Reduction Challenge."
-        date: Fall 2023 - Present
+        date: Spring 2024
         highlights:
           - item: "Organized and communicated with the pedagogical team to determine the scope of the challenge."
           - item: "Prepared energy consumption, production, and meteorological data, coursework, and example programs for the challenge, such as a simple machine learning model trained on the data for student edification."
@@ -281,7 +297,7 @@ vocation:
       - task:
         location: Palaiseau, Île-de-France, FR
         description: Tutored students through master level coursework.
-        date: Fall 2023 - Fall 2023
+        date: Fall 2023
         highlights:
           - item: "Tutored students for the MEC559: Mechanics for Wind Energy, an introduction."
 
@@ -428,99 +444,21 @@ projects:
 
 #  ══════════════════════════════════════════════════════════════════════════
 
-advising:
-
-    - student:
-      title: Doctoral Student
-      institute: Laboratoire de Météorologie Dynamique, École Polytechnique and College of Natural Sciences and University of Alaska Fairbanks
-      location: Palaiseau, Île-de-France, FR and Fairbanks, Alaska, USA
-      description: Co-advising doctoral student (from the University of Alaska Fairbanks) on the Arctic atmospheric boundary layer.
-      date: Fall 2023 - Present
-      highlights:
-        - item: Advising the student on formulating research questions relating to arctic atmospheric boundary layer turbulence.
-
-    - student:
-      title: Doctoral Student
-      institute: Laboratoire de Météorologie Dynamique, École Polytechnique and College of Natural Sciences and University of Alaska Fairbanks
-      location: Palaiseau, Île-de-France, FR and Fairbanks, Alaska, USA
-      description: Co-advising doctoral student (from the University of Alaska Fairbanks) on the Arctic atmospheric boundary layer.
-      date: Fall 2023 - Present
-      highlights:
-        - item: Advised the student on formulating research questions relating to arctic atmospheric boundary layer thermodynamics.
-        - item: Helped build the student's strength in python and analysis of climate datasets.
-
-    - student:
-      title: Doctoral Student
-      institute: Energy4Climate Interdisplinary Center, Laboratoire de Chimie Moléculaire, École Polytechnique and ENSTA
-      location: Palaiseau, Île-de-France, FR
-      description: Co-advising doctoral student (from ENSTA) on synthetic fuel production for the XSeaO<sub>2</sub> project.
-      date: Spring 2023 - Present
-      highlights:
-        - item: Advising the student on formulating research questions relating to catalysts for synthetic fuel production
-        - item: Organizing experimental setup for testing different methanol production rates at different pressures, temperatures, and reactant ratios
-
-    - student:
-      title: Master Student
-      institute: Energy4Climate Interdisplinary Center, Laboratoire de Météorologie Dynamique, Laboratoire de Chimie Moléculaire, École Polytechnique
-      location: Palaiseau, Île-de-France, FR
-      description: Main advisor for master student thesis (Engineering Master student of Politecnico di Torino) on the production of synthetic fuel utilizing wind power in the Sardinian region for the XSeaO<sub>2</sub> project.
-      date: Spring 2023 - Fall 2023
-      highlights:
-        - item: Advised the student on formulating research questions and building engineering problem solving.
-        - item: Helped build the student's strength in python and analysis of climate datasets.
-        - item: Worked with student to effectively communicate their results.
-
-    - student:
-      title: Master Student
-      institute: Energy4Climate Interdisplinary Center, Laboratoire de Chimie Moléculaire, École Polytechnique
-      location: Palaiseau, Île-de-France, FR
-      description: Main advisor for master student intern (Master M1 from ENSTA) on CAD and CFD modelling of the carbon dioxide extractor from the XSeaO<sub>2</sub> project.
-      date: Spring 2023 - Fall 2023
-      highlights:
-        - item: Advised the student on formulating research and engineering questions
-        - item: Helped build the student's strength in python, linux, and CAD and CFD modelling.
-        - item: Worked with student to effectively communicate their results and challenges in compuation.
-
-    - student:
-      title: Master Student
-      institute: Laboratoire de Météorologie Dynamique, École Polytechnique
-      location: Palaiseau, Île-de-France, FR
-      description: Co-advisor for master student thesis (Master Sciences de la mer from OSU Institut PYTHEAS, Aix-Marseille Université) on the changes of SST in the Mediterranean Sea with satellite data and investigating marine heat waves in the Gulf of Lion.
-      date: Spring 2023 - Fall 2023
-      highlights:
-        - item: Advised the student on formulating research questions in the field of oceanography.
-        - item: Advised student on the analysis of oceanic datasets.
-        - item: Encouraged student to present their results at the "Atelier scientifique INTEGRATION Impacts des vagues de chaleur marine 2022".
-
-    - student:
-      title: Master Student
-      institute: Laboratoire de Météorologie Dynamique, École Polytechnique
-      location: Palaiseau, Île-de-France, FR
-      description: Main advisor for master student intern (International Master of École Polytechnique and KTH) on the production of synthetic fuel at sea.
-      date: Spring 2021 - Fall 2021
-      highlights:
-        - item: Advised the student on formulating research questions.
-        - item: Helped build the student's strength in python and analysis of climate datasets.
-
-    - student:
-      title: Master Student
-      institute: Laboratoire de Météorologie Dynamique, École Polytechnique
-      location: Palaiseau, Île-de-France, FR
-      description: Injected fluid agnostic capability into DYNAMICO (hydrostatic atmospheric model), the atmospheric dynamics model at LMD.
-      date: Summer 2021
-      highlights:
-        - item: Supervised a master student intern to develop a Julia model capable of running thermodynamically agnostic dynamics for fluids
-
-# ══════════════════════════════════════════════════════════════════════════
-
-miscellaneous:
+service:
 
     - item:
-      title: JSHS Judge and Reviewer
+      title: Associate Editor
+      institute: Journal of Atmospheric and Oceanic Technology, American Meteorological Society
+      location: USA
+      date: Summer 2024 - Present
+      description: Review and evaluate article submissions to the Journal of Atmospheric and Oceanic Technology, with focus on the ocean.
+
+    - item:
+      title: Judge and Reviewer
       institute: Junior Science and Humanities Symposium
       location: Fairbanks, Alaska, USA
-      date: Spring 2021
-      description: Reviewed students' reports and participated as a judge for the state competition. Guided students in their project work.
+      date: Spring 2021, Spring 2023, Spring 2024
+      description: Reviewed students' reports and participated as a judge for the state JSHS competition. Guided students in their project work.
 
 # ══════════════════════════════════════════════════════════════════════════
 
@@ -530,7 +468,7 @@ skills:
       name: Languages
       list:
         - item: English (Native)
-        - item: French (A2)
+        - item: French (B1)
         - item: German (A1)
 
 # ──────────────────────────────────────────────────────────────────────────
