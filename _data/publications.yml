@@ -18,6 +18,14 @@ articles:
 
   - article:
     resume: true
+    authors: <u>D. Keller</u>, Y. Givon, R. Pennel, S. Raveh-Rubin, P. Drobinski
+    year: 2024
+    title: "Untangling the mistral and seasonal atmospheric forcing driving deep convection in the Gulf of Lion: 1993-2013"
+    journal: "JGR: Oceans"
+    doi: https://doi.org/10.1029/2022JC019245
+
+  - article:
+    resume: true
     authors: <u>D. Keller</u>, V. Somanna, P. Drobinski, C. Tard
     year: 2022
     title: "Offshore CO<sub>2</sub> Capture and Utilization Using Floating Wind/PV Systems: Site Assessment and Efficiency Analysis in the Mediterranean"
