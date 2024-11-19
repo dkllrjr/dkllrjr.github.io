@@ -239,10 +239,10 @@ vocation:
 # ──────────────────────────────────────────────────────────────────────────
 
     - job:
-      title: Moniteur (Teaching Assistant)
+      title: Teaching Assistant / Adjunct Professor
       institute: Département de Mécanique, École Polytechnique
       location: Palaiseau, Île-de-France, FR
-      date: Fall 2020 - Spring 2022
+      date: Fall 2020 - Present
       resume: true
       tasks:
       - task:
