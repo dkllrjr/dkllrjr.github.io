@@ -1,0 +1,80 @@
+teaching:
+
+    - job:
+      title: Enseignant Vacataire (Adjunct Professor)
+      institute: Département de Mécanique, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      date: Fall 2023 - Present
+      resume: true
+      tasks:
+      - task:
+        location: Palaiseau, Île-de-France, FR
+        description: Taught and led students through master level coursework.
+        date: Fall 2023, Fall 2024
+        highlights:
+          - item: "Prepared coursework in wave energy and guided students through renewable energy projects for the course MEC573: Potentiel éolien, solaire, hydraulique : analyse et projets (wind, solar, and hydraulic potential: analysis and projects)."
+
+      - task:
+        location: Palaiseau, Île-de-France, FR
+        description: "Organized and executed the E4C 2024 Student Challenge: Greener Building: The CO2 Footprint Reduction Challenge."
+        date: Spring 2024
+        highlights:
+          - item: "Organized and communicated with the pedagogical team to determine the scope of the challenge."
+          - item: "Prepared energy consumption, production, and meteorological data, coursework, and example programs for the challenge, such as a simple machine learning model trained on the data for student edification."
+
+      - task:
+        location: Palaiseau, Île-de-France, FR
+        description: "Organizing the E4C 2025 Student Challenge: Clearing the Skies: The Race to Decarbonize Aviation"
+        date: Spring 2025
+        highlights:
+          - item: "Organizing and communicating with the pedagogical team to determine the scope of the challenge; reducing carbon dioxide emissions by 75% by 2045 in the aviation sector."
+
+#  ──────────────────────────────────────────────────────────────────────────
+
+    - job:
+      title: Tutor
+      institute: Département de Mécanique, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      date: Fall 2023, Fall 2024
+      resume: true
+      tasks:
+      - task:
+        location: Palaiseau, Île-de-France, FR
+        description: Tutored students through master level coursework.
+        date: Fall 2023, Fall 2024
+        highlights:
+          - item: "Tutored students for the MEC559: Mechanics for Wind Energy, an introduction."
+
+# ──────────────────────────────────────────────────────────────────────────
+
+    - job:
+      title: Monitorat (Teaching Assistant)
+      institute: Département de Mécanique, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      date: Fall 2020 - Spring 2022
+      resume: true
+      tasks:
+      - task:
+        location: Palaiseau, Île-de-France, FR
+        description: Teaching and leading students through master and bachelor level coursework.
+        date: Fall 2020 - Spring 2022
+        highlights:
+          - item: "Taught the petite classes (recitation classes) for Master students in MEC559: Mechanics for Wind Energy, an introduction. Topics included: wind turbine design, airfoils, atmospheric dynamics and resources, and bending beam vibrations"
+          - item: "Led Bachelor students through the Phys103: Physics Lab, including general kinematic experiments."
+
+# ──────────────────────────────────────────────────────────────────────────
+
+    - job:
+      title: Teaching Assistant
+      institute: College of Engineering and Mines, University of Alaska Fairbanks
+      location: Fairbanks, Alaska, USA
+      date: Spring 2017 - Fall 2018
+      resume: false
+      tasks:
+      - task:
+        location: Fairbanks, Alaska, USA
+        description: Graded homework and exams and assisted students with their engineering studies.
+        date: Spring 2017 - Fall 2018
+        highlights:
+          - item: Graded homework and exams for the courses of Mechanics of Materials, Instrumentation and Measurement, and Heat Transfer
+          - item: Recorded lectures for the courses of Astrodynamics and Mechanical Vibration
