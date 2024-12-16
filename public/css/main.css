@@ -127,12 +127,37 @@ body {
     /*font-family: '3270', monospace;*/
     /*font-family: 'JetBrains', monospace;*/
     font-size: 12pt;
+
+    background-color: rgba(66, 215, 245, 0.2);
+
+    /*color: #2E294E;*/
+    /*color: #4A1942;*/
+    color: #150578;
+
     width: 90%;
     margin: auto;
 }
 
 
+/*links*/
+a {
+    color: #DB5461;
+}
+
+a:hover {
+    color: #3772FF;
+}
+
+
 /*navbar*/
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(219, 84, 97, 0.55);
+}
+
+.navbar-light .navbar-nav .nav-item:hover .nav-link {
+    color: #150578;
+}
+
 .navbar-toggler-icon {
     background-color: white;
 }
