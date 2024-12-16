@@ -1,6 +1,0 @@
----
-layout: alt
-title: BibThèque
----
-
-

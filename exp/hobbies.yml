@@ -1,0 +1,14 @@
+hobbies:
+
+  - hobby:
+    title: Skiing
+    description: Skiing downhill and backcountry (with skins and the whole setup for charging steeper lines).
+
+  - hobby:
+    title: Networking and Server Management
+    description: In addition to a Minecraft server I run from scratch, I also manage/play with a virtual server and a Raspberry Pi server that I own and use for data storage, git repository hosting, and website hosting.
+
+  - hobby:
+    title: Other Interests
+    description: Aerospace and aviation, game development, optics and physics, artificial intelligence, quantum communication, music, language learning.
+

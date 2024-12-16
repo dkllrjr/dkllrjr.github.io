@@ -1,10 +1,6 @@
----
-layout: default
-title: Douglas Keller Jr.
----
+# Doug KELLER
 
-Test
+Welcome to my webpage! I'm a scientist who has hand in oceanography, atmospheric science, mechanical engineering, and chemical engineering.
 
-$$
-\alpha
-$$
+## Research
+

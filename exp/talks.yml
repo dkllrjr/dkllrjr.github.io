@@ -1,0 +1,136 @@
+talks:
+
+  - talk:
+    authors: <u>D. Keller</u>, G. J. Fochesatto
+    title: Identifying the Conditions for the Occurrence of High Latitude Superior Mirages
+    conference: Light and Color in Nature
+    location: Bar Harbor, Maine, USA
+    date_time: July 15, 2019
+    year: 2019
+    present: true
+
+  - talk:
+    authors: <u>D. Keller</u>, G. J. Fochesatto, E. J. Welton, and J. R. Campbell
+    title: 'The Spectral Signature of Surface Turbulent Fluxes during Arctic Warmings: Combining MPLNET Lidar and Surface Turbulence Observations'
+    conference: 100th Annual American Meteorological Society Meeting
+    location: Boston, Massachusetts, USA
+    date_time: Jan. 12-16, 2020
+    year: 2020
+    present: true
+
+  - talk:
+    authors: <u>D. Keller</u>, G. J. Fochesatto, E. J. Welton, and J. Campbell 
+    title: 'Spectral Changes in the Surface Turbulent Fluxes during Arctic Warmings: Combining MPLNET Lidar and Surface Turbulence Observations'
+    conference: 101st Annual American Meteorological Society Meeting
+    location: Virtual, USA
+    date_time: Jan. 9-16, 2021
+    year: 2021
+    present: true
+
+  - talk:
+    authors: <u>D. Keller</u>
+    title: 'Effects of the Mistral on deep convection in the Gulf of Lion'
+    conference: SiMed 2021
+    location: Toulouse, France
+    date_time: Nov. 29-30, 2021
+    year: 2021
+    present: true
+
+  - talk:
+    authors: <u>D. Keller</u>, Y. Givon, R. Pennel, P. Drobinski, and S. Raveh-Rubin
+    title: 'Mistral Dynamics and Impact on the Gulf of Lion Deep Convection'
+    conference: CNRS/WIS Workshop
+    location: Virtual, Israel
+    date_time: Apr. 13, 2022
+    year: 2022
+    present: true
+
+  - talk:
+    authors: <u>D. Keller</u>, Y. Givon, R. Pennel, S. Raveh-Rubin, and P. Drobinski, 
+    title: 'Variability of the Mistral and Seasonal Atmospheric Forcing on Deep Convection in the Gulf of Lion'
+    conference: EGU General Assembly 2022
+    location: Vienna, Austria
+    date_time: May 23-27, 2022
+    year: 2022
+    present: true
+
+  - talk:
+    authors: Y. Givon, <u>D. Keller</u>, V. Silverman, R. Pennel, P. Drobinski, and S. Raveh-Rubin
+    title: 'The mistral wind from a Rossby-wave perspective: a climatological classification of RWB'
+    conference: EGU General Assembly 2022
+    location: Vienna, Austria
+    date_time: May 23-27, 2022
+    year: 2022
+    present: true
+
+  - talk:
+    authors: <u>D. Keller</u>, Y. Givon, R. Pennel, P. Drobinski, and S. Raveh-Rubin
+    title: 'Untangling the Mistral and Seasonal Effects of Atmospheric Forcing on Deep Convection in the Gulf of Lion'
+    conference: 1st MedCyclones Workshop and Training School
+    location: Athens, Greece
+    date_time: June 27 - July 2, 2022
+    year: 2022
+    present: true
+
+  - talk:
+    authors: <u>D. Keller</u>, Y. Givon, R. Pennel, P. Drobinski, and S. Raveh-Rubin
+    title: 'Impact and Variability of the Mistral and Atmospheric Forcing on Deep Convection in the Gulf of Lion'
+    conference: MedCLIVAR 2022 Conference
+    location: Marrakesh, Morocco
+    date_time: Oct. 4-8, 2022
+    year: 2022
+    present: true
+
+  - talk:
+    authors: <u>D. Keller</u>, Y. Givon, F. Sevault, S. Somot, R. Pennel, S. Raveh-Rubin, P. Drobinski
+    title: 'Evolution of the Drivers of Stratification of the Gulf of Lion in a Changing Climate'
+    conference: SiMed 2023
+    location: Toulouse, France
+    date_time: March 21-22, 2023
+    year: 2023
+    present: true
+
+  - talk:
+    authors: D. Siriez, <u>D. Keller</u>, V. Capelle, J.M. Hartmann
+    title: 'Impact des vagues de chaleurs sur la stratification en Méditerranée en 2022'
+    conference: Atelier scientifique INTEGRATION Impacts des vagues de chaleur marine 2022
+    location: Toulouse, France
+    date_time: June 26-28, 2023
+    year: 2023
+    present: false
+
+  - talk:
+    authors: <u>D. Keller</u>, Y. Givon, F. Sevault, S. Somot, R. Pennel, S. Raveh-Rubin, P. Drobinski
+    title: 'Evolution of the Drivers of Stratification of the Gulf of Lion in a Changing Climate'
+    conference: EGU General Assembly 2023
+    location: Vienna, Austria
+    date_time: April 23-28, 2023
+    year: 2023
+    present: true
+
+  - talk:
+    authors: G. J. Fochesatto, <u>D. Keller</u>, E. Dieudonné, N. Brett, K. Law, S. Bekki, D. Atkinson, E. Wellton, E. Peterson
+    title: 'The Effects of the Large Scale Synoptic fields in the High Latitude PBL states'
+    conference: EGU General Assembly 2023
+    location: Vienna, Austria
+    date_time: April 23-28, 2023
+    year: 2023
+    present: true
+
+  - talk:
+    authors: G. J. Fochesatto, G. Sjöblom, D. Thomas, N. Brett, <u>D. Keller</u>, K. Law, S. Bekki
+    title: 'Assessing PBL Time and Spatial Variability in Polar Regions: Challenges for a Space Mission.'
+    conference: AGU Fall Meeting
+    location: San Francisco, California, USA
+    date_time: December 11-15, 2023
+    year: 2023
+    present: false
+
+  - talk:
+    authors: Y. Givon, <u>D. Keller</u>, R. Pennel, P. Drobinski, S. Raveh-Rubin
+    title: 'Decomposing the role of dry intrusions for evaporation during Mistral'
+    conference: 3rd MedCyclones Workshop 2024
+    location: Frascati, Rome, Italy
+    date_time: July 15-19, 2024
+    year: 2024
+    present: false

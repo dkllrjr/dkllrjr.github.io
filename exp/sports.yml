@@ -1,0 +1,23 @@
+sports:
+
+  - sport:
+    title: Krav Maga Instructor
+    institute: Alaska Krav Maga & Fitness
+    location: Fairbanks, Alaska, USA
+    description: Taught Krav Maga, Muay Thai, and fitness classes to students at varying skill levels. Also trained in Brazilian Jiu Jitsu.
+    date: Winter 2017 - Winter 2018
+
+  - sport:
+    title: Junior A Tier III Hockey Player
+    institute: Great Falls Americans
+    location: Great Falls, Montana, USA
+    description: Played junior hockey in the American Western Hockey League; played as winger and typically killed penalties.
+    date: Fall 2012 - Winter 2013
+
+  - sport:
+    title: Junior A Tier III Hockey Player
+    institute: Yellowstone Quake
+    location: Cody, Wyoming, USA
+    description: Played junior hockey in the American Western Hockey League; played as winger and typically killed penalties.
+    date: Winter 2013 - Spring 2014
+

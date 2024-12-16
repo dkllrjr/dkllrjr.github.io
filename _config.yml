@@ -15,19 +15,3 @@ linkedin: "dg-kllr-jr"
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-
-# Build settings
-safe: true # always trues on github-pages, disables _plugins/
-markdown: redcarpet
-#sass:
-    #indentWidth: 4
-    #style: compact
-    #precision: 10
-plugins:
-    - jekyll-sitemap
-    - jekyll-seo-tag
-exclude:
-    - Gemfile
-    - Gemfile.lock
-    - vendor/**
-    - archive/**

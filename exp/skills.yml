@@ -1,0 +1,41 @@
+skills:
+
+  - skill:
+    name: Languages
+    list:
+      - item: English (Native)
+      - item: French (B1)
+      - item: German (A1)
+
+  - skill:
+    name: Earth System Modelling
+    list:
+      - item: Weather Research and Forecasting (WRF) Model
+      - item: Nucleus for European Modelling of the Ocean (NEMO)
+
+  - skill:
+    name: Programming Languages
+    list:
+      - item: Python
+      - item: C/C++
+      - item: Julia
+      - item: Fortran
+      - item: MATLAB
+      - item: CUDA
+      - item: OpenCL
+      - item: Golang
+
+  - skill:
+    name: Platforms
+    list:
+      - item: Linux
+      - item: Windows
+      - item: MacOS
+      - item: Arduino
+
+  - skill:
+    name: Software
+    list:
+      - item: Git
+      - item: SolidWorks
+      - item: AutoCAD

@@ -1,0 +1,165 @@
+vocation:
+
+  - job:
+    title: Postdoctoral Researcher / Research Engineer
+    institute: Energy4Climate Interdisplinary Center, Laboratoire de Chimie Moléculaire, Laboratoire de Météorologie Dynamique, École Polytechnique
+    location: Palaiseau, Île-de-France, FR
+    date: Fall 2022 - Present
+    resume: true
+    tasks:
+      - task:
+        location: Palaiseau, Île-de-France, FR
+        description: Developing and manufacturing a prototype demonstrator that extracts CO<sub>2</sub> from the ocean and produces synthetic fuel with it.
+        date: Fall 2022 - Present
+        highlights:
+          - item: Managing the project and the different technical facets of the extraction and fuel production plant
+          - item: Engineering the CO<sub>2</sub> extraction module with a bipolar membrane
+          - item: Engineering the reactor, utilizing different catalysts for different synthetic fuels
+          - item: Installed meteorological instruments on and in the lake of École Polytechnique to measure the carbon system in the water and atmospehre
+
+  - job:
+    title: Enseignant Vacataire (Adjunct Professor)
+    institute: Département de Mécanique, École Polytechnique
+    location: Palaiseau, Île-de-France, FR
+    date: Fall 2023 - Present
+    resume: true
+    tasks:
+      - task:
+        location: Palaiseau, Île-de-France, FR
+        description: Taught and led students through master level coursework.
+        date: Fall 2023, Fall 2024
+        highlights:
+          - item: "Prepared coursework in wave energy and guided students through renewable energy projects for the course MEC573: Potentiel éolien, solaire, hydraulique : analyse et projets (wind, solar, and hydraulic potential: analysis and projects)."
+      - task:
+        location: Palaiseau, Île-de-France, FR
+        description: "Organized and executed the E4C 2024 Student Challenge: Greener Building: The CO2 Footprint Reduction Challenge."
+        date: Spring 2024
+        highlights:
+          - item: "Organized and communicated with the pedagogical team to determine the scope of the challenge."
+          - item: "Prepared energy consumption, production, and meteorological data, coursework, and example programs for the challenge, such as a simple machine learning model trained on the data for student edification."
+
+  - job:
+    title: Tutor
+    institute: Département de Mécanique, École Polytechnique
+    location: Palaiseau, Île-de-France, FR
+    date: Fall 2023
+    resume: true
+    tasks:
+      - task:
+        location: Palaiseau, Île-de-France, FR
+        description: Tutored students through master level coursework.
+        date: Fall 2023
+        highlights:
+          - item: "Tutored students for the MEC559: Mechanics for Wind Energy, an introduction."
+
+  - job:
+    title: Monitorat (Teaching Assistant)
+    institute: Département de Mécanique, École Polytechnique
+    location: Palaiseau, Île-de-France, FR
+    date: Fall 2020 - Spring 2022
+    resume: true
+    tasks:
+      - task:
+        location: Palaiseau, Île-de-France, FR
+        description: Teaching and leading students through master and bachelor level coursework.
+        date: Fall 2020 - Spring 2022
+        highlights:
+          - item: "Taught the petite classes (recitation classes) for Master students in MEC559: Mechanics for Wind Energy, an introduction. Topics included: wind turbine design, airfoils, atmospheric dynamics and resources, and bending beam vibrations"
+          - item: "Led Bachelor students through the Phys103: Physics Lab, including general kinematic experiments."
+            
+  - job:
+    title: Doctoral Researcher
+    institute: Laboratoire de Météorologie Dynamique, École Polytechnique
+    location: Palaiseau, Île-de-France, FR
+    date: Fall 2019 - Fall 2022
+    resume: true
+    tasks:
+      - task:
+        location: Palaiseau, Île-de-France, FR
+        description: Determed the spatial and temporal effects of the Mistral on dense water formation in the Gulf of Lion (northwestern Mediterranean Sea)
+        date: Fall 2019 - Fall 2022
+
+  - job:
+    title: Research Technician
+    institute: Alaska Center for Energy and Power, University of Alaska Fairbanks
+    location: Fairbanks, Alaska, USA
+    date: Spring 2019 - Fall 2019
+    resume: false
+    tasks:
+      - task:
+        location: Fairbanks, Alaska, USA
+        description: Performed data analytics and large data organization for Alaska Center for Energy and Power's (ACEP) fuel meter project.
+        date: Summer 2019 - Fall 2019
+        highlights:
+          - item: Developed large data analysis methods for the ACEP fuel meter project
+          - item: Created data visualization methods for the fuel meter observations
+      - task:
+        location: Fairbanks, Alaska, USA
+        description: Rewrote the Alaska Center for Energy and Power's (ACEP) Energy Technology Facility's (ETF) safety manual.
+        date: Spring 2019 - Summer 2019
+        highlights:
+          - item: Determined the job hazards and the required training to safely perform experiments in the ETF
+          - item: Adjusted the emergency action plan of the ETF to more effectively utilize the ETF's emergency systems
+
+  - job:
+    title: Teaching Assistant
+    institute: College of Engineering and Mines, University of Alaska Fairbanks
+    location: Fairbanks, Alaska, USA
+    date: Spring 2017 - Fall 2018
+    resume: false
+    tasks:
+      - task:
+        location: Fairbanks, Alaska, USA
+        description: Graded homework and exams and assisted students with their engineering studies.
+        date: Spring 2017 - Fall 2018
+        highlights:
+          - item: Graded homework and exams for the courses of Mechanics of Materials, Instrumentation and Measurement, and Heat Transfer
+          - item: Recorded lectures for the courses of Astrodynamics and Mechanical Vibration
+            
+  - job:
+    title: Mechanical Engineering Intern
+    institute: NASA Armstrong Flight Research Center
+    location: Edwards, California, USA
+    date: Summer 2017
+    resume: false
+    tasks:
+      - task:
+        location: Edwards, California, USA
+        description: Tested thermodynamics and heat transfer of the initial Fiber Optic Sensing System (FOSS) enclosure concept for the Quiet Supersonic Technology (QueSST) X-Plane (now the X-59).
+        date: Summer 2017
+        highlights:
+          - item: Researched different technologies for effective heat transfer, such as heat pipes and thermoelectric coolers, for the FOSS enclosure, particularly with flight testing in mind
+          - item: Analyzed heat transfer methods for the FOSS enclosure application including foam insulation
+          - item: Designed a prototype enclosure for the different FOSS components, utilizing foam insulation and heat pipes for improved variable temperature environment survivability
+            
+  - job:
+    title: Engineering Intern
+    institute: Project Aisle
+    location: Spokane, Washington, USA
+    date: Summer 2016
+    resume: false
+    tasks:
+      - task:
+        location: Spokane, Washington, USA
+        description: "Golf Swing Replicator Prototype: designed and built a golf swing replicating rig."
+        date: Summer 2016
+        highlights:
+          - item: Designed a golf swing replicator prototype in SolidWorks with an adjustable stand, ball holder, and swinging mechanism
+          - item: Fabricated the golf swing replicator prototype, utilizing the mill, lathe, and MIG welder
+          - item: Tested and analyzed the golf swing replicator prototype
+            
+  - job:
+    title: Engineering Intern
+    institute: Alaska Department of Transportation
+    location: Fairbanks, Alaska, USA
+    date: Summer 2015
+    resume: false
+    tasks:
+      - task:
+        location: Fairbanks, Alaska, USA
+        description: Determined the compliance of pedestrian facilities in the Fairbanks Borough with the American Disability Act (ADA).
+        date: Summer 2015
+        highlights:
+          - item: Measured state maintained pedestrian facilities, such as sidewalks and ramps
+          - item: Determined pedestrian facility requirements for ADA compliance, including the required slope accommodation for disabled pedestrians
+          - item: Compiled measurement data from multiple interns for coordinator review
