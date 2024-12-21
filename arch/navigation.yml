@@ -1,11 +1,7 @@
 - name: Home
   link: "/"
-- name: Research
-  link: "/res.html"
 - name: Publications
   link: "/pub.html"
-- name: Contact
-  link: "/contact.html"
 - name: CV
   link: "/cv.html"
 - name: Resume

@@ -6,6 +6,7 @@ ARCH="../arch"
 EXP="../exp"
 TXT="../text"
 IMG="../img"
+ICON="../icons"
 CSS="../css"
 JS="../js"
 FONTS="../fonts"
@@ -18,6 +19,7 @@ mkdir -p $PUBLIC
 
 # copy in assets
 cp -r $IMG $PUBLIC/img
+cp -r $ICON $PUBLIC/icons
 cp -r $CSS $PUBLIC/css
 cp -r $JS $PUBLIC/js
 cp -r $FONTS $PUBLIC/fonts
