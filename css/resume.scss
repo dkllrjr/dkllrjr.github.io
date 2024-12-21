@@ -1,0 +1,257 @@
+//Resume
+
+#resume-body {
+    font-family: "UbuntuMono", UbuntuMono, sans-serif;
+    font-size: 12pt;
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0;
+    padding: 0;
+    border: 1px solid white;
+    //border: 1px solid black;
+}
+
+.resume {
+    padding: 0;
+    margin: 0;
+    //padding: 8px 10px;
+    //margin: 8px 10px;
+    height: 97.5%;
+    //border: 5px solid black;
+    //border-bottom: 6px solid black;
+    //border-top: 6px solid black;
+}
+
+.resume .flex-container {
+    display: flex;
+    flex-direction: row;
+    height: 27.2cm;
+}
+
+.resume .left-flex-container {
+    flex: 28%;
+    background-color: rgba(12, 36, 97, 0.5);
+}
+
+.resume .right-flex-container {
+    flex: 72%;
+}
+
+.resume .inside-left-flex-container {
+    margin: auto;
+    padding: 0;
+    padding: 0 10px;
+}
+
+.resume .inside-right-flex-container {
+    margin: auto;
+    padding: 0;
+    padding: 0 10px;
+}
+
+.resume .vspan-flex {
+    //flex: 2%;
+    text-align: center;
+}
+
+.resume .vspan {
+    height: 900px;
+    padding: 1px;
+    background-color: black;
+    margin: auto;
+}
+
+.resume .name {
+    //margin: auto;
+    height: 2.5cm;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(149, 165, 166, .25);
+}
+
+.resume .name-title {
+    flex: 100%;
+}
+
+.resume img {
+    height: 90px;
+}
+
+.resume .img-flex {
+    flex: 20%;
+    margin: auto;
+}
+
+.resume h1 {
+    font-size: 26pt;
+    text-decoration: bold;
+    margin: 12px;
+}
+
+.resume h2 {
+    font-size: 20pt;
+    text-decoration: bold;
+    margin: 10px;
+    //margin-top: 0;
+    padding: 0;
+}
+
+.resume h3 {
+    font-size: 14pt;
+    text-decoration: bold;
+    margin: 4px;
+    padding: 0;
+}
+
+.resume .hspan-big {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 1);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.resume .hspan {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 1);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.resume .left-hspan {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 1);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.resume .right-hspan {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 1);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+//.resume #top-column {
+    //margin-top: 0;
+//}
+
+
+.resume .contact {
+    display: inline;
+    flex-direction: column;
+}
+
+.resume .contact-item {
+    display: flex;
+    padding: 2px 0;
+}
+
+.resume #contact-icon {
+    //display: inline;
+    //padding-left: 10px;
+    //padding-right: 10px;
+    flex: 15%;
+}
+
+.resume .contact-name {
+    //display: inline;
+    flex: 85%;
+}
+
+.resume .education-item {
+    margin: 6px 0;
+}
+
+.resume .education-date {
+    font-size: 10pt;
+}
+
+.resume .experience-item {
+    margin: 6px 0;
+}
+
+.resume .experience-head {
+}
+
+.resume .experience-title {
+    font-size: 14pt;
+    font-weight: bold;
+    display: inline;
+}
+
+.resume .experience-date {
+    font-size: 10pt;
+    display: inline;
+    vertical-align: middle;
+}
+
+.resume .experience-institute {
+    font-size: 10pt;
+}
+
+.resume .experience-item ul {
+    margin: 0px;
+    padding-left: 18px;
+    font-size: 11pt;
+}
+
+.resume .left-flex-container ul {
+    margin: 0px;
+    padding: 6px 0px;
+    padding-left: 26px;
+}
+
+.resume .publications-item {
+    margin: 6px 0px;
+}
+
+.resume .publications-title {
+    font-size: 14pt;
+    font-weight: bold;
+    display: inline;
+}
+
+.resume .publications-author {
+    font-size: 11pt;
+}
+
+//CV
+
+.cv {
+    text-align: justify;
+}
+
+.cv h1, h2 {
+    text-align: center;
+}
+
+.cv a {
+    color: rgba(black, 1);
+    font-weight: normal;
+    &:hover {
+        color: rgba(black, 0.5);
+    }
+}
+
+.cv ul {
+    margin: 0;
+}
+
+.cv li {
+    padding: 4px 0;
+}
+
+.cv .publications li {
+    padding: 6px 0;
+}
+
+.cv .skills li {
+    padding: 4px 0;
+}

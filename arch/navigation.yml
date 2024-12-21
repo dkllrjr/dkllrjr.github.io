@@ -1,14 +1,12 @@
-- name: "Douglas KELLER JR"
+- name: Home
   link: "/"
 - name: Research
-  link: "/research.html"
-- name: Projects
-  link: "/projects.html"
-- name: Experience
-  link: "/experience.html"
+  link: "/res.html"
 - name: Publications
-  link: "/publications.html"
+  link: "/pub.html"
 - name: Contact
   link: "/contact.html"
 - name: CV
   link: "/cv.html"
+- name: Resume
+  link: "/resume.html"

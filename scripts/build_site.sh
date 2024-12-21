@@ -4,6 +4,7 @@ PUBLIC="../public"
 INC="../inc"
 ARCH="../arch"
 EXP="../exp"
+TXT="../text"
 IMG="../img"
 CSS="../css"
 JS="../js"
@@ -23,9 +24,19 @@ cp -r $FONTS $PUBLIC/fonts
 
 
 # build index
-./build_index.sh $PUBLIC/index.html $ARCH $INC/head.html $INC/scripts.html ../index.md
+echo "building index.html..."
+./build_index.sh $PUBLIC/index.html $ARCH $INC/head.html $INC/scripts.html ../index.md $TXT
+echo "built index.html"
+
+
+# build publications
+echo "building pub.html..."
+./build_pub.sh $PUBLIC/pub.html $ARCH $INC/head.html $INC/scripts.html $EXP $TXT
+echo "built pub.html"
+
 
 # build curriculum vitae
+echo "building cv.html..."
 ./build_cv.sh $PUBLIC/cv.html $INC/cv_head.html $INC/scripts.html $EXP
-
+echo "built cv.html"
 

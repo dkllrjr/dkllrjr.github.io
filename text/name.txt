@@ -1,31 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="/css/fonts.css">
-    <link rel="stylesheet" href="/css/main.css">
-</head>
-<body>
-<nav class="navbar navbar-expand-sm navbar-light">
-<div class="container-fluid">
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-<ul class="navbar-nav">
-<li class='nav-item'><a class='nav-link' href=/>Home</a></li>
-<li class='nav-item'><a class='nav-link' href=/res.html>Research</a></li>
-<li class='nav-item'><a class='nav-link' href=/pub.html>Publications</a></li>
-<li class='nav-item'><a class='nav-link' href=/contact.html>Contact</a></li>
-<li class='nav-item'><a class='nav-link' href=/cv.html>CV</a></li>
-<li class='nav-item'><a class='nav-link' href=/resume.html>Resume</a></li>
-</ul>
-</div>
-</div>
-</nav>
-<div class="figlet">
 <div style="font-family: monospace, fixed; font-weight: bold;">
 <span style="">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><br />
 <span style="">&#160;mmmmm&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;mmmm&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><br />
@@ -50,41 +22,3 @@
 <span style="">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><br />
 <span style="">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><br />
 </div>
-</div>
-<p>Welcome to my webpage! I’m a scientist and engineer who has hands in
-oceanography, atmospheric science, mechanical engineering, and chemical
-engineering (and computer science). Hit me up if you want to do some
-research!</p>
-<h1 id="research">Research</h1>
-<div class="container">
-<!-- first block-->
-<div class="row align-items-center justify-content-center bordered">
-<div class="col-sm-8">
-<img src="/img/images/mistral_wind_pres.png">
-</div>
-<div class="col-sm-4">
-<p>col-sm-4</p>
-</div>
-</div>
-<!-- second block-->
-<div class="row align-items-center justify-content-center bordered">
-<div class="col-sm">
-col-sm
-</div>
-<div class="col-sm">
-col-sm
-</div>
-<div class="col-sm">
-col-sm
-</div>
-</div>
-</div>
-</body>
-<!-- Bootstrap Core JavaScript -->
-<script src="/js/bootstrap.bundle.js"></script>
-
-<!--MathJax-->
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-</html>

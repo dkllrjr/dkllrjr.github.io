@@ -1,138 +1,12 @@
-@font-face {
-    font-family: 'BigBlue';
-    src: url('/fonts/BigBlueTerminal/BigBlueTerm437NerdFont-Regular.ttf'),
-            url('/fonts/BigBlueTerminal/BigBlueTerm437NerdFontMono-Regular.ttf'),
-            url('/fonts/BigBlueTerminal/BigBlueTerm437NerdFontPropo-Regular.ttf'),
-            url('/fonts/BigBlueTerminal/BigBlueTermPlusNerdFont-Regular.ttf'),
-            url('/fonts/BigBlueTerminal/BigBlueTermPlusNerdFontMono-Regular.ttf'),
-            url('/fonts/BigBlueTerminal/BigBlueTermPlusNerdFontPropo-Regular.ttf');
-}
-
-@font-face {
-    font-family: '3270';
-    src: url('/fonts/3270/3270NerdFont-Condensed.ttf'),
-        url('/fonts/3270/3270NerdFont-Regular.ttf'),
-        url('/fonts/3270/3270NerdFont-SemiCondensed.ttf'),
-        url('/fonts/3270/3270NerdFontMono-Condensed.ttf'),
-        url('/fonts/3270/3270NerdFontMono-Regular.ttf'),
-        url('/fonts/3270/3270NerdFontMono-SemiCondensed.ttf'),
-        url('/fonts/3270/3270NerdFontPropo-Condensed.ttf'),
-        url('/fonts/3270/3270NerdFontPropo-Regular.ttf'),
-        url('/fonts/3270/3270NerdFontPropo-SemiCondensed.ttf');
-}
-
-@font-face {
-    font-family: 'JetBrains';
-    src: url('JetBrainsMonoNerdFont-BoldItalic.ttf'),
-        url('JetBrainsMonoNerdFont-Bold.ttf'),
-        url('JetBrainsMonoNerdFont-ExtraBoldItalic.ttf'),
-        url('JetBrainsMonoNerdFont-ExtraBold.ttf'),
-        url('JetBrainsMonoNerdFont-ExtraLightItalic.ttf'),
-        url('JetBrainsMonoNerdFont-ExtraLight.ttf'),
-        url('JetBrainsMonoNerdFont-Italic.ttf'),
-        url('JetBrainsMonoNerdFont-LightItalic.ttf'),
-        url('JetBrainsMonoNerdFont-Light.ttf'),
-        url('JetBrainsMonoNerdFont-MediumItalic.ttf'),
-        url('JetBrainsMonoNerdFont-Medium.ttf'),
-        url('JetBrainsMonoNerdFontMono-BoldItalic.ttf'),
-        url('JetBrainsMonoNerdFontMono-Bold.ttf'),
-        url('JetBrainsMonoNerdFontMono-ExtraBoldItalic.ttf'),
-        url('JetBrainsMonoNerdFontMono-ExtraBold.ttf'),
-        url('JetBrainsMonoNerdFontMono-ExtraLightItalic.ttf'),
-        url('JetBrainsMonoNerdFontMono-ExtraLight.ttf'),
-        url('JetBrainsMonoNerdFontMono-Italic.ttf'),
-        url('JetBrainsMonoNerdFontMono-LightItalic.ttf'),
-        url('JetBrainsMonoNerdFontMono-Light.ttf'),
-        url('JetBrainsMonoNerdFontMono-MediumItalic.ttf'),
-        url('JetBrainsMonoNerdFontMono-Medium.ttf'),
-        url('JetBrainsMonoNerdFontMono-Regular.ttf'),
-        url('JetBrainsMonoNerdFontMono-SemiBoldItalic.ttf'),
-        url('JetBrainsMonoNerdFontMono-SemiBold.ttf'),
-        url('JetBrainsMonoNerdFontMono-ThinItalic.ttf'),
-        url('JetBrainsMonoNerdFontMono-Thin.ttf'),
-        url('JetBrainsMonoNerdFontPropo-BoldItalic.ttf'),
-        url('JetBrainsMonoNerdFontPropo-Bold.ttf'),
-        url('JetBrainsMonoNerdFontPropo-ExtraBoldItalic.ttf'),
-        url('JetBrainsMonoNerdFontPropo-ExtraBold.ttf'),
-        url('JetBrainsMonoNerdFontPropo-ExtraLightItalic.ttf'),
-        url('JetBrainsMonoNerdFontPropo-ExtraLight.ttf'),
-        url('JetBrainsMonoNerdFontPropo-Italic.ttf'),
-        url('JetBrainsMonoNerdFontPropo-LightItalic.ttf'),
-        url('JetBrainsMonoNerdFontPropo-Light.ttf'),
-        url('JetBrainsMonoNerdFontPropo-MediumItalic.ttf'),
-        url('JetBrainsMonoNerdFontPropo-Medium.ttf'),
-        url('JetBrainsMonoNerdFontPropo-Regular.ttf'),
-        url('JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf'),
-        url('JetBrainsMonoNerdFontPropo-SemiBold.ttf'),
-        url('JetBrainsMonoNerdFontPropo-ThinItalic.ttf'),
-        url('JetBrainsMonoNerdFontPropo-Thin.ttf'),
-        url('JetBrainsMonoNerdFont-Regular.ttf'),
-        url('JetBrainsMonoNerdFont-SemiBoldItalic.ttf'),
-        url('JetBrainsMonoNerdFont-SemiBold.ttf'),
-        url('JetBrainsMonoNerdFont-ThinItalic.ttf'),
-        url('JetBrainsMonoNerdFont-Thin.ttf'),
-        url('JetBrainsMonoNLNerdFont-BoldItalic.ttf'),
-        url('JetBrainsMonoNLNerdFont-Bold.ttf'),
-        url('JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf'),
-        url('JetBrainsMonoNLNerdFont-ExtraBold.ttf'),
-        url('JetBrainsMonoNLNerdFont-ExtraLightItalic.ttf'),
-        url('JetBrainsMonoNLNerdFont-ExtraLight.ttf'),
-        url('JetBrainsMonoNLNerdFont-Italic.ttf'),
-        url('JetBrainsMonoNLNerdFont-LightItalic.ttf'),
-        url('JetBrainsMonoNLNerdFont-Light.ttf'),
-        url('JetBrainsMonoNLNerdFont-MediumItalic.ttf'),
-        url('JetBrainsMonoNLNerdFont-Medium.ttf'),
-        url('JetBrainsMonoNLNerdFontMono-BoldItalic.ttf'),
-        url('JetBrainsMonoNLNerdFontMono-Bold.ttf'),
-        url('JetBrainsMonoNLNerdFontMono-ExtraBoldItalic.ttf'),
-        url('JetBrainsMonoNLNerdFontMono-ExtraBold.ttf'),
-        url('JetBrainsMonoNLNerdFontMono-ExtraLightItalic.ttf'),
-        url('JetBrainsMonoNLNerdFontMono-ExtraLight.ttf'),
-        url('JetBrainsMonoNLNerdFontMono-Italic.ttf'),
-        url('JetBrainsMonoNLNerdFontMono-LightItalic.ttf'),
-        url('JetBrainsMonoNLNerdFontMono-Light.ttf'),
-        url('JetBrainsMonoNLNerdFontMono-MediumItalic.ttf'),
-        url('JetBrainsMonoNLNerdFontMono-Medium.ttf'),
-        url('JetBrainsMonoNLNerdFontMono-Regular.ttf'),
-        url('JetBrainsMonoNLNerdFontMono-SemiBoldItalic.ttf'),
-        url('JetBrainsMonoNLNerdFontMono-SemiBold.ttf'),
-        url('JetBrainsMonoNLNerdFontMono-ThinItalic.ttf'),
-        url('JetBrainsMonoNLNerdFontMono-Thin.ttf'),
-        url('JetBrainsMonoNLNerdFontPropo-BoldItalic.ttf'),
-        url('JetBrainsMonoNLNerdFontPropo-Bold.ttf'),
-        url('JetBrainsMonoNLNerdFontPropo-ExtraBoldItalic.ttf'),
-        url('JetBrainsMonoNLNerdFontPropo-ExtraBold.ttf'),
-        url('JetBrainsMonoNLNerdFontPropo-ExtraLightItalic.ttf'),
-        url('JetBrainsMonoNLNerdFontPropo-ExtraLight.ttf'),
-        url('JetBrainsMonoNLNerdFontPropo-Italic.ttf'),
-        url('JetBrainsMonoNLNerdFontPropo-LightItalic.ttf'),
-        url('JetBrainsMonoNLNerdFontPropo-Light.ttf'),
-        url('JetBrainsMonoNLNerdFontPropo-MediumItalic.ttf'),
-        url('JetBrainsMonoNLNerdFontPropo-Medium.ttf'),
-        url('JetBrainsMonoNLNerdFontPropo-Regular.ttf'),
-        url('JetBrainsMonoNLNerdFontPropo-SemiBoldItalic.ttf'),
-        url('JetBrainsMonoNLNerdFontPropo-SemiBold.ttf'),
-        url('JetBrainsMonoNLNerdFontPropo-ThinItalic.ttf'),
-        url('JetBrainsMonoNLNerdFontPropo-Thin.ttf'),
-        url('JetBrainsMonoNLNerdFont-Regular.ttf'),
-        url('JetBrainsMonoNLNerdFont-SemiBoldItalic.ttf'),
-        url('JetBrainsMonoNLNerdFont-SemiBold.ttf'),
-        url('JetBrainsMonoNLNerdFont-ThinItalic.ttf'),
-        url('JetBrainsMonoNLNerdFont-Thin.ttf');
-}
-
-
 body {
-    font-family: 'BigBlue', monospace;
+    font-family: 'FiraCode', monospace;
+    /*font-family: 'BigBlue', monospace;*/
     /*font-family: '3270', monospace;*/
     /*font-family: 'JetBrains', monospace;*/
     font-size: 12pt;
 
-    background-color: rgba(66, 215, 245, 0.2);
-
-    /*color: #2E294E;*/
-    /*color: #4A1942;*/
-    color: #150578;
+    background-color: #241f31;
+    color: #1c71d8;
 
     width: 90%;
     margin: auto;
@@ -141,27 +15,46 @@ body {
 
 /*links*/
 a {
-    color: #DB5461;
+    color: #c01c28;
 }
 
 a:hover {
-    color: #3772FF;
+    color: #813d9c;
+}
+
+
+img {
+    margin: auto;
+    height: auto;
+    max-width: 400px;
+}
+
+/*p {*/
+    /*margin: auto;*/
+/*}*/
+
+
+.bordered {
+    border: solid #62a0ea;
+    border-radius: 20pt;
 }
 
 
 /*navbar*/
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(219, 84, 97, 0.55);
+    color: #26a269;
 }
 
 .navbar-light .navbar-nav .nav-item:hover .nav-link {
-    color: #150578;
+    color: #1a5fb4;
 }
 
 .navbar-toggler-icon {
-    background-color: white;
+    background-color: #1c71d8;
 }
 
-.navbar-toggler {
-    background-color: white;
-}
+
+/*misc*/
+.figlet {
+    line-height: 1;
+};
