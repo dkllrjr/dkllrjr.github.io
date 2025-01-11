@@ -57,6 +57,7 @@ institute=`yq '.institute' $YML`
 location=`yq '.location' $YML`
 email=`yq '.email' $YML`
 website=`yq '.website' $YML`
+other_aff=`yq '.affiliation' $YML`
 
 echo "<h1>$name</h1>" >> $FILE
 echo "<h2>$title</h2>" >> $FILE
@@ -67,6 +68,11 @@ echo "</br>" >> $FILE
 echo "$email" >> $FILE
 echo "</br>" >> $FILE
 echo "<a href=$website>$website</a>" >> $FILE
+echo "</br>" >> $FILE
+echo "</br>" >> $FILE
+
+echo "<h4>Other Affiliations</h4>" >> $FILE
+echo "<b>Affiliate Faculty</b>, Department of Atmospheric Sciences, College of Natural Science and Mathematics, University of Alaska Fairbanks" >> $FILE
 
 echo '</div>' >> $FILE
 
@@ -446,12 +452,38 @@ done
 echo "</ol>" >> $FILE
 
 #  ──────────────────────────────────────────────────────────────────────────
+#  seminars
+#
+YML="$EXP/seminars.yml"
+FIELD=.seminars
+
+echo "<h3>Seminars</h3>" >> $FILE
+
+readarray tmp < <(yq "$FIELD |= sort_by(.year)" $YML | yq "$FIELD | reverse" - | yq -o=j -I=0 '.[]' -)
+
+echo "<ol>" >> $FILE
+
+for i in "${tmp[@]}"; do
+
+    year=`echo $i | yq -p=json '.year' -`
+    title=`echo $i | yq -p=json '.title' -`
+    institute=`echo $i | yq -p=json '.institute' -`
+    location=`echo $i | yq -p=json '.location' -`
+    date=`echo $i | yq -p=json '.date_time' -`
+
+    echo "<li>($year) \"$title,\" <b>$institute</b>, <i>$location</i>, $date</li>" >> $FILE
+
+done
+
+echo "</ol>" >> $FILE
+
+#  ──────────────────────────────────────────────────────────────────────────
 #  talks
 #
 YML="$EXP/talks.yml"
 FIELD=.talks
 
-echo "<h3>Talks and Seminars</h3>" >> $FILE
+echo "<h3>Talks</h3>" >> $FILE
 
 readarray tmp < <(yq "$FIELD |= sort_by(.year)" $YML | yq "$FIELD | reverse" - | yq -o=j -I=0 '.[]' -)
 
