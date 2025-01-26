@@ -372,6 +372,30 @@ talks:
     year: 2024
     present: false
 
+  - talk:
+    authors: <u>D. Keller</u>, Y. Givon, F. Sevault, S. Somot, R. Pennel, S. Raveh-Rubin, P. Drobinski
+    title: 'Evolution of the Drivers of Stratification of the Gulf of Lion in a Changing Climate'
+    conference: SiMed 2023
+    location: Toulouse, France
+    date_time: March 21-22, 2023
+    year: 2023
+
+  - talk:
+    authors: <u>D. Keller</u>, Y. Givon, F. Sevault, S. Somot, R. Pennel, S. Raveh-Rubin, P. Drobinski
+    title: 'Evolution of the Drivers of Stratification of the Gulf of Lion in a Changing Climate'
+    conference: EGU General Assembly 2023
+    location: Vienna, Austria
+    date_time: April 23-28, 2023
+    year: 2023
+
+  - talk:
+    authors: G. J. Fochesatto, <u>D. Keller</u>, E. Dieudonné, N. Brett, K. Law, S. Bekki, D. Atkinson, E. Wellton, E. Peterson
+    title: 'The Effects of the Large Scale Synoptic fields in the High Latitude PBL states'
+    conference: EGU General Assembly 2023
+    location: Vienna, Austria
+    date_time: April 23-28, 2023
+    year: 2023
+
 # ──────────────────────────────────────────────────────────────────────────
 
 progress:
