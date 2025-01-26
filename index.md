@@ -1,42 +1,45 @@
 Welcome to my webpage! I'm a scientist and engineer who has hands in oceanography, atmospheric science, mechanical engineering, and chemical engineering (and computer science). Hit me up if you want to do some research!
 
-# Research
 
-<div class="container">
+<!--# Research-->
 
-<!--first block-->
-<div class="row align-items-center justify-content-center bordered">
-
-<div class="col-sm-6"><img src="/img/images/mistral_wind_pres.png" class="img-fluid"></div>
-
-<div class="col-sm-6 justify-content-left align-self-start">
-I'm working on a bunch of stuff relating to the Mistral winds in the Mediterranean.
-</div>
-
-</div>
+<!--<div class="container">-->
 
 
-<!--second block-->
-<div class="row align-items-center justify-content-center bordered">
-
-<div class="col-sm-6 justify-content-left align-self-start">
-The Gulf of Lion dynamics are really interesting.
-</div>
-
-<div class="col-sm-6"><img src="/img/images/back_max_all_trajectories.png" class="img-fluid"></div>
-
-</div>
-
-
-
-<!--example block-->
+<!--[>first block<]-->
 <!--<div class="row align-items-center justify-content-center bordered">-->
-<!--<div class="col-sm justify-content-left align-self-start">Example text block</div>-->
-<!--<div class="col-sm"><img src="/img/images/back_max_all_trajectories.png" class="img-fluid"></div>-->
+
+<!--<div class="col-sm-6"><img src="/img/images/mistral_wind_pres.png" class="img-fluid"></div>-->
+
+<!--<div class="col-sm-6 justify-content-left align-self-start">-->
+<!--I'm working on a bunch of stuff relating to the Mistral winds in the Mediterranean.-->
+<!--</div>-->
+
 <!--</div>-->
 
 
-</div>
+<!--[>second block<]-->
+<!--<div class="row align-items-center justify-content-center bordered">-->
+
+<!--<div class="col-sm-6 justify-content-left align-self-start">-->
+<!--The Gulf of Lion dynamics are really interesting.-->
+<!--</div>-->
+
+<!--<div class="col-sm-6"><img src="/img/images/back_max_all_trajectories.png" class="img-fluid"></div>-->
+
+<!--</div>-->
+
+
+
+<!--[>example block<]-->
+<!--[><div class="row align-items-center justify-content-center bordered"><]-->
+<!--[><div class="col-sm justify-content-left align-self-start">Example text block</div><]-->
+<!--[><div class="col-sm"><img src="/img/images/back_max_all_trajectories.png" class="img-fluid"></div><]-->
+<!--[></div><]-->
+
+
+<!--</div>-->
+
 
 # Contact
 

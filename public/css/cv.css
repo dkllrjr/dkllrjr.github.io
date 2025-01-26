@@ -27,6 +27,12 @@ h4 {
     font-size: 14pt;
 }
 
+h5 {
+    font-size: 13pt;
+    margin: 0;
+    padding: 0;
+}
+
 hr {
     margin: 20px 0;
     border: 2px solid black;
@@ -45,6 +51,11 @@ a {
 
 img {
     height: 180px;
+}
+
+.medium-spacer {
+    padding: 4px;
+    margin: 6px 0;
 }
 
 .spacer {

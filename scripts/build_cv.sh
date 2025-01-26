@@ -57,7 +57,6 @@ institute=`yq '.institute' $YML`
 location=`yq '.location' $YML`
 email=`yq '.email' $YML`
 website=`yq '.website' $YML`
-other_aff=`yq '.affiliation' $YML`
 
 echo "<h1>$name</h1>" >> $FILE
 echo "<h2>$title</h2>" >> $FILE
@@ -71,8 +70,25 @@ echo "<a href=$website>$website</a>" >> $FILE
 echo "</br>" >> $FILE
 echo "</br>" >> $FILE
 
-echo "<h4>Other Affiliations</h4>" >> $FILE
-echo "<b>Affiliate Faculty</b>, Department of Atmospheric Sciences, College of Natural Science and Mathematics, University of Alaska Fairbanks" >> $FILE
+# other affiliations
+echo "<h4>Additional Affiliations</h4>" >> $FILE
+
+FIELD='.affiliations[]'
+readarray tmp < <( yq -o=j -I=0 $FIELD $YML )
+
+echo '<ul>' >> $FILE
+
+for i in "${tmp[@]}"; do
+
+    title=`echo $i | yq -p=json '.title' -`
+    institute=`echo $i | yq -p=json '.institute' -`
+    location=`echo $i | yq -p=json '.location' -`
+
+    echo "<li><b>$title</b>, $institute, <i>$location</i></li>" >> $FILE
+
+done
+
+echo '</ul>' >> $FILE
 
 echo '</div>' >> $FILE
 
@@ -236,42 +252,19 @@ readarray tmp < <( yq -o=j -I=0 $FIELD $YML )
 
 for i in "${tmp[@]}"; do
 
-    title=`echo $i | yq -p=json '.title' -`
+    course=`echo $i | yq -p=json '.course' -`
+    subtitle=`echo $i | yq -p=json '.subtitle' -`
     institute=`echo $i | yq -p=json '.institute' -`
-    location=`echo $i | yq -p=json '.location' -`
+    date=`echo $i | yq -p=json '.date' -`
 
-    echo "<h3>$title</h3>" >> $FILE
-    echo "<b>$institute</b>, $location" >> $FILE
+    echo "<h3>$course</h3>" >> $FILE
+    echo "<h5>$subtitle</h5>" >> $FILE
+    echo "$institute" >> $FILE
+    echo "</br>" >> $FILE
+    echo "<i>$date</i>" >> $FILE
     echo "</br>" >> $FILE
 
-    # tasks
-    readarray tasks < <( echo $i | yq -o=j -I=0 '.tasks[]' - )
-
-    for j in "${tasks[@]}"; do
-
-        task_date=`echo $j | yq -p=json '.date' -`
-        task_desc=`echo $j | yq -p=json '.description' -`
-        echo "<i>$task_date</i>" >> $FILE
-        echo "</br>" >> $FILE
-        echo "$task_desc" >> $FILE
-        echo "</br>" >> $FILE
-
-        # highlights
-        echo "<ul>" >> $FILE
-        readarray highlights < <( echo $j | yq -o=j -I=0 '.highlights[]' - )
-
-        for k in "${highlights[@]}"; do
-
-            item=`echo $k | yq -p=json '.item' -`
-            echo "<li>$item</li>" >> $FILE
-
-        done
-
-        echo "</ul>" >> $FILE
-
-    done
-
-    echo "<div class="spacer"></div>" >> $FILE
+    echo "<div class="medium-spacer"></div>" >> $FILE
 
 done
 
