@@ -1,0 +1,65 @@
+teaching:
+
+#  ──────────────────────────────────────────────────────────────────────────
+
+  - course: "MEC_54466_EP / MEC666"
+    subtitle: "Changement climatique et transition énergétique (Climate Change and Energy Transition)"
+    institute: Département de Mécanique, École Polytechnique
+    date: "Spring 2025"
+
+  - course: "MEC_51173_EP / MEC573"
+    subtitle: "Potentiel éolien, solaire, hydraulique : analyse et projets (wind, solar, and hydraulic potential: analysis and projects)"
+    institute: Département de Mécanique, École Polytechnique
+    date: "Fall 2023, Fall 2024"
+
+  - course: "E4C 2024 Student Challenge"
+    subtitle: "Greener Building: The CO2 Footprint Reduction Challenge"
+    institute: Energy4Climate Interdisciplinary Center, Département de Mécanique, École Polytechnique
+    date: "Spring 2024"
+
+  - course: "E4C 2025 Student Challenge"
+    subtitle: "Clearing the Skies: The Race to Decarbonize Aviation"
+    institute: Energy4Climate Interdisciplinary Center, Département de Mécanique, École Polytechnique
+    date: "Spring 2025"
+
+  - course: "Tutoring for MEC_51059_EP / MEC559"
+    subtitle: "Mécanique pour l'éolien (Mechanics for Wind Energy)"
+    institute: Département de Mécanique, École Polytechnique
+    date: "Fall 2023, Fall 2024"
+
+  - course: "MEC_51059_EP / MEC559"
+    subtitle: "Mécanique pour l'éolien (Mechanics for Wind Energy)"
+    institute: Département de Mécanique, École Polytechnique
+    date: "Fall 2020, Fall 2021"
+
+  - course: "Phys103"
+    subtitle: "Physics Lab"
+    institute: Département de Mécanique, École Polytechnique
+    date: "Spring 2021, Spring 2022"
+
+#  ──────────────────────────────────────────────────────────────────────────
+#
+  - course: "ME F331"
+    subtitle: "Mechanics of Materials"
+    institute: College of Engineering and Mines, University of Alaska Fairbanks
+    date: "Spring 2017, Fall 2017, Spring 2018"
+
+  - course: "ME F308"
+    subtitle: "Instrumentation and Measurement"
+    institute: College of Engineering and Mines, University of Alaska Fairbanks
+    date: "Spring 2017, Spring 2018"
+
+  - course: "ME F408"
+    subtitle: "Mechanical Vibrations"
+    institute: College of Engineering and Mines, University of Alaska Fairbanks
+    date: "Fall 2017"
+
+  - course: "ME F441"
+    subtitle: "Heat and Mass Transfer"
+    institute: College of Engineering and Mines, University of Alaska Fairbanks
+    date: "Fall 2018"
+
+  - course: "ME F452"
+    subtitle: "Introduction to Astrodynamics"
+    institute: College of Engineering and Mines, University of Alaska Fairbanks
+    date: Fall 2018

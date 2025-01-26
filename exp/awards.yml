@@ -1,0 +1,31 @@
+awards:
+
+  - award:
+    title: Undergraduate Research and Scholarly Activity Award
+    description: Awarded to fund scholarly research during undergraduate studies at the University of Alaska Fairbanks.
+    date: Spring 2018
+
+  - award:
+    title: University of Alaska Scholars Award
+    description: Scholarship awarded to Alaskan high school students graduating in the top 10% of the graduating class.
+    date: Fall 2014 - Spring 2018
+
+  - award:
+    title: Alaska Performance Scholarship
+    description: Scholarship awarded to Alaskan high school students based on graduating GPA.
+    date: Fall 2014 - Spring 2018
+
+  - award:
+    title: NACE International Alaska Section / BP Scholarship
+    description: Awarded to engineering students interested in Alaskan engineering challenges.<br>
+    date: Fall 2016 - Spring 2017
+
+  - award:
+    title: Chancellor’s List
+    description: Awarded to undergraduate students with a semester GPA equal to or greater than 3.9/4.0.
+    date: Spring 2017, Fall 2016, Spring 2016
+
+  - award:
+    title: Dean’s List
+    description: Awarded to undergraduate students with a semester GPA between 3.5/4.0 and 3.89/4.0.<br>
+    date: Fall 2015, Spring 2015

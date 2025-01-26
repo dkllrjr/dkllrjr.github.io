@@ -1,0 +1,86 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12pt;
+    width: 100%;
+}
+
+h3, h4, h5 {
+    font-weight: 550;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 32pt;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 20pt;
+}
+
+h3 {
+    font-size: 16pt;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 14pt;
+}
+
+h5 {
+    font-size: 13pt;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    margin: 20px 0;
+    border: 2px solid black;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+b {
+    font-weight: 550;
+}
+
+a {
+    color: #6924db;
+    text-decoration: none;
+}
+
+img {
+    height: 180px;
+}
+
+.medium-spacer {
+    padding: 4px;
+    margin: 6px 0;
+}
+
+.spacer {
+    padding: 1px;
+    margin: 6px 0;
+}
+
+.big-spacer {
+    padding: 20px;
+    margin: 6px 0;
+}
+
+.publications li {
+    padding: 6pt;
+}
+
+.fancy-bar {
+    border: 1pt solid #044476;
+    border-radius: 3pt;
+    background-color: #044476;
+    padding: 6pt;
+    color: white;
+}
+
+.container {
+    padding: 0;
+    margin: auto;
+}

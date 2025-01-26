@@ -1,0 +1,31 @@
+education:
+
+  - degree:
+    type: Doctorate of Philosophy
+    shorthand: PhD
+    name: Mécanique des fluides et des solides, acoustique (Fluid and solid mechanics, acoustics)
+    institute: Institut Polytechnique de Paris, École Polytechnique
+    location: Palaiseau, Île-de-France, FR
+    thesis: Impact of the spatial and temporal variability of the Mistral on dense water formation in the Mediterranean Sea
+    date: Fall 2019 - Fall 2022
+
+  - degree:
+    type: Master of Science
+    shorthand: MS
+    name: Mechanical Engineering
+    institute: College of Engineering and Mines, University of Alaska Fairbanks
+    location: Fairbanks, Alaska, USA
+    thesis: Comparison of Resistance-Based Strain Gauges and Fiber Bragg Gratings in the Presence of Electromagnetic Interference Emitted from an Electric Motor
+    date: Fall 2017 - Fall 2018
+    gpa: 4.0/4.0
+
+  - degree:
+    type: Bachelor of Science
+    shorthand: BS
+    name: Mechanical Engineering
+    institute: College of Engineering and Mines, University of Alaska Fairbanks
+    location: Fairbanks, Alaska, USA
+    thesis: Fiber Optic Sensing System Load Cell
+    date: Fall 2014 - Fall 2018
+    gpa: 3.8/4.0
+

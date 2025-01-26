@@ -1,0 +1,8 @@
+- name: Home
+  link: "/"
+- name: Publications
+  link: "/pub.html"
+- name: CV
+  link: "/cv.html"
+#- name: Resume
+  #link: "/resume.html"

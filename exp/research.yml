@@ -1,0 +1,148 @@
+research:
+
+  - study:
+    resume: true
+    title: XSeaO<sub>2</sub>
+    institute: Energy4Climate Interdisplinary Center, Laboratoire de Chimie Moléculaire, Laboratoire de Météorologie Dynamique, École Polytechnique
+    location: Palaiseau, Île-de-France, FR
+    date: Summer 2021 - Present
+    description: Researching and engineering CO<sub>2</sub> extraction from the ocean to produce synthetic fuel.
+    highlights:
+      - item: Designing a processing plant that ingests water and produces methanol
+      - item: Developed a simple model to simulate the processing plant and the oceanic carbon system
+      - item: Studying the physical and biological effects of artifical carbon removal from the ocean
+      - item: Supervising multiple students (doctoral, master, and bachelor) working on the project
+
+  - study:
+    resume: false
+    title: Oceanic Response to Marine Heat Waves
+    institute: Laboratoire de Météorologie Dynamique
+    location: Palaiseau, Île-de-France, FR
+    date: Spring 2023 - Present
+    description: Studying the effects of Mediterranean cyclones on the Mediterranean Sea vertical stability and surface fluxes.
+    highlights:
+      - item: Supervized master student on studying the impact of the 2022 summer marine heat waves in the Gulf of Lion on stratification
+      - item: Studying the impact of marine heat waves on the global ocean for the year 2023 w/ emphasis on the ocean carbon system
+
+  - study:
+    resume: true
+    title: ALPACA-PBL
+    institute: Laboratoire de Météorologie Dynamique and University of Alaska Fairbanks
+    location: Palaiseau, Île-de-France, FR and Fairbanks, Alaska, USA
+    date: Summer 2022 - Present
+    description: Investigating the build up and break up of radiatively forced boundary layers in the subarctic.
+    highlights:
+      - item: Analyzing multiple instrument data, such as from a microwave radiometer, 3D sonic anemometer, Doppler wind lidar, and balloon soundings
+      - item: "Co-advising two doctoral students w/ Prof. Javier Fochesatto"
+
+  - study:
+    resume: false
+    title: Oceanic Response to Mediterranean Cyclone Forcing
+    institute: Laboratoire de Météorologie Dynamique and Weizmann Institute of Science
+    location: Palaiseau, Île-de-France, FR and Rehovot, IL
+    date: Fall 2021 - Present
+    description: Studying the effects of Mediterranean cyclones on the Mediterranean Sea vertical stability and surface fluxes.
+    highlights:
+      - item: Analyzed 2D sea surface flux data from an italian run model (C-GLORS; NEMO)
+      - item: Determined accumulated effect of cyclones on the Mediterranean Sea
+
+  - study:
+    resume: true
+    title: Red Sea Preconditioning
+    institute: Laboratoire de Météorologie Dynamique and Weizmann Institute of Science
+    location: Palaiseau, Île-de-France, FR and Rehovot, IL
+    date: Spring 2022 - Present
+    description: Investigating the deep convection behavior in the northern part of the Red Sea.
+    highlights:
+      - item: Organizing observations from Isreali meteorological office to look at the vertical structure of the water in the Gulf of Aqaba
+      - item: Analyzed vertical profiles of Argo floats in the northern part of the Red Sea
+
+  - study:
+    resume: true
+    title: Impact of the Mistral on Dense Water Formation (Doctorate Thesis)
+    institute: Institut Polytechnique de Paris, École Polytechnique, Laboratoire de Météorologie Dynamique, Institut Pierre-Simon Laplace, Centre National de la Recherche Scientifique
+    location: Palaiseau, Île-de-France, FR
+    date: Fall 2019 - Fall 2022
+    description: Determined the spatial and temporal effects of the Mistral on the Dense Water Formation in the Gulf of Lion (Northwestern Mediterranean Sea)
+    highlights:
+      - item: Created a database of Mistral events with duration and intensity from atmospheric regional models driven by global weather reanalysis.
+      - item: Ran multiple ocean simulations (NEMO) with different wind forcings to determine the ocean sensitivity to wind forcing.
+
+  - study:
+    resume: true
+    title: Seasonal Variability of Superior Mirages
+    institute: Geophysical Institute, University of Alaska Fairbanks
+    location: Fairbanks, Alaska, USA
+    date: Summer 2019 - Present
+    description: Determined the seasonal variability of superior mirages in the subarctic and arctic latitudes with global positioning system  radio occultation (GPSRO)
+    highlights:
+      - item: Developed an algorithm to detect the presence of a potential mirage in GPSRO refractivity profiles
+      - item: Spatially and temporally determined the variability of potential mirage events in the high latitudes
+
+  - study:
+    resume: false
+    title: General Fluid Planetary Modelling
+    institute: Laboratoire de Météorologie Dynamique
+    location: Palaiseau, Île-de-France, FR
+    date: Summer 2021
+    description: Injected fluid agnostic capability into DYNAMICO (hydrostatic atmospheric model), the atmospheric dynamics model at LMD.
+    highlights:
+      - item: Prepared Julia code for a baroclinic instability test case
+      - item: Supervised a master student intern to develop a Julia model capable of running thermodynamically agnostic dynamics for fluids
+
+  - study:
+    resume: false
+    title: Shifts in Spectral Content of the Turbulent Kinetic Energy of the Surface Layer in Fairbanks, Alaska due to Changing Cyclone Paths
+    institute: University of Alaska, Fairbanks
+    location: Fairbanks, Alaska, USA
+    date: Fall 2017 - Spring 2020
+    description: Determining the shift in spectral content of the atmospheric surface layer in Fairbanks, Alaska during a transitioning synoptic condition, with northward advection of moisture.
+    highlights:
+      - item: Analyzed 3D sonic anemometer data from the experimental farm on the University of Alaska Fairbanks
+      - item: Determined the shift in the eddy sizes during the a changing synoptic regime in the subarctic latitudes
+
+  - study:
+    resume: false
+    title: Fiber Optic Strain Sensing for Electric Motors (Master of Science Thesis)
+    institute: College of Engineering and Mines, University of Alaska Fairbanks, NASA Armstrong Flight Research Center
+    location: Fairbanks, Alaska, USA
+    date: Fall 2017 - Fall 2018
+    funding: NASA Armstrong Flight Research Center
+    description: Determined the effect of electromagnetic interference from electric motors on load sensing strain gauges.
+    highlights:
+      - item: Subjected NASA's Fiber Optic Sensing System (FOSS) and conventional strain gauge systems to a high electromagnetic interference environments found in aviation
+      - item: Developed a load cell designed around the FOSS to measure thrust from an electric motor coupled with a 3-blade propeller
+      - item: Analyzed and compared data retrieved using the FOSS and conventional strain gauges
+      - item: Determined the effect of electromagnetic interference on the thrust loading measurements
+      - item: Determined the effect of mechanical interference/vibration with both systems in the same test application
+
+  - study:
+    resume: false
+    title: Alaska Space Grant Undergraduate Research Fellowship
+    institute: Geophysical Institute, University of Alaska Fairbanks
+    location: Fairbanks, Alaska, USA
+    date: Fall 2017 - Summer 2018
+    funding: Alaska Space Grant
+    description: Studied the atmospheric boundary layer (ABL) with NASA's network of micro-pulse lidars (MPLNET)
+    highlights:
+      - item: Used the MPLNET and radiosonde data to determine the intraday variability of the high latitude atmospheric boundary layer
+      - item: Developed algorithms to determine atmospheric boundary layer structural parameters from the MPLNET profiles
+      - item: Compared and contrasted collocated lidar and radiosonde retrievals of ABL
+      - item: Produced statistical estimates of ABL parameters and computed diurnal and seasonal variations
+      - item: Analyzed the high latitude ABL with the MPLNET, radiosonde data, and global positioning system radio occultation (GPSRO)
+      - item: Developed a new wavelet to better elucidate the ABL vertical structure
+      - item: Observed the multilayered aspect of the high latitude ABL with wavelet transforms
+
+  - study:
+    resume: false
+    title: Raman Spectroscopy Lidar
+    institute: Geophysical Institute, University of Alaska Fairbanks
+    location: Fairbanks, Alaska, USA
+    date: Fall 2016
+    funding: National Science Foundation
+    description: Assisted with the setup of a Raman spectroscopy lidar and developed mechanical fixtures for the application.
+    highlights:
+      - item: Gained experience in optomechanical design for lidar development
+      - item: Worked with simulations of lidar signals to condition the instrument design for 532 nm, N2, and H2O Raman vibrational bands
+      - item: Implemented multichannel lidar receiver
+        

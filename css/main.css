@@ -1,0 +1,75 @@
+body {
+    font-family: 'FiraCode', monospace;
+    /*font-family: 'BigBlue', monospace;*/
+    /*font-family: '3270', monospace;*/
+    /*font-family: 'JetBrains', monospace;*/
+    font-size: 12pt;
+
+    background-color: #241f31;
+    color: #1c71d8;
+
+    width: 90%;
+    margin: auto;
+}
+
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+ol li {
+    padding-bottom: 20px;
+}
+
+img {
+    margin: auto;
+    max-height: 400px;
+}
+
+
+/*links*/
+a {
+    color: #c01c28;
+}
+
+a:hover {
+    color: #813d9c;
+}
+
+a .icon {
+    color: #1c71d8;
+}
+
+a .icon:hover {
+    color: #813d9c;
+}
+
+
+.bordered {
+    border: solid #62a0ea;
+    border-radius: 20pt;
+    padding: 30px;
+    margin: 40px 0;
+}
+
+
+/*navbar*/
+.navbar-light .navbar-nav .nav-link {
+    color: #26a269;
+}
+
+.navbar-light .navbar-nav .nav-item:hover .nav-link {
+    color: #1a5fb4;
+}
+
+.navbar-toggler-icon {
+    background-color: #1c71d8;
+}
+
+
+/*misc*/
+.figlet {
+    line-height: 1;
+}
