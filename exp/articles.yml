@@ -60,7 +60,7 @@ articles:
     authors: <u>D. Keller</u>, Y. Givon, R. Pennel, S. Raveh-Rubin, P. Drobinski
     year: 2024
     title: "Untangling the mistral and seasonal atmospheric forcing driving deep convection in the Gulf of Lion: 1993-2013"
-    journal: JGR Oceans
+    journal: "JGR: Oceans"
     doi: https://doi.org/10.1029/2022JC019245
     volume: 129
     issue: 7
@@ -76,6 +76,20 @@ submitted:
     year: 2024
     title: "Composition and Dynamics of the Planetary Boundary Layer in Cold and Dark Atmospheres: Meteorological Overview from the ALPACA-2022 Field Experiment"
     journal: BAMS
+
+  - article:
+    resume: true
+    authors: D. Keller
+    year: 2025
+    title: "Fractal Dimension of the Deep Convection Cycle in the Northwestern Mediterranean Sea"
+    journal: Geophysical Research Letters
+
+  - article:
+    resume: true
+    authors: D. Keller, Y. Givon, F. Sevault, S. Somot, R. Pennel, P. Drobinski
+    year: 2025
+    title: "Evolution of the Drivers of Stratification of the Gulf of Lion in a Changing Climate"
+    journal: "JGR: Oceans"
 
 # ──────────────────────────────────────────────────────────────────────────
 

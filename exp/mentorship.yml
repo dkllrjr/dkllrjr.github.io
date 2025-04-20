@@ -1,19 +1,19 @@
-doctoral:
+doctor:
 
     - student:
-      name: S. Ramakrishnan
-      institute: College of Natural Sciences and Mathematics, University of Alaska Fairbanks
-      location: Fairbanks, Alaska, USA
-      description: Co-advising doctoral student (w/ Prof. Javier Fochesatto from the University of Alaska Fairbanks) on the Arctic atmospheric boundary layer.
-      date: Fall 2023 - Present
+      name: "S. Ramakrishnan"
+      institute: "College of Natural Sciences and Mathematics, University of Alaska Fairbanks"
+      location: "Fairbanks, Alaska, USA"
+      description: "Co-advising doctoral student (w/ Prof. Javier Fochesatto from the University of Alaska Fairbanks) on the Arctic atmospheric boundary layer."
+      date: "Fall 2023 - Present"
       highlights:
-        - item: Advising the student on formulating research questions relating to arctic atmospheric boundary layer turbulence.
+        - item: "Advising the student on formulating research questions relating to arctic atmospheric boundary layer turbulence."
 
     - student:
       name: D. Thomas
       institute: College of Natural Sciences and Mathematics, University of Alaska Fairbanks
       location: Fairbanks, Alaska, USA
-      description: Co-advising doctoral student (w/ Prof. Javier Fochesatto from the University of Alaska Fairbanks) on the Arctic atmospheric boundary layer.
+      description: "Co-advising doctoral student (w/ Prof. Javier Fochesatto from the University of Alaska Fairbanks) on the Arctic atmospheric boundary layer."
       date: Fall 2023 - Present
       highlights:
         - item: Advised the student on formulating research questions relating to arctic atmospheric boundary layer thermodynamics.
@@ -23,12 +23,20 @@ doctoral:
       name: S. Vallejo Jimenez
       institute: Energy4Climate Interdisplinary Center, Laboratoire de Chimie Moléculaire, École Polytechnique and ENSTA
       location: Palaiseau, Île-de-France, FR
-      description: Co-advising doctoral student (w/ Prof. Didier Dalmazonne from ENSTA) on synthetic fuel production for the XSeaO<sub>2</sub> project.
+      description: "Co-advising doctoral student (w/ Prof. Didier Dalmazonne from ENSTA) on synthetic fuel production for the XSeaO<sub>2</sub> project."
       date: Spring 2023 - Present
       highlights:
         - item: Advising the student on formulating research questions relating to catalysts for synthetic fuel production
         - item: Organizing experimental setup for testing different methanol production rates at different pressures, temperatures, and reactant ratios
 
+    - student:
+      name: V. Kumbhar
+      institute: Energy4Climate Interdisplinary Center, Laboratoire de Chimie Moléculaire, École Polytechnique and ENSTA
+      location: Palaiseau, Île-de-France, FR
+      description: "Co-advising doctoral student (w/ Dr. Cédric TARD from LCM) on carbon dioxide extraction for the XSeaO<sub>2</sub> project."
+      date: Fall 2024 - Present
+      highlights:
+        - item: Advising the student on formulating research questions relating to carbon capture from seawater 
 #  ──────────────────────────────────────────────────────────────────────────
 
 master:
