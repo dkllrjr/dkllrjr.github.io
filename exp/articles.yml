@@ -77,6 +77,14 @@ submitted:
     title: "Composition and Dynamics of the Planetary Boundary Layer in Cold and Dark Atmospheres: Meteorological Overview from the ALPACA-2022 Field Experiment"
     journal: BAMS
 
+
+  - article:
+    resume: true
+    authors: "A. Donateo, G. Pappaccogli, F. Scoto, M. Busetto, F. L. Lovisco, N. Brett, <u>D. Keller</u>, B. Barret, E. Dieudonné, R. Pohorsky, A. Baccarini, S. Bekki, J.-C. Raut, J. Schmale, K. S. Law, S. R. Arnold, G. J. Fochesatto, W. R. Simpson, S. Decesari"
+    year: 2025
+    title: "Aerosol dry deposition fluxes on snow during the ALPACA campaign in Fairbanks, Alaska"
+    journal: ACP
+
   - article:
     resume: true
     authors: D. Keller
@@ -84,12 +92,12 @@ submitted:
     title: "Fractal Dimension of the Deep Convection Cycle in the Northwestern Mediterranean Sea"
     journal: Geophysical Research Letters
 
-  - article:
-    resume: true
-    authors: D. Keller, Y. Givon, F. Sevault, S. Somot, R. Pennel, P. Drobinski
-    year: 2025
-    title: "Evolution of the Drivers of Stratification of the Gulf of Lion in a Changing Climate"
-    journal: "JGR: Oceans"
+  #- article:
+    #resume: true
+    #authors: D. Keller, Y. Givon, F. Sevault, S. Somot, R. Pennel, P. Drobinski
+    #year: 2025
+    #title: "Evolution of the Drivers of Stratification of the Gulf of Lion in a Changing Climate"
+    #journal: "JGR: Oceans"
 
 # ──────────────────────────────────────────────────────────────────────────
 

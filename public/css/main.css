@@ -23,11 +23,6 @@ ol li {
     padding-bottom: 20px;
 }
 
-img {
-    margin: auto;
-    max-height: 400px;
-}
-
 
 /*links*/
 a {
@@ -73,3 +68,10 @@ a .icon:hover {
 .figlet {
     line-height: 1;
 }
+
+
+.pdf {
+    margin: 0 auto;
+    height: 450px;
+}
+

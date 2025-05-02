@@ -17,7 +17,7 @@ doctor:
       date: Fall 2023 - Present
       highlights:
         - item: Advised the student on formulating research questions relating to arctic atmospheric boundary layer thermodynamics.
-        - item: Helped build the student's strength in python and analysis of climate datasets.
+        - item: "Helped build the student's strength in python and analysis of climate datasets."
 
     - student:
       name: S. Vallejo Jimenez
@@ -37,6 +37,7 @@ doctor:
       date: Fall 2024 - Present
       highlights:
         - item: Advising the student on formulating research questions relating to carbon capture from seawater 
+
 #  ──────────────────────────────────────────────────────────────────────────
 
 master:
@@ -49,7 +50,7 @@ master:
       date: Spring 2023 - Fall 2023
       highlights:
         - item: Advised the student on formulating research questions and building engineering problem solving.
-        - item: Helped build the student's strength in python and analysis of climate datasets.
+        - item: "Helped build the student's strength in python and analysis of climate datasets."
         - item: Worked with student to effectively communicate their results.
 
     - student:
@@ -60,7 +61,7 @@ master:
       date: Spring 2023 - Fall 2023
       highlights:
         - item: Advised the student on formulating research and engineering questions
-        - item: Helped build the student's strength in python, linux, and CAD and CFD modelling.
+        - item: "Helped build the student's strength in python, linux, and CAD and CFD modelling."
         - item: Worked with student to effectively communicate their results and challenges in compuation.
 
     - student:
@@ -82,7 +83,7 @@ master:
       date: Spring 2021 - Fall 2021
       highlights:
         - item: Advised the student on formulating research questions.
-        - item: Helped build the student's strength in python and analysis of climate datasets.
+        - item: "Helped build the student's strength in python and analysis of climate datasets."
 
     - student:
       name: L. Demaine
@@ -105,4 +106,13 @@ bachelor:
       date: Summer 2024
       highlights:
         - item: Advised the student on formulating engineering questions and methodology.
-        - item: Helped build the student's strength in python, electrochemistry, and methanol production.
+        - item: "Helped build the student's strength in python, electrochemistry, and methanol production."
+
+    - student:
+      name: E. Bonvarlet
+      institute: Energy4Climate Interdisplinary Center, Laboratoire de Météorologie Dynamique and Laboratoire de Chimie Moléculaire, École Polytechnique
+      location: Palaiseau, Île-de-France, FR
+      description: Advisor for bachelor student intern on determining the impact of Mediterranean cyclones on CO<sub>2</sub> air-sea fluxes. 
+      date: Summer 2024
+      highlights:
+        - item: Advised the student on how to calculate and extract the components that drive the carbon fluxes.
