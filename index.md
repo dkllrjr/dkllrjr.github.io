@@ -11,7 +11,7 @@ Welcome to my webpage! I'm a scientist and engineer who has hands in oceanograph
 
 <div class="col-sm-6">
 <a href="https://doi.org/10.1029/2022JC019245">
-<embed src="/img/papers/jgr_oceans_2024.pdf" class="pdf w-100"></embed>
+<embed src="/img/papers/jgr_oceans_2024.pdf" class="w-100 pdf"></embed>
 </a>
 
 </div>
@@ -36,7 +36,7 @@ The mistral is a northerly low-level jet blowing through the Rhône valley in so
 
 <div class="col-sm-6">
 <a href="https://doi.org/10.5194/wcd-2-609-2021">
-<embed src="/img/papers/wcd_2021.pdf" class="pdf w-100"></embed>
+<embed src="/img/papers/wcd_2021.pdf" class="w-100 pdf"></embed>
 </a>
 </div>
 
