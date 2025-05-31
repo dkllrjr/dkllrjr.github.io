@@ -30,9 +30,16 @@ build_nav $FILE $ARCH
 
 
 # title
-echo '<div class="figlet">' >> $FILE
+echo '<pre class="figlet">' >> $FILE
 cat $TXT/name.txt >> $FILE
-echo '</div>' >> $FILE
+echo '</pre>' >> $FILE
+
+
+# wave
+echo '<pre class="figlet wave">' >> $FILE
+cat $TXT/wave.txt >> $FILE
+echo '</pre>' >> $FILE
+echo '</br>' >> $FILE
 
 
 # body

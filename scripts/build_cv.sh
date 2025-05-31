@@ -515,8 +515,11 @@ for i in "${tmp[@]}"; do
     conference=`echo $i | yq -p=json '.conference' -`
     location=`echo $i | yq -p=json '.location' -`
     date=`echo $i | yq -p=json '.date_time' -`
+    present=`echo $i | yq -p=json '.present' -`
 
-    echo "<li>$authors ($year) \"$title,\" <b>$conference</b>, <i>$location</i>, $date</li>" >> $FILE
+    if [ "$present" = true ]; then
+        echo "<li>$authors ($year) \"$title,\" <b>$conference</b>, <i>$location</i>, $date</li>" >> $FILE
+    fi
 
 done
 

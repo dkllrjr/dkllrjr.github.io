@@ -29,6 +29,20 @@ echo "<body>" >> $FILE
 build_nav $FILE $ARCH
 
 
+# title
+echo '</br>' >> $FILE
+echo '<pre class="figlet">' >> $FILE
+cat $TXT/pub.txt >> $FILE
+echo '</pre>' >> $FILE
+
+
+# small waves horizontal line
+echo '</br>' >> $FILE
+echo '<pre class="figlet small-waves">' >> $FILE
+cat $TXT/small_waves.txt >> $FILE
+echo '</pre>' >> $FILE
+
+
 #  ══════════════════════════════════════════════════════════════════════════
 #  publications
 #  ══════════════════════════════════════════════════════════════════════════
@@ -36,12 +50,7 @@ build_nav $FILE $ARCH
 YML="$EXP/articles.yml"
 FIELD=.articles
 
-echo '</br>' >> $FILE
-echo '<div class="figlet">' >> $FILE
-cat $TXT/pub.txt >> $FILE
-echo '</div>' >> $FILE
-echo '</br>' >> $FILE
-echo '</br>' >> $FILE
+echo "<h1>Peer-Reviewed</h1>" >> $FILE
 
 readarray tmp < <(yq "$FIELD |= sort_by(.year)" $YML | yq "$FIELD | reverse" - | yq -o=j -I=0 '.[]' -)
 
@@ -142,8 +151,11 @@ for i in "${tmp[@]}"; do
     conference=`echo $i | yq -p=json '.conference' -`
     location=`echo $i | yq -p=json '.location' -`
     date=`echo $i | yq -p=json '.date_time' -`
+    present=`echo $i | yq -p=json '.present' -`
 
-    echo "<li>$authors ($year) \"$title,\" <b>$conference</b>, <i>$location</i>, $date</li>" >> $FILE
+    if [ "$present" = true ]; then
+        echo "<li>$authors ($year) \"$title,\" <b>$conference</b>, <i>$location</i>, $date</li>" >> $FILE
+    fi
 
 done
 

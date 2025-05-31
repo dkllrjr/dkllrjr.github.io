@@ -6,14 +6,16 @@ Welcome to my webpage! I'm a scientist and engineer who has hands in oceanograph
 <div class="container">
 
 
+
 <!--first block-->
 <div class="row align-items-center justify-content-center bordered">
 
 <div class="col-sm-6">
+<div class="article-wrapper">
 <a href="https://doi.org/10.1029/2022JC019245">
-<embed src="/img/papers/jgr_oceans_2024.pdf" class="w-100 pdf"></embed>
+<img src="/img/papers/jgr_oceans_2024.png" class="article"></img>
 </a>
-
+</div>
 </div>
 
 <div class="col-sm-6 justify-content-left align-self-start">
@@ -23,6 +25,7 @@ Deep convection occurs periodically in the Gulf of Lion (located in the northwes
 </div>
 
 </div>
+
 
 
 <!--second block-->
@@ -35,20 +38,16 @@ The mistral is a northerly low-level jet blowing through the Rhône valley in so
 </div>
 
 <div class="col-sm-6">
+<div class="article-wrapper">
 <a href="https://doi.org/10.5194/wcd-2-609-2021">
-<embed src="/img/papers/wcd_2021.pdf" class="w-100 pdf"></embed>
+<img src="/img/papers/wcd_2021.png" class="article"></img>
 </a>
 </div>
+</div>
 
 </div>
 
 
-
-<!--[>example block<]-->
-<!--[><div class="row align-items-center justify-content-center bordered"><]-->
-<!--[><div class="col-sm justify-content-left align-self-start">Example text block</div><]-->
-<!--[><div class="col-sm"><img src="/img/images/back_max_all_trajectories.png" class="img-fluid"></div><]-->
-<!--[></div><]-->
 
 
 </div>

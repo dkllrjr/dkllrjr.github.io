@@ -5,8 +5,8 @@ body {
     /*font-family: 'JetBrains', monospace;*/
     font-size: 12pt;
 
-    background-color: #241f31;
-    color: #1c71d8;
+    background-color: #1b1f32;
+    color: #99e9ff;
 
     width: 90%;
     margin: auto;
@@ -14,8 +14,8 @@ body {
 
 
 h1 {
-    padding-top: 20px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -26,24 +26,24 @@ ol li {
 
 /*links*/
 a {
-    color: #c01c28;
+    color: #9094a7;
 }
 
 a:hover {
-    color: #813d9c;
+    color: #8b9efd;
 }
 
 a .icon {
-    color: #1c71d8;
+    color: #99e9ff;
 }
 
 a .icon:hover {
-    color: #813d9c;
+    color: #8b9efd;
 }
 
 
 .bordered {
-    border: solid #62a0ea;
+    border: solid #67c9e4;
     border-radius: 20pt;
     padding: 30px;
     margin: 40px 0;
@@ -52,15 +52,15 @@ a .icon:hover {
 
 /*navbar*/
 .navbar-light .navbar-nav .nav-link {
-    color: #26a269;
+    color: #8b9efd;
 }
 
 .navbar-light .navbar-nav .nav-item:hover .nav-link {
-    color: #1a5fb4;
+    color: #67c9e4;
 }
 
 .navbar-toggler-icon {
-    background-color: #1c71d8;
+    background-color: #99e9ff;
 }
 
 
@@ -69,9 +69,24 @@ a .icon:hover {
     line-height: 1;
 }
 
-
-.pdf {
-    margin: 0 auto;
-    height: 450px;
+.wave {
+    font-size: 4pt;
+    text-align: center;
 }
 
+.small-waves {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.article {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.article-wrapper {
+    margin: 0 auto;
+    height: 450px;
+    overflow: auto;
+}

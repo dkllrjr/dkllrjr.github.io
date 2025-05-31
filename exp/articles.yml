@@ -66,6 +66,7 @@ articles:
     issue: 7
     pages: "1-25"
 
+
 #  ──────────────────────────────────────────────────────────────────────────
 
 submitted:
@@ -87,17 +88,32 @@ submitted:
 
   - article:
     resume: true
-    authors: D. Keller
+    authors: <u>D. Keller</u>
     year: 2025
     title: "Fractal Dimension of the Deep Convection Cycle in the Northwestern Mediterranean Sea"
-    journal: Geophysical Research Letters
+    journal: Nonlinear Processes in Geophysics
+
+  - article:
+    resume: true
+    authors: <u>D. Keller</u>
+    year: 2025
+    title: "Phase Strain: Decomposing Local Chaos into Divergence and Rotation"
+    journal: Chaos 
 
   #- article:
     #resume: true
-    #authors: D. Keller, Y. Givon, F. Sevault, S. Somot, R. Pennel, P. Drobinski
+    #authors: <u>D. Keller</u>, Y. Givon, F. Sevault, S. Somot, R. Pennel, P. Drobinski
     #year: 2025
     #title: "Evolution of the Drivers of Stratification of the Gulf of Lion in a Changing Climate"
     #journal: "JGR: Oceans"
+    
+  #- article:
+    #resume: true
+    #authors: <u>D. Keller</u>, D. Siriez, V. Capelle, J.-M. Hartmann
+    #year: 2025
+    #title: "Marine Heatwaves and Stratification Extremes in the Gulf of Lion"
+    #journal: "Cambridge Prisms: Coastal Futures"
+
 
 # ──────────────────────────────────────────────────────────────────────────
 

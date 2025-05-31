@@ -15,3 +15,20 @@ seminars:
     date_time: March 5, 2024
     year: 2024
     present: true
+
+  - Seminar:
+    title: "XSeaO<sub>2</sub>"
+    institute: "Technical University of Denmark"
+    location: Technical University of Denmark, Kongens Lyngby, Denmark
+    date_time: October 30, 2024
+    year: 2024
+    present: true
+
+  - Seminar:
+    title: "Chaos in the Ocean"
+    institute: "Laboratoire de Météorologie Dynamique"
+    location: École Polytechnique, Palaiseau, France
+    date_time: March 31, 2025
+    year: 2025
+    present: true
+
