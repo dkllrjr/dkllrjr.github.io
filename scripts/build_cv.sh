@@ -417,6 +417,31 @@ echo "</ol>" >> $FILE
 #  in submission
 #
 YML="$EXP/articles.yml"
+FIELD=.review
+
+echo "<h3>In Review</h3>" >> $FILE
+
+readarray tmp < <(yq "$FIELD |= sort_by(.year)" $YML | yq "$FIELD | reverse" - | yq -o=j -I=0 '.[]' -)
+
+echo "<ol>" >> $FILE
+
+for i in "${tmp[@]}"; do
+
+    authors=`echo $i | yq -p=json '.authors' -`
+    year=`echo $i | yq -p=json '.year' -`
+    title=`echo $i | yq -p=json '.title' -`
+    journal=`echo $i | yq -p=json '.journal' -`
+
+    echo "<li>$authors ($year) \"$title,\" <b>$journal</b>" >> $FILE
+
+done
+
+echo "</ol>" >> $FILE
+
+#  ──────────────────────────────────────────────────────────────────────────
+#  in submission
+#
+YML="$EXP/articles.yml"
 FIELD=.submitted
 
 echo "<h3>Submitted</h3>" >> $FILE
@@ -437,6 +462,7 @@ for i in "${tmp[@]}"; do
 done
 
 echo "</ol>" >> $FILE
+
 
 #  ──────────────────────────────────────────────────────────────────────────
 #  conference proceedings

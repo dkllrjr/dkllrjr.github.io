@@ -50,6 +50,7 @@ echo '</pre>' >> $FILE
 YML="$EXP/articles.yml"
 FIELD=.articles
 
+#  ──────────────────────────────────────────────────────────────────────────
 echo "<h1>Peer-Reviewed</h1>" >> $FILE
 
 readarray tmp < <(yq "$FIELD |= sort_by(.year)" $YML | yq "$FIELD | reverse" - | yq -o=j -I=0 '.[]' -)
@@ -72,6 +73,51 @@ for i in "${tmp[@]}"; do
 done
 
 echo "</ol>" >> $FILE
+
+
+#  ──────────────────────────────────────────────────────────────────────────
+FIELD=.review
+echo "<h2>In Review</h2>" >> $FILE
+
+readarray tmp < <(yq "$FIELD |= sort_by(.year)" $YML | yq "$FIELD | reverse" - | yq -o=j -I=0 '.[]' -)
+
+echo "<ol>" >> $FILE
+
+for i in "${tmp[@]}"; do
+
+    authors=`echo $i | yq -p=json '.authors' -`
+    year=`echo $i | yq -p=json '.year' -`
+    title=`echo $i | yq -p=json '.title' -`
+    journal=`echo $i | yq -p=json '.journal' -`
+
+    echo "<li>$authors ($year) \"$title,\" <b>$journal</b></li>" >> $FILE
+
+done
+
+echo "</ol>" >> $FILE
+
+
+#  ──────────────────────────────────────────────────────────────────────────
+FIELD=.submitted
+echo "<h2>Submitted</h2>" >> $FILE
+
+readarray tmp < <(yq "$FIELD |= sort_by(.year)" $YML | yq "$FIELD | reverse" - | yq -o=j -I=0 '.[]' -)
+
+echo "<ol>" >> $FILE
+
+for i in "${tmp[@]}"; do
+
+    authors=`echo $i | yq -p=json '.authors' -`
+    year=`echo $i | yq -p=json '.year' -`
+    title=`echo $i | yq -p=json '.title' -`
+    journal=`echo $i | yq -p=json '.journal' -`
+
+    echo "<li>$authors ($year) \"$title,\" <b>$journal</b></li>" >> $FILE
+
+done
+
+echo "</ol>" >> $FILE
+
 
 #  ──────────────────────────────────────────────────────────────────────────
 #  conference proceedings
