@@ -90,19 +90,26 @@ review:
     authors: <u>D. Keller</u>
     year: 2025
     title: "Phase Strain: Decomposing Local Chaos into Divergence and Rotation"
-    journal: AIP Chaos 
+    journal: AIP Advances
+
+  - article:
+    resume: true
+    authors: <u>D. Keller</u>
+    year: 2025
+    title: "Fractal Attractor of the Deep Convection Cycle in the Northwest Mediterranean Sea"
+    journal: NPG
 
     
 #  ──────────────────────────────────────────────────────────────────────────
 
 submitted:
 
-  - article:
-    resume: true
-    authors: <u>D. Keller</u>, Y. Givon, F. Sevault, S. Somot, R. Pennel, P. Drobinski
-    year: 2025
-    title: "Evolution of the Drivers of Stratification of the Gulf of Lion in a Changing Climate"
-    journal: "JGR: Oceans"
+  #- article:
+    #resume: true
+    #authors: <u>D. Keller</u>, Y. Givon, F. Sevault, S. Somot, R. Pennel, P. Drobinski
+    #year: 2025
+    #title: "Evolution of the Drivers of Stratification of the Gulf of Lion in a Changing Climate"
+    #journal: "JGR: Oceans"
     
   #- article:
     #resume: true
