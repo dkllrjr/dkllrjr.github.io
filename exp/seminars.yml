@@ -32,3 +32,11 @@ seminars:
     year: 2025
     present: true
 
+  - Seminar:
+    title: "Evidence of a Shear Driven Gravity Wave within the formation of a Stable Boundary Layer"
+    institute: "Laboratoire Ondes et Milieux Complexes"
+    location: Université Le Havre Normandie, Le Havre, France
+    date_time: September 11, 2025
+    year: 2025
+    present: true
+
