@@ -7,6 +7,7 @@ posters:
     location: Fairbanks, Alaska, USA
     date_time: April 10, 2018
     year: 2018
+    link: ""
 
   - poster:
     authors: <u>D. Keller</u>, G. J. Fochesatto
@@ -15,6 +16,7 @@ posters:
     location: Anchorage, Alaska, USA
     date_time: April 20, 2018
     year: 2018
+    link: ""
 
   - poster:
     authors: <u>D. Keller</u>, G. J. Fochesatto
@@ -23,6 +25,7 @@ posters:
     location: Pheonix, Arizona, USA
     date_time: Jan. 6-10, 2019
     year: 2019
+    link: ""
 
   - poster:
     authors: <u>D. Keller</u>, G. J. Fochesatto
@@ -31,6 +34,7 @@ posters:
     location: Boston, Massachusetts, USA
     date_time: Jan. 12-16, 2020
     year: 2020
+    link: ""
 
   - poster:
     authors: <u>D. Keller</u>, R. Pennel, Y. Givon, S. Raveh-Rubin, and P. Drobinski
@@ -39,6 +43,16 @@ posters:
     location: Virtual, France
     date_time: Nov. 16-18, 2020
     year: 2020
+    link: "https://pres.alaskanresearcher.dev/posters/combined_med2020_keller.pdf"
+
+  - poster:
+    authors: <u>D. Keller</u>, R. Pennel, Y. Givon, S. Raveh-Rubin, and P. Drobinski
+    title: 'Variability of the Mistral and Seasonal Atmospheric Forcing on Deep Convection in the Gulf of Lion'
+    conference: AGU Fall Meeting 2021
+    location: New Orleans, Lousiana, USA
+    date_time: Dec. 13-17, 2021
+    year: 2021
+    link: "https://pres.alaskanresearcher.dev/posters/agu2021.pdf"
 
   - poster:
     authors: <u>D. Keller</u>, R. Pennel, Y. Givon, S. Raveh-Rubin, and P. Drobinski
@@ -47,6 +61,7 @@ posters:
     location: Virtual, USA
     date_time: Jan. 9-16, 2021
     year: 2021
+    link: "https://pres.alaskanresearcher.dev/posters/poster_ams101_keller.pdf"
 
   - poster:
     authors: <u>D. Keller</u>, V. Somanna, C. Tard, and P. Drobinski
@@ -55,6 +70,7 @@ posters:
     location: Virtual, USA
     date_time: Feb. 24 - Mar. 4, 2022
     year: 2022
+    link: "https://pres.alaskanresearcher.dev/posters/osm22.pdf"
 
   - poster:
     authors: G. J. Fochesatto, N. Brett, K. Law, R. Pohorsky, A. Baccarini, B. Barret, G. Pappaccogli, F. Scoto, M. Busetto, E. Dieudonné, S. Albertin, S. Bekki, J. Maillard, M. C. Maloney, J.-C. Raut, F. Ravetta, D. E. Atkinson, <u>D. Keller</u>, T. Roberts, J. Schmale, S. Decesari, A. Donateo, K. Doulgeris, D. Brus, S. Arnold, J. Mao, and W. Simpson
@@ -63,6 +79,7 @@ posters:
     location: Denver, Colorado, USA
     date_time: Jan. 8-12, 2023
     year: 2023
+    link: ""
 
   - poster:
     authors: G. J. Fochesatto, E. Dieudonné, J. Maillard, N. Brett, G. Pappaccogli, K. Law, <u>D. Keller</u>, F. Ravetta, J.-C. Raut, E. Peterson, A. Donateo, and S. Decesari
@@ -71,6 +88,7 @@ posters:
     location: Denver, Colorado, USA
     date_time: Jan. 8-12, 2023
     year: 2023
+    link: ""
 
   - poster:
     authors: D. E. Atkinson, G. J. Fochesatto, N. Brett, R. Pohorsky, A. Baccarini, <u>D. Keller</u>, S. Bekki, E. Peterson, J. Maillard, K. Law, F. Ravetta, J.-C. Raut, J. Schmale, and Y. Harazono
@@ -79,6 +97,7 @@ posters:
     location: Denver, Colorado, USA
     date_time: Jan. 8-12, 2023
     year: 2023
+    link: ""
 
   - poster:
     authors: <u>D. Keller</u>, G. J. Fochesatto, E. Dieudonné, N. Brett, K. Law, S. Bekki, D. E. Atkinson, and E. Peterson
@@ -87,6 +106,7 @@ posters:
     location: Denver, Colorado, USA
     date_time: Jan. 8-12, 2023
     year: 2023
+    link: "https://pres.alaskanresearcher.dev/posters/ams_2023_sbi_buildup.pdf"
 
   - poster:
     authors: <u>D. Keller</u>, G. J. Fochesatto, E. Dieudonné, N. Brett, K. Law, S. Bekki, D. E. Atkinson, E. J. Welton, and E. Peterson
@@ -95,6 +115,16 @@ posters:
     location: Denver, Colorado, USA
     date_time: Jan. 8-12, 2023
     year: 2023
+    link: "https://pres.alaskanresearcher.dev/posters/ams_2023_sbi_breakup.pdf"
+
+  - poster:
+    authors: <u>D. Keller</u>, V. Somanna, P. Drobinski, C. Tard
+    title: 'Offshore CO<sub>2</sub> Capture and Utilization Using Floating Wind/PV Systems: Site Assessment and Efficiency Analysis in the Mediterranean'
+    conference: Energy4Climate Générale Assemblée 2023
+    location: SIRTA Observatory, Palaiseau, France
+    date_time: Feb. 9, 2023
+    year: 2023
+    link: "https://pres.alaskanresearcher.dev/posters/e4c_ag2023.pdf"
 
   - poster:
     authors: <u>D. Keller</u>, P. Drobinski, C. Tard
@@ -103,6 +133,7 @@ posters:
     location: Genoa, Italy
     date_time: May 22-24, 2023
     year: 2023
+    link: "https://pres.alaskanresearcher.dev/posters/metmed_2023.pdf"
 
   - poster:
     authors: <u>D. Keller</u>, Y. Givon, R. Pennel, S. Raveh-Rubin, P. Drobinski
@@ -111,6 +142,7 @@ posters:
     location: Toulouse, France
     date_time: June 28-30, 2023
     year: 2023
+    link: ""
 
   - poster:
     authors: Y. Givon, <u>D. Keller</u>, R. Pennel, P. Drobinski, S. Raveh-Rubin
@@ -119,6 +151,7 @@ posters:
     location: Toulouse, France
     date_time: June 28-30, 2023
     year: 2023
+    link: ""
 
   - poster:
     authors: Y. Givon, <u>D. Keller</u>, R. Pennel, P. Drobinski, S. Raveh-Rubin
@@ -127,6 +160,7 @@ posters:
     location: Frascati, Rome, Italy
     date_time: July 15-19, 2024
     year: 2024
+    link: ""
 
   - poster:
     authors: <u>D. Keller</u>, Y. Givon, R. Pennel, S. Raveh-Rubin, P. Drobinski
@@ -135,6 +169,7 @@ posters:
     location: Frascati, Rome, Italy
     date_time: July 15-19, 2024
     year: 2024
+    link: "https://pres.alaskanresearcher.dev/posters/medcyclones_2024.pdf"
 
   - poster:
     authors: <u>D. Keller</u>, D. Siriez, V. Capelle, J.-M. Hartmann
@@ -143,3 +178,4 @@ posters:
     location: Nice, France
     date_time: June 3-6, 2025
     year: 2025
+    link: ""

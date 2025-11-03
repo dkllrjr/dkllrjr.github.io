@@ -170,8 +170,9 @@ for i in "${tmp[@]}"; do
     institute=`echo $i | yq -p=json '.institute' -`
     location=`echo $i | yq -p=json '.location' -`
     date=`echo $i | yq -p=json '.date_time' -`
+    pdflink=`echo $i | yq -p=json '.link' -`
 
-    echo "<li>($year) \"$title,\" <b>$institute</b>, <i>$location</i>, $date</li>" >> $FILE
+    echo "<li>($year) \"$title,\" <b>$institute</b>, <i>$location</i>, $date, <a href=$pdflink>pdf</a></li>" >> $FILE
 
 done
 
@@ -198,9 +199,14 @@ for i in "${tmp[@]}"; do
     location=`echo $i | yq -p=json '.location' -`
     date=`echo $i | yq -p=json '.date_time' -`
     present=`echo $i | yq -p=json '.present' -`
+    pdflink=`echo $i | yq -p=json '.link' -`
 
     if [ "$present" = true ]; then
-        echo "<li>$authors ($year) \"$title,\" <b>$conference</b>, <i>$location</i>, $date</li>" >> $FILE
+        if [ -z $pdflink ]; then
+            echo "<li>$authors ($year) \"$title,\" <b>$conference</b>, <i>$location</i>, $date</li>" >> $FILE
+        else
+            echo "<li>$authors ($year) \"$title,\" <b>$conference</b>, <i>$location</i>, $date, <a href=$pdflink>pdf</a></li>" >> $FILE
+        fi
     fi
 
 done
@@ -227,8 +233,13 @@ for i in "${tmp[@]}"; do
     conference=`echo $i | yq -p=json '.conference' -`
     location=`echo $i | yq -p=json '.location' -`
     date=`echo $i | yq -p=json '.date_time' -`
+    pdflink=`echo $i | yq -p=json '.link' -`
 
-    echo "<li>$authors ($year) \"$title,\" <b>$conference</b>, <i>$location</i>, $date</li>" >> $FILE
+    if [ -z $pdflink ]; then
+        echo "<li>$authors ($year) \"$title,\" <b>$conference</b>, <i>$location</i>, $date</li>" >> $FILE
+    else
+        echo "<li>$authors ($year) \"$title,\" <b>$conference</b>, <i>$location</i>, $date, <a href=$pdflink>pdf</a></li>" >> $FILE
+    fi
 
 done
 

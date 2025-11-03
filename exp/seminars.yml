@@ -1,12 +1,22 @@
 seminars:
 
   - seminar:
+    title: "Impact of Mistral events on Mediterranean deep convection"
+    institute: Weizmann Institute of Science
+    location: Weizmann Institute of Science, Rehovot, Israel
+    date_time: April 14, 2022
+    year: 2022
+    present: true
+    link: "https://pres.alaskanresearcher.dev/seminars/philippe_telaviv.pdf"
+    
+  - seminar:
     title: "Contributors to and Inhibitors of Deep Convection in the Gulf of Lion"
     institute: NOAA Coastal Ocean Modelling Branch
     location: NOAA Coastal Ocean Modeling Science Seminars (Virtual)
     date_time: November 26, 2024
     year: 2024
     present: true
+    link: "https://pres.alaskanresearcher.dev/seminars/NOAA_pres_2024.pdf"
 
   - seminar:
     title: "From ocean deep convection in the Mediterranean to direct ocean (carbon) capture"
@@ -15,28 +25,32 @@ seminars:
     date_time: March 5, 2024
     year: 2024
     present: true
+    link: "https://pres.alaskanresearcher.dev/seminars/uvic_seminar.pdf"
 
-  - Seminar:
+  - seminar:
     title: "XSeaO<sub>2</sub>"
     institute: "Technical University of Denmark"
     location: Technical University of Denmark, Kongens Lyngby, Denmark
     date_time: October 30, 2024
     year: 2024
     present: true
+    link: "https://pres.alaskanresearcher.dev/seminars/xseao2_dtu.pdf"
 
-  - Seminar:
+  - seminar:
     title: "Chaos in the Ocean"
     institute: "Laboratoire de Météorologie Dynamique"
     location: École Polytechnique, Palaiseau, France
     date_time: March 31, 2025
     year: 2025
     present: true
+    link: "https://pres.alaskanresearcher.dev/seminars/x_poste_seminar.pdf"
 
-  - Seminar:
+  - seminar:
     title: "Evidence of a Shear Driven Gravity Wave within the formation of a Stable Boundary Layer"
     institute: "Laboratoire Ondes et Milieux Complexes"
     location: Université Le Havre Normandie, Le Havre, France
     date_time: September 11, 2025
     year: 2025
     present: true
+    link: "https://pres.alaskanresearcher.dev/seminars/seminar_le_havre.pdf"
 
