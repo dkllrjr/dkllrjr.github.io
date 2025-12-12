@@ -66,6 +66,17 @@ articles:
     issue: 7
     pages: "1-25"
 
+  - article:
+    resume: False
+    authors: "A. Donateo, G. Pappaccogli, F. Scoto, M. Busetto, F. L. Lovisco, N. Brett, <u>D. Keller</u>, B. Barret, E. Dieudonné, R. Pohorsky, A. Baccarini, S. Bekki, J.-C. Raut, J. Schmale, K. S. Law, S. R. Arnold, G. J. Fochesatto, W. R. Simpson, S. Decesari"
+    year: 2025
+    title: "Aerosol dry deposition fluxes on snow during the ALPACA campaign in Fairbanks, Alaska"
+    journal: "ACP"
+    doi: https://doi.org/10.5194/acp-25-18129-2025
+    volume: 25
+    issue: 23
+    pages: "18129–18156"
+
 
 #  ──────────────────────────────────────────────────────────────────────────
 
@@ -77,13 +88,6 @@ review:
     year: 2024
     title: "Composition and Dynamics of the Planetary Boundary Layer in Cold and Dark Atmospheres: Meteorological Overview from the ALPACA-2022 Field Experiment"
     journal: BAMS
-
-  - article:
-    resume: true
-    authors: "A. Donateo, G. Pappaccogli, F. Scoto, M. Busetto, F. L. Lovisco, N. Brett, <u>D. Keller</u>, B. Barret, E. Dieudonné, R. Pohorsky, A. Baccarini, S. Bekki, J.-C. Raut, J. Schmale, K. S. Law, S. R. Arnold, G. J. Fochesatto, W. R. Simpson, S. Decesari"
-    year: 2025
-    title: "Aerosol dry deposition fluxes on snow during the ALPACA campaign in Fairbanks, Alaska"
-    journal: ACP
 
   - article:
     resume: true

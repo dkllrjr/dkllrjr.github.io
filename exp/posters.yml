@@ -142,7 +142,7 @@ posters:
     location: Toulouse, France
     date_time: June 28-30, 2023
     year: 2023
-    link: ""
+    link: "https://pres.alaskanresearcher.dev/posters/medcyclones_2023.pdf"
 
   - poster:
     authors: Y. Givon, <u>D. Keller</u>, R. Pennel, P. Drobinski, S. Raveh-Rubin
@@ -178,4 +178,4 @@ posters:
     location: Nice, France
     date_time: June 3-6, 2025
     year: 2025
-    link: ""
+    link: "https://pres.alaskanresearcher.dev/posters/oos_2025.pdf"
