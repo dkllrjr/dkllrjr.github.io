@@ -67,8 +67,13 @@ for i in "${tmp[@]}"; do
     issue=`echo $i | yq -p=json '.issue' -`
     pages=`echo $i | yq -p=json '.pages' -`
     doi=`echo $i | yq -p=json '.doi' -`
+    first_author=`echo $i | yq -p=json '.first_author' -`
 
-    echo "<li>$authors ($year) \"$title,\" <b>$journal</b>, $volume($issue), $pages, <a href=$doi>$doi</a></li>" >> $FILE
+    if [ "$first_author" = true ]; then
+        echo "<li id="first_author">$authors ($year) \"$title,\" <b>$journal</b>, $volume($issue), $pages, <a href=$doi>$doi</a> TEST</li>" >> $FILE
+    else
+        echo "<li>$authors ($year) \"$title,\" <b>$journal</b>, $volume($issue), $pages, <a href=$doi>$doi</a></li>" >> $FILE
+    fi
 
 done
 

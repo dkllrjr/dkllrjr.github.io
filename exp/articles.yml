@@ -10,6 +10,7 @@ articles:
     volume: 90
     issue: 7
     pages: "075005"
+    first_author: true
 
   - article:
     resume: false
@@ -21,6 +22,7 @@ articles:
     volume: 2
     issue: 3
     pages: "609-630"
+    first_author: false
 
   - article:
     resume: true
@@ -32,6 +34,7 @@ articles:
     volume: 18
     issue: 2
     pages: "483-510"
+    first_author: true
 
   - article:
     resume: true
@@ -43,6 +46,7 @@ articles:
     volume: 15
     issue: 23
     pages: "8873"
+    first_author: true
 
   - article:
     resume: true
@@ -54,6 +58,7 @@ articles:
     volume: 150
     issue: 760
     pages: "1791-1808"
+    first_author: false
 
   - article:
     resume: true
@@ -65,6 +70,7 @@ articles:
     volume: 129
     issue: 7
     pages: "1-25"
+    first_author: true
 
   - article:
     resume: False
@@ -76,6 +82,7 @@ articles:
     volume: 25
     issue: 23
     pages: "18129–18156"
+    first_author: false
 
 
 #  ──────────────────────────────────────────────────────────────────────────
@@ -102,6 +109,13 @@ review:
     year: 2025
     title: "Fractal Attractor of the Deep Convection Cycle in the Northwest Mediterranean Sea"
     journal: NPG
+
+  - article:
+    resume: true
+    authors: Y. Givon, <u>D. Keller</u>, P. Drobinski, S. Raveh-Rubin
+    year: 2025
+    title: "Constrasting Impact of Different Mediterranean Cyclones on the Hydrological Cycle and Ocean Heat Content"
+    journal: Weather and Climate Dynamics
 
     
 #  ──────────────────────────────────────────────────────────────────────────

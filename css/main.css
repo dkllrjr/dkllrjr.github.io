@@ -90,3 +90,8 @@ a .icon:hover {
     height: 450px;
     overflow: auto;
 }
+
+#first_author::marker {
+    font-weight: bold;
+    font-style: italic;
+}
