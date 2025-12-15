@@ -70,7 +70,7 @@ for i in "${tmp[@]}"; do
     first_author=`echo $i | yq -p=json '.first_author' -`
 
     if [ "$first_author" = true ]; then
-        echo "<li id="first_author">$authors ($year) \"$title,\" <b>$journal</b>, $volume($issue), $pages, <a href=$doi>$doi</a> TEST</li>" >> $FILE
+        echo "<li id="first_author">$authors ($year) \"$title,\" <b>$journal</b>, $volume($issue), $pages, <a href=$doi>$doi</a></li>" >> $FILE
     else
         echo "<li>$authors ($year) \"$title,\" <b>$journal</b>, $volume($issue), $pages, <a href=$doi>$doi</a></li>" >> $FILE
     fi
