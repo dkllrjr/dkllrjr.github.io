@@ -73,7 +73,7 @@ articles:
     first_author: true
 
   - article:
-    resume: False
+    resume: false
     authors: "A. Donateo, G. Pappaccogli, F. Scoto, M. Busetto, F. L. Lovisco, N. Brett, <u>D. Keller</u>, B. Barret, E. Dieudonné, R. Pohorsky, A. Baccarini, S. Bekki, J.-C. Raut, J. Schmale, K. S. Law, S. R. Arnold, G. J. Fochesatto, W. R. Simpson, S. Decesari"
     year: 2025
     title: "Aerosol dry deposition fluxes on snow during the ALPACA campaign in Fairbanks, Alaska"
@@ -84,17 +84,22 @@ articles:
     pages: "18129–18156"
     first_author: false
 
+  - article:
+    resume: false
+    authors: "G.J. Fochesatto, K.S. Law, J. Schmale, S. Decesari, W. R. Simpson, R. Pohorsky, B. Barret, A. Baccarini, E. Dieudonné, N. Brett, R. Gilliam, <u>D. Keller</u>, A. Donateo, G. Pappaccogli, F. Scoto, M. Busetto, S. Albertin, S. Bekki, F. Ravetta, J.-C. Raut, C. Cailteau-Fischbach, M. Cesler-Maloney, J. Mao, S. Arnold, B. Temime-Roussel, B. D'Anna, J. Savarino, J. Maillard, E. Ioannidis, K. Dougleris, D. Brus, D. Atkinson, E. Petersen, H. Iwata, M. Ueyama, Y. Harazono"
+    year: 2026
+    title: "Composition and Dynamics of the Planetary Boundary Layer in Cold and Dark Atmospheres: Meteorological Overview from the ALPACA-2022 Field Experiment"
+    journal: "BAMS"
+    doi: ""
+    volume: ""
+    issue: ""
+    pages: ""
+    first_author: false
+
 
 #  ──────────────────────────────────────────────────────────────────────────
 
 review:
-
-  - article:
-    resume: true
-    authors: G.J. Fochesatto, K.S. Law, J. Schmale, S. Decesari, W. R. Simpson, R. Pohorsky, B. Barret, A. Baccarini, E. Dieudonné, N. Brett, R. Gilliam, <u>D. Keller</u>, A. Donateo, G. Pappaccogli, F. Scoto, M. Busetto, S. Albertin, S. Bekki, F. Ravetta, J.-C. Raut, C. Cailteau-Fischbach, M. Cesler-Maloney, J. Mao, S. Arnold, B. Temime-Roussel, B. D'Anna, J. Savarino, J. Maillard, E. Ioannidis, K. Dougleris, D. Brus, D. Atkinson, E. Petersen, H. Iwata, M. Ueyama, Y. Harazono
-    year: 2024
-    title: "Composition and Dynamics of the Planetary Boundary Layer in Cold and Dark Atmospheres: Meteorological Overview from the ALPACA-2022 Field Experiment"
-    journal: BAMS
 
   - article:
     resume: true

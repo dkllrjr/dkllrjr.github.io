@@ -2,20 +2,23 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg2"
    width="3840"
    height="2160"
    viewBox="0 0 3840 2160"
    sodipodi:docname="AK_Researcher_logo_zoomed.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   inkscape:export-filename="AK_Researcher_logo_zoomed_small.png"
+   inkscape:export-xdpi="78.095299"
+   inkscape:export-ydpi="78.095299"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -72,19 +75,22 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2560"
-     inkscape:window-height="1361"
+     inkscape:window-width="3428"
+     inkscape:window-height="1403"
      id="namedview4"
      showgrid="false"
      inkscape:zoom="1.4142136"
-     inkscape:cx="1420.7496"
-     inkscape:cy="572.10017"
+     inkscape:cx="1421.2846"
+     inkscape:cy="1590.2831"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg2"
      showguides="false"
-     inkscape:snap-object-midpoints="true" />
+     inkscape:snap-object-midpoints="true"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <circle
      style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:4.95959949;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="path838-2"
@@ -97,7 +103,10 @@
      id="path1130"
      cx="1559.6277"
      cy="1558.2024"
-     r="250" />
+     r="250"
+     inkscape:export-filename="AK_Researcher_logo_zoomed_small.png"
+     inkscape:export-xdpi="192"
+     inkscape:export-ydpi="192" />
   <g
      id="g1441"
      transform="matrix(0.39337282,0,0,0.39337282,722.87289,1120.7538)">
