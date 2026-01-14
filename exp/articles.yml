@@ -90,11 +90,23 @@ articles:
     year: 2026
     title: "Composition and Dynamics of the Planetary Boundary Layer in Cold and Dark Atmospheres: Meteorological Overview from the ALPACA-2022 Field Experiment"
     journal: "BAMS"
-    doi: ""
-    volume: ""
-    issue: ""
-    pages: ""
+    doi: "TBA"
+    volume: "TBA"
+    issue: "TBA"
+    pages: "TBA"
     first_author: false
+
+  - article:
+    resume: true
+    authors: <u>D. Keller</u>
+    year: 2026
+    title: "Fractal Attractor of the Deep Convection Cycle in the Northwest Mediterranean Sea"
+    journal: NPG
+    doi: "TBA"
+    volume: "TBA"
+    issue: "TBA"
+    pages: "TBA"
+    first_author: true
 
 
 #  ──────────────────────────────────────────────────────────────────────────
@@ -107,13 +119,6 @@ review:
     year: 2025
     title: "Phase Strain: Decomposing Local Chaos into Divergence and Rotation"
     journal: AIP Advances
-
-  - article:
-    resume: true
-    authors: <u>D. Keller</u>
-    year: 2025
-    title: "Fractal Attractor of the Deep Convection Cycle in the Northwest Mediterranean Sea"
-    journal: NPG
 
   - article:
     resume: true

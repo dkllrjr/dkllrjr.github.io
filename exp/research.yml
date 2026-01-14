@@ -2,6 +2,16 @@ research:
 
   - study:
     resume: true
+    title: Turbulence in the Marine Atmospheric Surface Layer 
+    institute: Laboratoire Ondes et Milieux Complexes 
+    location: Le Havre, Normandy, FR
+    date: Winter 2025 - Present
+    description: Studying the impact of turbulence on the marine atmospheric boundary layer. 
+    highlights:
+      - item: In progress.
+
+  - study:
+    resume: true
     title: XSeaO<sub>2</sub>
     institute: Energy4Climate Interdisplinary Center, Laboratoire de Chimie Moléculaire, Laboratoire de Météorologie Dynamique, École Polytechnique
     location: Palaiseau, Île-de-France, FR

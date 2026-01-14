@@ -1,12 +1,12 @@
 name: "Douglas KELLER JR"
 
-title: Postdoctoral Researcher / Research Engineer
+title: Chaire de Professeur Junior 
 
-institute: "Laboratoire de Chimie Moléculaire,</br>Laboratoire de Météorologie Dynamique,</br>Energy4Climate Interdisciplinary Center,</br>École Polytechnique, Institut Polytechnique de Paris"
+institute: "Laboratoire Ondes et Milieux Complexes,</br>Université Le Havre Normandie"
 
-location: "Route de Saclay, 91120 Palaiseau, FRANCE"
+location: "25 Rue Philippe Lebon, 76600 Le Havre, FRANCE"
 
-email: "douglas.keller@lmd.ipsl.fr"
+email: "dg.kllr.jr@gmail.com"
 
 website: "https://www.alaskanresearcher.dev"
 
@@ -16,7 +16,7 @@ interests:
   description: "I enjoy many different things: science, engineering, programming, martial arts, hockey, skiing, and the outdoors, to list a few. I'm from Alaska; that may explain some of my interests."
   resume: false
 
-fields: "Ocean carbon system, marine heat waves, direct ocean carbon capture (DOC), carbon dioxide catalysis, air-sea interactions, physical oceanography, arctic atmospheres (boundary layer and synoptic scale)"
+fields: "Air-sea interaction and turbulence, ocean carbon system, marine heat waves, direct ocean carbon capture (DOC), carbon dioxide catalysis, physical oceanography, arctic atmospheres (boundary layer and synoptic scale)"
 
 affiliations:
   - title: "Affiliate Faculty"
