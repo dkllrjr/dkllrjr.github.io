@@ -7,7 +7,7 @@ posters:
     location: Fairbanks, Alaska, USA
     date_time: April 10, 2018
     year: 2018
-    link: ""
+    link: "https://pres.alaskanresearcher.dev/posters/foss_ursa.pdf"
 
   - poster:
     authors: <u>D. Keller</u>, G. J. Fochesatto
@@ -16,7 +16,7 @@ posters:
     location: Anchorage, Alaska, USA
     date_time: April 20, 2018
     year: 2018
-    link: ""
+    link: "https://pres.alaskanresearcher.dev/posters/asgp_mplnet_final.pdf"
 
   - poster:
     authors: <u>D. Keller</u>, G. J. Fochesatto
@@ -25,7 +25,7 @@ posters:
     location: Pheonix, Arizona, USA
     date_time: Jan. 6-10, 2019
     year: 2019
-    link: ""
+    link: "https://pres.alaskanresearcher.dev/posters/ams99_2019.pdf"
 
   - poster:
     authors: <u>D. Keller</u>, G. J. Fochesatto
@@ -34,7 +34,7 @@ posters:
     location: Boston, Massachusetts, USA
     date_time: Jan. 12-16, 2020
     year: 2020
-    link: ""
+    link: "https://pres.alaskanresearcher.dev/posters/ams100_2020.pdf"
 
   - poster:
     authors: <u>D. Keller</u>, R. Pennel, Y. Givon, S. Raveh-Rubin, and P. Drobinski
