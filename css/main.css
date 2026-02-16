@@ -64,6 +64,13 @@ a .icon:hover {
 }
 
 
+/*index*/
+a .fa-replacement-icon:hover {
+    border-bottom: 4px solid blue;
+    border-bottom-color: #8b9efd;
+}
+
+
 /*misc*/
 .figlet {
     line-height: 1;
