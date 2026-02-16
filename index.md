@@ -10,7 +10,7 @@ Welcome to my webpage! I'm a scientist and engineer who has hands in oceanograph
 <!--first block-->
 <div class="row align-items-center justify-content-center bordered">
 
-<div class="col-sm-6">
+<div class="col-md-6">
 <div class="article-wrapper">
 <a href="https://doi.org/10.1029/2022JC019245">
 <img src="/img/papers/jgr_oceans_2024.png" class="article"></img>
@@ -18,7 +18,7 @@ Welcome to my webpage! I'm a scientist and engineer who has hands in oceanograph
 </div>
 </div>
 
-<div class="col-sm-6 justify-content-left align-self-start">
+<div class="col-md-6 justify-content-left align-self-start">
 ## Gulf of Lion: Air-Sea Fluxes and Deep Convection
 
 Deep convection occurs periodically in the Gulf of Lion (located in the northwestern Mediterranean Sea), when water at the surface of the ocean is cooled enough to mix freely with the deeper water below, sometimes reaching the sea floor. It's an important part of the overall circulation of the Mediterranean Sea that leads to an explosion in the phytoplankton population in the following spring. In the gulf, the surface cooling is caused by the atmospheric transition from summer to winter and the Mistral winds. The latter is a cool, dry northerly wind that flows through the Rhône Valley out over the gulf. We found seasonal forcing to have a larger role than the Mistral, due to elevated average wind speeds during the winter.
@@ -31,13 +31,13 @@ Deep convection occurs periodically in the Gulf of Lion (located in the northwes
 <!--second block-->
 <div class="row align-items-center justify-content-center bordered">
 
-<div class="col-sm-6 justify-content-left align-self-start">
+<div class="col-md-6 justify-content-left align-self-start">
 ## Mistrals Driven by Rossby Wave Breaking
 
 The mistral is a northerly low-level jet blowing through the Rhône valley in southern France and down to the Gulf of Lion. It is co-located with the cold sector of a low-level lee cyclone in the Gulf of Genoa, behind an upper-level trough north of the Alps. The mistral wind has long been associated with extreme weather events in the Mediterranean, and while extensive research focused on the lower-tropospheric mistral and lee cyclogenesis, the different upper-tropospheric large- and synoptic-scale settings involved in producing the mistral wind are not generally known. This analysis provides a new perspective on the variability of the mistral and of the Genoa lee cyclogenesis in general, linking the upper-level PV structures to their surface impact over Europe, the Mediterranean and north Africa.
 </div>
 
-<div class="col-sm-6">
+<div class="col-md-6">
 <div class="article-wrapper">
 <a href="https://doi.org/10.5194/wcd-2-609-2021">
 <img src="/img/papers/wcd_2021.png" class="article"></img>

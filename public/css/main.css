@@ -74,14 +74,26 @@ a .fa-replacement-icon:hover {
 /*misc*/
 .figlet {
     line-height: 1;
+    overflow: visible;
+}
+
+.pub-title {
+    font-size: min(1.4vw, 14pt);
+}
+
+.name {
+    font-size: min(2vw, 12pt);
+    overflow: visible;
 }
 
 .wave {
-    font-size: 4pt;
+    font-size: min(0.37vw, 3pt);
     text-align: center;
+    overflow: visible;
 }
 
 .small-waves {
+    font-size: 1.1vw;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -94,7 +106,7 @@ a .fa-replacement-icon:hover {
 
 .article-wrapper {
     margin: 0 auto;
-    height: 450px;
+    max-height: 670px;
     overflow: auto;
 }
 

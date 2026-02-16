@@ -30,7 +30,7 @@ build_nav $FILE $ARCH
 
 
 # title
-echo '<pre class="figlet">' >> $FILE
+echo '<pre class="figlet name">' >> $FILE
 cat $TXT/name.txt >> $FILE
 echo '</pre>' >> $FILE
 

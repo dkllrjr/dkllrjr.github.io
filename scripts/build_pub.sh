@@ -31,7 +31,7 @@ build_nav $FILE $ARCH
 
 # title
 echo '</br>' >> $FILE
-echo '<pre class="figlet">' >> $FILE
+echo '<pre class="figlet pub-title">' >> $FILE
 cat $TXT/pub.txt >> $FILE
 echo '</pre>' >> $FILE
 
