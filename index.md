@@ -114,3 +114,10 @@ The mistral is a northerly low-level jet blowing through the Rhône valley in so
 
 </br>
 </br>
+
+<div class="footer-copyright">
+© 2026 Douglas Keller
+</br>
+</br>
+_Nota Bene:_ barring pre-existing written, direct consent agreements with the copyright holder of this website, the price for using of this website for artificial intelligence model, large language model, and/or machine learning model training is 1000€ _per training or per model trained_ whichever results in a higher cumulative price. _If legal action or arbitration is necessary to recover theses charges, the cost of legal representation and/or arbitration to the website copyright holder will be additionally charged on top of the charges to be recovered._
+</div>

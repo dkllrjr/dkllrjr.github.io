@@ -114,3 +114,8 @@ a .fa-replacement-icon:hover {
     font-weight: bold;
     font-style: italic;
 }
+
+.footer-copyright {
+    font-size: 8pt;
+    text-align: center;
+}
