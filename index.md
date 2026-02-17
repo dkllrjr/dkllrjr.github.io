@@ -1,6 +1,19 @@
 Welcome to my webpage! I'm a scientist and engineer who has hands in oceanography, atmospheric science, mechanical engineering, and chemical engineering (and computer science). Hit me up if you want to do some research!
 
 
+# Key Areas of Interest
+
+My research tends to focus on the following areas:
+
+- air-sea interaction, such as heat and/or carbon fluxes
+- atmospheric surface and boundary layer, particularly in the Arctic
+- turbulence and wave behavior in the atmosphere and ocean
+- synoptic atmosphere and cyclones/storms
+- carbon capture methodologies and engineering
+- marine heatwaves
+- nonlinear dynamics
+
+
 # Selected Research
 
 <div class="container">
