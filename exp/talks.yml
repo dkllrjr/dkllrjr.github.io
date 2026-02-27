@@ -98,7 +98,7 @@ talks:
     date_time: March 21-22, 2023
     year: 2023
     present: true
-    link: ""
+    link: "https://pres.alaskanresearcher.dev/talks/simed_2023_keller.pdf"
 
   - talk:
     authors: D. Siriez, <u>D. Keller</u>, V. Capelle, J.M. Hartmann
@@ -118,7 +118,7 @@ talks:
     date_time: April 23-28, 2023
     year: 2023
     present: true
-    link: ""
+    link: "https://pres.alaskanresearcher.dev/talks/egu2023_med.pdf"
 
   - talk:
     authors: G. J. Fochesatto, <u>D. Keller</u>, E. Dieudonné, N. Brett, K. Law, S. Bekki, D. Atkinson, E. Wellton, E. Peterson
@@ -128,7 +128,7 @@ talks:
     date_time: April 23-28, 2023
     year: 2023
     present: true
-    link: ""
+    link: "https://pres.alaskanresearcher.dev/talks/egu_2023_large_scale_and_pbl.pdf"
 
   - talk:
     authors: G. J. Fochesatto, G. Sjöblom, D. Thomas, N. Brett, <u>D. Keller</u>, K. Law, S. Bekki
@@ -158,4 +158,14 @@ talks:
     date_time: April 1-3, 2025
     year: 2025
     present: true
-    link: ""
+    link: "https://pres.alaskanresearcher.dev/talks/simed_2025.pdf"
+
+  - talk:
+    authors: <u>D. Keller</u>, S. Ramakrishnan, D. Thomas, E. Dieudonné, A. Donateo, N. Brett, B. Barret, R. Pohorsky, S. Bekki, J.-C. Raut, J. Schmale, K. S. Law, S. R. Arnold, W. R. Simpson, S. Decesari, G. J. Fochesatto
+    title: 'Evidence of a Shear Driven Gravity Wave within the formation of a Stable Boundary Layer'
+    conference: 106th Annual American Meteorological Society Meeting
+    location: Houston, Texas, USA
+    date_time: January 25-29, 2026
+    year: 2026
+    present: true
+    link: "https://pres.alaskanresearcher.dev/talks/ams_2026.pdf"
