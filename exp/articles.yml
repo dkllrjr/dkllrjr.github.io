@@ -108,6 +108,18 @@ articles:
     pages: "TBA"
     first_author: true
 
+  - article:
+    resume: true
+    authors: Y. Givon, <u>D. Keller</u>, P. Drobinski, S. Raveh-Rubin
+    year: 2026
+    title: "Constrasting Impact of Different Mediterranean Cyclones on the Hydrological Cycle and Ocean Heat Content"
+    journal: Weather and Climate Dynamics
+    doi: "TBA"
+    volume: "TBA"
+    issue: "TBA"
+    pages: "TBA"
+    first_author: false
+
 
 #  ──────────────────────────────────────────────────────────────────────────
 
@@ -119,13 +131,6 @@ review:
     year: 2025
     title: "Phase Strain: Decomposing Local Chaos into Divergence and Rotation"
     journal: AIP Advances
-
-  - article:
-    resume: true
-    authors: Y. Givon, <u>D. Keller</u>, P. Drobinski, S. Raveh-Rubin
-    year: 2025
-    title: "Constrasting Impact of Different Mediterranean Cyclones on the Hydrological Cycle and Ocean Heat Content"
-    journal: Weather and Climate Dynamics
 
     
 #  ──────────────────────────────────────────────────────────────────────────
