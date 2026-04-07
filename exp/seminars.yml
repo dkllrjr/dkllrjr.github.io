@@ -54,3 +54,21 @@ seminars:
     present: true
     link: "https://pres.alaskanresearcher.dev/seminars/seminar_le_havre.pdf"
 
+  - seminar:
+    title: "Deep Convection in the Gulf of Lion and Air-Sea Forcing"
+    institute: "Laboratoire Ondes et Milieux Complexes"
+    location: Université Le Havre Normandie, Le Havre, France
+    date_time: January 26, 2026
+    year: 2026
+    present: true
+    link: "https://pres.alaskanresearcher.dev/seminars/seminar_le_havre_II_II.pdf"
+
+  - seminar:
+    title: "Impact of Cyclones on Air-Sea Carbon Dioxide Fluxes in the Mediterranean"
+    institute: "Institute for Atmospheric and Climate Science"
+    location: ETH Zürich, Zürich, Switzerland 
+    date_time: April 1, 2026
+    year: 2026
+    present: true
+    link: "https://pres.alaskanresearcher.dev/seminars/eth_co2_cyclones.pdf"
+
