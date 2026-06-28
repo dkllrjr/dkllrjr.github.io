@@ -90,10 +90,10 @@ articles:
     year: 2026
     title: "Composition and Dynamics of the Planetary Boundary Layer in Cold and Dark Atmospheres: Meteorological Overview from the ALPACA-2022 Field Experiment"
     journal: "BAMS"
-    doi: "TBA"
-    volume: "TBA"
-    issue: "TBA"
-    pages: "TBA"
+    doi: "https://doi.org/10.1175/BAMS-D-23-0018.1"
+    volume: "107"
+    issue: "6"
+    pages: "E1277-E1301"
     first_author: false
 
   - article:
@@ -114,10 +114,10 @@ articles:
     year: 2026
     title: "Constrasting Impact of Different Mediterranean Cyclones on the Hydrological Cycle and Ocean Heat Content"
     journal: Weather and Climate Dynamics
-    doi: "TBA"
-    volume: "TBA"
-    issue: "TBA"
-    pages: "TBA"
+    doi: "https://doi.org/10.5194/wcd-7-567-2026"
+    volume: "7"
+    issue: "2"
+    pages: "567-582"
     first_author: false
 
 

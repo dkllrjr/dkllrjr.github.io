@@ -1,5 +1,7 @@
 - name: Home
   link: "/"
+- name: Research
+  link: "/res.html"
 - name: Publications
   link: "/pub.html"
 - name: CV

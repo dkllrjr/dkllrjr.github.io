@@ -1,10 +1,24 @@
 vocation:
 
   - job:
+    title: Chaire de professeur junior
+    institute: Laboratoire Ondes et Milieux Complexes 
+    location: Le Havre, Normandy, FR
+    date: Winter 2025 - Present
+    resume: true
+    tasks:
+      - task:
+        location: Le Havre, Normandy, FR
+        description: "Air-sea interaction and turbulence: multiscale and artificial intelligence investigations"
+        date: Winter 2025 - Present
+        highlights:
+          - item: Installing instrumentation on the DRACCAR marine meteorology mast of France Energies Marines.
+
+  - job:
     title: Postdoctoral Researcher / Research Engineer
     institute: Energy4Climate Interdisplinary Center, Laboratoire de Chimie Moléculaire, Laboratoire de Météorologie Dynamique, École Polytechnique
     location: Palaiseau, Île-de-France, FR
-    date: Fall 2022 - Present
+    date: Fall 2022 - Winter 2025
     resume: true
     tasks:
       - task:

@@ -31,6 +31,12 @@ echo "building index.html..."
 echo "built index.html"
 
 
+# build research
+echo "building res.html..."
+./build_res.sh $PUBLIC/res.html $ARCH $INC/head.html $INC/scripts.html ../res.md $TXT
+echo "built index.html"
+
+
 # build publications
 echo "building pub.html..."
 ./build_pub.sh $PUBLIC/pub.html $ARCH $INC/head.html $INC/scripts.html $EXP $TXT

@@ -35,6 +35,10 @@ cat $TXT/name.txt >> $FILE
 echo '</pre>' >> $FILE
 
 
+# current position
+echo '<p>Chaire de professeur junior</br>Laboratoire Ondes et Milieux Complexes</br>Université Le Havre Normandie</p></br>' >> $FILE
+
+
 # wave
 echo '<pre class="figlet wave">' >> $FILE
 cat $TXT/wave.txt >> $FILE
