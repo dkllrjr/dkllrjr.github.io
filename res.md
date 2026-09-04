@@ -1,32 +1,3 @@
-I have a few areas of research interest which are 
-
-
-# Air-Sea Interaction
-
-I study heat and momentum transfer.
-
-
-# Wind Energy
-
-
-# Salinity Gradient Power
-
-
-# Carbon Capture and Utilization
-
-
-# Chaotic Behavior in Geophysical Systems
-
-
-# Synoptic and Mesoscale Atmospheric Behavior
-
-
-# Arctic Atmospheric Surface Layer
-
-
-# Marine Heatwave Impacts
-
-
 My research tends to focus on the following areas:
 
 - air-sea interaction, such as heat and/or carbon fluxes
@@ -36,3 +7,32 @@ My research tends to focus on the following areas:
 - carbon capture methodologies and engineering
 - marine heatwaves
 - nonlinear dynamics
+
+<!--I have a few areas of research interest which are -->
+
+<!--# Air-Sea Interaction-->
+
+<!--I study heat and momentum transfer.-->
+
+
+<!--# Wind Energy-->
+
+
+<!--# Salinity Gradient Power-->
+
+
+<!--# Carbon Capture and Utilization-->
+
+
+<!--# Chaotic Behavior in Geophysical Systems-->
+
+
+<!--# Synoptic and Mesoscale Atmospheric Behavior-->
+
+
+<!--# Arctic Atmospheric Surface Layer-->
+
+
+<!--# Marine Heatwave Impacts-->
+
+

@@ -1,4 +1,4 @@
-# Build CV
+# Build Publications
 
 # includes
 . ./build_page.sh --source-only
@@ -33,13 +33,6 @@ build_nav $FILE $ARCH
 echo '</br>' >> $FILE
 echo '<pre class="figlet pub-title">' >> $FILE
 cat $TXT/pub.txt >> $FILE
-echo '</pre>' >> $FILE
-
-
-# small waves horizontal line
-echo '</br>' >> $FILE
-echo '<pre class="figlet small-waves">' >> $FILE
-cat $TXT/small_waves.txt >> $FILE
 echo '</pre>' >> $FILE
 
 

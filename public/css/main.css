@@ -19,6 +19,22 @@ h1 {
 }
 
 
+.courses h1 {
+    padding-top: 50px;
+    padding-bottom: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.courses h2 {
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
 ol li {
     padding-bottom: 20px;
 }

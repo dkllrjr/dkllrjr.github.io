@@ -1,4 +1,4 @@
-# Build CV
+# Build Index
 
 # includes
 . ./build_page.sh --source-only
