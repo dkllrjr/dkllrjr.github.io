@@ -1,4 +1,4 @@
-# Build Index
+# Build Research
 
 # includes
 . ./build_page.sh --source-only
@@ -31,19 +31,8 @@ build_nav $FILE $ARCH
 
 # title
 echo '<pre class="figlet name">' >> $FILE
-cat $TXT/name.txt >> $FILE
+cat $TXT/res.txt >> $FILE
 echo '</pre>' >> $FILE
-
-
-# current position
-echo '<p>Chaire de professeur junior</br>Laboratoire Ondes et Milieux Complexes</br>Université Le Havre Normandie</p></br>' >> $FILE
-
-
-# wave
-echo '<pre class="figlet wave">' >> $FILE
-cat $TXT/wave.txt >> $FILE
-echo '</pre>' >> $FILE
-echo '</br>' >> $FILE
 
 
 # body
